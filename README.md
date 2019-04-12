@@ -5,7 +5,7 @@ This repository contains the python code for our implementation of the CBL-model
 **About the files**
 
 If you wish to run our implementation of the CBL-model:
-    1) First use run.sh to run CBLmodel.py, it using the input files from the model_input folder. This generates the model output, but includes an older version of our controlled scoring measure, saved in the model_output folder.
+    1) First use run.sh to run CBLmodel.py, it uses the input files from the model_input folder. This generates the model output, but includes an older version of our controlled scoring measure, saved in the model_output folder.
     2) Run modifyscores.py over the model output to compute the final version of the controlled scoring measure.
 
 If you wish to run our analysis-scripts over model_ouput you've generated yourself, copy the model_output files to the correct subfolders in the analysis-folder. You can then run our R-scripts over the new model output.
