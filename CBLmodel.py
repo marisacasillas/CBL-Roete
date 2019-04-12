@@ -502,24 +502,22 @@ def determine_pc(chunkpair, chunkpairs):
     return 0
 
 
-# TODO: ADJUST CONTROLLEDSCORE!
 # evaluates the reconstructed utterances and saves results in .csv file
 def evaluate_and_save(utterances, child, age, output_filename):
     # create outputfile with file header
     with open(output_filename, "w") as output:
         writer = csv.writer(output, delimiter=";")
-        header = ["num", "utterance", "child", "age", "skipped", "reconstructed", "bow", "gold", "prediction","chance","repetition","correctedscore"]
+        header = ["num", "utterance", "child", "age", "skipped", "reconstructed", "bow", "gold", "prediction","chance","controlledscore"]
         writer.writerow(header)
-
+        
         # evaluate reconstructed utterances one-by-by one
         for i in range(0, utterances.size):
             utterance = utterances.all[i].ortho
             num = utterances.all[i].num
             skip = utterances.all[i].skipped
             bow = []
-            
             for chunk in utterances.all[i].bag_of_chunks:
-            	bow.append(chunk.ortho)
+                bow.append(chunk.ortho)
             # if utterance was not skipped because of lack of matching chunks, check if it was reconstructed correctly
             if not skip:
                 true_temp = ""
@@ -539,44 +537,30 @@ def evaluate_and_save(utterances, child, age, output_filename):
                 prediction = reconstructed_temp
                 reconstructed = utterances.all[i].reconstructed
                 n_chunks = len(utterances.all[i].bag_of_chunks)
-
-
-                #TODO: HERE ADJUST CHANCE-LEVEL COMPUTATION
-                #TODO: ALSO: CHECK WHAT TO DO WITH CHANCE (UPDATED OR UNUPDATED) IN OUTPUT FILES
-                list_of_chunks = ?
-                
-                if len(set(list_of_chunks)) < len(list_of_chunks):
-                    repetition = True
-                #TODO: this generates a warning: "A value is trying to be set on a copy of a slice from a DataFrame"
-                else:
-                    repetition = False
-                        
-                list_of_factors = [list_of_chunks.count(j) for j in set(list_of_chunks)]
-                chance = np.prod([np.math.factorial(j) for j in list_of_factors]) / np.math.factorial(len(list_of_chunks))
-                    
+                chance = 1/(np.math.factorial(n_chunks))
                 if utterances.all[i].reconstructed:
-                    correctedscore = -np.math.log(chance)
+                    controlledscore = np.math.log(np.math.factorial(n_chunks))
                 else:
-                    correctedscore = np.math.log(1 - chance)
+                    controlledscore = np.math.log(1 - (1/np.math.factorial(n_chunks)))
             # if utterance was skipped, set all irrelevant variables to NaN
             else:
                 true_temp = ""
-            	for j in range(0, len(utterance)):
+                for j in range(0, len(utterance)):
                     true_temp += str(utterance[j].ortho)
-                gold = true_temp 
+                gold = true_temp
                 prediction = 'NaN'
-                bow = 'NaN' 
+                bow = 'NaN'
                 reconstructed = 'NaN'
                 chance = 'NaN'
-                repetition = 'NaN'
                 controlledscore = 'NaN'
 
             # write utterance data to output file
             row = [str(num), str(utterance), child, age, str(skip), str(reconstructed), str(bow), str(gold),
-                   str(prediction),str(chance),str(repetition), str(correctedscore)]
-            writer.writerow(row)
-    print("Wrote output to: {}".format(os.path.relpath(output_filename)))
+                   str(prediction),str(chance),str(controlledscore)]
+                writer.writerow(row)
+print("Wrote output to: {}".format(os.path.relpath(output_filename)))
     return
+
 
 def parse_arguments():
     p = argparse.ArgumentParser(description="Run the model")
@@ -600,9 +584,9 @@ if __name__ == "__main__":
 
     cwd = os.getcwd()
     if args.type == "c":
-        LOC = os.path.join(cwd, 'cumulativesampledcorpus')
+        LOC = os.path.join(cwd, 'model_input/cumulativesampledcorpus')
     elif args.type == "l":
-        LOC = os.path.join(cwd, 'localsampledcorpus')
+        LOC = os.path.join(cwd, 'model_input/localsampledcorpus')
     else:
         raise ValueError('Unexpected type: {}'.format(args.type))
 
@@ -630,7 +614,7 @@ if __name__ == "__main__":
             "_age" + args.age +
             ".txt")
 
-    output_filename = os.path.join(os.getcwd(), 'results',
+    output_filename = os.path.join(os.getcwd(), 'model_output',
             args.type +
             "_corpusProvidence_child" + args.child +
             "_age" + args.age +

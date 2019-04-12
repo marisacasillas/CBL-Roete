@@ -60,7 +60,7 @@ def adjustscores(file):
             df['correctedscore'][i] = np.math.log(1 - chance)
 
     # write dataframe to new modified csv-file
-    new_file = file.replace(".csv","-modified2.csv")
+    new_file = file.replace(".csv","-modified.csv")
     df.to_csv(new_file)
     return
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     #define file locations
     #path = '/Volumes/ladd/workspaces/ld-ingroe/projects/modeling_roete/03-raw_data/03-analysis_scripts/CBL-master/results/skipped/'
     #path = '/Volumes/ladd/workspaces/ld-ingroe/projects/modeling_roete/03-raw_data/03-analysis_scripts/CBL-master/results/not_skipped/temp/'
-    path = '/Volumes/ladd/workspaces/ld-ingroe/projects/modeling_roete/03-raw_data/03-analysis_scripts/CBL-master/results/test/'
+    path = '/Volumes/ladd/workspaces/ld-ingroe/projects/modeling_roete/03-raw_data/03-analysis_scripts/CBL-Roete/model_output/'
 
 
     #list all files that need modifications

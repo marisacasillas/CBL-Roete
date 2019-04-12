@@ -1,0 +1,1635 @@
+num;utterance;child;age;skipped;reconstructed;bow;gold;prediction;chance;controlledscore
+0;[<__main__.Word instance at 0x1099f5560>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+1;[<__main__.Word instance at 0x1099f57a0>];William;2_0;False;True;[['guys']];guys;guys;1.0;0.0
+2;[<__main__.Word instance at 0x1099f5a28>];William;2_0;False;True;[['guys']];guys;guys;1.0;0.0
+3;[<__main__.Word instance at 0x1099f58c0>];William;2_0;False;True;[['guys']];guys;guys;1.0;0.0
+4;[<__main__.Word instance at 0x10985c6c8>];William;2_0;False;True;[['guys']];guys;guys;1.0;0.0
+5;"[<__main__.Word instance at 0x10985cb48>
+ <__main__.Word instance at 0x116999128>
+ <__main__.Word instance at 0x116999290>
+ <__main__.Word instance at 0x116999320>]";William;2_0;False;False;[['the'], ['what'], ['about'], ['raisins']];whatabouttheraisins;theaboutwhatraisins;0.0416666666667;-0.0425596144188
+6;"[<__main__.Word instance at 0x116999560>
+ <__main__.Word instance at 0x116999680>
+ <__main__.Word instance at 0x1169997a0>
+ <__main__.Word instance at 0x1169998c0>]";William;2_0;False;False;[['want'], ['a'], ['Manuela'], ['raisin']];Manuelawantaraisin;wantaManuelaraisin;0.0416666666667;-0.0425596144188
+7;"[<__main__.Word instance at 0x116999b00>
+ <__main__.Word instance at 0x116999cb0>
+ <__main__.Word instance at 0x116999dd0>]";William;2_0;False;True;[['raisin'], ['want'], ['a']];wantaraisin;wantaraisin;0.166666666667;1.79175946923
+8;[<__main__.Word instance at 0x116999f80>];William;2_0;False;True;[['raisin']];raisin;raisin;1.0;0.0
+9;"[<__main__.Word instance at 0x10985ec68>
+ <__main__.Word instance at 0x10985e9e0>]";William;2_0;False;True;[['raisin'], ['raisin']];raisinraisin;raisinraisin;0.5;0.69314718056
+10;[<__main__.Word instance at 0x11699f170>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+11;"[<__main__.Word instance at 0x11699f200>
+ <__main__.Word instance at 0x11699f050>]";William;2_0;False;True;[['triangle'], ['the']];thetriangle;thetriangle;0.5;0.69314718056
+12;[<__main__.Word instance at 0x11699f290>];William;2_0;False;True;[['uhuh']];uhuh;uhuh;1.0;0.0
+13;"[<__main__.Word instance at 0x11699f560>
+ <__main__.Word instance at 0x11699f1b8>]";William;2_0;False;True;[['&-uh'], ['oh']];&-uhoh;&-uhoh;0.5;0.69314718056
+14;[<__main__.Word instance at 0x11699f3f8>];William;2_0;False;True;[['triangle']];triangle;triangle;1.0;0.0
+15;"[<__main__.Word instance at 0x11699f7e8>
+ <__main__.Word instance at 0x11699f680>]";William;2_0;False;True;[['circle'], ['triangle']];trianglecircle;trianglecircle;0.5;0.69314718056
+16;[<__main__.Word instance at 0x11699f998>];William;2_0;False;True;[['circle']];circle;circle;1.0;0.0
+17;[<__main__.Word instance at 0x11699fa70>];William;2_0;False;True;[['triangle']];triangle;triangle;1.0;0.0
+18;[<__main__.Word instance at 0x11699fb48>];William;2_0;False;True;[['blue']];blue;blue;1.0;0.0
+19;[<__main__.Word instance at 0x11699fc20>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+20;[<__main__.Word instance at 0x11699fcf8>];William;2_0;False;True;[['yellow']];yellow;yellow;1.0;0.0
+21;"[<__main__.Word instance at 0x11699fdd0>
+ <__main__.Word instance at 0x11699fc68>]";William;2_0;False;True;[['&-uh'], ['&-uh']];&-uh&-uh;&-uh&-uh;0.5;0.69314718056
+22;[<__main__.Word instance at 0x11699fd40>];William;2_0;False;True;[['yummy']];yummy;yummy;1.0;0.0
+23;[<__main__.Word instance at 0x11699fe18>];William;2_0;False;True;[['car']];car;car;1.0;0.0
+24;"[<__main__.Word instance at 0x11699f440>
+ <__main__.Word instance at 0x11699fef0>]";William;2_0;False;False;[['got'], ['it']];gotit;itgot;0.5;-0.69314718056
+25;"[<__main__.Word instance at 0x11699fb90>
+ <__main__.Word instance at 0x1169a6050>]";William;2_0;False;True;[['a'], ['wow']];awow;awow;0.5;0.69314718056
+26;"[<__main__.Word instance at 0x1169a60e0>
+ <__main__.Word instance at 0x1169a63b0>]";William;2_0;False;True;[['mouse'], ['the']];themouse;themouse;0.5;0.69314718056
+27;[<__main__.Word instance at 0x1169a65a8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+28;[<__main__.Word instance at 0x1169a6638>];William;2_0;False;True;[['hungry']];hungry;hungry;1.0;0.0
+29;[<__main__.Word instance at 0x1169a67e8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+30;[<__main__.Word instance at 0x1169a69e0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+31;[<__main__.Word instance at 0x1169a6ab8>];William;2_0;False;True;[['z']];z;z;1.0;0.0
+32;[<__main__.Word instance at 0x1169a6b90>];William;2_0;False;True;[['number']];number;number;1.0;0.0
+33;"[<__main__.Word instance at 0x1169a6c68>
+ <__main__.Word instance at 0x1169a6b00>
+ <__main__.Word instance at 0x1169a6908>
+ <__main__.Word instance at 0x1169a6bd8>]";William;2_0;False;False;[['show'], ['i'], ['a'], ['me']];showmeai;ameishow;0.0416666666667;-0.0425596144188
+34;[<__main__.Word instance at 0x1169a6e18>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+35;"[<__main__.Word instance at 0x1169a6d40>
+ <__main__.Word instance at 0x1169a6cb0>]";William;2_0;False;True;[['I'], ['I']];II;II;0.5;0.69314718056
+36;[<__main__.Word instance at 0x1169a9050>];William;2_0;False;True;[['circle']];circle;circle;1.0;0.0
+37;"[<__main__.Word instance at 0x1169a90e0>
+ <__main__.Word instance at 0x1169a92d8>]";William;2_0;False;True;[['circle'], ['the']];thecircle;thecircle;0.5;0.69314718056
+38;"[<__main__.Word instance at 0x1169a9368>
+ <__main__.Word instance at 0x1169a95a8>]";William;2_0;False;True;[['triangle'], ['the']];thetriangle;thetriangle;0.5;0.69314718056
+39;"[<__main__.Word instance at 0x1169a9680>
+ <__main__.Word instance at 0x1169a9518>]";William;2_0;False;True;[['blue'], ['blue']];blueblue;blueblue;0.5;0.69314718056
+40;[<__main__.Word instance at 0x1169a95f0>];William;2_0;False;True;[['blue']];blue;blue;1.0;0.0
+41;[<__main__.Word instance at 0x1169a96c8>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+42;[<__main__.Word instance at 0x1169a97a0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+43;"[<__main__.Word instance at 0x1169a9878>
+ <__main__.Word instance at 0x1169a9a70>]";William;2_0;False;False;[['it'], ['like']];likeit;itlike;0.5;-0.69314718056
+44;"[<__main__.Word instance at 0x1169a9c20>
+ <__main__.Word instance at 0x1169a9b00>]";William;2_0;False;False;[['like'], ['it']];likeit;itlike;0.5;-0.69314718056
+45;[<__main__.Word instance at 0x1169a9cb0>];William;2_0;False;True;[['doing']];doing;doing;1.0;0.0
+46;"[<__main__.Word instance at 0x1169a9bd8>
+ <__main__.Word instance at 0x1169a9fc8>]";William;2_0;False;True;[['soup'], ['the']];thesoup;thesoup;0.5;0.69314718056
+47;[<__main__.Word instance at 0x1169a9f38>];William;2_0;False;True;[['guys']];guys;guys;1.0;0.0
+48;"[<__main__.Word instance at 0x1169a2128>
+ <__main__.Word instance at 0x1169a2200>]";William;2_0;False;True;[['want'], ['some']];wantsome;wantsome;0.5;0.69314718056
+49;"[<__main__.Word instance at 0x1169a2170>
+ <__main__.Word instance at 0x1169a23b0>
+ <__main__.Word instance at 0x1169a2488>
+ <__main__.Word instance at 0x1169a2320>]";William;2_0;False;True;[['baby', 'bop'], ['baby', 'bop']];babybopbabybop;babybopbabybop;0.5;0.69314718056
+50;"[<__main__.Word instance at 0x1169a2248>
+ <__main__.Word instance at 0x1169a2638>]";William;2_0;False;True;[['baby', 'bop']];babybop;babybop;1.0;0.0
+51;[<__main__.Word instance at 0x1169a27e8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+52;"[<__main__.Word instance at 0x1169a28c0>
+ <__main__.Word instance at 0x1169a2758>]";William;2_0;False;True;[['bowl'], ['bowl']];bowlbowl;bowlbowl;0.5;0.69314718056
+53;[<__main__.Word instance at 0x1169a23f8>];William;2_0;False;True;[['bowl']];bowl;bowl;1.0;0.0
+54;"[<__main__.Word instance at 0x1169a2908>
+ <__main__.Word instance at 0x1169a2b48>]";William;2_0;False;False;[['a'], ['little']];littlea;alittle;0.5;-0.69314718056
+55;[<__main__.Word instance at 0x1169a2c20>];William;2_0;False;True;[['a']];a;a;1.0;0.0
+56;[<__main__.Word instance at 0x1169a2cf8>];William;2_0;False;True;[['h']];h;h;1.0;0.0
+57;[<__main__.Word instance at 0x1169a2dd0>];William;2_0;False;True;[['h']];h;h;1.0;0.0
+58;[<__main__.Word instance at 0x1169a2ea8>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+59;[<__main__.Word instance at 0x1169a2f80>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+60;"[<__main__.Word instance at 0x1169a2d40>
+ <__main__.Word instance at 0x1169a2ef0>]";William;2_0;False;True;[['the'], ['car']];thecar;thecar;0.5;0.69314718056
+61;"[<__main__.Word instance at 0x1169ac170>
+ <__main__.Word instance at 0x1169ac050>]";William;2_0;False;True;[['want'], ['some']];wantsome;wantsome;0.5;0.69314718056
+62;"[<__main__.Word instance at 0x1169ac200>
+ <__main__.Word instance at 0x1169ac440>]";William;2_0;False;True;[['hungry'], ['you']];youhungry;youhungry;0.5;0.69314718056
+63;"[<__main__.Word instance at 0x1169ac680>
+ <__main__.Word instance at 0x1169ac560>]";William;2_0;False;True;[['some'], ['want']];wantsome;wantsome;0.5;0.69314718056
+64;"[<__main__.Word instance at 0x1169ac3b0>
+ <__main__.Word instance at 0x1169ac830>]";William;2_0;False;True;[['have'], ['it']];haveit;haveit;0.5;0.69314718056
+65;[<__main__.Word instance at 0x1169ac8c0>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+66;"[<__main__.Word instance at 0x1169ac9e0>
+ <__main__.Word instance at 0x1169ac320>]";William;2_0;False;True;[['I'], ['I']];II;II;0.5;0.69314718056
+67;[<__main__.Word instance at 0x1169ac290>];William;2_0;False;True;[['a']];a;a;1.0;0.0
+68;[<__main__.Word instance at 0x1169aca28>];William;2_0;False;True;[['shh']];shh;shh;1.0;0.0
+69;[<__main__.Word instance at 0x1169acc20>];William;2_0;False;True;[['a']];a;a;1.0;0.0
+70;"[<__main__.Word instance at 0x1169acd88>
+ <__main__.Word instance at 0x1169acf80>]";William;2_0;False;True;[['h'], ['h']];hh;hh;0.5;0.69314718056
+71;"[<__main__.Word instance at 0x1169acea8>
+ <__main__.Word instance at 0x1169acbd8>]";William;2_0;False;True;[['h'], ['a']];ah;ah;0.5;0.69314718056
+72;"[<__main__.Word instance at 0x1169b0050>
+ <__main__.Word instance at 0x1169b0290>]";William;2_0;False;True;[['h'], ['h']];hh;hh;0.5;0.69314718056
+73;[<__main__.Word instance at 0x1169b0200>];William;2_0;False;True;[['f']];f;f;1.0;0.0
+74;[<__main__.Word instance at 0x1169b03b0>];William;2_0;False;True;[['f']];f;f;1.0;0.0
+75;[<__main__.Word instance at 0x1169b0560>];William;2_0;False;True;[['f']];f;f;1.0;0.0
+76;[<__main__.Word instance at 0x1169b0518>];William;2_0;False;True;[['abcs']];abcs;abcs;1.0;0.0
+77;"[<__main__.Word instance at 0x1169b08c0>
+ <__main__.Word instance at 0x1169b0170>
+ <__main__.Word instance at 0x1169b0ab8>
+ <__main__.Word instance at 0x1169b0950>
+ <__main__.Word instance at 0x1169b0b90>
+ <__main__.Word instance at 0x1169b07a0>
+ <__main__.Word instance at 0x1169b0c68>]";William;2_0;False;True;[['d'], ['d'], ['d'], ['d'], ['d'], ['d'], ['d']];ddddddd;ddddddd;0.000198412698413;8.52516136107
+78;"[<__main__.Word instance at 0x1169b0d40>
+ <__main__.Word instance at 0x1169b0bd8>]";William;2_0;False;True;[['d'], ['c']];cd;cd;0.5;0.69314718056
+79;"[<__main__.Word instance at 0x1169b0cb0>
+ <__main__.Word instance at 0x1169b0fc8>]";William;2_0;False;True;[['c'], ['d']];cd;cd;0.5;0.69314718056
+80;"[<__main__.Word instance at 0x1169b3170>
+ <__main__.Word instance at 0x1169b3050>]";William;2_0;False;True;[['beautiful'], ['beautiful']];beautifulbeautiful;beautifulbeautiful;0.5;0.69314718056
+81;"[<__main__.Word instance at 0x1169b3200>
+ <__main__.Word instance at 0x1169b33f8>]";William;2_0;False;True;[['d'], ['d']];dd;dd;0.5;0.69314718056
+82;[<__main__.Word instance at 0x1169b35f0>];William;2_0;False;True;[['d']];d;d;1.0;0.0
+83;"[<__main__.Word instance at 0x1169b37a0>
+ <__main__.Word instance at 0x1169b3518>]";William;2_0;False;True;[['teddy'], ['a']];ateddy;ateddy;0.5;0.69314718056
+84;[<__main__.Word instance at 0x1169b3320>];William;2_0;False;True;[['look']];look;look;1.0;0.0
+85;[<__main__.Word instance at 0x1169b3710>];William;2_0;False;True;[['t']];t;t;1.0;0.0
+86;[<__main__.Word instance at 0x1169b3998>];William;2_0;False;True;[['teddy']];teddy;teddy;1.0;0.0
+87;"[<__main__.Word instance at 0x1169b3b48>
+ <__main__.Word instance at 0x1169b3d40>]";William;2_0;False;True;[['hi'], ['teddy']];hiteddy;hiteddy;0.5;0.69314718056
+88;"[<__main__.Word instance at 0x1169b3f38>
+ <__main__.Word instance at 0x1169b3c68>]";William;2_0;False;True;[['shh'], ['teddy']];shhteddy;shhteddy;0.5;0.69314718056
+89;[<__main__.Word instance at 0x1169b3a70>];William;2_0;False;True;[['shh']];shh;shh;1.0;0.0
+90;"[<__main__.Word instance at 0x1169b62d8>
+ <__main__.Word instance at 0x1169b6170>]";William;2_0;False;False;[['oh'], ['teddy']];ohteddy;teddyoh;0.5;-0.69314718056
+91;[<__main__.Word instance at 0x1169b6098>];William;2_0;False;True;[['mama']];mama;mama;1.0;0.0
+92;"[<__main__.Word instance at 0x1169b6320>
+ <__main__.Word instance at 0x1169b6560>]";William;2_0;False;False;[['it'], ['shut']];shutit;itshut;0.5;-0.69314718056
+93;"[<__main__.Word instance at 0x1169b6638>
+ <__main__.Word instance at 0x1169b64d0>]";William;2_0;False;False;[['done'], ['it']];doneit;itdone;0.5;-0.69314718056
+94;"[<__main__.Word instance at 0x1169b68c0>
+ <__main__.Word instance at 0x1169b6758>]";William;2_0;False;False;[['it'], ['done']];doneit;itdone;0.5;-0.69314718056
+95;"[<__main__.Word instance at 0x1169b6290>
+ <__main__.Word instance at 0x1169b6a70>
+ <__main__.Word instance at 0x1169b6908>
+ <__main__.Word instance at 0x1169b6b00>]";William;2_0;False;True;[['I', 'want'], ['it'], ['done']];Iwantdoneit;Iwantdoneit;0.166666666667;1.79175946923
+96;"[<__main__.Word instance at 0x1169b6cf8>
+ <__main__.Word instance at 0x1169b6bd8>
+ <__main__.Word instance at 0x1169b6d88>]";William;2_0;False;False;[['that'], ['I'], ['made']];Imadethat;thatImade;0.166666666667;-0.182321556794
+97;"[<__main__.Word instance at 0x1169b6f80>
+ <__main__.Word instance at 0x1169b6e18>]";William;2_0;False;True;[['fish'], ['fish']];fishfish;fishfish;0.5;0.69314718056
+98;[<__main__.Word instance at 0x1169b6fc8>];William;2_0;False;True;[['fish']];fish;fish;1.0;0.0
+99;"[<__main__.Word instance at 0x1169b9098>
+ <__main__.Word instance at 0x1169b9170>]";William;2_0;False;True;[['blub'], ['blub']];blubblub;blubblub;0.5;0.69314718056
+100;"[<__main__.Word instance at 0x1169b90e0>
+ <__main__.Word instance at 0x1169b9320>]";William;2_0;False;True;[['a', 'fish']];afish;afish;1.0;0.0
+101;"[<__main__.Word instance at 0x1169b9290>
+ <__main__.Word instance at 0x1169b9560>]";William;2_0;False;True;[['blub'], ['blub']];blubblub;blubblub;0.5;0.69314718056
+102;[<__main__.Word instance at 0x1169b9710>];William;2_0;False;True;[['blub']];blub;blub;1.0;0.0
+103;[<__main__.Word instance at 0x1169b98c0>];William;2_0;False;True;[['glub']];glub;glub;1.0;0.0
+104;[<__main__.Word instance at 0x1169b9ab8>];William;2_0;False;True;[['glub']];glub;glub;1.0;0.0
+105;[<__main__.Word instance at 0x1169b9b90>];William;2_0;False;True;[['mm']];mm;mm;1.0;0.0
+106;"[<__main__.Word instance at 0x1169b9c68>
+ <__main__.Word instance at 0x1169b9b00>]";William;2_0;False;True;[['all', 'done']];alldone;alldone;1.0;0.0
+107;"[<__main__.Word instance at 0x1169b9bd8>
+ <__main__.Word instance at 0x1169b9ea8>]";William;2_0;False;False;[['down'], ['calm']];calmdown;downcalm;0.5;-0.69314718056
+108;[<__main__.Word instance at 0x1169b9f80>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+109;[<__main__.Word instance at 0x1169b9ef0>];William;2_0;False;True;[['Thomas']];Thomas;Thomas;1.0;0.0
+110;[<__main__.Word instance at 0x1169b99e0>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+111;[<__main__.Word instance at 0x1169bd128>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+112;[<__main__.Word instance at 0x1169bd518>];William;2_0;False;True;[['ow']];ow;ow;1.0;0.0
+113;[<__main__.Word instance at 0x1169bd5f0>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+114;[<__main__.Word instance at 0x1169bd7a0>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+115;[<__main__.Word instance at 0x1169bd878>];William;2_0;False;True;[['h']];h;h;1.0;0.0
+116;[<__main__.Word instance at 0x1169bd908>];William;2_0;False;True;[['this']];this;this;1.0;0.0
+117;[<__main__.Word instance at 0x1169bd9e0>];William;2_0;False;True;[['c']];c;c;1.0;0.0
+118;[<__main__.Word instance at 0x1169bdcf8>];William;2_0;False;True;[['this']];this;this;1.0;0.0
+119;[<__main__.Word instance at 0x1169bddd0>];William;2_0;False;True;[['C']];C;C;1.0;0.0
+120;"[<__main__.Word instance at 0x1169bde60>
+ <__main__.Word instance at 0x1169bdd40>]";William;2_0;False;True;[['h'], ['z']];hz;hz;0.5;0.69314718056
+121;"[<__main__.Word instance at 0x1169c0050>
+ <__main__.Word instance at 0x1169c0200>]";William;2_0;False;False;[['h'], ['c']];hc;ch;0.5;-0.69314718056
+122;[<__main__.Word instance at 0x1169c0518>];William;2_0;False;True;[['i']];i;i;1.0;0.0
+123;[<__main__.Word instance at 0x1169c05a8>];William;2_0;False;True;[['i']];i;i;1.0;0.0
+124;[<__main__.Word instance at 0x1169c07a0>];William;2_0;False;True;[['i']];i;i;1.0;0.0
+125;[<__main__.Word instance at 0x1169c0830>];William;2_0;False;True;[['b']];b;b;1.0;0.0
+126;[<__main__.Word instance at 0x1169c0a28>];William;2_0;False;True;[['v']];v;v;1.0;0.0
+127;[<__main__.Word instance at 0x1169c0b00>];William;2_0;False;True;[['c']];c;c;1.0;0.0
+128;[<__main__.Word instance at 0x1169c0b90>];William;2_0;False;True;[['d']];d;d;1.0;0.0
+129;"[<__main__.Word instance at 0x1169c0ea8>
+ <__main__.Word instance at 0x1169c0cf8>]";William;2_0;False;True;[['the', 'd']];thed;thed;1.0;0.0
+130;[<__main__.Word instance at 0x1169c0a70>];William;2_0;False;True;[['k']];k;k;1.0;0.0
+131;[<__main__.Word instance at 0x1169c3050>];William;2_0;False;True;[['k']];k;k;1.0;0.0
+132;[<__main__.Word instance at 0x1169c3368>];William;2_0;False;True;[['s']];s;s;1.0;0.0
+133;[<__main__.Word instance at 0x1169c3488>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+134;[<__main__.Word instance at 0x1169c3560>];William;2_0;False;True;[['dog']];dog;dog;1.0;0.0
+135;[<__main__.Word instance at 0x1169c3638>];William;2_0;False;True;[['dog']];dog;dog;1.0;0.0
+136;[<__main__.Word instance at 0x1169c36c8>];William;2_0;False;True;[['help']];help;help;1.0;0.0
+137;[<__main__.Word instance at 0x1169c3758>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+138;"[<__main__.Word instance at 0x1169c35a8>
+ <__main__.Word instance at 0x1169c3b48>]";William;2_0;False;True;[['my'], ['blankie']];myblankie;myblankie;0.5;0.69314718056
+139;[<__main__.Word instance at 0x1169c3c20>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+140;[<__main__.Word instance at 0x1169c3cf8>];William;2_0;False;True;[['again']];again;again;1.0;0.0
+141;[<__main__.Word instance at 0x1169c3d88>];William;2_0;False;True;[['go']];go;go;1.0;0.0
+142;[<__main__.Word instance at 0x1169c3f38>];William;2_0;False;True;[['go']];go;go;1.0;0.0
+143;"[<__main__.Word instance at 0x1169c61b8>
+ <__main__.Word instance at 0x1169c6050>]";William;2_0;False;True;[['puzzle'], ['puzzle']];puzzlepuzzle;puzzlepuzzle;0.5;0.69314718056
+144;[<__main__.Word instance at 0x1169c6320>];William;2_0;False;True;[['again']];again;again;1.0;0.0
+145;"[<__main__.Word instance at 0x1169c64d0>
+ <__main__.Word instance at 0x1169c67e8>]";William;2_0;False;True;[['oh'], ['wow']];ohwow;ohwow;0.5;0.69314718056
+146;[<__main__.Word instance at 0x1169c6830>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+147;[<__main__.Word instance at 0x1169c6b00>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+148;[<__main__.Word instance at 0x1169c6cf8>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+149;[<__main__.Word instance at 0x1169c6dd0>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+150;"[<__main__.Word instance at 0x1169c6ea8>
+ <__main__.Word instance at 0x1169c68c0>]";William;2_0;False;False;[['shall'], ['we']];shallwe;weshall;0.5;-0.69314718056
+151;[<__main__.Word instance at 0x1169c6e18>];William;2_0;False;True;[['h']];h;h;1.0;0.0
+152;[<__main__.Word instance at 0x1169ca050>];William;2_0;False;True;[['way']];way;way;1.0;0.0
+153;"[<__main__.Word instance at 0x1169ca200>
+ <__main__.Word instance at 0x1169ca3b0>]";William;2_0;False;True;[['way'], ['that']];thatway;thatway;0.5;0.69314718056
+154;[<__main__.Word instance at 0x1169ca5a8>];William;2_0;False;True;[['comes']];comes;comes;1.0;0.0
+155;[<__main__.Word instance at 0x1169ca680>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+156;[<__main__.Word instance at 0x1169ca830>];William;2_0;False;True;[['choo']];choo;choo;1.0;0.0
+157;[<__main__.Word instance at 0x1169ca908>];William;2_0;False;True;[['caboose']];caboose;caboose;1.0;0.0
+158;"[<__main__.Word instance at 0x1169ca998>
+ <__main__.Word instance at 0x1169ca878>]";William;2_0;False;False;[['watch'], ['this']];watchthis;thiswatch;0.5;-0.69314718056
+159;[<__main__.Word instance at 0x1169ca4d0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+160;[<__main__.Word instance at 0x1169cab48>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+161;[<__main__.Word instance at 0x1169ca5f0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+162;[<__main__.Word instance at 0x1169cacb0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+163;[<__main__.Word instance at 0x1169cae60>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+164;[<__main__.Word instance at 0x1169ca6c8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+165;[<__main__.Word instance at 0x1169ce050>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+166;[<__main__.Word instance at 0x1169ce3f8>];William;2_0;False;True;[['mama']];mama;mama;1.0;0.0
+167;[<__main__.Word instance at 0x1169ce560>];William;2_0;False;True;[['train']];train;train;1.0;0.0
+168;"[<__main__.Word instance at 0x1169ce680>
+ <__main__.Word instance at 0x1169ce440>]";William;2_0;False;False;[['watch'], ['this']];watchthis;thiswatch;0.5;-0.69314718056
+169;"[<__main__.Word instance at 0x1169ce830>
+ <__main__.Word instance at 0x1169ce170>]";William;2_0;False;True;[['watch'], ['watch']];watchwatch;watchwatch;0.5;0.69314718056
+170;[<__main__.Word instance at 0x1169ce878>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+171;[<__main__.Word instance at 0x1169cea70>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+172;"[<__main__.Word instance at 0x1169ce908>
+ <__main__.Word instance at 0x1169cee60>]";William;2_0;False;False;[['watch'], ['this']];watchthis;thiswatch;0.5;-0.69314718056
+173;[<__main__.Word instance at 0x1169ced40>];William;2_0;False;True;[['watch']];watch;watch;1.0;0.0
+174;[<__main__.Word instance at 0x1169ceef0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+175;[<__main__.Word instance at 0x1169cef38>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+176;[<__main__.Word instance at 0x1169d1290>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+177;[<__main__.Word instance at 0x1169d13b0>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+178;[<__main__.Word instance at 0x1169d12d8>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+179;[<__main__.Word instance at 0x1169d1488>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+180;"[<__main__.Word instance at 0x1169d1830>
+ <__main__.Word instance at 0x1169d1710>
+ <__main__.Word instance at 0x1169d1b48>
+ <__main__.Word instance at 0x1169d1a28>]";William;2_0;False;True;[['la'], ['la'], ['la'], ['la']];lalalala;lalalala;0.0416666666667;3.17805383035
+181;"[<__main__.Word instance at 0x1169d19e0>
+ <__main__.Word instance at 0x1169d1d88>
+ <__main__.Word instance at 0x1169d1c68>]";William;2_0;False;True;[['do'], ['do'], ['do']];dododo;dododo;0.166666666667;1.79175946923
+182;"[<__main__.Word instance at 0x1169d1dd0>
+ <__main__.Word instance at 0x1169d11b8>
+ <__main__.Word instance at 0x1169d18c0>
+ <__main__.Word instance at 0x1169d4050>
+ <__main__.Word instance at 0x1169d4200>]";William;2_0;False;True;[['do'], ['do'], ['do'], ['do'], ['do']];dododododo;dododododo;0.00833333333333;4.78749174278
+183;"[<__main__.Word instance at 0x1169d43f8>
+ <__main__.Word instance at 0x1169d4290>
+ <__main__.Word instance at 0x1169d44d0>
+ <__main__.Word instance at 0x1169d4560>
+ <__main__.Word instance at 0x1169d4440>]";William;2_0;False;False;[['hi'], ['hi'], ['yo'], ['hi'], ['yo']];hihihiyoyo;hiyohiyohi;0.00833333333333;-0.00836824967052
+184;"[<__main__.Word instance at 0x1169d45f0>
+ <__main__.Word instance at 0x1169d4830>
+ <__main__.Word instance at 0x1169d43b0>]";William;2_0;False;True;[['low'], ['low'], ['low']];lowlowlow;lowlowlow;0.166666666667;1.79175946923
+185;"[<__main__.Word instance at 0x1169d47a0>
+ <__main__.Word instance at 0x1169d4998>]";William;2_0;False;False;"[[""what's""], ['this']]";what'sthis;thiswhat's;0.5;-0.69314718056
+186;[<__main__.Word instance at 0x1169d4bd8>];William;2_0;False;True;[['are']];are;are;1.0;0.0
+187;[<__main__.Word instance at 0x1169d4c20>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+188;[<__main__.Word instance at 0x1169d4dd0>];William;2_0;False;True;[['yummy']];yummy;yummy;1.0;0.0
+189;[<__main__.Word instance at 0x1169d4fc8>];William;2_0;False;True;[['juice']];juice;juice;1.0;0.0
+190;[<__main__.Word instance at 0x1169d4d88>];William;2_0;False;True;[['yummy']];yummy;yummy;1.0;0.0
+191;"[<__main__.Word instance at 0x1169d7098>
+ <__main__.Word instance at 0x1169d7248>]";William;2_0;False;True;[['juice'], ['good']];goodjuice;goodjuice;0.5;0.69314718056
+192;[<__main__.Word instance at 0x1169d73f8>];William;2_0;False;True;[['yah']];yah;yah;1.0;0.0
+193;"[<__main__.Word instance at 0x1169d75f0>
+ <__main__.Word instance at 0x1169d7488>
+ <__main__.Word instance at 0x1169d7680>]";William;2_0;False;False;[['wanna'], ['I'], ['Thomas']];IwannaThomas;wannaIThomas;0.166666666667;-0.182321556794
+194;[<__main__.Word instance at 0x1169d7830>];William;2_0;False;True;[['Thomas']];Thomas;Thomas;1.0;0.0
+195;[<__main__.Word instance at 0x1169d79e0>];William;2_0;False;True;[['Thomas']];Thomas;Thomas;1.0;0.0
+196;[<__main__.Word instance at 0x1169d7b90>];William;2_0;False;True;[['pocket']];pocket;pocket;1.0;0.0
+197;"[<__main__.Word instance at 0x1169d7d40>
+ <__main__.Word instance at 0x1169d7c20>]";William;2_0;False;False;[['no'], ['pocket']];nopocket;pocketno;0.5;-0.69314718056
+198;"[<__main__.Word instance at 0x1169d7dd0>
+ <__main__.Word instance at 0x1169d7fc8>]";William;2_0;False;False;[['pocket'], ['no']];nopocket;pocketno;0.5;-0.69314718056
+199;"[<__main__.Word instance at 0x1169dd050>
+ <__main__.Word instance at 0x1169dd248>]";William;2_0;False;False;[['pocket'], ['no']];nopocket;pocketno;0.5;-0.69314718056
+200;[<__main__.Word instance at 0x1169dd2d8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+201;[<__main__.Word instance at 0x1169dd368>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+202;[<__main__.Word instance at 0x1169dd518>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+203;[<__main__.Word instance at 0x1169dd6c8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+204;[<__main__.Word instance at 0x1169dd878>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+205;[<__main__.Word instance at 0x1169dd7a0>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+206;[<__main__.Word instance at 0x1169ddc68>];William;2_0;False;True;[['why']];why;why;1.0;0.0
+207;"[<__main__.Word instance at 0x1169dddd0>
+ <__main__.Word instance at 0x1169ddfc8>
+ <__main__.Word instance at 0x1169ddb00>
+ <__main__.Word instance at 0x1169ddf38>]";William;2_0;False;False;[['what'], ['is'], ['time'], ['it']];whattimeisit;itiswhattime;0.0416666666667;-0.0425596144188
+208;"[<__main__.Word instance at 0x1169e1098>
+ <__main__.Word instance at 0x1169e1170>]";William;2_0;False;True;[['why'], ['why']];whywhy;whywhy;0.5;0.69314718056
+209;[<__main__.Word instance at 0x1169e12d8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+210;[<__main__.Word instance at 0x1169e1320>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+211;[<__main__.Word instance at 0x1169e1680>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+212;[<__main__.Word instance at 0x1169e1830>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+213;[<__main__.Word instance at 0x1169e19e0>];William;2_0;False;True;[['open']];open;open;1.0;0.0
+214;[<__main__.Word instance at 0x1169e1b90>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+215;[<__main__.Word instance at 0x1169e1908>];William;2_0;False;True;[['open']];open;open;1.0;0.0
+216;[<__main__.Word instance at 0x1169da1b8>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+217;[<__main__.Word instance at 0x1169da320>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+218;[<__main__.Word instance at 0x1169da518>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+219;[<__main__.Word instance at 0x1169da5a8>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+220;[<__main__.Word instance at 0x1169da6c8>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+221;[<__main__.Word instance at 0x1169da368>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+222;[<__main__.Word instance at 0x1169da7e8>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+223;[<__main__.Word instance at 0x1169da998>];William;2_0;False;True;[['daddy']];daddy;daddy;1.0;0.0
+224;[<__main__.Word instance at 0x1169dacb0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+225;[<__main__.Word instance at 0x1169dae18>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+226;[<__main__.Word instance at 0x1169daf38>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+227;"[<__main__.Word instance at 0x1169e4050>
+ <__main__.Word instance at 0x1169e4200>]";William;2_0;False;False;[['no'], ['chicka_boom_boom']];nochicka_boom_boom;chicka_boom_boomno;0.5;-0.69314718056
+228;"[<__main__.Word instance at 0x1169e43f8>
+ <__main__.Word instance at 0x1169e4290>
+ <__main__.Word instance at 0x1169e4488>]";William;2_0;False;False;[['all', 'done'], ['no']];noalldone;alldoneno;0.5;-0.69314718056
+229;"[<__main__.Word instance at 0x1169e4680>
+ <__main__.Word instance at 0x1169e4518>]";William;2_0;False;True;[['wan'], ['dad']];wandad;wandad;0.5;0.69314718056
+230;[<__main__.Word instance at 0x1169e43b0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+231;"[<__main__.Word instance at 0x1169e46c8>
+ <__main__.Word instance at 0x1169e48c0>
+ <__main__.Word instance at 0x1169e4b90>]";William;2_0;False;True;[['no', 'ice', 'pop']];noicepop;noicepop;1.0;0.0
+232;[<__main__.Word instance at 0x1169e4d40>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+233;[<__main__.Word instance at 0x1169e4e18>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+234;[<__main__.Word instance at 0x1169e4ea8>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+235;"[<__main__.Word instance at 0x1169e4fc8>
+ <__main__.Word instance at 0x1169e4bd8>]";William;2_0;False;True;[['hi'], ['ambulance']];hiambulance;hiambulance;0.5;0.69314718056
+236;[<__main__.Word instance at 0x1169e47a0>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+237;[<__main__.Word instance at 0x1169e7200>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+238;[<__main__.Word instance at 0x1169e7248>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+239;"[<__main__.Word instance at 0x1169e7440>
+ <__main__.Word instance at 0x1169e72d8>]";William;2_0;False;True;[['no'], ['truck']];notruck;notruck;0.5;0.69314718056
+240;"[<__main__.Word instance at 0x1169e7128>
+ <__main__.Word instance at 0x1169e75a8>
+ <__main__.Word instance at 0x1169e7488>]";William;2_0;False;False;[['tv'], ['watch'], ['the']];watchthetv;thetvwatch;0.166666666667;-0.182321556794
+241;[<__main__.Word instance at 0x1169e7638>];William;2_0;False;True;[['Barney']];Barney;Barney;1.0;0.0
+242;[<__main__.Word instance at 0x1169e73f8>];William;2_0;False;True;[['Barney']];Barney;Barney;1.0;0.0
+243;[<__main__.Word instance at 0x1169e78c0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+244;"[<__main__.Word instance at 0x1169e7bd8>
+ <__main__.Word instance at 0x1169e7ea8>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+245;"[<__main__.Word instance at 0x1169e7f38>
+ <__main__.Word instance at 0x1169e7e60>]";William;2_0;False;False;[['it'], ['what']];whatit;itwhat;0.5;-0.69314718056
+246;"[<__main__.Word instance at 0x1169ea170>
+ <__main__.Word instance at 0x1169ea440>
+ <__main__.Word instance at 0x1169ea320>
+ <__main__.Word instance at 0x1169ea518>]";William;2_0;False;False;[['is'], ['truck'], ['it'], ['what']];whatisittruck;itiswhattruck;0.0416666666667;-0.0425596144188
+247;"[<__main__.Word instance at 0x1169ea488>
+ <__main__.Word instance at 0x1169ea758>]";William;2_0;False;True;[['ooh'], ['ooh']];oohooh;oohooh;0.5;0.69314718056
+248;[<__main__.Word instance at 0x1169ea950>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+249;[<__main__.Word instance at 0x1169ea878>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+250;"[<__main__.Word instance at 0x1169eabd8>
+ <__main__.Word instance at 0x1169eaa28>]";William;2_0;False;True;[['dump'], ['the']];thedump;thedump;0.5;0.69314718056
+251;[<__main__.Word instance at 0x1169eac20>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+252;[<__main__.Word instance at 0x1169eadd0>];William;2_0;False;True;[['night']];night;night;1.0;0.0
+253;[<__main__.Word instance at 0x1169ed128>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+254;[<__main__.Word instance at 0x1169ed2d8>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+255;[<__main__.Word instance at 0x1169ed200>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+256;"[<__main__.Word instance at 0x1169ed3f8>
+ <__main__.Word instance at 0x1169ed638>
+ <__main__.Word instance at 0x1169ed050>]";William;2_0;False;False;[['you'], ['do'], ['see']];doyousee;youseedo;0.166666666667;-0.182321556794
+257;[<__main__.Word instance at 0x1169ed710>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+258;[<__main__.Word instance at 0x1169ed248>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+259;[<__main__.Word instance at 0x1169ed4d0>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+260;[<__main__.Word instance at 0x1169ed170>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+261;[<__main__.Word instance at 0x1169edab8>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+262;[<__main__.Word instance at 0x1169ed680>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+263;[<__main__.Word instance at 0x1169f01b8>];William;2_0;False;True;[['dump']];dump;dump;1.0;0.0
+264;"[<__main__.Word instance at 0x1169f0368>
+ <__main__.Word instance at 0x1169f0248>
+ <__main__.Word instance at 0x1169f0560>
+ <__main__.Word instance at 0x1169f0320>]";William;2_0;False;False;[['that'], ['a'], ['truck'], ['is']];isthatatruck;thatisatruck;0.0416666666667;-0.0425596144188
+265;"[<__main__.Word instance at 0x1169f05a8>
+ <__main__.Word instance at 0x1169f08c0>]";William;2_0;False;True;[['a'], ['truck']];atruck;atruck;0.5;0.69314718056
+266;"[<__main__.Word instance at 0x1169f0950>
+ <__main__.Word instance at 0x1169f0b48>
+ <__main__.Word instance at 0x1169f09e0>]";William;2_0;False;False;[['truck'], ['truck'], ['that']];truckthattruck;thattrucktruck;0.166666666667;-0.182321556794
+267;[<__main__.Word instance at 0x1169f0680>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+268;[<__main__.Word instance at 0x1169f0d88>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+269;[<__main__.Word instance at 0x1169f0878>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+270;[<__main__.Word instance at 0x1169f0fc8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+271;"[<__main__.Word instance at 0x1169f0c68>
+ <__main__.Word instance at 0x1169f0e18>
+ <__main__.Word instance at 0x1169f3098>
+ <__main__.Word instance at 0x1169f3170>]";William;2_0;False;True;[['no'], ['no'], ['no'], ['no']];nononono;nononono;0.0416666666667;3.17805383035
+272;[<__main__.Word instance at 0x1169f30e0>];William;2_0;False;True;[['abcs']];abcs;abcs;1.0;0.0
+273;[<__main__.Word instance at 0x1169f31b8>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+274;[<__main__.Word instance at 0x1169f3488>];William;2_0;False;True;[['ooh']];ooh;ooh;1.0;0.0
+275;[<__main__.Word instance at 0x1169f35f0>];William;2_0;False;True;[['cool']];cool;cool;1.0;0.0
+276;[<__main__.Word instance at 0x1169f3998>];William;2_0;False;True;[['cool']];cool;cool;1.0;0.0
+277;[<__main__.Word instance at 0x1169f3bd8>];William;2_0;False;True;[['cool']];cool;cool;1.0;0.0
+278;[<__main__.Word instance at 0x1169f3c68>];William;2_0;False;True;[['yah']];yah;yah;1.0;0.0
+279;"[<__main__.Word instance at 0x1169f3f80>
+ <__main__.Word instance at 0x1169f3d88>]";William;2_0;False;False;[['on'], ['boots']];bootson;onboots;0.5;-0.69314718056
+280;"[<__main__.Word instance at 0x1169f3cf8>
+ <__main__.Word instance at 0x1169f7200>]";William;2_0;False;False;[['on'], ['boots']];bootson;onboots;0.5;-0.69314718056
+281;[<__main__.Word instance at 0x1169f72d8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+282;"[<__main__.Word instance at 0x1169f7368>
+ <__main__.Word instance at 0x1169f7680>
+ <__main__.Word instance at 0x1169f7518>]";William;2_0;False;False;[['boots'], ['on'], ['boots']];bootsbootson;onbootsboots;0.166666666667;-0.182321556794
+283;"[<__main__.Word instance at 0x1169f78c0>
+ <__main__.Word instance at 0x1169f77a0>]";William;2_0;False;False;[['boots'], ['on']];bootson;onboots;0.5;-0.69314718056
+284;"[<__main__.Word instance at 0x1169f79e0>
+ <__main__.Word instance at 0x1169f7bd8>
+ <__main__.Word instance at 0x1169f7b48>]";William;2_0;False;False;[['boots'], ['on'], ['me']];mebootson;onbootsme;0.166666666667;-0.182321556794
+285;"[<__main__.Word instance at 0x1169f7cb0>
+ <__main__.Word instance at 0x1169f7ea8>
+ <__main__.Word instance at 0x1169f7ab8>]";William;2_0;False;False;[['boots'], ['on'], ['no']];nobootson;onbootsno;0.166666666667;-0.182321556794
+286;[<__main__.Word instance at 0x1169f7e18>];William;2_0;False;True;[['outside']];outside;outside;1.0;0.0
+287;"[<__main__.Word instance at 0x1169f7950>
+ <__main__.Word instance at 0x1169fa050>]";William;2_0;False;False;[['bucket'], ['no']];nobucket;bucketno;0.5;-0.69314718056
+288;[<__main__.Word instance at 0x1169fa0e0>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+289;"[<__main__.Word instance at 0x1169fa290>
+ <__main__.Word instance at 0x1169fa7e8>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+290;"[<__main__.Word instance at 0x1169fa8c0>
+ <__main__.Word instance at 0x1169fa440>]";William;2_0;False;True;[['now'], ['which']];nowwhich;nowwhich;0.5;0.69314718056
+291;[<__main__.Word instance at 0x1169faa28>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+292;[<__main__.Word instance at 0x1169fabd8>];William;2_0;False;True;[['what']];what;what;1.0;0.0
+293;[<__main__.Word instance at 0x1169fae18>];William;2_0;False;True;[['w']];w;w;1.0;0.0
+294;[<__main__.Word instance at 0x1169fae60>];William;2_0;False;True;[['yah']];yah;yah;1.0;0.0
+295;[<__main__.Word instance at 0x1169faef0>];William;2_0;False;True;[['x']];x;x;1.0;0.0
+296;"[<__main__.Word instance at 0x1169fd098>
+ <__main__.Word instance at 0x1169fd128>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+297;[<__main__.Word instance at 0x1169fd1b8>];William;2_0;False;True;[['r']];r;r;1.0;0.0
+298;[<__main__.Word instance at 0x1169fd368>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+299;[<__main__.Word instance at 0x1169fd248>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+300;"[<__main__.Word instance at 0x1169fd050>
+ <__main__.Word instance at 0x1169fd6c8>]";William;2_0;False;True;[['g'], ['&']];g&;g&;0.5;0.69314718056
+301;"[<__main__.Word instance at 0x1169fd8c0>
+ <__main__.Word instance at 0x1169fd7a0>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+302;[<__main__.Word instance at 0x1169fd950>];William;2_0;False;True;[['f']];f;f;1.0;0.0
+303;"[<__main__.Word instance at 0x1169fdb00>
+ <__main__.Word instance at 0x1169fdcf8>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+304;[<__main__.Word instance at 0x1169fddd0>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+305;[<__main__.Word instance at 0x1169fdea8>];William;2_0;False;True;[['Y']];Y;Y;1.0;0.0
+306;"[<__main__.Word instance at 0x1169fdf80>
+ <__main__.Word instance at 0x1169fdb90>]";William;2_0;False;True;[['Y'], ['y']];Yy;Yy;0.5;0.69314718056
+307;[<__main__.Word instance at 0x1169fdef0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+308;"[<__main__.Word instance at 0x116a00170>
+ <__main__.Word instance at 0x116a00200>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+309;[<__main__.Word instance at 0x116a002d8>];William;2_0;False;True;[['y']];y;y;1.0;0.0
+310;[<__main__.Word instance at 0x116a00710>];William;2_0;False;True;[['n']];n;n;1.0;0.0
+311;[<__main__.Word instance at 0x116a007e8>];William;2_0;False;True;[['x']];x;x;1.0;0.0
+312;[<__main__.Word instance at 0x116a00998>];William;2_0;False;True;[['k']];k;k;1.0;0.0
+313;[<__main__.Word instance at 0x116a00b48>];William;2_0;False;True;[['k']];k;k;1.0;0.0
+314;[<__main__.Word instance at 0x116a00cf8>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+315;[<__main__.Word instance at 0x116a00e60>];William;2_0;False;True;"[[""what's""]]";what's;what's;1.0;0.0
+316;[<__main__.Word instance at 0x116a00f80>];William;2_0;False;True;[['o']];o;o;1.0;0.0
+317;"[<__main__.Word instance at 0x116a00440>
+ <__main__.Word instance at 0x116a03050>]";William;2_0;False;True;[['o'], ['o']];oo;oo;0.5;0.69314718056
+318;[<__main__.Word instance at 0x116a030e0>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+319;[<__main__.Word instance at 0x116a032d8>];William;2_0;False;True;[['o']];o;o;1.0;0.0
+320;[<__main__.Word instance at 0x116a034d0>];William;2_0;False;True;[['j']];j;j;1.0;0.0
+321;[<__main__.Word instance at 0x116a033b0>];William;2_0;False;True;[['&']];&;&;1.0;0.0
+322;[<__main__.Word instance at 0x116a03950>];William;2_0;False;True;[['a']];a;a;1.0;0.0
+323;[<__main__.Word instance at 0x116a03b48>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+324;[<__main__.Word instance at 0x116a03cf8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+325;[<__main__.Word instance at 0x116a03ea8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+326;[<__main__.Word instance at 0x116a061b8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+327;[<__main__.Word instance at 0x116a06368>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+328;[<__main__.Word instance at 0x116a06710>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+329;[<__main__.Word instance at 0x116a067a0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+330;[<__main__.Word instance at 0x116a06878>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+331;"[<__main__.Word instance at 0x116a06ab8>
+ <__main__.Word instance at 0x116a06b00>
+ <__main__.Word instance at 0x116a06560>
+ <__main__.Word instance at 0x116a06cb0>]";William;2_0;False;False;[['time'], ['is'], ['it'], ['what']];whattimeisit;itiswhattime;0.0416666666667;-0.0425596144188
+332;[<__main__.Word instance at 0x116a06e60>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+333;[<__main__.Word instance at 0x116a06908>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+334;[<__main__.Word instance at 0x116a06d40>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+335;"[<__main__.Word instance at 0x116a09320>
+ <__main__.Word instance at 0x116a09368>
+ <__main__.Word instance at 0x116a09518>]";William;2_0;False;False;[['see'], ['I'], ['wanna']];Iwannasee;wannaseeI;0.166666666667;-0.182321556794
+336;[<__main__.Word instance at 0x116a09710>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+337;"[<__main__.Word instance at 0x116a09908>
+ <__main__.Word instance at 0x116a097a0>]";William;2_0;False;False;[['drum'], ['a']];adrum;druma;0.5;-0.69314718056
+338;[<__main__.Word instance at 0x116a096c8>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+339;[<__main__.Word instance at 0x116a09950>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+340;[<__main__.Word instance at 0x116a09b00>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+341;[<__main__.Word instance at 0x116a098c0>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+342;[<__main__.Word instance at 0x116a09d88>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+343;[<__main__.Word instance at 0x116a09f38>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+344;[<__main__.Word instance at 0x116a09c20>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+345;"[<__main__.Word instance at 0x116a0c1b8>
+ <__main__.Word instance at 0x116a0c248>]";William;2_0;False;False;"[[""where's""], ['drum']]";where'sdrum;drumwhere's;0.5;-0.69314718056
+346;[<__main__.Word instance at 0x116a0c2d8>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+347;[<__main__.Word instance at 0x116a0c4d0>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+348;[<__main__.Word instance at 0x116a0c680>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+349;[<__main__.Word instance at 0x116a0c998>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+350;"[<__main__.Word instance at 0x116a0cab8>
+ <__main__.Word instance at 0x116a0ccf8>]";William;2_0;False;True;[['whole', 'book']];wholebook;wholebook;1.0;0.0
+351;[<__main__.Word instance at 0x116a0cd88>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+352;[<__main__.Word instance at 0x116a0cbd8>];William;2_0;False;True;[['book']];book;book;1.0;0.0
+353;"[<__main__.Word instance at 0x116a0f050>
+ <__main__.Word instance at 0x116a0f1b8>]";William;2_0;False;True;[['book'], ['the']];thebook;thebook;0.5;0.69314718056
+354;[<__main__.Word instance at 0x116a0f320>];William;2_0;False;True;[['book']];book;book;1.0;0.0
+355;"[<__main__.Word instance at 0x116a0f830>
+ <__main__.Word instance at 0x116a0f710>]";William;2_0;False;True;[['the'], ['book']];thebook;thebook;0.5;0.69314718056
+356;[<__main__.Word instance at 0x116a0f638>];William;2_0;False;True;[['book']];book;book;1.0;0.0
+357;[<__main__.Word instance at 0x116a0f560>];William;2_0;False;True;[['boots']];boots;boots;1.0;0.0
+358;[<__main__.Word instance at 0x116a0fb48>];William;2_0;False;True;[['yah']];yah;yah;1.0;0.0
+359;[<__main__.Word instance at 0x116a0fd40>];William;2_0;False;True;[['ooh']];ooh;ooh;1.0;0.0
+360;[<__main__.Word instance at 0x116a0fc20>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+361;"[<__main__.Word instance at 0x116a0fe60>
+ <__main__.Word instance at 0x116a12170>
+ <__main__.Word instance at 0x116a12248>
+ <__main__.Word instance at 0x116a123f8>
+ <__main__.Word instance at 0x116a122d8>]";William;2_0;False;False;[['oh'], ['you'], ['see'], ['did'], ['it']];ohdidyouseeit;youdiditseeoh;0.00833333333333;-0.00836824967052
+362;"[<__main__.Word instance at 0x116a124d0>
+ <__main__.Word instance at 0x116a127a0>]";William;2_0;False;True;[['see'], ['it']];seeit;seeit;0.5;0.69314718056
+363;[<__main__.Word instance at 0x116a12998>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+364;[<__main__.Word instance at 0x116a12b48>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+365;[<__main__.Word instance at 0x116a12bd8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+366;[<__main__.Word instance at 0x116a12cb0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+367;[<__main__.Word instance at 0x116a12ea8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+368;[<__main__.Word instance at 0x116a12f38>];William;2_0;False;True;[['caboose']];caboose;caboose;1.0;0.0
+369;[<__main__.Word instance at 0x116a150e0>];William;2_0;False;True;[['caboose']];caboose;caboose;1.0;0.0
+370;"[<__main__.Word instance at 0x116a15320>
+ <__main__.Word instance at 0x116a15200>]";William;2_0;False;True;[['a'], ['plane']];aplane;aplane;0.5;0.69314718056
+371;[<__main__.Word instance at 0x116a153f8>];William;2_0;False;True;[['helicopter']];helicopter;helicopter;1.0;0.0
+372;[<__main__.Word instance at 0x116a155a8>];William;2_0;False;True;[['Harold']];Harold;Harold;1.0;0.0
+373;[<__main__.Word instance at 0x116a154d0>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+374;"[<__main__.Word instance at 0x116a15830>
+ <__main__.Word instance at 0x116a15a28>]";William;2_0;False;True;[['uhoh'], ['no']];nouhoh;nouhoh;0.5;0.69314718056
+375;[<__main__.Word instance at 0x116a15ab8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+376;[<__main__.Word instance at 0x116a15c68>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+377;"[<__main__.Word instance at 0x116a15dd0>
+ <__main__.Word instance at 0x116a15c20>]";William;2_0;False;True;[['it', 'hurts']];ithurts;ithurts;1.0;0.0
+378;[<__main__.Word instance at 0x116a15ef0>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+379;[<__main__.Word instance at 0x116a15e60>];William;2_0;False;True;[['yay']];yay;yay;1.0;0.0
+380;[<__main__.Word instance at 0x116a180e0>];William;2_0;False;True;[['bus']];bus;bus;1.0;0.0
+381;[<__main__.Word instance at 0x116a182d8>];William;2_0;False;True;[['bus']];bus;bus;1.0;0.0
+382;[<__main__.Word instance at 0x116a18710>];William;2_0;False;True;[['bus']];bus;bus;1.0;0.0
+383;[<__main__.Word instance at 0x116a18a28>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+384;[<__main__.Word instance at 0x116a18a70>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+385;"[<__main__.Word instance at 0x116a18998>
+ <__main__.Word instance at 0x116a18cf8>]";William;2_0;False;True;[['we'], ['go']];wego;wego;0.5;0.69314718056
+386;[<__main__.Word instance at 0x116a18ea8>];William;2_0;False;True;[['hi']];hi;hi;1.0;0.0
+387;[<__main__.Word instance at 0x116a18ef0>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+388;[<__main__.Word instance at 0x116a18bd8>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+389;[<__main__.Word instance at 0x116a1b170>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+390;[<__main__.Word instance at 0x116a1b4d0>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+391;[<__main__.Word instance at 0x116a1b5a8>];William;2_0;False;True;[['guy']];guy;guy;1.0;0.0
+392;[<__main__.Word instance at 0x116a1b710>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+393;[<__main__.Word instance at 0x116a1b7e8>];William;2_0;False;True;[['guy']];guy;guy;1.0;0.0
+394;[<__main__.Word instance at 0x116a1b998>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+395;[<__main__.Word instance at 0x116a1bc68>];William;2_0;False;True;[['mama']];mama;mama;1.0;0.0
+396;[<__main__.Word instance at 0x116a1be60>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+397;[<__main__.Word instance at 0x116a1bef0>];William;2_0;False;True;[['Thomas']];Thomas;Thomas;1.0;0.0
+398;[<__main__.Word instance at 0x116a1bf80>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+399;[<__main__.Word instance at 0x116a1b3b0>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+400;[<__main__.Word instance at 0x116a1f200>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+401;[<__main__.Word instance at 0x116a1f290>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+402;"[<__main__.Word instance at 0x116a1f0e0>
+ <__main__.Word instance at 0x116a1f680>]";William;2_0;False;True;[['way'], ['that']];thatway;thatway;0.5;0.69314718056
+403;[<__main__.Word instance at 0x116a1f878>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+404;[<__main__.Word instance at 0x116a1fa28>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+405;[<__main__.Word instance at 0x116a1fc20>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+406;[<__main__.Word instance at 0x116a1fcf8>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+407;[<__main__.Word instance at 0x116a1fd88>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+408;[<__main__.Word instance at 0x116a1ff80>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+409;"[<__main__.Word instance at 0x116a1fe18>
+ <__main__.Word instance at 0x116a1ff38>
+ <__main__.Word instance at 0x116a22050>]";William;2_0;False;True;[['right'], ['ambulance'], ['here']];righthereambulance;righthereambulance;0.166666666667;1.79175946923
+410;[<__main__.Word instance at 0x116a223f8>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+411;"[<__main__.Word instance at 0x116a22680>
+ <__main__.Word instance at 0x116a220e0>
+ <__main__.Word instance at 0x116a22560>]";William;2_0;False;False;[['right'], ['ambulance'], ['here']];righthereambulance;ambulancehereright;0.166666666667;-0.182321556794
+412;[<__main__.Word instance at 0x116a22830>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+413;"[<__main__.Word instance at 0x116a22a28>
+ <__main__.Word instance at 0x116a22a70>]";William;2_0;False;False;[['oh'], ['no']];ohno;nooh;0.5;-0.69314718056
+414;"[<__main__.Word instance at 0x116a22c20>
+ <__main__.Word instance at 0x116a22b90>
+ <__main__.Word instance at 0x116a22ea8>]";William;2_0;False;False;[['oh'], ['no'], ['no']];noohno;nonooh;0.166666666667;-0.182321556794
+415;"[<__main__.Word instance at 0x116a22fc8>
+ <__main__.Word instance at 0x116a22f38>]";William;2_0;False;True;[['oh'], ['no']];ohno;ohno;0.5;0.69314718056
+416;"[<__main__.Word instance at 0x116a22710>
+ <__main__.Word instance at 0x116a250e0>]";William;2_0;False;False;[['fall'], ['down']];falldown;downfall;0.5;-0.69314718056
+417;"[<__main__.Word instance at 0x116a255a8>
+ <__main__.Word instance at 0x116a25488>]";William;2_0;False;True;[['no'], ['oh']];ohno;ohno;0.5;0.69314718056
+418;"[<__main__.Word instance at 0x116a25290>
+ <__main__.Word instance at 0x116a257e8>]";William;2_0;False;True;[['football'], ['a']];afootball;afootball;0.5;0.69314718056
+419;[<__main__.Word instance at 0x116a25b00>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+420;[<__main__.Word instance at 0x116a25a28>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+421;"[<__main__.Word instance at 0x116a25c20>
+ <__main__.Word instance at 0x116a25a70>]";William;2_0;False;False;[['down'], ['fall']];falldown;downfall;0.5;-0.69314718056
+422;"[<__main__.Word instance at 0x116a257a0>
+ <__main__.Word instance at 0x116a25ea8>
+ <__main__.Word instance at 0x116a25d88>
+ <__main__.Word instance at 0x116a25950>]";William;2_0;False;False;[['fall'], ['oh'], ['no'], ['down']];ohnofalldown;downfallnooh;0.0416666666667;-0.0425596144188
+423;"[<__main__.Word instance at 0x116a28170>
+ <__main__.Word instance at 0x116a28098>
+ <__main__.Word instance at 0x116a28320>
+ <__main__.Word instance at 0x116a28200>]";William;2_0;False;False;[['all'], ['fall'], ['what'], ['down']];whatallfalldown;allwhatdownfall;0.0416666666667;-0.0425596144188
+424;"[<__main__.Word instance at 0x116a283b0>
+ <__main__.Word instance at 0x116a286c8>]";William;2_0;False;False;[['down'], ['fall']];falldown;downfall;0.5;-0.69314718056
+425;"[<__main__.Word instance at 0x116a28830>
+ <__main__.Word instance at 0x116a287a0>]";William;2_0;False;False;[['down'], ['fall']];falldown;downfall;0.5;-0.69314718056
+426;"[<__main__.Word instance at 0x116a28950>
+ <__main__.Word instance at 0x116a28bd8>
+ <__main__.Word instance at 0x116a28ab8>
+ <__main__.Word instance at 0x116a28ea8>]";William;2_0;False;False;[['I', 'want'], ['it'], ['juice']];juiceIwantit;Iwantjuiceit;0.166666666667;-0.182321556794
+427;"[<__main__.Word instance at 0x116a28f38>
+ <__main__.Word instance at 0x116a28cf8>
+ <__main__.Word instance at 0x116a28d88>]";William;2_0;False;True;[['I', 'want'], ['it']];Iwantit;Iwantit;0.5;0.69314718056
+428;"[<__main__.Word instance at 0x116a28b90>
+ <__main__.Word instance at 0x116a2b098>
+ <__main__.Word instance at 0x116a2b1b8>]";William;2_0;False;True;[['I', 'want'], ['it']];Iwantit;Iwantit;0.5;0.69314718056
+429;"[<__main__.Word instance at 0x116a2b128>
+ <__main__.Word instance at 0x116a2b320>
+ <__main__.Word instance at 0x116a2b200>]";William;2_0;False;True;[['I', 'want'], ['it']];Iwantit;Iwantit;0.5;0.69314718056
+430;"[<__main__.Word instance at 0x116a2b3f8>
+ <__main__.Word instance at 0x116a2b7a0>
+ <__main__.Word instance at 0x116a2b560>]";William;2_0;False;True;[['it'], ['I', 'want']];Iwantit;Iwantit;0.5;0.69314718056
+431;"[<__main__.Word instance at 0x116a2b908>
+ <__main__.Word instance at 0x116a2b5a8>
+ <__main__.Word instance at 0x116a2bcf8>]";William;2_0;False;True;[['I', 'want'], ['it']];Iwantit;Iwantit;0.5;0.69314718056
+432;[<__main__.Word instance at 0x116a2be18>];William;2_0;False;True;[['yah']];yah;yah;1.0;0.0
+433;[<__main__.Word instance at 0x116a2bea8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+434;[<__main__.Word instance at 0x116a2bf38>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+435;[<__main__.Word instance at 0x116a2e098>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+436;"[<__main__.Word instance at 0x116a2e170>
+ <__main__.Word instance at 0x116a2e3b0>
+ <__main__.Word instance at 0x116a2e050>]";William;2_0;False;False;[['that'], ['do'], ['here']];dothathere;thatheredo;0.166666666667;-0.182321556794
+437;[<__main__.Word instance at 0x116a2e320>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+438;[<__main__.Word instance at 0x116a2e4d0>];William;2_0;False;True;[['Thomas']];Thomas;Thomas;1.0;0.0
+439;"[<__main__.Word instance at 0x116a2e290>
+ <__main__.Word instance at 0x116a2ec68>]";William;2_0;False;True;[['the'], ['Thomas']];theThomas;theThomas;0.5;0.69314718056
+440;"[<__main__.Word instance at 0x116a2eb48>
+ <__main__.Word instance at 0x116a2ee60>]";William;2_0;False;True;[['the'], ['Thomas']];theThomas;theThomas;0.5;0.69314718056
+441;"[<__main__.Word instance at 0x116a2eea8>
+ <__main__.Word instance at 0x116a2ea28>]";William;2_0;False;True;[['wee'], ['ooh']];oohwee;oohwee;0.5;0.69314718056
+442;"[<__main__.Word instance at 0x116a31098>
+ <__main__.Word instance at 0x116a312d8>]";William;2_0;False;False;[['funny'], ['Thomas']];funnyThomas;Thomasfunny;0.5;-0.69314718056
+443;[<__main__.Word instance at 0x116a316c8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+444;[<__main__.Word instance at 0x116a31878>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+445;"[<__main__.Word instance at 0x116a31b90>
+ <__main__.Word instance at 0x116a313f8>
+ <__main__.Word instance at 0x116a31bd8>]";William;2_0;False;False;"[['the'], [""where's""], ['saw']]";where'sthesaw;thesawwhere's;0.166666666667;-0.182321556794
+446;[<__main__.Word instance at 0x116a31cf8>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+447;[<__main__.Word instance at 0x116a31dd0>];William;2_0;False;True;[['saw']];saw;saw;1.0;0.0
+448;[<__main__.Word instance at 0x116a31ef0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+449;"[<__main__.Word instance at 0x116a31a70>
+ <__main__.Word instance at 0x116a34128>
+ <__main__.Word instance at 0x116a34050>]";William;2_0;False;True;[['busy', 'saw'], ['the']];thebusysaw;thebusysaw;0.5;0.69314718056
+450;[<__main__.Word instance at 0x116a34290>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+451;"[<__main__.Word instance at 0x116a34368>
+ <__main__.Word instance at 0x116a34680>
+ <__main__.Word instance at 0x116a34440>]";William;2_0;False;False;[['saw'], ['bus'], ['hi']];sawhibus;hisawbus;0.166666666667;-0.182321556794
+452;"[<__main__.Word instance at 0x116a34878>
+ <__main__.Word instance at 0x116a349e0>
+ <__main__.Word instance at 0x116a34758>]";William;2_0;False;False;[['bye', 'bye'], ['saw']];byebyesaw;sawbyebye;0.5;-0.69314718056
+453;[<__main__.Word instance at 0x116a34bd8>];William;2_0;False;True;[['saw']];saw;saw;1.0;0.0
+454;[<__main__.Word instance at 0x116a34ea8>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+455;"[<__main__.Word instance at 0x116a371b8>
+ <__main__.Word instance at 0x116a370e0>]";William;2_0;False;True;[['busy', 'saw']];busysaw;busysaw;1.0;0.0
+456;"[<__main__.Word instance at 0x116a37248>
+ <__main__.Word instance at 0x116a374d0>
+ <__main__.Word instance at 0x116a373f8>]";William;2_0;False;True;[['busy', 'saw'], ['the']];thebusysaw;thebusysaw;0.5;0.69314718056
+457;"[<__main__.Word instance at 0x116a373b0>
+ <__main__.Word instance at 0x116a377a0>]";William;2_0;False;True;[['hi'], ['saw']];hisaw;hisaw;0.5;0.69314718056
+458;[<__main__.Word instance at 0x116a37ab8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+459;[<__main__.Word instance at 0x116a37b90>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+460;[<__main__.Word instance at 0x116a37c20>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+461;"[<__main__.Word instance at 0x116a37dd0>
+ <__main__.Word instance at 0x116a37cb0>]";William;2_0;False;False;[['is'], ['that']];isthat;thatis;0.5;-0.69314718056
+462;"[<__main__.Word instance at 0x116a37e60>
+ <__main__.Word instance at 0x116a3b170>]";William;2_0;False;False;"[[""what's""], ['this']]";what'sthis;thiswhat's;0.5;-0.69314718056
+463;[<__main__.Word instance at 0x116a3b368>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+464;"[<__main__.Word instance at 0x116a3b440>
+ <__main__.Word instance at 0x116a3b290>
+ <__main__.Word instance at 0x116a3b6c8>]";William;2_0;False;True;[['a'], ['busy', 'saw']];abusysaw;abusysaw;0.5;0.69314718056
+465;"[<__main__.Word instance at 0x116a3b878>
+ <__main__.Word instance at 0x116a3b758>
+ <__main__.Word instance at 0x116a3ba28>]";William;2_0;False;False;[['busy', 'saw'], ['no']];nobusysaw;busysawno;0.5;-0.69314718056
+466;"[<__main__.Word instance at 0x116a3bbd8>
+ <__main__.Word instance at 0x116a3bab8>
+ <__main__.Word instance at 0x116a3bdd0>]";William;2_0;False;True;[['busy', 'saw'], ['okay']];okaybusysaw;okaybusysaw;0.5;0.69314718056
+467;[<__main__.Word instance at 0x116a3bf80>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+468;[<__main__.Word instance at 0x116a3e098>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+469;[<__main__.Word instance at 0x116a3e290>];William;2_0;False;True;[['busy']];busy;busy;1.0;0.0
+470;[<__main__.Word instance at 0x116a3e3b0>];William;2_0;False;True;[['busy']];busy;busy;1.0;0.0
+471;[<__main__.Word instance at 0x116a3e560>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+472;"[<__main__.Word instance at 0x116a3e710>
+ <__main__.Word instance at 0x116a3e5a8>]";William;2_0;False;True;[['busy'], ['drum']];busydrum;busydrum;0.5;0.69314718056
+473;[<__main__.Word instance at 0x116a3e758>];William;2_0;False;True;[['drum']];drum;drum;1.0;0.0
+474;[<__main__.Word instance at 0x116a3e680>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+475;[<__main__.Word instance at 0x116a3ea28>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+476;[<__main__.Word instance at 0x116a3eb90>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+477;"[<__main__.Word instance at 0x116a3ed40>
+ <__main__.Word instance at 0x116a3ef38>]";William;2_0;False;True;[['pocket'], ['pocket']];pocketpocket;pocketpocket;0.5;0.69314718056
+478;[<__main__.Word instance at 0x116a3ee60>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+479;[<__main__.Word instance at 0x116a411b8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+480;[<__main__.Word instance at 0x116a41170>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+481;[<__main__.Word instance at 0x116a413b0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+482;"[<__main__.Word instance at 0x116a41560>
+ <__main__.Word instance at 0x116a41830>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+483;"[<__main__.Word instance at 0x116a41ab8>
+ <__main__.Word instance at 0x116a41950>
+ <__main__.Word instance at 0x116a41b90>]";William;2_0;False;True;[['off'], ['it'], ['take']];takeitoff;takeitoff;0.166666666667;1.79175946923
+484;"[<__main__.Word instance at 0x116a41c20>
+ <__main__.Word instance at 0x116a41ef0>
+ <__main__.Word instance at 0x116a41dd0>]";William;2_0;False;True;[['it'], ['take'], ['off']];takeitoff;takeitoff;0.166666666667;1.79175946923
+485;"[<__main__.Word instance at 0x116a419e0>
+ <__main__.Word instance at 0x116a440e0>
+ <__main__.Word instance at 0x116a444d0>
+ <__main__.Word instance at 0x116a443f8>]";William;2_0;False;False;[['take'], ['off'], ['it'], ['ah']];ahtakeitoff;ahitofftake;0.0416666666667;-0.0425596144188
+486;"[<__main__.Word instance at 0x116a44170>
+ <__main__.Word instance at 0x116a44680>]";William;2_0;False;True;[['take'], ['it']];takeit;takeit;0.5;0.69314718056
+487;[<__main__.Word instance at 0x116a44758>];William;2_0;False;True;[['mama']];mama;mama;1.0;0.0
+488;"[<__main__.Word instance at 0x116a442d8>
+ <__main__.Word instance at 0x116a44b00>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+489;[<__main__.Word instance at 0x116a44d40>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+490;[<__main__.Word instance at 0x116a44e18>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+491;[<__main__.Word instance at 0x116a44ea8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+492;[<__main__.Word instance at 0x116a44f38>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+493;"[<__main__.Word instance at 0x116a47050>
+ <__main__.Word instance at 0x116a47170>]";William;2_0;False;False;[['juice'], ['no']];nojuice;juiceno;0.5;-0.69314718056
+494;"[<__main__.Word instance at 0x116a47320>
+ <__main__.Word instance at 0x116a471b8>
+ <__main__.Word instance at 0x116a473b0>]";William;2_0;False;False;[['no'], ['banana'], ['oh']];bananaohno;ohnobanana;0.166666666667;-0.182321556794
+495;[<__main__.Word instance at 0x116a47440>];William;2_0;False;True;[['tissue']];tissue;tissue;1.0;0.0
+496;[<__main__.Word instance at 0x116a47638>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+497;[<__main__.Word instance at 0x116a477e8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+498;"[<__main__.Word instance at 0x116a477a0>
+ <__main__.Word instance at 0x116a47b48>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+499;[<__main__.Word instance at 0x116a47cf8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+500;[<__main__.Word instance at 0x116a47fc8>];William;2_0;False;True;[['tissue']];tissue;tissue;1.0;0.0
+501;"[<__main__.Word instance at 0x116a47f80>
+ <__main__.Word instance at 0x116a47d88>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+502;[<__main__.Word instance at 0x116a47cb0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+503;[<__main__.Word instance at 0x116a4a128>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+504;[<__main__.Word instance at 0x116a4a1b8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+505;"[<__main__.Word instance at 0x116a4a6c8>
+ <__main__.Word instance at 0x116a4a5f0>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+506;"[<__main__.Word instance at 0x116a4a8c0>
+ <__main__.Word instance at 0x116a4aa70>]";William;2_0;False;False;[['oh'], ['no']];ohno;nooh;0.5;-0.69314718056
+507;[<__main__.Word instance at 0x116a4ab48>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+508;[<__main__.Word instance at 0x116a4acb0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+509;"[<__main__.Word instance at 0x116a4ae18>
+ <__main__.Word instance at 0x116a4af80>]";William;2_0;False;True;[['no'], ['oh']];ohno;ohno;0.5;0.69314718056
+510;[<__main__.Word instance at 0x116a4ad40>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+511;[<__main__.Word instance at 0x116a4d050>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+512;[<__main__.Word instance at 0x116a4d3f8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+513;[<__main__.Word instance at 0x116a4d488>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+514;[<__main__.Word instance at 0x116a4d560>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+515;[<__main__.Word instance at 0x116a4d710>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+516;[<__main__.Word instance at 0x116a4d908>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+517;"[<__main__.Word instance at 0x116a4d998>
+ <__main__.Word instance at 0x116a4d6c8>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+518;[<__main__.Word instance at 0x116a4da28>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+519;[<__main__.Word instance at 0x116a4dc20>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+520;[<__main__.Word instance at 0x116a4dcf8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+521;[<__main__.Word instance at 0x116a4def0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+522;[<__main__.Word instance at 0x116a50170>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+523;[<__main__.Word instance at 0x116a50098>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+524;[<__main__.Word instance at 0x116a503b0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+525;"[<__main__.Word instance at 0x116a506c8>
+ <__main__.Word instance at 0x116a505a8>
+ <__main__.Word instance at 0x116a50a28>
+ <__main__.Word instance at 0x116a50950>]";William;2_0;False;False;"[['no'], ['saw'], [""Bob's"", 'busy']]";noBob'sbusysaw;Bob'sbusysawno;0.166666666667;-0.182321556794
+526;[<__main__.Word instance at 0x116a50c68>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+527;[<__main__.Word instance at 0x116a50f38>];William;2_0;False;True;[['busy']];busy;busy;1.0;0.0
+528;[<__main__.Word instance at 0x116a53098>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+529;"[<__main__.Word instance at 0x116a53128>
+ <__main__.Word instance at 0x116a53440>]";William;2_0;False;False;[['banana'], ['no']];nobanana;bananano;0.5;-0.69314718056
+530;[<__main__.Word instance at 0x116a534d0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+531;[<__main__.Word instance at 0x116a537e8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+532;"[<__main__.Word instance at 0x116a53878>
+ <__main__.Word instance at 0x116a53638>]";William;2_0;False;True;[['no'], ['no']];nono;nono;0.5;0.69314718056
+533;[<__main__.Word instance at 0x116a536c8>];William;2_0;False;True;[['mama']];mama;mama;1.0;0.0
+534;[<__main__.Word instance at 0x116a53758>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+535;[<__main__.Word instance at 0x116a53c68>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+536;[<__main__.Word instance at 0x116a560e0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+537;[<__main__.Word instance at 0x116a562d8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+538;[<__main__.Word instance at 0x116a56128>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+539;"[<__main__.Word instance at 0x116a564d0>
+ <__main__.Word instance at 0x116a56680>]";William;2_0;False;True;[['school', 'bus']];schoolbus;schoolbus;1.0;0.0
+540;[<__main__.Word instance at 0x116a56710>];William;2_0;False;True;[['blues']];blues;blues;1.0;0.0
+541;[<__main__.Word instance at 0x116a56290>];William;2_0;False;True;[['blues']];blues;blues;1.0;0.0
+542;[<__main__.Word instance at 0x116a56ab8>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+543;[<__main__.Word instance at 0x116a56a28>];William;2_0;False;True;[['circle']];circle;circle;1.0;0.0
+544;[<__main__.Word instance at 0x116a56cb0>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+545;"[<__main__.Word instance at 0x116a569e0>
+ <__main__.Word instance at 0x116a56f38>
+ <__main__.Word instance at 0x116a59098>]";William;2_0;False;False;[['right'], ['here'], ['put']];putrighthere;puthereright;0.166666666667;-0.182321556794
+546;[<__main__.Word instance at 0x116a592d8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+547;"[<__main__.Word instance at 0x116a59290>
+ <__main__.Word instance at 0x116a59638>
+ <__main__.Word instance at 0x116a59518>]";William;2_0;False;True;[['here'], ['right'], ['put']];putrighthere;putrighthere;0.166666666667;1.79175946923
+548;[<__main__.Word instance at 0x116a59710>];William;2_0;False;True;[['park']];park;park;1.0;0.0
+549;[<__main__.Word instance at 0x116a59ab8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+550;"[<__main__.Word instance at 0x116a59878>
+ <__main__.Word instance at 0x116a59d40>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+551;"[<__main__.Word instance at 0x116a59f38>
+ <__main__.Word instance at 0x116a59dd0>]";William;2_0;False;False;[['oh'], ['park']];ohpark;parkoh;0.5;-0.69314718056
+552;[<__main__.Word instance at 0x116a5c050>];William;2_0;False;True;[['park']];park;park;1.0;0.0
+553;[<__main__.Word instance at 0x116a5c098>];William;2_0;False;True;[['stop']];stop;stop;1.0;0.0
+554;[<__main__.Word instance at 0x116a5c290>];William;2_0;False;True;[['stop']];stop;stop;1.0;0.0
+555;[<__main__.Word instance at 0x116a5c440>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+556;"[<__main__.Word instance at 0x116a5c710>
+ <__main__.Word instance at 0x116a5ca28>]";William;2_0;False;True;[['fire'], ['red']];redfire;redfire;0.5;0.69314718056
+557;"[<__main__.Word instance at 0x116a5cb90>
+ <__main__.Word instance at 0x116a5ca70>]";William;2_0;False;True;[['mm', 'hm']];mmhm;mmhm;1.0;0.0
+558;"[<__main__.Word instance at 0x116a5cc68>
+ <__main__.Word instance at 0x116a5cf38>]";William;2_0;False;True;[['mm', 'hm']];mmhm;mmhm;1.0;0.0
+559;[<__main__.Word instance at 0x116a5f290>];William;2_0;False;True;[['go']];go;go;1.0;0.0
+560;"[<__main__.Word instance at 0x116a5f440>
+ <__main__.Word instance at 0x116a5f2d8>]";William;2_0;False;True;[['mail'], ['truck']];mailtruck;mailtruck;0.5;0.69314718056
+561;"[<__main__.Word instance at 0x116a5f170>
+ <__main__.Word instance at 0x116a5f710>]";William;2_0;False;True;[['mm', 'hm']];mmhm;mmhm;1.0;0.0
+562;"[<__main__.Word instance at 0x116a5f638>
+ <__main__.Word instance at 0x116a5f3f8>]";William;2_0;False;True;[['school', 'bus']];schoolbus;schoolbus;1.0;0.0
+563;"[<__main__.Word instance at 0x116a5f830>
+ <__main__.Word instance at 0x116a5fb48>
+ <__main__.Word instance at 0x116a5fa28>]";William;2_0;False;True;[['school', 'bus'], ['a']];aschoolbus;aschoolbus;0.5;0.69314718056
+564;"[<__main__.Word instance at 0x116a5fc68>
+ <__main__.Word instance at 0x116a5fef0>
+ <__main__.Word instance at 0x116a5f7a0>]";William;2_0;False;True;[['a'], ['school', 'bus']];aschoolbus;aschoolbus;0.5;0.69314718056
+565;[<__main__.Word instance at 0x116a5fb00>];William;2_0;False;True;[['get']];get;get;1.0;0.0
+566;[<__main__.Word instance at 0x116a62098>];William;2_0;False;True;[['&-um']];&-um;&-um;1.0;0.0
+567;[<__main__.Word instance at 0x116a621b8>];William;2_0;False;True;[['ice']];ice;ice;1.0;0.0
+568;[<__main__.Word instance at 0x116a62050>];William;2_0;False;True;[['ice']];ice;ice;1.0;0.0
+569;[<__main__.Word instance at 0x116a62320>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+570;"[<__main__.Word instance at 0x116a624d0>
+ <__main__.Word instance at 0x116a62710>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+571;[<__main__.Word instance at 0x116a62560>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+572;[<__main__.Word instance at 0x116a62950>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+573;[<__main__.Word instance at 0x116a627a0>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+574;[<__main__.Word instance at 0x116a62ab8>];William;2_0;False;True;[['kay']];kay;kay;1.0;0.0
+575;[<__main__.Word instance at 0x116a62b48>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+576;[<__main__.Word instance at 0x116a62cf8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+577;[<__main__.Word instance at 0x116a62ef0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+578;"[<__main__.Word instance at 0x116a62f80>
+ <__main__.Word instance at 0x116a62cb0>
+ <__main__.Word instance at 0x116a62f38>
+ <__main__.Word instance at 0x116a65098>]";William;2_0;False;False;[['it'], ['bring'], ['it'], ['bring']];bringitbringit;ititbringbring;0.0416666666667;-0.0425596144188
+579;[<__main__.Word instance at 0x116a651b8>];William;2_0;False;True;[['train']];train;train;1.0;0.0
+580;[<__main__.Word instance at 0x116a65050>];William;2_0;False;True;[['train']];train;train;1.0;0.0
+581;[<__main__.Word instance at 0x116a653f8>];William;2_0;False;True;[['train']];train;train;1.0;0.0
+582;[<__main__.Word instance at 0x116a657e8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+583;"[<__main__.Word instance at 0x116a659e0>
+ <__main__.Word instance at 0x116a658c0>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+584;[<__main__.Word instance at 0x116a65bd8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+585;[<__main__.Word instance at 0x116a65d40>];William;2_0;False;True;[['blues']];blues;blues;1.0;0.0
+586;[<__main__.Word instance at 0x116a68128>];William;2_0;False;True;[['blues']];blues;blues;1.0;0.0
+587;[<__main__.Word instance at 0x116a681b8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+588;[<__main__.Word instance at 0x116a68170>];William;2_0;False;True;[['apple']];apple;apple;1.0;0.0
+589;"[<__main__.Word instance at 0x116a68680>
+ <__main__.Word instance at 0x116a68488>
+ <__main__.Word instance at 0x116a68710>]";William;2_0;False;True;[['some', 'apple'], ['want']];wantsomeapple;wantsomeapple;0.5;0.69314718056
+590;"[<__main__.Word instance at 0x116a68950>
+ <__main__.Word instance at 0x116a68878>
+ <__main__.Word instance at 0x116a68b48>]";William;2_0;False;True;[['here'], ['right'], ['apple']];applerighthere;applerighthere;0.166666666667;1.79175946923
+591;[<__main__.Word instance at 0x116a68bd8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+592;[<__main__.Word instance at 0x116a68c68>];William;2_0;False;True;[['banana']];banana;banana;1.0;0.0
+593;"[<__main__.Word instance at 0x116a68e18>
+ <__main__.Word instance at 0x116a68cf8>
+ <__main__.Word instance at 0x116a68f38>]";William;2_0;False;True;[['nana'], ['nana'], ['nana']];nananananana;nananananana;0.166666666667;1.79175946923
+594;[<__main__.Word instance at 0x116a68ea8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+595;[<__main__.Word instance at 0x116a6b128>];William;2_0;False;True;[['yellow']];yellow;yellow;1.0;0.0
+596;"[<__main__.Word instance at 0x116a6b1b8>
+ <__main__.Word instance at 0x116a6b290>]";William;2_0;False;True;[['blue'], ['banana']];bluebanana;bluebanana;0.5;0.69314718056
+597;"[<__main__.Word instance at 0x116a6b4d0>
+ <__main__.Word instance at 0x116a6b638>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+598;[<__main__.Word instance at 0x116a6b758>];William;2_0;False;True;[['blue']];blue;blue;1.0;0.0
+599;[<__main__.Word instance at 0x116a6b878>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+600;[<__main__.Word instance at 0x116a6b908>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+601;[<__main__.Word instance at 0x116a6b9e0>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+602;[<__main__.Word instance at 0x116a6ba28>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+603;[<__main__.Word instance at 0x116a6b488>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+604;[<__main__.Word instance at 0x116a6bcb0>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+605;[<__main__.Word instance at 0x116a6bd88>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+606;[<__main__.Word instance at 0x116a6bf80>];William;2_0;False;True;[['Barney']];Barney;Barney;1.0;0.0
+607;[<__main__.Word instance at 0x116a6bf38>];William;2_0;False;True;[['bus']];bus;bus;1.0;0.0
+608;"[<__main__.Word instance at 0x116a71320>
+ <__main__.Word instance at 0x116a71248>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+609;[<__main__.Word instance at 0x116a713b0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+610;[<__main__.Word instance at 0x116a716c8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+611;[<__main__.Word instance at 0x116a71830>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+612;[<__main__.Word instance at 0x116a71c20>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+613;[<__main__.Word instance at 0x116a71b48>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+614;[<__main__.Word instance at 0x116a71e60>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+615;[<__main__.Word instance at 0x116a6e128>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+616;[<__main__.Word instance at 0x116a6e320>];William;2_0;False;True;[['down']];down;down;1.0;0.0
+617;"[<__main__.Word instance at 0x116a6e4d0>
+ <__main__.Word instance at 0x116a6e3b0>
+ <__main__.Word instance at 0x116a6e6c8>
+ <__main__.Word instance at 0x116a6e680>]";William;2_0;False;False;[['go'], ['up'], ['down'], ['and']];goupanddown;anddownupgo;0.0416666666667;-0.0425596144188
+618;[<__main__.Word instance at 0x116a6e638>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+619;"[<__main__.Word instance at 0x116a6e950>
+ <__main__.Word instance at 0x116a6e5f0>]";William;2_0;False;True;[['down'], ['Up']];Updown;Updown;0.5;0.69314718056
+620;[<__main__.Word instance at 0x116a6eab8>];William;2_0;False;True;[['song']];song;song;1.0;0.0
+621;[<__main__.Word instance at 0x116a6ed88>];William;2_0;False;True;[['song']];song;song;1.0;0.0
+622;[<__main__.Word instance at 0x116a6ed40>];William;2_0;False;True;[['chicka_boom_boom']];chicka_boom_boom;chicka_boom_boom;1.0;0.0
+623;[<__main__.Word instance at 0x116a6e7e8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+624;"[<__main__.Word instance at 0x116a772d8>
+ <__main__.Word instance at 0x116a771b8>]";William;2_0;False;True;[['boom'], ['boom']];boomboom;boomboom;0.5;0.69314718056
+625;"[<__main__.Word instance at 0x116a77050>
+ <__main__.Word instance at 0x116a77560>]";William;2_0;False;True;[['boom'], ['boom']];boomboom;boomboom;0.5;0.69314718056
+626;[<__main__.Word instance at 0x116a775a8>];William;2_0;False;True;[['chika_boom_boom']];chika_boom_boom;chika_boom_boom;1.0;0.0
+627;"[<__main__.Word instance at 0x116a77c20>
+ <__main__.Word instance at 0x116a77b48>
+ <__main__.Word instance at 0x116a77cb0>]";William;2_0;False;True;[['see'], ['you'], ['Chicka_Boom_Boom']];youseeChicka_Boom_Boom;youseeChicka_Boom_Boom;0.166666666667;1.79175946923
+628;[<__main__.Word instance at 0x116a77d88>];William;2_0;False;True;[['chika_boom_boom_chicka']];chika_boom_boom_chicka;chika_boom_boom_chicka;1.0;0.0
+629;[<__main__.Word instance at 0x116a77fc8>];William;2_0;False;True;[['chika_boom_boom']];chika_boom_boom;chika_boom_boom;1.0;0.0
+630;"[<__main__.Word instance at 0x116a79128>
+ <__main__.Word instance at 0x116a791b8>]";William;2_0;False;True;[['mm'], ['mm']];mmmm;mmmm;0.5;0.69314718056
+631;[<__main__.Word instance at 0x116a79248>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+632;[<__main__.Word instance at 0x116a79440>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+633;"[<__main__.Word instance at 0x116a79320>
+ <__main__.Word instance at 0x116a79710>]";William;2_0;False;True;[['trucks'], ['trucks']];truckstrucks;truckstrucks;0.5;0.69314718056
+634;"[<__main__.Word instance at 0x116a798c0>
+ <__main__.Word instance at 0x116a797a0>
+ <__main__.Word instance at 0x116a79b90>]";William;2_0;False;False;[['a'], ['trucks'], ['oh']];ohatrucks;atrucksoh;0.166666666667;-0.182321556794
+635;[<__main__.Word instance at 0x116a79d40>];William;2_0;False;True;[['trucks']];trucks;trucks;1.0;0.0
+636;"[<__main__.Word instance at 0x116a79f38>
+ <__main__.Word instance at 0x116a79dd0>
+ <__main__.Word instance at 0x116a7f0e0>
+ <__main__.Word instance at 0x116a7f050>]";William;2_0;False;False;[['a'], ['trucks'], ['trucks'], ['book']];abooktruckstrucks;atrucksbooktrucks;0.0416666666667;-0.0425596144188
+637;[<__main__.Word instance at 0x116a7f320>];William;2_0;False;True;[['trucks']];trucks;trucks;1.0;0.0
+638;[<__main__.Word instance at 0x116a7f3f8>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+639;[<__main__.Word instance at 0x116a7f6c8>];William;2_0;False;True;[['puzzle']];puzzle;puzzle;1.0;0.0
+640;[<__main__.Word instance at 0x116a7f830>];William;2_0;False;True;[['purple']];purple;purple;1.0;0.0
+641;[<__main__.Word instance at 0x116a7fa28>];William;2_0;False;True;[['lemon']];lemon;lemon;1.0;0.0
+642;[<__main__.Word instance at 0x116a7fcf8>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+643;"[<__main__.Word instance at 0x116a7fe60>
+ <__main__.Word instance at 0x116a74170>]";William;2_0;False;True;[['red'], ['fire']];redfire;redfire;0.5;0.69314718056
+644;[<__main__.Word instance at 0x116a74320>];William;2_0;False;True;[['ball']];ball;ball;1.0;0.0
+645;"[<__main__.Word instance at 0x116a745f0>
+ <__main__.Word instance at 0x116a74560>]";William;2_0;False;True;[['a'], ['flamingo']];aflamingo;aflamingo;0.5;0.69314718056
+646;[<__main__.Word instance at 0x116a743b0>];William;2_0;False;True;[['car']];car;car;1.0;0.0
+647;[<__main__.Word instance at 0x116a74830>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+648;"[<__main__.Word instance at 0x116a74a28>
+ <__main__.Word instance at 0x116a74908>
+ <__main__.Word instance at 0x116a74ab8>]";William;2_0;False;False;[['want'], ['grapes'], ['some']];wantsomegrapes;grapessomewant;0.166666666667;-0.182321556794
+649;[<__main__.Word instance at 0x116a74cb0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+650;[<__main__.Word instance at 0x116a74d88>];William;2_0;False;True;[['sit']];sit;sit;1.0;0.0
+651;"[<__main__.Word instance at 0x116a74f38>
+ <__main__.Word instance at 0x116a74e18>]";William;2_0;False;False;[['sit'], ['want']];wantsit;sitwant;0.5;-0.69314718056
+652;[<__main__.Word instance at 0x116a82050>];William;2_0;False;True;[['sit']];sit;sit;1.0;0.0
+653;[<__main__.Word instance at 0x116a822d8>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+654;[<__main__.Word instance at 0x116a82488>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+655;[<__main__.Word instance at 0x116a821b8>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+656;[<__main__.Word instance at 0x116a82638>];William;2_0;False;True;[['yummy']];yummy;yummy;1.0;0.0
+657;[<__main__.Word instance at 0x116a82758>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+658;[<__main__.Word instance at 0x116a823b0>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+659;[<__main__.Word instance at 0x116a82b48>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+660;[<__main__.Word instance at 0x116a82c20>];William;2_0;False;True;[['flamingo']];flamingo;flamingo;1.0;0.0
+661;[<__main__.Word instance at 0x116a82ea8>];William;2_0;False;True;[['pig']];pig;pig;1.0;0.0
+662;[<__main__.Word instance at 0x116a826c8>];William;2_0;False;True;[['grape']];grape;grape;1.0;0.0
+663;[<__main__.Word instance at 0x116a85518>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+664;[<__main__.Word instance at 0x116a855a8>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+665;"[<__main__.Word instance at 0x116a857e8>
+ <__main__.Word instance at 0x116a85908>]";William;2_0;False;False;[['grapes'], ['want']];wantgrapes;grapeswant;0.5;-0.69314718056
+666;[<__main__.Word instance at 0x116a859e0>];William;2_0;False;True;[['grape']];grape;grape;1.0;0.0
+667;[<__main__.Word instance at 0x116a85cb0>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+668;[<__main__.Word instance at 0x116a85d40>];William;2_0;False;True;[['yummy']];yummy;yummy;1.0;0.0
+669;"[<__main__.Word instance at 0x116a85e60>
+ <__main__.Word instance at 0x116a85b90>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+670;[<__main__.Word instance at 0x116a85638>];William;2_0;False;True;[['more']];more;more;1.0;0.0
+671;[<__main__.Word instance at 0x116a85fc8>];William;2_0;False;True;[['more']];more;more;1.0;0.0
+672;[<__main__.Word instance at 0x116a881b8>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+673;[<__main__.Word instance at 0x116a88680>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+674;[<__main__.Word instance at 0x116a887a0>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+675;[<__main__.Word instance at 0x116a88878>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+676;[<__main__.Word instance at 0x116a887e8>];William;2_0;False;True;[['Evan']];Evan;Evan;1.0;0.0
+677;[<__main__.Word instance at 0x116a88a70>];William;2_0;False;True;[['Evan']];Evan;Evan;1.0;0.0
+678;[<__main__.Word instance at 0x116a88d88>];William;2_0;False;True;[['Evan']];Evan;Evan;1.0;0.0
+679;[<__main__.Word instance at 0x116a88cb0>];William;2_0;False;True;[['Evan']];Evan;Evan;1.0;0.0
+680;[<__main__.Word instance at 0x116a88d40>];William;2_0;False;True;[['mm']];mm;mm;1.0;0.0
+681;[<__main__.Word instance at 0x116a8b248>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+682;"[<__main__.Word instance at 0x116a8b2d8>
+ <__main__.Word instance at 0x116a8b4d0>]";William;2_0;False;True;[['mm'], ['mm']];mmmm;mmmm;0.5;0.69314718056
+683;"[<__main__.Word instance at 0x116a8b5f0>
+ <__main__.Word instance at 0x116a8b200>]";William;2_0;False;True;[['mm'], ['mm']];mmmm;mmmm;0.5;0.69314718056
+684;[<__main__.Word instance at 0x116a8b560>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+685;[<__main__.Word instance at 0x116a8b3f8>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+686;"[<__main__.Word instance at 0x116a8b6c8>
+ <__main__.Word instance at 0x116a8ba70>]";William;2_0;False;True;[['mm', 'hm']];mmhm;mmhm;1.0;0.0
+687;[<__main__.Word instance at 0x116a8be60>];William;2_0;False;True;[['mm']];mm;mm;1.0;0.0
+688;[<__main__.Word instance at 0x116a8bef0>];William;2_0;False;True;[['grapes']];grapes;grapes;1.0;0.0
+689;"[<__main__.Word instance at 0x116a8e170>
+ <__main__.Word instance at 0x116a8e098>
+ <__main__.Word instance at 0x116a8e560>]";William;2_0;False;True;[['mm', 'hm'], ['mm']];mmmmhm;mmmmhm;0.5;0.69314718056
+690;"[<__main__.Word instance at 0x116a8e5f0>
+ <__main__.Word instance at 0x116a8e710>]";William;2_0;False;True;[['mm', 'hm']];mmhm;mmhm;1.0;0.0
+691;[<__main__.Word instance at 0x116a8e7e8>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+692;[<__main__.Word instance at 0x116a8e368>];William;2_0;False;True;[['hello']];hello;hello;1.0;0.0
+693;"[<__main__.Word instance at 0x116a8ea28>
+ <__main__.Word instance at 0x116a8ee18>]";William;2_0;False;True;[['mm'], ['mm']];mmmm;mmmm;0.5;0.69314718056
+694;[<__main__.Word instance at 0x116a8ef80>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+695;"[<__main__.Word instance at 0x116a8eef0>
+ <__main__.Word instance at 0x116a91098>
+ <__main__.Word instance at 0x116a91170>]";William;2_0;False;False;[['car'], ['red'], ['look']];lookredcar;redcarlook;0.166666666667;-0.182321556794
+696;"[<__main__.Word instance at 0x116a91200>
+ <__main__.Word instance at 0x116a915f0>
+ <__main__.Word instance at 0x116a91518>]";William;2_0;False;False;[['red'], ['car'], ['look']];lookredcar;redcarlook;0.166666666667;-0.182321556794
+697;"[<__main__.Word instance at 0x116a91488>
+ <__main__.Word instance at 0x116a91998>]";William;2_0;False;True;[['red'], ['car']];redcar;redcar;0.5;0.69314718056
+698;"[<__main__.Word instance at 0x116a91a70>
+ <__main__.Word instance at 0x116a91c20>
+ <__main__.Word instance at 0x116a91b00>]";William;2_0;False;True;[['tractor'], ['look'], ['a']];lookatractor;lookatractor;0.166666666667;1.79175946923
+699;"[<__main__.Word instance at 0x116a91cf8>
+ <__main__.Word instance at 0x116a91f80>
+ <__main__.Word instance at 0x116a91638>]";William;2_0;False;True;[['bulldozer'], ['a'], ['look']];lookabulldozer;lookabulldozer;0.166666666667;1.79175946923
+700;"[<__main__.Word instance at 0x116a942d8>
+ <__main__.Word instance at 0x116a941b8>]";William;2_0;False;True;[['here'], ['right']];righthere;righthere;0.5;0.69314718056
+701;"[<__main__.Word instance at 0x116a94518>
+ <__main__.Word instance at 0x116a94680>]";William;2_0;False;True;[['right'], ['here']];righthere;righthere;0.5;0.69314718056
+702;[<__main__.Word instance at 0x116a944d0>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+703;"[<__main__.Word instance at 0x116a94908>
+ <__main__.Word instance at 0x116a94ab8>]";William;2_0;False;True;[['oh'], ['oh']];ohoh;ohoh;0.5;0.69314718056
+704;[<__main__.Word instance at 0x116a94c68>];William;2_0;False;True;[['orange']];orange;orange;1.0;0.0
+705;[<__main__.Word instance at 0x116a94dd0>];William;2_0;False;True;[['orange']];orange;orange;1.0;0.0
+706;[<__main__.Word instance at 0x116a94ea8>];William;2_0;False;True;[['orange']];orange;orange;1.0;0.0
+707;[<__main__.Word instance at 0x116a94f38>];William;2_0;False;True;[['orange']];orange;orange;1.0;0.0
+708;[<__main__.Word instance at 0x116a97320>];William;2_0;False;True;[['orange']];orange;orange;1.0;0.0
+709;"[<__main__.Word instance at 0x116a97560>
+ <__main__.Word instance at 0x116a97440>]";William;2_0;False;True;[['orange'], ['juice']];orangejuice;orangejuice;0.5;0.69314718056
+710;[<__main__.Word instance at 0x116a97638>];William;2_0;False;True;[['pumpkin']];pumpkin;pumpkin;1.0;0.0
+711;[<__main__.Word instance at 0x116a975a8>];William;2_0;False;True;[['look']];look;look;1.0;0.0
+712;[<__main__.Word instance at 0x116a97248>];William;2_0;False;True;[['tiger']];tiger;tiger;1.0;0.0
+713;[<__main__.Word instance at 0x116a979e0>];William;2_0;False;True;[['ball']];ball;ball;1.0;0.0
+714;[<__main__.Word instance at 0x116a97b90>];William;2_0;False;True;[['ball']];ball;ball;1.0;0.0
+715;"[<__main__.Word instance at 0x116a97950>
+ <__main__.Word instance at 0x116a97ef0>]";William;2_0;False;True;[['look', 'airplane']];lookairplane;lookairplane;1.0;0.0
+716;[<__main__.Word instance at 0x116a97fc8>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+717;"[<__main__.Word instance at 0x116a9a2d8>
+ <__main__.Word instance at 0x116a9a248>]";William;2_0;False;True;[['wiggle'], ['wiggle']];wigglewiggle;wigglewiggle;0.5;0.69314718056
+718;[<__main__.Word instance at 0x116a9a320>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+719;"[<__main__.Word instance at 0x116a9a440>
+ <__main__.Word instance at 0x116a9a758>
+ <__main__.Word instance at 0x116a9a5f0>]";William;2_0;False;False;[['time'], ['more'], ['one']];onemoretime;onetimemore;0.166666666667;-0.182321556794
+720;[<__main__.Word instance at 0x116a9a518>];William;2_0;False;True;[['waggle']];waggle;waggle;1.0;0.0
+721;"[<__main__.Word instance at 0x116a9a950>
+ <__main__.Word instance at 0x116a9aa28>
+ <__main__.Word instance at 0x116a9a8c0>]";William;2_0;False;False;[['one'], ['time'], ['more']];onemoretime;onetimemore;0.166666666667;-0.182321556794
+722;[<__main__.Word instance at 0x116a9aab8>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+723;"[<__main__.Word instance at 0x116a9a830>
+ <__main__.Word instance at 0x116a9ae60>]";William;2_0;False;True;[['wiggle'], ['wiggle']];wigglewiggle;wigglewiggle;0.5;0.69314718056
+724;[<__main__.Word instance at 0x116a9af38>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+725;[<__main__.Word instance at 0x116a9afc8>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+726;[<__main__.Word instance at 0x116a9d1b8>];William;2_0;False;True;[['ow']];ow;ow;1.0;0.0
+727;[<__main__.Word instance at 0x116a9d3f8>];William;2_0;False;True;[['home']];home;home;1.0;0.0
+728;[<__main__.Word instance at 0x116a9d488>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+729;[<__main__.Word instance at 0x116a9d6c8>];William;2_0;False;True;[['do']];do;do;1.0;0.0
+730;[<__main__.Word instance at 0x116a9d7e8>];William;2_0;False;True;[['dance']];dance;dance;1.0;0.0
+731;[<__main__.Word instance at 0x116a9d908>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+732;[<__main__.Word instance at 0x116a9d9e0>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+733;[<__main__.Word instance at 0x116a9da70>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+734;[<__main__.Word instance at 0x116a9dc20>];William;2_0;False;True;[['wiggle']];wiggle;wiggle;1.0;0.0
+735;"[<__main__.Word instance at 0x116a9de18>
+ <__main__.Word instance at 0x116a9dcf8>]";William;2_0;False;True;[['loo', 'loo']];looloo;looloo;1.0;0.0
+736;"[<__main__.Word instance at 0x116a9dea8>
+ <__main__.Word instance at 0x116aa01b8>]";William;2_0;False;True;[['loo', 'loo']];looloo;looloo;1.0;0.0
+737;[<__main__.Word instance at 0x116aa0440>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+738;[<__main__.Word instance at 0x116aa0518>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+739;"[<__main__.Word instance at 0x116aa0710>
+ <__main__.Word instance at 0x116aa05a8>
+ <__main__.Word instance at 0x116aa07a0>]";William;2_0;False;False;[['no'], ['loo', 'loo']];nolooloo;looloono;0.5;-0.69314718056
+740;[<__main__.Word instance at 0x116aa0998>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+741;[<__main__.Word instance at 0x116aa0ab8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+742;[<__main__.Word instance at 0x116aa0b48>];William;2_0;False;True;[['wee']];wee;wee;1.0;0.0
+743;[<__main__.Word instance at 0x116aa0cf8>];William;2_0;False;True;[['wee']];wee;wee;1.0;0.0
+744;"[<__main__.Word instance at 0x116aa0e60>
+ <__main__.Word instance at 0x116aa0d88>
+ <__main__.Word instance at 0x116aa0f38>]";William;2_0;False;False;"[['fix'], [""I'll""], ['it']]";I'llfixit;itI'llfix;0.166666666667;-0.182321556794
+745;[<__main__.Word instance at 0x116aa0fc8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+746;[<__main__.Word instance at 0x116aa32d8>];William;2_0;False;True;[['yay']];yay;yay;1.0;0.0
+747;[<__main__.Word instance at 0x116aa3488>];William;2_0;False;True;[['go']];go;go;1.0;0.0
+748;[<__main__.Word instance at 0x116aa3680>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+749;[<__main__.Word instance at 0x116aa3710>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+750;[<__main__.Word instance at 0x116aa3a70>];William;2_0;False;True;[['watching']];watching;watching;1.0;0.0
+751;[<__main__.Word instance at 0x116aa3b00>];William;2_0;False;True;[['yay']];yay;yay;1.0;0.0
+752;[<__main__.Word instance at 0x116aa3e18>];William;2_0;False;True;[['baby']];baby;baby;1.0;0.0
+753;[<__main__.Word instance at 0x116aa3e60>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+754;"[<__main__.Word instance at 0x116aa3f80>
+ <__main__.Word instance at 0x116aa37a0>
+ <__main__.Word instance at 0x116aa6050>
+ <__main__.Word instance at 0x116aa6320>]";William;2_0;False;False;[['the'], ['baby'], ['I'], ['see']];Iseethebaby;seethebabyI;0.0416666666667;-0.0425596144188
+755;[<__main__.Word instance at 0x116aa6518>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+756;"[<__main__.Word instance at 0x116aa6710>
+ <__main__.Word instance at 0x116aa6170>]";William;2_0;False;True;[['baby'], ['a']];ababy;ababy;0.5;0.69314718056
+757;"[<__main__.Word instance at 0x116aa6a28>
+ <__main__.Word instance at 0x116aa6560>]";William;2_0;False;True;[['baby'], ['my']];mybaby;mybaby;0.5;0.69314718056
+758;"[<__main__.Word instance at 0x116aa69e0>
+ <__main__.Word instance at 0x116aa6dd0>
+ <__main__.Word instance at 0x116aa6cf8>]";William;2_0;False;True;[['beep'], ['beep'], ['beep']];beepbeepbeep;beepbeepbeep;0.166666666667;1.79175946923
+759;[<__main__.Word instance at 0x116aa6e60>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+760;[<__main__.Word instance at 0x116aa68c0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+761;[<__main__.Word instance at 0x116aa91b8>];William;2_0;False;True;[['shoes']];shoes;shoes;1.0;0.0
+762;[<__main__.Word instance at 0x116aa93f8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+763;[<__main__.Word instance at 0x116aa9758>];William;2_0;False;True;[['shoes']];shoes;shoes;1.0;0.0
+764;[<__main__.Word instance at 0x116aa97e8>];William;2_0;False;True;[['shoes']];shoes;shoes;1.0;0.0
+765;[<__main__.Word instance at 0x116aa99e0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+766;[<__main__.Word instance at 0x116aa9b00>];William;2_0;False;True;[['shoes']];shoes;shoes;1.0;0.0
+767;[<__main__.Word instance at 0x116aa94d0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+768;[<__main__.Word instance at 0x116aa9998>];William;2_0;False;True;[['ball']];ball;ball;1.0;0.0
+769;[<__main__.Word instance at 0x116aa9e60>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+770;[<__main__.Word instance at 0x116aa9bd8>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+771;[<__main__.Word instance at 0x116aac440>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+772;"[<__main__.Word instance at 0x116aac4d0>
+ <__main__.Word instance at 0x116aac6c8>
+ <__main__.Word instance at 0x116aac3b0>]";William;2_0;False;False;[['ball'], ['oh'], ['football']];ohballfootball;footballballoh;0.166666666667;-0.182321556794
+773;[<__main__.Word instance at 0x116aac7a0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+774;[<__main__.Word instance at 0x116aac638>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+775;[<__main__.Word instance at 0x116aaca28>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+776;"[<__main__.Word instance at 0x116aacb48>
+ <__main__.Word instance at 0x116aacd88>]";William;2_0;False;False;[['it'], ['do']];doit;itdo;0.5;-0.69314718056
+777;[<__main__.Word instance at 0x116aacf38>];William;2_0;False;True;[['Elmo']];Elmo;Elmo;1.0;0.0
+778;[<__main__.Word instance at 0x116ab2050>];William;2_0;False;True;[['Elmo']];Elmo;Elmo;1.0;0.0
+779;[<__main__.Word instance at 0x116ab2290>];William;2_0;False;True;[['Elmo']];Elmo;Elmo;1.0;0.0
+780;[<__main__.Word instance at 0x116ab2488>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+781;[<__main__.Word instance at 0x116ab2638>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+782;[<__main__.Word instance at 0x116ab27e8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+783;[<__main__.Word instance at 0x116ab2998>];William;2_0;False;True;[['hi']];hi;hi;1.0;0.0
+784;[<__main__.Word instance at 0x116ab2b48>];William;2_0;False;True;[['train']];train;train;1.0;0.0
+785;[<__main__.Word instance at 0x116ab2cf8>];William;2_0;False;True;[['kick']];kick;kick;1.0;0.0
+786;[<__main__.Word instance at 0x116ab2ea8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+787;[<__main__.Word instance at 0x116aaf170>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+788;"[<__main__.Word instance at 0x116aaf488>
+ <__main__.Word instance at 0x116aaf3f8>]";William;2_0;False;True;[['kick'], ['yay']];yaykick;yaykick;0.5;0.69314718056
+789;[<__main__.Word instance at 0x116aaf128>];William;2_0;False;True;[['yay']];yay;yay;1.0;0.0
+790;[<__main__.Word instance at 0x116aaf290>];William;2_0;False;True;[['kick']];kick;kick;1.0;0.0
+791;[<__main__.Word instance at 0x116aaf518>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+792;"[<__main__.Word instance at 0x116aaf200>
+ <__main__.Word instance at 0x116aaf998>
+ <__main__.Word instance at 0x116aaf878>
+ <__main__.Word instance at 0x116aafcb0>]";William;2_0;False;False;[['no'], ['play', 'ball'], ['to']];notoplayball;toplayballno;0.166666666667;-0.182321556794
+793;"[<__main__.Word instance at 0x116aafd40>
+ <__main__.Word instance at 0x116aafb00>]";William;2_0;False;True;[['no'], ['ball']];noball;noball;0.5;0.69314718056
+794;[<__main__.Word instance at 0x116aafdd0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+795;[<__main__.Word instance at 0x116aaf7e8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+796;"[<__main__.Word instance at 0x116ab5200>
+ <__main__.Word instance at 0x116ab5368>
+ <__main__.Word instance at 0x116ab5248>]";William;2_0;False;True;[['off'], ['take'], ['it']];takeitoff;takeitoff;0.166666666667;1.79175946923
+797;[<__main__.Word instance at 0x116ab5440>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+798;"[<__main__.Word instance at 0x116ab5518>
+ <__main__.Word instance at 0x116ab58c0>
+ <__main__.Word instance at 0x116ab5758>]";William;2_0;False;True;[['take'], ['it'], ['off']];takeitoff;takeitoff;0.166666666667;1.79175946923
+799;[<__main__.Word instance at 0x116ab55f0>];William;2_0;False;True;[['mommy']];mommy;mommy;1.0;0.0
+800;"[<__main__.Word instance at 0x116ab5a70>
+ <__main__.Word instance at 0x116ab5e60>
+ <__main__.Word instance at 0x116ab5d88>]";William;2_0;False;True;[['off'], ['take'], ['it']];takeitoff;takeitoff;0.166666666667;1.79175946923
+801;[<__main__.Word instance at 0x116ab5fc8>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+802;"[<__main__.Word instance at 0x116ab81b8>
+ <__main__.Word instance at 0x116ab8488>]";William;2_0;False;True;[['here'], ['here']];herehere;herehere;0.5;0.69314718056
+803;"[<__main__.Word instance at 0x116ab85a8>
+ <__main__.Word instance at 0x116ab8518>]";William;2_0;False;False;"[['this'], [""what's""]]";what'sthis;thiswhat's;0.5;-0.69314718056
+804;[<__main__.Word instance at 0x116ab8200>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+805;[<__main__.Word instance at 0x116ab8560>];William;2_0;False;True;[['pocket']];pocket;pocket;1.0;0.0
+806;[<__main__.Word instance at 0x116ab8950>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+807;[<__main__.Word instance at 0x116ab87e8>];William;2_0;False;True;[['pocket']];pocket;pocket;1.0;0.0
+808;[<__main__.Word instance at 0x116ab8a70>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+809;[<__main__.Word instance at 0x116ab8cf8>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+810;[<__main__.Word instance at 0x116ab8c68>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+811;"[<__main__.Word instance at 0x116ab8e60>
+ <__main__.Word instance at 0x116ab8440>
+ <__main__.Word instance at 0x116ab8f80>]";William;2_0;False;True;[['is'], ['it'], ['here']];hereitis;hereitis;0.166666666667;1.79175946923
+812;[<__main__.Word instance at 0x116abb098>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+813;[<__main__.Word instance at 0x116abb128>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+814;[<__main__.Word instance at 0x116abb518>];William;2_0;False;True;[['pocket']];pocket;pocket;1.0;0.0
+815;[<__main__.Word instance at 0x116abb908>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+816;[<__main__.Word instance at 0x116abb998>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+817;[<__main__.Word instance at 0x116abbab8>];William;2_0;False;True;[['go']];go;go;1.0;0.0
+818;[<__main__.Word instance at 0x116abbc20>];William;2_0;False;True;[['school']];school;school;1.0;0.0
+819;[<__main__.Word instance at 0x116abbe18>];William;2_0;False;True;[['bus']];bus;bus;1.0;0.0
+820;[<__main__.Word instance at 0x116abe248>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+821;[<__main__.Word instance at 0x116abe368>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+822;[<__main__.Word instance at 0x116abe098>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+823;[<__main__.Word instance at 0x116abe9e0>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+824;[<__main__.Word instance at 0x116abeb48>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+825;[<__main__.Word instance at 0x116abeb00>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+826;[<__main__.Word instance at 0x116abe758>];William;2_0;False;True;[['uhuh']];uhuh;uhuh;1.0;0.0
+827;"[<__main__.Word instance at 0x116abe7e8>
+ <__main__.Word instance at 0x116abebd8>
+ <__main__.Word instance at 0x116abeef0>]";William;2_0;False;False;[['red'], ['go'], ['where']];whereredgo;redwherego;0.166666666667;-0.182321556794
+828;[<__main__.Word instance at 0x116ac1290>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+829;"[<__main__.Word instance at 0x116ac1320>
+ <__main__.Word instance at 0x116ac14d0>
+ <__main__.Word instance at 0x116ac13b0>]";William;2_0;False;True;[['red'], ['here'], ['right']];redrighthere;redrighthere;0.166666666667;1.79175946923
+830;[<__main__.Word instance at 0x116ac15a8>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+831;"[<__main__.Word instance at 0x116ac1440>
+ <__main__.Word instance at 0x116ac1998>]";William;2_0;False;True;[['&-uh'], ['hi']];&-uhhi;&-uhhi;0.5;0.69314718056
+832;"[<__main__.Word instance at 0x116ac1b48>
+ <__main__.Word instance at 0x116ac1a28>]";William;2_0;False;True;[['Dad'], ['hi']];hiDad;hiDad;0.5;0.69314718056
+833;"[<__main__.Word instance at 0x116ac1560>
+ <__main__.Word instance at 0x116ac1cb0>
+ <__main__.Word instance at 0x116ac19e0>
+ <__main__.Word instance at 0x116ac1f80>
+ <__main__.Word instance at 0x116ac1ef0>]";William;2_0;False;True;[['bagel'], ['bagel'], ['bagel'], ['bagel'], ['bagel']];bagelbagelbagelbagelbagel;bagelbagelbagelbagelbagel;0.00833333333333;4.78749174278
+834;[<__main__.Word instance at 0x116ac1ea8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+835;"[<__main__.Word instance at 0x116ac1b00>
+ <__main__.Word instance at 0x116ac4050>]";William;2_0;False;True;[['blues'], ['my']];myblues;myblues;0.5;0.69314718056
+836;"[<__main__.Word instance at 0x116ac41b8>
+ <__main__.Word instance at 0x116ac4440>]";William;2_0;False;True;[['my'], ['blues']];myblues;myblues;0.5;0.69314718056
+837;"[<__main__.Word instance at 0x116ac44d0>
+ <__main__.Word instance at 0x116ac42d8>
+ <__main__.Word instance at 0x116ac4680>
+ <__main__.Word instance at 0x116ac4560>]";William;2_0;False;False;[['look', 'at'], ['red'], ['dad']];dadlookatred;reddadlookat;0.166666666667;-0.182321556794
+838;"[<__main__.Word instance at 0x116ac4758>
+ <__main__.Word instance at 0x116ac4950>
+ <__main__.Word instance at 0x116ac4710>]";William;2_0;False;False;[['my'], ['no'], ['pocket']];nomypocket;pocketnomy;0.166666666667;-0.182321556794
+839;"[<__main__.Word instance at 0x116ac4b90>
+ <__main__.Word instance at 0x116ac4a70>]";William;2_0;False;True;[['my'], ['blues']];myblues;myblues;0.5;0.69314718056
+840;"[<__main__.Word instance at 0x116ac4c68>
+ <__main__.Word instance at 0x116ac4f38>]";William;2_0;False;True;[['my'], ['blues']];myblues;myblues;0.5;0.69314718056
+841;"[<__main__.Word instance at 0x116ac4f80>
+ <__main__.Word instance at 0x116ac7098>
+ <__main__.Word instance at 0x116ac72d8>
+ <__main__.Word instance at 0x116ac7248>
+ <__main__.Word instance at 0x116ac7368>]";William;2_0;False;True;[['bagel'], ['bagel'], ['bagel'], ['bagel'], ['bagel']];bagelbagelbagelbagelbagel;bagelbagelbagelbagelbagel;0.00833333333333;4.78749174278
+842;[<__main__.Word instance at 0x116ac7440>];William;2_0;False;True;[['bagel']];bagel;bagel;1.0;0.0
+843;[<__main__.Word instance at 0x116ac7758>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+844;[<__main__.Word instance at 0x116ac77e8>];William;2_0;False;True;[['dad']];dad;dad;1.0;0.0
+845;"[<__main__.Word instance at 0x116ac7b48>
+ <__main__.Word instance at 0x116ac74d0>
+ <__main__.Word instance at 0x116ac7bd8>]";William;2_0;False;True;[['mom'], ['a', 'kiss']];akissmom;akissmom;0.5;0.69314718056
+846;"[<__main__.Word instance at 0x116ac7c20>
+ <__main__.Word instance at 0x116ac7b00>
+ <__main__.Word instance at 0x116ac7e18>]";William;2_0;False;False;[['mom'], ['a'], ['kiss']];momakiss;akissmom;0.166666666667;-0.182321556794
+847;"[<__main__.Word instance at 0x116ac7908>
+ <__main__.Word instance at 0x116ac7a28>]";William;2_0;False;True;[['a', 'kiss']];akiss;akiss;1.0;0.0
+848;"[<__main__.Word instance at 0x116aca098>
+ <__main__.Word instance at 0x116aca128>
+ <__main__.Word instance at 0x116aca1b8>
+ <__main__.Word instance at 0x116aca4d0>
+ <__main__.Word instance at 0x116aca3b0>]";William;2_0;False;False;[['a', 'kiss'], ['dad'], ['a', 'kiss']];dadakissakiss;akissdadakiss;0.166666666667;-0.182321556794
+849;[<__main__.Word instance at 0x116aca5a8>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+850;"[<__main__.Word instance at 0x116aca680>
+ <__main__.Word instance at 0x116acaa28>
+ <__main__.Word instance at 0x116aca8c0>]";William;2_0;False;False;"[['red'], [""it's""], ['my']]";it'smyred;redit'smy;0.166666666667;-0.182321556794
+851;"[<__main__.Word instance at 0x116aca7a0>
+ <__main__.Word instance at 0x116acab48>]";William;2_0;False;False;"[[""what's""], ['this']]";what'sthis;thiswhat's;0.5;-0.69314718056
+852;[<__main__.Word instance at 0x116acac68>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+853;"[<__main__.Word instance at 0x116acad88>
+ <__main__.Word instance at 0x116acacb0>
+ <__main__.Word instance at 0x116acaea8>]";William;2_0;False;True;[['here'], ['red'], ['right']];rightherered;rightherered;0.166666666667;1.79175946923
+854;"[<__main__.Word instance at 0x116acabd8>
+ <__main__.Word instance at 0x116acaef0>
+ <__main__.Word instance at 0x116acd128>
+ <__main__.Word instance at 0x116acd170>]";William;2_0;False;False;[['we'], ['go'], ['here'], ['okay']];okayherewego;wegookayhere;0.0416666666667;-0.0425596144188
+855;"[<__main__.Word instance at 0x116acd368>
+ <__main__.Word instance at 0x116acd6c8>]";William;2_0;False;True;[['we'], ['go']];wego;wego;0.5;0.69314718056
+856;[<__main__.Word instance at 0x116acd710>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+857;[<__main__.Word instance at 0x116acda28>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+858;[<__main__.Word instance at 0x116acdab8>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+859;[<__main__.Word instance at 0x116acdb90>];William;2_0;False;True;[['green']];green;green;1.0;0.0
+860;[<__main__.Word instance at 0x116acdd40>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+861;[<__main__.Word instance at 0x116acdfc8>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+862;"[<__main__.Word instance at 0x116acdef0>
+ <__main__.Word instance at 0x116acdcf8>
+ <__main__.Word instance at 0x116ad0128>]";William;2_0;False;False;[['get'], ['I'], ['it']];Igetit;itIget;0.166666666667;-0.182321556794
+863;"[<__main__.Word instance at 0x116ad0248>
+ <__main__.Word instance at 0x116ad0170>
+ <__main__.Word instance at 0x116ad0560>]";William;2_0;False;False;"[[""it's""], ['red'], ['my']]";it'smyred;redit'smy;0.166666666667;-0.182321556794
+864;"[<__main__.Word instance at 0x116ad0758>
+ <__main__.Word instance at 0x116ad0488>
+ <__main__.Word instance at 0x116ad07a0>]";William;2_0;False;False;"[['my'], ['red'], [""it's""]]";it'smyred;redit'smy;0.166666666667;-0.182321556794
+865;[<__main__.Word instance at 0x116ad0680>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+866;"[<__main__.Word instance at 0x116ad04d0>
+ <__main__.Word instance at 0x116ad0b00>]";William;2_0;False;True;[['dad'], ['dad']];daddad;daddad;0.5;0.69314718056
+867;"[<__main__.Word instance at 0x116ad0878>
+ <__main__.Word instance at 0x116ad0d40>
+ <__main__.Word instance at 0x116ad0bd8>]";William;2_0;False;False;[['come'], ['dad'], ['back']];dadcomeback;comebackdad;0.166666666667;-0.182321556794
+868;[<__main__.Word instance at 0x116ad0950>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+869;[<__main__.Word instance at 0x116ad0cf8>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+870;[<__main__.Word instance at 0x116ad41b8>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+871;[<__main__.Word instance at 0x116ad43b0>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+872;[<__main__.Word instance at 0x116ad45f0>];William;2_0;False;True;[['bye']];bye;bye;1.0;0.0
+873;[<__main__.Word instance at 0x116ad4710>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+874;[<__main__.Word instance at 0x116ad47a0>];William;2_0;False;True;[['kiss']];kiss;kiss;1.0;0.0
+875;"[<__main__.Word instance at 0x116ad45a8>
+ <__main__.Word instance at 0x116ad4908>]";William;2_0;False;True;[['a', 'kiss']];akiss;akiss;1.0;0.0
+876;"[<__main__.Word instance at 0x116ad49e0>
+ <__main__.Word instance at 0x116ad4518>]";William;2_0;False;True;[['a', 'kiss']];akiss;akiss;1.0;0.0
+877;"[<__main__.Word instance at 0x116ad4ab8>
+ <__main__.Word instance at 0x116ad4e60>]";William;2_0;False;True;[['dad'], ['kiss']];dadkiss;dadkiss;0.5;0.69314718056
+878;"[<__main__.Word instance at 0x116ad4f80>
+ <__main__.Word instance at 0x116ad4ea8>]";William;2_0;False;False;[['water'], ['dad']];dadwater;waterdad;0.5;-0.69314718056
+879;[<__main__.Word instance at 0x116ad6170>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+880;[<__main__.Word instance at 0x116ad60e0>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+881;"[<__main__.Word instance at 0x116ad6560>
+ <__main__.Word instance at 0x116ad67a0>
+ <__main__.Word instance at 0x116ad66c8>]";William;2_0;False;True;[['red'], ['red'], ['red']];redredred;redredred;0.166666666667;1.79175946923
+882;[<__main__.Word instance at 0x116ad68c0>];William;2_0;False;True;[['juice']];juice;juice;1.0;0.0
+883;[<__main__.Word instance at 0x116ad6758>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+884;"[<__main__.Word instance at 0x116ad6b00>
+ <__main__.Word instance at 0x116ad6e18>]";William;2_0;False;False;[['okay'], ['yeah']];yeahokay;okayyeah;0.5;-0.69314718056
+885;[<__main__.Word instance at 0x116ad6ea8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+886;[<__main__.Word instance at 0x116ada050>];William;2_0;False;True;[['red']];red;red;1.0;0.0
+887;"[<__main__.Word instance at 0x116ada290>
+ <__main__.Word instance at 0x116ada098>]";William;2_0;False;True;[['red'], ['&-uh']];&-uhred;&-uhred;0.5;0.69314718056
+888;[<__main__.Word instance at 0x116ada368>];William;2_0;False;True;[['green']];green;green;1.0;0.0
+889;[<__main__.Word instance at 0x116ada680>];William;2_0;False;True;[['bagel']];bagel;bagel;1.0;0.0
+890;"[<__main__.Word instance at 0x116ada7e8>
+ <__main__.Word instance at 0x116adab90>
+ <__main__.Word instance at 0x116adab00>
+ <__main__.Word instance at 0x116adac20>
+ <__main__.Word instance at 0x116ada1b8>
+ <__main__.Word instance at 0x116adaef0>]";William;2_0;False;False;[['I', 'want'], ['I', 'want'], ['red'], ['red']];IwantredIwantred;IwantredredIwant;0.0416666666667;-0.0425596144188
+891;[<__main__.Word instance at 0x116adaf80>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+892;"[<__main__.Word instance at 0x116adaf38>
+ <__main__.Word instance at 0x116add098>]";William;2_0;False;False;[['uhoh'], ['reds']];uhohreds;redsuhoh;0.5;-0.69314718056
+893;"[<__main__.Word instance at 0x116add290>
+ <__main__.Word instance at 0x116add830>
+ <__main__.Word instance at 0x116add758>]";William;2_0;False;True;[['ah'], ['red'], ['red']];ahredred;ahredred;0.166666666667;1.79175946923
+894;[<__main__.Word instance at 0x116add998>];William;2_0;False;True;[['hippopotamus']];hippopotamus;hippopotamus;1.0;0.0
+895;[<__main__.Word instance at 0x116add8c0>];William;2_0;False;True;[['cat']];cat;cat;1.0;0.0
+896;"[<__main__.Word instance at 0x116addef0>
+ <__main__.Word instance at 0x116adde18>]";William;2_0;False;False;[['dolphin'], ['no']];nodolphin;dolphinno;0.5;-0.69314718056
+897;[<__main__.Word instance at 0x116ae0098>];William;2_0;False;True;[['apple']];apple;apple;1.0;0.0
+898;[<__main__.Word instance at 0x116ae0290>];William;2_0;False;True;[['pear']];pear;pear;1.0;0.0
+899;[<__main__.Word instance at 0x116ae03f8>];William;2_0;False;True;[['fish']];fish;fish;1.0;0.0
+900;"[<__main__.Word instance at 0x116ae0128>
+ <__main__.Word instance at 0x116ae06c8>]";William;2_0;False;False;"[[""what's""], ['that']]";what'sthat;thatwhat's;0.5;-0.69314718056
+901;"[<__main__.Word instance at 0x116ae07a0>
+ <__main__.Word instance at 0x116ae08c0>
+ <__main__.Word instance at 0x116ae0200>]";William;2_0;False;False;[['hey'], ['rabbit'], ['bunny']];bunnyrabbithey;heyrabbitbunny;0.166666666667;-0.182321556794
+902;"[<__main__.Word instance at 0x116ae07e8>
+ <__main__.Word instance at 0x116ae0c68>]";William;2_0;False;True;[['the', 'end']];theend;theend;1.0;0.0
+903;"[<__main__.Word instance at 0x116ae0e18>
+ <__main__.Word instance at 0x116ae0cf8>]";William;2_0;False;False;[['okay'], ['blues']];okayblues;bluesokay;0.5;-0.69314718056
+904;[<__main__.Word instance at 0x116ae0ea8>];William;2_0;False;True;[['duck']];duck;duck;1.0;0.0
+905;[<__main__.Word instance at 0x116ae4200>];William;2_0;False;True;[['welcome']];welcome;welcome;1.0;0.0
+906;"[<__main__.Word instance at 0x116ae44d0>
+ <__main__.Word instance at 0x116ae49e0>]";William;2_0;False;False;[['blues'], ['draw']];drawblues;bluesdraw;0.5;-0.69314718056
+907;[<__main__.Word instance at 0x116ae4b48>];William;2_0;False;True;[['here']];here;here;1.0;0.0
+908;[<__main__.Word instance at 0x116ae4cb0>];William;2_0;False;True;[['green']];green;green;1.0;0.0
+909;"[<__main__.Word instance at 0x116ae4cf8>
+ <__main__.Word instance at 0x116ae4bd8>
+ <__main__.Word instance at 0x116ae4ea8>
+ <__main__.Word instance at 0x116ae4d88>]";William;2_0;False;False;[['juice'], ['oh'], ['juice'], ['good']];ohjuicegoodjuice;goodohjuicejuice;0.0416666666667;-0.0425596144188
+910;"[<__main__.Word instance at 0x116ae70e0>
+ <__main__.Word instance at 0x116ae7170>]";William;2_0;False;True;[['all', 'done']];alldone;alldone;1.0;0.0
+911;"[<__main__.Word instance at 0x116ae7518>
+ <__main__.Word instance at 0x116ae7290>
+ <__main__.Word instance at 0x116ae75f0>]";William;2_0;False;True;[['I', 'want'], ['blues']];Iwantblues;Iwantblues;0.5;0.69314718056
+912;[<__main__.Word instance at 0x116ae7758>];William;2_0;False;True;[['purple']];purple;purple;1.0;0.0
+913;[<__main__.Word instance at 0x116ae7830>];William;2_0;False;True;[['purple']];purple;purple;1.0;0.0
+914;[<__main__.Word instance at 0x116ae78c0>];William;2_0;False;True;[['purple']];purple;purple;1.0;0.0
+915;[<__main__.Word instance at 0x116ae7b00>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+916;[<__main__.Word instance at 0x116ae7c68>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+917;"[<__main__.Word instance at 0x116ae7e60>
+ <__main__.Word instance at 0x116ae7d88>
+ <__main__.Word instance at 0x116ae7fc8>
+ <__main__.Word instance at 0x116ae7ef0>
+ <__main__.Word instance at 0x116ae7ea8>]";William;2_0;False;True;[['yeah'], ['yeah'], ['yeah'], ['yeah'], ['yeah']];yeahyeahyeahyeahyeah;yeahyeahyeahyeahyeah;0.00833333333333;4.78749174278
+918;"[<__main__.Word instance at 0x116aea2d8>
+ <__main__.Word instance at 0x116aea248>
+ <__main__.Word instance at 0x116aea4d0>
+ <__main__.Word instance at 0x116aea3f8>
+ <__main__.Word instance at 0x116aea758>]";William;2_0;False;True;[['yeah'], ['yeah'], ['yeah'], ['yeah'], ['yeah']];yeahyeahyeahyeahyeah;yeahyeahyeahyeahyeah;0.00833333333333;4.78749174278
+919;"[<__main__.Word instance at 0x116aea7e8>
+ <__main__.Word instance at 0x116aea1b8>
+ <__main__.Word instance at 0x116aea8c0>]";William;2_0;False;True;[['yeah'], ['yeah'], ['yeah']];yeahyeahyeah;yeahyeahyeah;0.166666666667;1.79175946923
+920;"[<__main__.Word instance at 0x116aeaa70>
+ <__main__.Word instance at 0x116aea950>
+ <__main__.Word instance at 0x116aeac20>]";William;2_0;False;False;[['yes'], ['yeah'], ['yeah']];yeahyeahyes;yeahyesyeah;0.166666666667;-0.182321556794
+921;[<__main__.Word instance at 0x116aeadd0>];William;2_0;False;True;[['bagel']];bagel;bagel;1.0;0.0
+922;[<__main__.Word instance at 0x116aeafc8>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+923;"[<__main__.Word instance at 0x116aed098>
+ <__main__.Word instance at 0x116aed0e0>]";William;2_0;False;False;[['go'], ['me']];mego;gome;0.5;-0.69314718056
+924;[<__main__.Word instance at 0x116aed1b8>];William;2_0;False;True;[['mom']];mom;mom;1.0;0.0
+925;[<__main__.Word instance at 0x116aed5f0>];William;2_0;False;True;[['bagel']];bagel;bagel;1.0;0.0
+926;"[<__main__.Word instance at 0x116aed710>
+ <__main__.Word instance at 0x116aed758>]";William;2_0;False;True;[['okay'], ['okay']];okayokay;okayokay;0.5;0.69314718056
+927;[<__main__.Word instance at 0x116aed6c8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+928;[<__main__.Word instance at 0x116aed680>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+929;[<__main__.Word instance at 0x116aedb48>];William;2_0;False;True;[['oh']];oh;oh;1.0;0.0
+930;[<__main__.Word instance at 0x116aed950>];William;2_0;False;True;[['butter']];butter;butter;1.0;0.0
+931;"[<__main__.Word instance at 0x116aed9e0>
+ <__main__.Word instance at 0x116aedd88>
+ <__main__.Word instance at 0x116aedab8>]";William;2_0;False;False;[['I'], ['it'], ['butter']];Ibutterit;itIbutter;0.166666666667;-0.182321556794
+932;"[<__main__.Word instance at 0x116af00e0>
+ <__main__.Word instance at 0x116af01b8>]";William;2_0;False;False;[['butter'], ['it']];butterit;itbutter;0.5;-0.69314718056
+933;[<__main__.Word instance at 0x116af0248>];William;2_0;False;True;[['ah']];ah;ah;1.0;0.0
+934;[<__main__.Word instance at 0x116af0488>];William;2_0;False;True;[['cold']];cold;cold;1.0;0.0
+935;[<__main__.Word instance at 0x116af05f0>];William;2_0;False;True;[['cold']];cold;cold;1.0;0.0
+936;[<__main__.Word instance at 0x116af0908>];William;2_0;False;True;[['cold']];cold;cold;1.0;0.0
+937;"[<__main__.Word instance at 0x116af07a0>
+ <__main__.Word instance at 0x116af0cb0>]";William;2_0;False;True;[['open'], ['open']];openopen;openopen;0.5;0.69314718056
+938;[<__main__.Word instance at 0x116af0d40>];William;2_0;False;True;[['open']];open;open;1.0;0.0
+939;"[<__main__.Word instance at 0x116af06c8>
+ <__main__.Word instance at 0x116af3128>
+ <__main__.Word instance at 0x116af3050>]";William;2_0;False;False;[['and'], ['knife'], ['fork']];forkandknife;andknifefork;0.166666666667;-0.182321556794
+940;"[<__main__.Word instance at 0x116af3290>
+ <__main__.Word instance at 0x116af3488>
+ <__main__.Word instance at 0x116af3368>
+ <__main__.Word instance at 0x116af3638>]";William;2_0;False;False;"[[""it's""], ['mine'], ['no'], ['no']]";nonoit'smine;it'snonomine;0.0416666666667;-0.0425596144188
+941;[<__main__.Word instance at 0x116af37e8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+942;[<__main__.Word instance at 0x116af3878>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+943;"[<__main__.Word instance at 0x116af3908>
+ <__main__.Word instance at 0x116af3d88>]";William;2_0;False;True;[['this'], ['and']];andthis;andthis;0.5;0.69314718056
+944;[<__main__.Word instance at 0x116af3e60>];William;2_0;False;True;[['this']];this;this;1.0;0.0
+945;[<__main__.Word instance at 0x116af3f38>];William;2_0;False;True;[['this']];this;this;1.0;0.0
+946;[<__main__.Word instance at 0x116af39e0>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+947;[<__main__.Word instance at 0x116af60e0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+948;"[<__main__.Word instance at 0x116af6248>
+ <__main__.Word instance at 0x116af6128>]";William;2_0;False;True;[['mm'], ['mm']];mmmm;mmmm;0.5;0.69314718056
+949;[<__main__.Word instance at 0x116af6440>];William;2_0;False;True;[['bagel']];bagel;bagel;1.0;0.0
+950;"[<__main__.Word instance at 0x116af6638>
+ <__main__.Word instance at 0x116af6518>]";William;2_0;False;False;[['apple'], ['a']];aapple;applea;0.5;-0.69314718056
+951;[<__main__.Word instance at 0x116af63f8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+952;[<__main__.Word instance at 0x116af6908>];William;2_0;False;True;[['pears']];pears;pears;1.0;0.0
+953;"[<__main__.Word instance at 0x116af6830>
+ <__main__.Word instance at 0x116af6e18>]";William;2_0;False;True;[['pears'], ['no']];nopears;nopears;0.5;0.69314718056
+954;[<__main__.Word instance at 0x116af92d8>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+955;[<__main__.Word instance at 0x116af9320>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+956;"[<__main__.Word instance at 0x116af93b0>
+ <__main__.Word instance at 0x116af95a8>]";William;2_0;False;True;[['oops'], ['uhoh']];uhohoops;uhohoops;0.5;0.69314718056
+957;[<__main__.Word instance at 0x116af98c0>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+958;"[<__main__.Word instance at 0x116af9950>
+ <__main__.Word instance at 0x116af9908>]";William;2_0;False;False;[['oops'], ['oh']];ohoops;oopsoh;0.5;-0.69314718056
+959;"[<__main__.Word instance at 0x116af9878>
+ <__main__.Word instance at 0x116af9dd0>]";William;2_0;False;False;[['try'], ['it']];tryit;ittry;0.5;-0.69314718056
+960;"[<__main__.Word instance at 0x116af9ef0>
+ <__main__.Word instance at 0x116af96c8>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+961;[<__main__.Word instance at 0x116af9c20>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+962;[<__main__.Word instance at 0x116afc128>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+963;[<__main__.Word instance at 0x116afc0e0>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+964;[<__main__.Word instance at 0x116afc200>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+965;"[<__main__.Word instance at 0x116afc3b0>
+ <__main__.Word instance at 0x116afc680>]";William;2_0;False;True;[['what'], ['happened']];whathappened;whathappened;0.5;0.69314718056
+966;[<__main__.Word instance at 0x116afc830>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+967;"[<__main__.Word instance at 0x116afc908>
+ <__main__.Word instance at 0x116afc2d8>]";William;2_0;False;True;"[[""I'm"", 'sorry']]";I'msorry;I'msorry;1.0;0.0
+968;"[<__main__.Word instance at 0x116afcc20>
+ <__main__.Word instance at 0x116afcdd0>
+ <__main__.Word instance at 0x116afcbd8>]";William;2_0;False;True;[['ooh'], ['ooh'], ['oops']];oohoohoops;oohoohoops;0.166666666667;1.79175946923
+969;[<__main__.Word instance at 0x116aff2d8>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+970;"[<__main__.Word instance at 0x116aff290>
+ <__main__.Word instance at 0x116aff638>]";William;2_0;False;True;[['ooh'], ['oops']];oohoops;oohoops;0.5;0.69314718056
+971;"[<__main__.Word instance at 0x116aff7e8>
+ <__main__.Word instance at 0x116aff6c8>
+ <__main__.Word instance at 0x116aff9e0>]";William;2_0;False;False;[['uhoh'], ['ooh'], ['ooh']];oohoohuhoh;oohuhohooh;0.166666666667;-0.182321556794
+972;"[<__main__.Word instance at 0x116affa70>
+ <__main__.Word instance at 0x116aff7a0>
+ <__main__.Word instance at 0x116affc20>]";William;2_0;False;False;[['ooh'], ['ooh'], ['oops']];oohoohoops;oohoopsooh;0.166666666667;-0.182321556794
+973;[<__main__.Word instance at 0x116affef0>];William;2_0;False;True;[['ooh']];ooh;ooh;1.0;0.0
+974;[<__main__.Word instance at 0x116affe60>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+975;[<__main__.Word instance at 0x116affcf8>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+976;[<__main__.Word instance at 0x116b020e0>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+977;[<__main__.Word instance at 0x116b021b8>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+978;[<__main__.Word instance at 0x116b02368>];William;2_0;False;True;[['oops']];oops;oops;1.0;0.0
+979;"[<__main__.Word instance at 0x116b02710>
+ <__main__.Word instance at 0x116b025f0>
+ <__main__.Word instance at 0x116b02908>]";William;2_0;False;True;[['and', 'round'], ['round']];roundandround;roundandround;0.5;0.69314718056
+980;[<__main__.Word instance at 0x116b02998>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+981;[<__main__.Word instance at 0x116b02b90>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+982;[<__main__.Word instance at 0x116b02d88>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+983;[<__main__.Word instance at 0x116b02e18>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+984;[<__main__.Word instance at 0x116b02ef0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+985;"[<__main__.Word instance at 0x116b02c20>
+ <__main__.Word instance at 0x116b05248>
+ <__main__.Word instance at 0x116b05098>
+ <__main__.Word instance at 0x116b05290>]";William;2_0;False;False;[['oh'], ['down'], ['all', 'done']];ohalldonedown;downohalldone;0.166666666667;-0.182321556794
+986;"[<__main__.Word instance at 0x116b05368>
+ <__main__.Word instance at 0x116b05758>]";William;2_0;False;False;[['no'], ['finish']];nofinish;finishno;0.5;-0.69314718056
+987;[<__main__.Word instance at 0x116b05908>];William;2_0;False;True;[['finish']];finish;finish;1.0;0.0
+988;[<__main__.Word instance at 0x116b05bd8>];William;2_0;False;True;[['Barney']];Barney;Barney;1.0;0.0
+989;[<__main__.Word instance at 0x116b05ea8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+990;"[<__main__.Word instance at 0x116b05f38>
+ <__main__.Word instance at 0x116b056c8>
+ <__main__.Word instance at 0x116b05d88>]";William;2_0;False;True;[['Barney'], ['want'], ['again']];wantBarneyagain;wantBarneyagain;0.166666666667;1.79175946923
+991;"[<__main__.Word instance at 0x116b08050>
+ <__main__.Word instance at 0x116b083b0>
+ <__main__.Word instance at 0x116b08290>
+ <__main__.Word instance at 0x116b08440>
+ <__main__.Word instance at 0x116b08758>
+ <__main__.Word instance at 0x116b08680>]";William;2_0;False;True;[['I', 'want'], ['Barney'], ['I', 'want'], ['Barney']];IwantBarneyIwantBarney;IwantBarneyIwantBarney;0.0416666666667;3.17805383035
+992;[<__main__.Word instance at 0x116b087e8>];William;2_0;False;True;[['pocket']];pocket;pocket;1.0;0.0
+993;[<__main__.Word instance at 0x116b087a0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+994;[<__main__.Word instance at 0x116b085a8>];William;2_0;False;True;[['box']];box;box;1.0;0.0
+995;[<__main__.Word instance at 0x116b08cb0>];William;2_0;False;True;[['see']];see;see;1.0;0.0
+996;"[<__main__.Word instance at 0x116b08200>
+ <__main__.Word instance at 0x116b08ea8>]";William;2_0;False;False;[['see'], ['not']];notsee;seenot;0.5;-0.69314718056
+997;"[<__main__.Word instance at 0x116b08878>
+ <__main__.Word instance at 0x116b0b050>
+ <__main__.Word instance at 0x116b0b0e0>]";William;2_0;False;True;"[['empty'], [""it's"", 'empty']]";emptyit'sempty;emptyit'sempty;0.5;0.69314718056
+998;"[<__main__.Word instance at 0x116b0b320>
+ <__main__.Word instance at 0x116b0b5a8>
+ <__main__.Word instance at 0x116b0b488>]";William;2_0;False;False;[['see'], ['you'], ['empty']];youseeempty;emptyseeyou;0.166666666667;-0.182321556794
+999;"[<__main__.Word instance at 0x116b0b638>
+ <__main__.Word instance at 0x116b0ba70>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1000;"[<__main__.Word instance at 0x116b0bb00>
+ <__main__.Word instance at 0x116b0bcb0>]";William;2_0;False;False;[['try'], ['it']];tryit;ittry;0.5;-0.69314718056
+1001;"[<__main__.Word instance at 0x116b0bef0>
+ <__main__.Word instance at 0x116b0b8c0>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1002;[<__main__.Word instance at 0x116b0bf38>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+1003;"[<__main__.Word instance at 0x116b0e128>
+ <__main__.Word instance at 0x116b0e290>
+ <__main__.Word instance at 0x116b0e440>]";William;2_0;False;True;[['try'], ['I', 'want']];Iwanttry;Iwanttry;0.5;0.69314718056
+1004;[<__main__.Word instance at 0x116b0e170>];William;2_0;False;True;[['ooh']];ooh;ooh;1.0;0.0
+1005;[<__main__.Word instance at 0x116b0e518>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1006;"[<__main__.Word instance at 0x116b0e710>
+ <__main__.Word instance at 0x116b0e9e0>]";William;2_0;False;False;[['empty'], ['fun']];funempty;emptyfun;0.5;-0.69314718056
+1007;"[<__main__.Word instance at 0x116b0ea70>
+ <__main__.Word instance at 0x116b0e7a0>
+ <__main__.Word instance at 0x116b0ed40>
+ <__main__.Word instance at 0x116b0ecb0>
+ <__main__.Word instance at 0x116b0edd0>]";William;2_0;False;False;[['gone'], ['it'], ['is'], ['empty'], ['oops']];oopsisitemptygone;emptyitisgoneoops;0.00833333333333;-0.00836824967052
+1008;"[<__main__.Word instance at 0x116b0ef80>
+ <__main__.Word instance at 0x116b0e908>
+ <__main__.Word instance at 0x116b0eef0>
+ <__main__.Word instance at 0x116b0efc8>]";William;2_0;False;False;[['is'], ['gone'], ['it'], ['empty']];isitemptygone;emptyitisgone;0.0416666666667;-0.0425596144188
+1009;"[<__main__.Word instance at 0x116b111b8>
+ <__main__.Word instance at 0x116b11248>]";William;2_0;False;True;[['uhoh'], ['uhoh']];uhohuhoh;uhohuhoh;0.5;0.69314718056
+1010;"[<__main__.Word instance at 0x116b11128>
+ <__main__.Word instance at 0x116b11638>
+ <__main__.Word instance at 0x116b11560>]";William;2_0;False;False;[['empty'], ['is'], ['it']];isitempty;emptyitis;0.166666666667;-0.182321556794
+1011;"[<__main__.Word instance at 0x116b116c8>
+ <__main__.Word instance at 0x116b11950>]";William;2_0;False;False;[['empty'], ['find']];findempty;emptyfind;0.5;-0.69314718056
+1012;"[<__main__.Word instance at 0x116b119e0>
+ <__main__.Word instance at 0x116b11ab8>]";William;2_0;False;True;[['yay'], ['empty']];yayempty;yayempty;0.5;0.69314718056
+1013;[<__main__.Word instance at 0x116b11b90>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1014;"[<__main__.Word instance at 0x116b11c68>
+ <__main__.Word instance at 0x116b11b00>
+ <__main__.Word instance at 0x116b11998>]";William;2_0;False;False;[['wan'], ['find'], ['empty']];wanfindempty;emptyfindwan;0.166666666667;-0.182321556794
+1015;"[<__main__.Word instance at 0x116b11ea8>
+ <__main__.Word instance at 0x116b11d40>]";William;2_0;False;False;[['find'], ['empty']];findempty;emptyfind;0.5;-0.69314718056
+1016;"[<__main__.Word instance at 0x116b113f8>
+ <__main__.Word instance at 0x116b11cb0>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1017;[<__main__.Word instance at 0x116b14050>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1018;"[<__main__.Word instance at 0x116b14128>
+ <__main__.Word instance at 0x116b144d0>
+ <__main__.Word instance at 0x116b143f8>]";William;2_0;False;False;[['uhoh'], ['see'], ['empty']];uhohseeempty;emptyuhohsee;0.166666666667;-0.182321556794
+1019;[<__main__.Word instance at 0x116b14368>];William;2_0;False;True;[['camera']];camera;camera;1.0;0.0
+1020;[<__main__.Word instance at 0x116b14950>];William;2_0;False;True;[['cheese']];cheese;cheese;1.0;0.0
+1021;[<__main__.Word instance at 0x116b14998>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+1022;[<__main__.Word instance at 0x116b14bd8>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+1023;[<__main__.Word instance at 0x116b14c68>];William;2_0;False;True;[['hi']];hi;hi;1.0;0.0
+1024;[<__main__.Word instance at 0x116b14e18>];William;2_0;False;True;[['camera']];camera;camera;1.0;0.0
+1025;[<__main__.Word instance at 0x116b147a0>];William;2_0;False;True;[['box']];box;box;1.0;0.0
+1026;"[<__main__.Word instance at 0x116b17170>
+ <__main__.Word instance at 0x116b170e0>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1027;"[<__main__.Word instance at 0x116b17368>
+ <__main__.Word instance at 0x116b17050>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1028;"[<__main__.Word instance at 0x116b174d0>
+ <__main__.Word instance at 0x116b17128>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1029;"[<__main__.Word instance at 0x116b175a8>
+ <__main__.Word instance at 0x116b178c0>]";William;2_0;False;False;[['it'], ['try']];tryit;ittry;0.5;-0.69314718056
+1030;"[<__main__.Word instance at 0x116b17998>
+ <__main__.Word instance at 0x116b17680>]";William;2_0;False;False;[['try'], ['it']];tryit;ittry;0.5;-0.69314718056
+1031;"[<__main__.Word instance at 0x116b17908>
+ <__main__.Word instance at 0x116b17c20>]";William;2_0;False;True;[['empty'], ['empty']];emptyempty;emptyempty;0.5;0.69314718056
+1032;[<__main__.Word instance at 0x116b17cb0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+1033;[<__main__.Word instance at 0x116b17ab8>];William;2_0;False;True;[['back']];back;back;1.0;0.0
+1034;[<__main__.Word instance at 0x116b17cf8>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+1035;[<__main__.Word instance at 0x116b17ef0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+1036;[<__main__.Word instance at 0x116b1a0e0>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+1037;[<__main__.Word instance at 0x116b1a3f8>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1038;"[<__main__.Word instance at 0x116b1a6c8>
+ <__main__.Word instance at 0x116b1a638>]";William;2_0;False;False;[['see'], ['empty']];seeempty;emptysee;0.5;-0.69314718056
+1039;[<__main__.Word instance at 0x116b1a830>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1040;"[<__main__.Word instance at 0x116b1a7a0>
+ <__main__.Word instance at 0x116b1a9e0>]";William;2_0;False;False;[['empty'], ['ah']];ahempty;emptyah;0.5;-0.69314718056
+1041;[<__main__.Word instance at 0x116b1aa70>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1042;[<__main__.Word instance at 0x116b1ae60>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+1043;[<__main__.Word instance at 0x116b1ad88>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+1044;[<__main__.Word instance at 0x116b1afc8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+1045;[<__main__.Word instance at 0x116b1a2d8>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1046;[<__main__.Word instance at 0x116b1d170>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+1047;"[<__main__.Word instance at 0x116b1d0e0>
+ <__main__.Word instance at 0x116b1d2d8>]";William;2_0;False;True;[['empty'], ['empty']];emptyempty;emptyempty;0.5;0.69314718056
+1048;[<__main__.Word instance at 0x116b1d368>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1049;[<__main__.Word instance at 0x116b1d6c8>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+1050;[<__main__.Word instance at 0x116b1d5f0>];William;2_0;False;True;[['ambulance']];ambulance;ambulance;1.0;0.0
+1051;[<__main__.Word instance at 0x116b1d680>];William;2_0;False;True;[['empty']];empty;empty;1.0;0.0
+1052;"[<__main__.Word instance at 0x116b1d560>
+ <__main__.Word instance at 0x116b1dcb0>]";William;2_0;False;True;[['a'], ['loader']];aloader;aloader;0.5;0.69314718056
+1053;[<__main__.Word instance at 0x116b1def0>];William;2_0;False;True;[['here']];here;here;1.0;0.0
+1054;"[<__main__.Word instance at 0x116b1df80>
+ <__main__.Word instance at 0x116b1dc68>]";William;2_0;False;True;[['fire'], ['oh']];ohfire;ohfire;0.5;0.69314718056
+1055;"[<__main__.Word instance at 0x116b20170>
+ <__main__.Word instance at 0x116b20050>]";William;2_0;False;True;[['oh'], ['fire']];ohfire;ohfire;0.5;0.69314718056
+1056;[<__main__.Word instance at 0x116b20248>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+1057;[<__main__.Word instance at 0x116b203f8>];William;2_0;False;True;[['dumptruck']];dumptruck;dumptruck;1.0;0.0
+1058;[<__main__.Word instance at 0x116b20320>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+1059;[<__main__.Word instance at 0x116b20680>];William;2_0;False;True;[['fire']];fire;fire;1.0;0.0
+1060;[<__main__.Word instance at 0x116b20a70>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+1061;[<__main__.Word instance at 0x116b20c68>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+1062;[<__main__.Word instance at 0x116b20e18>];William;2_0;False;True;[['truck']];truck;truck;1.0;0.0
+1063;"[<__main__.Word instance at 0x116b20ea8>
+ <__main__.Word instance at 0x116b20dd0>
+ <__main__.Word instance at 0x116b20fc8>]";William;2_0;False;False;[['go'], ['go'], ['we']];gowego;wegogo;0.166666666667;-0.182321556794
+1064;[<__main__.Word instance at 0x116b23050>];William;2_0;False;True;[['no']];no;no;1.0;0.0
+1065;[<__main__.Word instance at 0x116b232d8>];William;2_0;False;True;[['okay']];okay;okay;1.0;0.0
+1066;[<__main__.Word instance at 0x116b233b0>];William;2_0;False;True;[['uhoh']];uhoh;uhoh;1.0;0.0
+1067;"[<__main__.Word instance at 0x116b23488>
+ <__main__.Word instance at 0x116b235a8>]";William;2_0;False;True;[['go'], ['back']];goback;goback;0.5;0.69314718056
+1068;[<__main__.Word instance at 0x116b237a0>];William;2_0;False;True;[['airplanes']];airplanes;airplanes;1.0;0.0
+1069;[<__main__.Word instance at 0x116b23368>];William;2_0;False;True;[['dumptruck']];dumptruck;dumptruck;1.0;0.0
+1070;[<__main__.Word instance at 0x116b23878>];William;2_0;False;True;[['dumptruck']];dumptruck;dumptruck;1.0;0.0
+1071;[<__main__.Word instance at 0x116b233f8>];William;2_0;False;True;[['yeah']];yeah;yeah;1.0;0.0
+1072;[<__main__.Word instance at 0x116b23c68>];William;2_0;False;True;[['good']];good;good;1.0;0.0
+1073;"[<__main__.Word instance at 0x116b23b48>
+ <__main__.Word instance at 0x116b23fc8>]";William;2_0;False;True;[['ah'], ['uhoh']];ahuhoh;ahuhoh;0.5;0.69314718056
+1074;[<__main__.Word instance at 0x116b264d0>];William;2_0;False;True;[['airplane']];airplane;airplane;1.0;0.0
+1075;[<__main__.Word instance at 0x116b26560>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+1076;[<__main__.Word instance at 0x116b26710>];William;2_0;False;True;[['&-uh']];&-uh;&-uh;1.0;0.0
+1077;"[<__main__.Word instance at 0x116b267e8>
+ <__main__.Word instance at 0x116b26098>]";William;2_0;False;False;[['keys'], ['oh']];ohkeys;keysoh;0.5;-0.69314718056
+1078;"[<__main__.Word instance at 0x116b26320>
+ <__main__.Word instance at 0x116b26950>
+ <__main__.Word instance at 0x116b26758>]";William;2_0;False;False;[['I'], ['find'], ['keys']];Ifindkeys;Ikeysfind;0.166666666667;-0.182321556794
+1079;"[<__main__.Word instance at 0x116b26518>
+ <__main__.Word instance at 0x116b26cf8>]";William;2_0;False;True;[['uhoh'], ['keys']];uhohkeys;uhohkeys;0.5;0.69314718056
+1080;"[<__main__.Word instance at 0x116b26f38>
+ <__main__.Word instance at 0x116b26200>]";William;2_0;False;True;[['blues'], ['see']];seeblues;seeblues;0.5;0.69314718056
