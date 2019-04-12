@@ -7,10 +7,9 @@
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not. 
-subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12,13,14))
+subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12))
 subset.local.data$Y <- ifelse(subset.local.data$reconstructed == "True", 1,0)
 subset.local.data <- subset(subset.local.data, local.data$skipped == "False")
-
 
 # Descriptive statistics
 local_means_uncorrected_by_child <- aggregate(subset.local.data$Y, by = c(list(child = subset.local.data$child)),FUN = mean)
@@ -31,7 +30,7 @@ ranef(model_local_uncorrected)
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not.
-subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12,13,14))
+subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12))
 subset.cumu.data$Y <- ifelse(subset.cumu.data$reconstructed == "True", 1,0)
 subset.cumu.data <- subset(subset.cumu.data, cumu.data$skipped == "False")
 
@@ -42,7 +41,7 @@ min <- min(cumu_means_uncorrected_by_child$x)*100
 max <- max(cumu_means_uncorrected_by_child$x)*100
 
 # Model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
-model_cumu_uncorrected <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = newdata)
+model_cumu_uncorrected <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.cumu.data)
 sink("cumu_uncorrected_reconstruction.txt")
 summary(model_cumu_uncorrected)
 sink()
@@ -50,7 +49,7 @@ summary(model_cumu_uncorrected)
 ranef(model_cumu_uncorrected)
 
 # Check for severeness for non-convergence; not severe.
-relgrad <- with(model_age_uncorrected@optinfo$derivs,solve(Hessian,gradient))
+relgrad <- with(model_cumu_uncorrected@optinfo$derivs,solve(Hessian,gradient))
 max(abs(relgrad))
 
 ## MAIN TEXT PLOTS
@@ -60,6 +59,8 @@ max(abs(relgrad))
 ## Local sample
 
 # Collect data for plot
+
+## TODO: FIX HERE
 plot1.local.data <- aggregate(subset.local.data$repetition, by = c(list(age=subset.local.data$age)),FUN = sum)
 colnames(plot1.local.data)[2] <- "total_num_repetitions"
 plot1.local.data.temp <- aggregate(subset.local.data$repetition, by = c(list(age = subset.local.data$age)), FUN = function(x){NROW(x)})

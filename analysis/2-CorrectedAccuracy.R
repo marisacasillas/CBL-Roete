@@ -7,7 +7,7 @@
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not. 
-subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12,13,14))
+subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12))
 subset.local.data$Y <- ifelse(subset.local.data$reconstructed == "True", 1,0)
 subset.local.data <- subset(subset.local.data, local.data$skipped == "False")
 
@@ -33,7 +33,7 @@ ranef(model_local_corrected )
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not.
-subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12,13,14))
+subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12))
 subset.cumu.data$Y <- ifelse(subset.cumu.data$reconstructed == "True", 1,0)
 subset.cumu.data <- subset(subset.cumu.data, cumu.data$skipped == "False")
 
@@ -65,7 +65,7 @@ plot1.local.data <- aggregate(subset.local.data$correctedscore, by = c(list(chil
 colnames(plot1.local.data)[3] <- "total_score"
 plot1.local.data.temp <- aggregate(subset.local.data$correctedscore, by = c(list(child = subset.local.data$child),list(age = subset.local.data$age)), FUN = function(x){NROW(x)})
 colnames(plot1.local.data.temp)[3] <- "total_num_utterances"
-plot1.local.data <- merge(plot1.local.data, plotdata1.local.data.temp, by = c("child","age"))
+plot1.local.data <- merge(plot1.local.data, plot1.local.data.temp, by = c("child","age"))
 plot1.local.data$averagescore <- plot1.local.data$total_score/plot1.local.data$total_num_utterances
 
 # Generate plot 
@@ -79,6 +79,10 @@ plot.local.reconstruction <- ggplot(plot1.local.data,
   geom_hline(yintercept=0) +
   basic.theme + theme(axis.text.x = element_text(size=22)) + 
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
+
+##TODO: FIX ERROR: 
+#Error in dev.off() : 
+#QuartzBitmap_Output - unable to open file 'plots/plotbothreconstruction.png'
 
 # Save plot
 png(paste(plot.path,

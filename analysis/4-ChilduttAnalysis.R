@@ -6,7 +6,7 @@
 min <- min(childutt.data$numwords)
 max <- max(childutt.data$numwords)
 mean <- mean(childutt.data$numwords)
-median <- median(child.uttdata$numwords)
+median <- median(childutt.data$numwords)
 
 # MAIN TEXT PLOTS
 
@@ -31,6 +31,8 @@ plot.childuttlength <- ggplot(plot1.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
+
+#TODO: FIX SAVING PLOTS
 png(paste(plot.path,
           "plotchilduttlength.png", sep=""),
     width=900,height=500,units="px",

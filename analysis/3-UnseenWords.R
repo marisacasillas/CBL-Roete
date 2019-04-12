@@ -3,11 +3,11 @@
 # MAIN TEXT ANALYSES
 
 ## local sample
-local.data$utterance <- as.character(local.data$utterance)
-local.data$numwords <- (str_count(local.data$utterance,"Word")-1)
 
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is skipped, Y=0 if not skipped.
-subset.local.data <- subset(local.data,select=c(1,3,4,5,6,12,14))
+subset.local.data <- subset(local.data,select=c(1,2,3,4,5,6,12))
+subset.local.data$utterance <- as.character(subset.local.data$utterance)
+subset.local.data$numwords <- (str_count(subset.local.data$utterance,"Word")-1) ##TODO: CHECK THIS! LOOKS WEIRD!
 subset.local.data$Y <- ifelse(subset.local.data$skipped == "True", 1,0)
 
 # Descriptive statistics
@@ -26,11 +26,10 @@ summary(model_local_unseenwords)
 ranef(model_local_unseenwords)
 
 ## cumulative sample
-cumu.data$utterance <- as.character(cumu.data$utterance)
-cumu.data$numwords <- (str_count(cumu.data$utterance,"Word")-1)
-
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is skipped, Y=0 if not skipped.
-subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,12,14))
+subset.cumu.data <- subset(cumu.data,select=c(1,2,3,4,5,6,12))
+subset.cumu.data$utterance <- as.character(subset.cumu.data$utterance)
+subset.cumu.data$numwords <- (str_count(subset.cumu.data$utterance,"Word")-1) ##TODO: CHECK THIS! LOOKS WEIRD!
 subset.cumu.data$Y <- ifelse(subset.cumu.data$skipped == "True", 1,0)
 
 # Descriptive statistics
@@ -74,7 +73,8 @@ plot.local.unseen <- ggplot(plot1.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot 
-
+##TODO: FIX HERE: Error in dev.off() : 
+#QuartzBitmap_Output - unable to open file 'plots/plotlocalunseen.png'
 png(paste(plot.path,
           "plotlocalunseen.png", sep=""),
     width=900,height=500,units="px",

@@ -7,9 +7,9 @@
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not. 
-subset.suppl.local.data <- subset(suppl.localdata,select=c(1,3,4,5,6,10,11,12,13))
+subset.suppl.local.data <- subset(suppl.local.data,select=c(1,3,4,5,6,10,11,12))
 subset.suppl.local.data$Y <- ifelse(subset.suppl.local.data$reconstructed == "True", 1,0)
-subset.suppl.local.data <- subset(subset.suppl.local.data, suppl.localdata$skipped == "False")
+subset.suppl.local.data <- subset(subset.suppl.local.data, suppl.local.data$skipped == "False")
 
 # descriptive statistics
 means_by_child_recon_perc <- aggregate(subset.suppl.local.data$Y, by = c(list(child = subset.suppl.local.data$child)),FUN = mean)
@@ -46,7 +46,7 @@ ranef(model_local_corrected_suppl)
 # Select subset of the data, excluding all skipped utterance, and generate binary reconstruction score:
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is correctly reconstructed,
 # Y=0 if not. 
-subset.suppl.cumu.data <- subset(suppl.cumu.data,select=c(1,3,4,5,6,10,11,12,13))
+subset.suppl.cumu.data <- subset(suppl.cumu.data,select=c(1,3,4,5,6,10,11,12))
 subset.suppl.cumu.data$Y <- ifelse(subset.suppl.cumu.data$reconstructed == "True", 1,0)
 subset.suppl.cumu.data <- subset(subset.suppl.cumu.data, suppl.cumu.data$skipped == "False")
 
@@ -105,6 +105,8 @@ plot.local.suppl.recon_score <- ggplot(plot1.local.data,
   basic.theme + theme(axis.text.x = element_text(size=22)) + 
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
+
+##TODO: FIX SAVING PLOTS
 # save plot
 png(paste(plot.path,
           "plotsuppllocalrecon_score.png", sep=""),

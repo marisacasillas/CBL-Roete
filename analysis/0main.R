@@ -7,7 +7,26 @@ library(jtools)
 library(lattice)
 library(plotrix)
 
-## TODO: Test code 
+#Plot layout settings
+basic.theme <- theme(
+  panel.background = element_rect(
+    fill = "transparent",colour = NA),
+  panel.grid.major = element_line(colour = "grey95"),
+  panel.grid.minor = element_blank(),
+  plot.background = element_rect(
+    fill = "transparent",colour = NA),
+  legend.background = element_rect(
+    fill="transparent"),
+  legend.text = element_text(size=24),
+  legend.title = element_text(size=30),
+  legend.key.height = unit(2, "lines"),
+  legend.key = element_rect(colour = NA, fill = NA),
+  axis.text.x = element_text(size=30, angle=45, hjust=1),
+  axis.title.x = element_text(size=30),
+  axis.text.y = element_text(size=28),
+  axis.title.y = element_text(size=32),
+  strip.text = element_text(size=30),
+  panel.spacing = unit(2, "lines"))
 
 # Set this source file's directory as the working directory
 # NOTE: If you want the following command to work, use Source in Rstudio rather than Run
@@ -90,35 +109,35 @@ suppl.cumu.data$age <- as.numeric(suppl.cumu.data$age)
 suppl.cumu.data <- subset(suppl.cumu.data, select = c(2:13))
 
 # Run models and generate plots
-#source("1-UncorrectedAccuracy.R")
-#source("2-CorrectedAccuracy.R")
-#source("3-UnseenWords.R")
-source("4-ChilduttAnalysis.R")
-#source("5-SupplMaterials.R")
+#source("1-UncorrectedAccuracy.R")  #TODO: NEEDS FIXING
+#source("2-CorrectedAccuracy.R") #TODO: NEEDS FIXING
+#source("3-UnseenWords.R") #TODO: NEEDS FIXING
+#source("4-ChilduttAnalysis.R") #TODO: NEEDS FIXING
+#source("5-SupplMaterials.R") #TODO: NEEDS FIXING
 
-# # Print model output if requested in the global variables
-# if (print.model.output == "Y") {
-#   # Uncorrected accuracy
-#   print ("##### Uncorrected accuracy: Local #####")
-#   print(summary(model_local_uncorrected))
-#   print ("##### Uncorrected accuracy: Cumulative #####")
-#   print(summary(model_cumu_uncorrected))
-#   print ("##### Uncorrected accuracy: Local (original Mc & C) #####")
-#   print(summary(model_local_uncorrected_suppl))
-#   print ("##### Uncorrected accuracy: Cumulative (original Mc & C) #####")
-#   print(summary(model_cumu_uncorrected_suppl))
-#   # Corrected accuracy
-#   print ("##### Corrected accuracy: Local #####")
-#   print(summary(model_local_corrected))
-#   print ("##### Corrected accuracy: Cumulative #####")
-#   print(summary(model_cumu_corrected))
-#   print ("##### Corrected accuracy: Local (original Mc & C) #####")
-#   print(summary(model_local_corrected_suppl))
-#   print ("##### Corrected accuracy: Cumulative (original Mc & C) #####")
-#   print(summary(model_cumu_corrected_suppl))
-#   # Unseen words
-#   print ("##### Unseen words: Local #####")
-#   print(summary(model_local_unseenwords))
-#   print ("##### Unseen words: Cumulative #####")
-#   print(summary(model_cumu_unseenwords))
-# }
+# Print model output if requested in the global variables
+if (print.model.output == "Y") {
+  # Uncorrected accuracy
+  print ("##### Uncorrected accuracy: Local #####")
+  print(summary(model_local_uncorrected))
+  print ("##### Uncorrected accuracy: Cumulative #####")
+  print(summary(model_cumu_uncorrected))
+  print ("##### Uncorrected accuracy: Local (original Mc & C) #####")
+  print(summary(model_local_uncorrected_suppl))
+  print ("##### Uncorrected accuracy: Cumulative (original Mc & C) #####")
+  print(summary(model_cumu_uncorrected_suppl))
+  # Corrected accuracy
+  print ("##### Corrected accuracy: Local #####")
+  print(summary(model_local_corrected))
+  print ("##### Corrected accuracy: Cumulative #####")
+  print(summary(model_cumu_corrected))
+  print ("##### Corrected accuracy: Local (original Mc & C) #####")
+  print(summary(model_local_corrected_suppl))
+  print ("##### Corrected accuracy: Cumulative (original Mc & C) #####")
+  print(summary(model_cumu_corrected_suppl))
+  # Unseen words
+  print ("##### Unseen words: Local #####")
+  print(summary(model_local_unseenwords))
+  print ("##### Unseen words: Cumulative #####")
+  print(summary(model_cumu_unseenwords))
+}
