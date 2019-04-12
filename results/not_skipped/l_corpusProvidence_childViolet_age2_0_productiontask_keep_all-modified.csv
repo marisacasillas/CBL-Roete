@@ -1,0 +1,2192 @@
+,num,utterance,child,age,skipped,reconstructed,bow,gold,prediction,chance,controlledscore,repetition,correctedscore
+0,0,[<__main__.Word instance at 0x10551b560>],Violet,2_0,False,True,[['back']],back,back,1.0,0.0,False,-0.0
+1,1,"[<__main__.Word instance at 0x10551b7a0>
+ <__main__.Word instance at 0x10551bcf8>]",Violet,2_0,False,False,"[['itch'], ['back']]",backitch,itchback,0.5,-0.69314718056,False,-0.6931471805599453
+2,2,"[<__main__.Word instance at 0x10551b758>
+ <__main__.Word instance at 0x10551b8c0>
+ <__main__.Word instance at 0x10551b518>]",Violet,2_0,False,False,"[['is'], ['nice'], ['back']]",backisnice,isniceback,0.166666666667,-0.182321556794,False,-0.1823215567939546
+3,3,[<__main__.Word instance at 0x1122e7560>],Violet,2_0,False,True,[['back']],back,back,1.0,0.0,False,-0.0
+4,4,[<__main__.Word instance at 0x1122e7710>],Violet,2_0,False,True,[['back']],back,back,1.0,0.0,False,-0.0
+5,5,[<__main__.Word instance at 0x1122e7950>],Violet,2_0,False,True,[['nose']],nose,nose,1.0,0.0,False,-0.0
+6,6,"[<__main__.Word instance at 0x1122e7b90>
+ <__main__.Word instance at 0x1122e7cb0>
+ <__main__.Word instance at 0x1122e7d88>]",Violet,2_0,False,False,"[['how'], ['this'], ['about']]",howaboutthis,thishowabout,0.166666666667,-0.182321556794,False,-0.1823215567939546
+7,7,"[<__main__.Word instance at 0x1122e7f80>
+ <__main__.Word instance at 0x1053826c8>
+ <__main__.Word instance at 0x105382908>]",Violet,2_0,False,False,"[['how'], ['about'], ['this']]",howaboutthis,thisabouthow,0.166666666667,-0.182321556794,False,-0.1823215567939546
+8,8,"[<__main__.Word instance at 0x105382878>
+ <__main__.Word instance at 0x105382c20>
+ <__main__.Word instance at 0x105384ab8>
+ <__main__.Word instance at 0x105384c20>
+ <__main__.Word instance at 0x1122ed0e0>]",Violet,2_0,False,False,"[['this'], ['about'], ['rea'], ['how'], ['one']]",howaboutreathisone,thisonereahowabout,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+9,9,[<__main__.Word instance at 0x1122ed320>],Violet,2_0,False,True,[['rhino']],rhino,rhino,1.0,0.0,False,-0.0
+10,10,[<__main__.Word instance at 0x1122ed3b0>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+11,11,"[<__main__.Word instance at 0x1122ed5a8>
+ <__main__.Word instance at 0x1122ed8c0>
+ <__main__.Word instance at 0x1122ed7a0>
+ <__main__.Word instance at 0x1122ed998>
+ <__main__.Word instance at 0x1122ed758>]",Violet,2_0,False,False,"[['read'], ['I', ""don't""], ['this', 'one']]",Idon'treadthisone,thisonereadIdon't,0.166666666667,-0.182321556794,False,-0.1823215567939546
+12,12,[<__main__.Word instance at 0x1122eda28>],Violet,2_0,False,True,[['apple']],apple,apple,1.0,0.0,False,-0.0
+13,13,"[<__main__.Word instance at 0x1122ed878>
+ <__main__.Word instance at 0x1122ede18>
+ <__main__.Word instance at 0x1122edcb0>
+ <__main__.Word instance at 0x1122edef0>]",Violet,2_0,False,False,"[['tree'], [""it's""], ['an'], ['apple']]",it'sanappletree,anit'sappletree,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+14,14,"[<__main__.Word instance at 0x1122edfc8>
+ <__main__.Word instance at 0x1122eddd0>]",Violet,2_0,False,False,"[['other'], ['apple']]",otherapple,appleother,0.5,-0.69314718056,False,-0.6931471805599453
+15,15,"[<__main__.Word instance at 0x1122edd40>
+ <__main__.Word instance at 0x1122edf38>
+ <__main__.Word instance at 0x1122f00e0>]",Violet,2_0,False,False,"[['a'], [""it's""], ['airplane']]",it'saairplane,aairplaneit's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+16,16,"[<__main__.Word instance at 0x1122f02d8>
+ <__main__.Word instance at 0x1122f0248>
+ <__main__.Word instance at 0x1122f0368>]",Violet,2_0,False,False,"[['a'], ['bird'], [""it's""]]",it'sabird,abirdit's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+17,17,[<__main__.Word instance at 0x1122f04d0>],Violet,2_0,False,True,[['popped']],popped,popped,1.0,0.0,False,-0.0
+18,18,"[<__main__.Word instance at 0x1122f0560>
+ <__main__.Word instance at 0x1122f0878>
+ <__main__.Word instance at 0x1122f0710>
+ <__main__.Word instance at 0x1122f0950>]",Violet,2_0,False,True,"[['on'], ['the', 'back'], [""it's""]]",it'sontheback,it'sontheback,0.166666666667,1.79175946923,False,1.791759469228055
+19,19,[<__main__.Word instance at 0x1122f07a0>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+20,20,"[<__main__.Word instance at 0x1122f0b90>
+ <__main__.Word instance at 0x1122f0a70>]",Violet,2_0,False,True,"[['look', 'at']]",lookat,lookat,1.0,0.0,False,-0.0
+21,21,[<__main__.Word instance at 0x1122f0830>],Violet,2_0,False,True,[['rainbows']],rainbows,rainbows,1.0,0.0,False,-0.0
+22,22,"[<__main__.Word instance at 0x1122f0998>
+ <__main__.Word instance at 0x1122f0dd0>
+ <__main__.Word instance at 0x1122f0a28>]",Violet,2_0,False,False,"[['rainbows'], ['those'], ['look']]",lookthoserainbows,lookrainbowsthose,0.166666666667,-0.182321556794,False,-0.1823215567939546
+23,23,"[<__main__.Word instance at 0x1122f03b0>
+ <__main__.Word instance at 0x1122f0fc8>]",Violet,2_0,False,True,"[['a'], ['goat']]",agoat,agoat,0.5,0.69314718056,False,0.6931471805599453
+24,24,"[<__main__.Word instance at 0x1122f0b48>
+ <__main__.Word instance at 0x1122f0bd8>
+ <__main__.Word instance at 0x1122f0cb0>
+ <__main__.Word instance at 0x1122f4050>]",Violet,2_0,False,False,"[['look', 'at'], ['the'], ['green']]",lookatthegreen,thelookatgreen,0.166666666667,-0.182321556794,False,-0.1823215567939546
+25,25,[<__main__.Word instance at 0x1122f4320>],Violet,2_0,False,True,[['moon']],moon,moon,1.0,0.0,False,-0.0
+26,26,"[<__main__.Word instance at 0x1122f43f8>
+ <__main__.Word instance at 0x1122f41b8>
+ <__main__.Word instance at 0x1122f44d0>]",Violet,2_0,False,True,"[['I'], ['it'], ['like']]",Ilikeit,Ilikeit,0.166666666667,1.79175946923,False,1.791759469228055
+27,27,"[<__main__.Word instance at 0x1122f45a8>
+ <__main__.Word instance at 0x1122f4440>
+ <__main__.Word instance at 0x1122f4638>
+ <__main__.Word instance at 0x1122f4518>]",Violet,2_0,False,True,"[['book'], ['get'], ['the'], ['you']]",yougetthebook,yougetthebook,0.0416666666667,3.17805383035,False,3.1780538303479458
+28,28,[<__main__.Word instance at 0x1122f4710>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+29,29,[<__main__.Word instance at 0x1122f4128>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+30,30,[<__main__.Word instance at 0x1122f4950>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+31,31,"[<__main__.Word instance at 0x1122f4c68>
+ <__main__.Word instance at 0x1122f4b00>
+ <__main__.Word instance at 0x1122f4d40>
+ <__main__.Word instance at 0x1122f4bd8>]",Violet,2_0,False,False,"[['a', 'big'], ['one'], [""it's""]]",it'sabigone,oneit'sabig,0.166666666667,-0.182321556794,False,-0.1823215567939546
+32,32,"[<__main__.Word instance at 0x1122f4cb0>
+ <__main__.Word instance at 0x1122f4ea8>
+ <__main__.Word instance at 0x1122f4d88>]",Violet,2_0,False,True,"[['on'], ['the', 'back']]",ontheback,ontheback,0.5,0.69314718056,False,0.6931471805599453
+33,33,"[<__main__.Word instance at 0x1122f4a70>
+ <__main__.Word instance at 0x1122f47e8>]",Violet,2_0,False,True,"[['I', 'want']]",Iwant,Iwant,1.0,0.0,False,-0.0
+34,34,[<__main__.Word instance at 0x1122f71b8>],Violet,2_0,False,True,[['want']],want,want,1.0,0.0,False,-0.0
+35,35,"[<__main__.Word instance at 0x1122f7128>
+ <__main__.Word instance at 0x1122f7440>]",Violet,2_0,False,True,"[['look', 'at']]",lookat,lookat,1.0,0.0,False,-0.0
+36,36,"[<__main__.Word instance at 0x1122f7518>
+ <__main__.Word instance at 0x1122f76c8>]",Violet,2_0,False,True,"[['bird'], ['a']]",abird,abird,0.5,0.69314718056,False,0.6931471805599453
+37,37,"[<__main__.Word instance at 0x1122f77e8>
+ <__main__.Word instance at 0x1122f7488>]",Violet,2_0,False,True,"[['me'], ['with']]",withme,withme,0.5,0.69314718056,False,0.6931471805599453
+38,38,[<__main__.Word instance at 0x1122f7710>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+39,39,"[<__main__.Word instance at 0x1122f7680>
+ <__main__.Word instance at 0x1122f79e0>
+ <__main__.Word instance at 0x1122f78c0>
+ <__main__.Word instance at 0x1122f7bd8>
+ <__main__.Word instance at 0x1122f7a70>]",Violet,2_0,False,True,"[['go'], ['there'], ['I', 'want'], ['up']]",Iwantgoupthere,Iwantgoupthere,0.0416666666667,3.17805383035,False,3.1780538303479458
+40,40,"[<__main__.Word instance at 0x1122f7098>
+ <__main__.Word instance at 0x1122f7d88>
+ <__main__.Word instance at 0x1122f7c20>]",Violet,2_0,False,False,"[[""here's""], ['book'], ['a']]",here'sabook,ahere'sbook,0.166666666667,-0.182321556794,False,-0.1823215567939546
+41,41,[<__main__.Word instance at 0x1122f7cf8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+42,42,[<__main__.Word instance at 0x1122f7dd0>],Violet,2_0,False,True,[['white']],white,white,1.0,0.0,False,-0.0
+43,43,[<__main__.Word instance at 0x1122f7f80>],Violet,2_0,False,True,[['yes']],yes,yes,1.0,0.0,False,-0.0
+44,44,"[<__main__.Word instance at 0x1122fb050>
+ <__main__.Word instance at 0x1122fb128>]",Violet,2_0,False,True,"[['how'], ['about']]",howabout,howabout,0.5,0.69314718056,False,0.6931471805599453
+45,45,"[<__main__.Word instance at 0x1122fb098>
+ <__main__.Word instance at 0x1122fb368>
+ <__main__.Word instance at 0x1122fb248>]",Violet,2_0,False,False,"[['me'], ['give'], ['a']]",givemea,agiveme,0.166666666667,-0.182321556794,False,-0.1823215567939546
+46,46,[<__main__.Word instance at 0x1122fb3f8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+47,47,[<__main__.Word instance at 0x1122fb320>],Violet,2_0,False,True,[['hello']],hello,hello,1.0,0.0,False,-0.0
+48,48,[<__main__.Word instance at 0x1122fb5a8>],Violet,2_0,False,True,[['hello']],hello,hello,1.0,0.0,False,-0.0
+49,49,"[<__main__.Word instance at 0x1122fb998>
+ <__main__.Word instance at 0x1122fb8c0>]",Violet,2_0,False,False,"[['again'], ['try']]",tryagain,againtry,0.5,-0.69314718056,False,-0.6931471805599453
+50,50,[<__main__.Word instance at 0x1122fb518>],Violet,2_0,False,True,[['book']],book,book,1.0,0.0,False,-0.0
+51,51,[<__main__.Word instance at 0x1122fb9e0>],Violet,2_0,False,True,[['mommy']],mommy,mommy,1.0,0.0,False,-0.0
+52,52,"[<__main__.Word instance at 0x1122fbab8>
+ <__main__.Word instance at 0x1122fb878>
+ <__main__.Word instance at 0x1122fb6c8>]",Violet,2_0,False,False,"[['big'], ['dragon'], ['great']]",greatbigdragon,dragongreatbig,0.166666666667,-0.182321556794,False,-0.1823215567939546
+53,53,[<__main__.Word instance at 0x1122fbcf8>],Violet,2_0,False,True,[['dragon']],dragon,dragon,1.0,0.0,False,-0.0
+54,54,"[<__main__.Word instance at 0x1122fe128>
+ <__main__.Word instance at 0x1122fe098>]",Violet,2_0,False,True,"[['going'], [""I'm""]]",I'mgoing,I'mgoing,0.5,0.69314718056,False,0.6931471805599453
+55,55,"[<__main__.Word instance at 0x1122fe200>
+ <__main__.Word instance at 0x1122fe3b0>
+ <__main__.Word instance at 0x1122fe488>]",Violet,2_0,False,True,"[['going'], ['to'], [""I'm""]]",I'mgoingto,I'mgoingto,0.166666666667,1.79175946923,False,1.791759469228055
+56,56,[<__main__.Word instance at 0x1122fe638>],Violet,2_0,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+57,57,"[<__main__.Word instance at 0x1122fe830>
+ <__main__.Word instance at 0x1122fe6c8>]",Violet,2_0,False,False,"[['scary'], ['very']]",veryscary,scaryvery,0.5,-0.69314718056,False,-0.6931471805599453
+58,58,[<__main__.Word instance at 0x1122fe5f0>],Violet,2_0,False,True,[['scary']],scary,scary,1.0,0.0,False,-0.0
+59,59,[<__main__.Word instance at 0x1122feb00>],Violet,2_0,False,True,[['scary']],scary,scary,1.0,0.0,False,-0.0
+60,60,"[<__main__.Word instance at 0x1122fecb0>
+ <__main__.Word instance at 0x1122feea8>]",Violet,2_0,False,True,"[['there'], ['over']]",overthere,overthere,0.5,0.69314718056,False,0.6931471805599453
+61,61,"[<__main__.Word instance at 0x1122fef38>
+ <__main__.Word instance at 0x1122fec20>]",Violet,2_0,False,True,"[['over'], ['there']]",overthere,overthere,0.5,0.69314718056,False,0.6931471805599453
+62,62,[<__main__.Word instance at 0x112301290>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+63,63,"[<__main__.Word instance at 0x112301368>
+ <__main__.Word instance at 0x112301050>]",Violet,2_0,False,True,"[['I'], ['play']]",Iplay,Iplay,0.5,0.69314718056,False,0.6931471805599453
+64,64,"[<__main__.Word instance at 0x1123014d0>
+ <__main__.Word instance at 0x1123013b0>]",Violet,2_0,False,True,"[['I'], ['play']]",Iplay,Iplay,0.5,0.69314718056,False,0.6931471805599453
+65,65,[<__main__.Word instance at 0x1123016c8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+66,66,"[<__main__.Word instance at 0x112301830>
+ <__main__.Word instance at 0x112301b90>
+ <__main__.Word instance at 0x112301950>]",Violet,2_0,False,False,"[['ya'], ['look', 'at']]",lookatya,yalookat,0.5,-0.69314718056,False,-0.6931471805599453
+67,67,"[<__main__.Word instance at 0x112301b00>
+ <__main__.Word instance at 0x112301e18>
+ <__main__.Word instance at 0x112301cf8>]",Violet,2_0,False,True,"[[""I'm""], ['I', 'think']]",IthinkI'm,IthinkI'm,0.5,0.69314718056,False,0.6931471805599453
+68,68,"[<__main__.Word instance at 0x112301a70>
+ <__main__.Word instance at 0x112301fc8>]",Violet,2_0,False,True,"[['like'], ['I']]",Ilike,Ilike,0.5,0.69314718056,False,0.6931471805599453
+69,69,"[<__main__.Word instance at 0x112301f38>
+ <__main__.Word instance at 0x112304098>
+ <__main__.Word instance at 0x112304248>
+ <__main__.Word instance at 0x112304128>]",Violet,2_0,False,False,"[['this'], ['this'], ['on'], ['put']]",thisputonthis,thisonthisput,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+70,70,"[<__main__.Word instance at 0x1123042d8>
+ <__main__.Word instance at 0x1123045a8>
+ <__main__.Word instance at 0x1123044d0>]",Violet,2_0,False,True,"[['this', 'one'], [""doesn't""]]",thisonedoesn't,thisonedoesn't,0.5,0.69314718056,False,0.6931471805599453
+71,71,"[<__main__.Word instance at 0x1123046c8>
+ <__main__.Word instance at 0x1123048c0>]",Violet,2_0,False,False,"[['hi'], ['daddy']]",hidaddy,daddyhi,0.5,-0.69314718056,False,-0.6931471805599453
+72,72,[<__main__.Word instance at 0x112304a70>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+73,73,[<__main__.Word instance at 0x112304b00>],Violet,2_0,False,True,[['backpack']],backpack,backpack,1.0,0.0,False,-0.0
+74,74,[<__main__.Word instance at 0x112304cb0>],Violet,2_0,False,True,[['what']],what,what,1.0,0.0,False,-0.0
+75,75,"[<__main__.Word instance at 0x112304830>
+ <__main__.Word instance at 0x112308368>]",Violet,2_0,False,True,"[['an'], ['apron']]",anapron,anapron,0.5,0.69314718056,False,0.6931471805599453
+76,76,"[<__main__.Word instance at 0x112308440>
+ <__main__.Word instance at 0x1123084d0>
+ <__main__.Word instance at 0x1123083b0>]",Violet,2_0,False,True,"[['you'], ['it'], ['put']]",youputit,youputit,0.166666666667,1.79175946923,False,1.791759469228055
+77,77,[<__main__.Word instance at 0x112308c68>],Violet,2_0,False,True,[['where']],where,where,1.0,0.0,False,-0.0
+78,78,"[<__main__.Word instance at 0x11230b560>
+ <__main__.Word instance at 0x11230b440>
+ <__main__.Word instance at 0x11230b878>]",Violet,2_0,False,True,"[['in'], ['the', 'bottom']]",inthebottom,inthebottom,0.5,0.69314718056,False,0.6931471805599453
+79,79,[<__main__.Word instance at 0x11230b7a0>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+80,80,[<__main__.Word instance at 0x11230b3b0>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+81,81,"[<__main__.Word instance at 0x11230b908>
+ <__main__.Word instance at 0x11230bbd8>
+ <__main__.Word instance at 0x11230bab8>
+ <__main__.Word instance at 0x11230be60>]",Violet,2_0,False,True,"[['horsies'], ['play'], ['I', 'want']]",Iwantplayhorsies,Iwantplayhorsies,0.166666666667,1.79175946923,False,1.791759469228055
+82,82,"[<__main__.Word instance at 0x11230bf38>
+ <__main__.Word instance at 0x11230bea8>]",Violet,2_0,False,True,"[['horsie'], ['horsie']]",horsiehorsie,horsiehorsie,0.5,0.69314718056,True,-0.0
+83,83,[<__main__.Word instance at 0x11230bc68>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+84,84,"[<__main__.Word instance at 0x11230e1b8>
+ <__main__.Word instance at 0x11230e200>
+ <__main__.Word instance at 0x11230e320>]",Violet,2_0,False,False,"[[""it's""], ['king'], ['a']]",it'saking,akingit's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+85,85,"[<__main__.Word instance at 0x11230e0e0>
+ <__main__.Word instance at 0x11230e560>
+ <__main__.Word instance at 0x11230e440>
+ <__main__.Word instance at 0x11230e758>]",Violet,2_0,False,False,"[[""what's""], ['this'], [""what's""], ['this']]",what'sthiswhat'sthis,thisthiswhat'swhat's,0.0416666666667,-0.0425596144188,True,-0.1823215567939546
+86,86,[<__main__.Word instance at 0x11230e830>],Violet,2_0,False,True,[['hand']],hand,hand,1.0,0.0,False,-0.0
+87,87,[<__main__.Word instance at 0x11230e908>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+88,88,"[<__main__.Word instance at 0x11230e9e0>
+ <__main__.Word instance at 0x11230e878>]",Violet,2_0,False,False,"[['daddy'], ['bye']]",byedaddy,daddybye,0.5,-0.69314718056,False,-0.6931471805599453
+89,89,[<__main__.Word instance at 0x11230e368>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+90,90,[<__main__.Word instance at 0x11230eb00>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+91,91,[<__main__.Word instance at 0x11230ecb0>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+92,92,[<__main__.Word instance at 0x11230ebd8>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+93,93,[<__main__.Word instance at 0x11230e950>],Violet,2_0,False,True,[['two']],two,two,1.0,0.0,False,-0.0
+94,94,"[<__main__.Word instance at 0x11230ee60>
+ <__main__.Word instance at 0x1123110e0>]",Violet,2_0,False,True,"[['look', 'at']]",lookat,lookat,1.0,0.0,False,-0.0
+95,95,[<__main__.Word instance at 0x112311050>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+96,96,[<__main__.Word instance at 0x112311248>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+97,97,[<__main__.Word instance at 0x1123113f8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+98,98,"[<__main__.Word instance at 0x112311560>
+ <__main__.Word instance at 0x1123117a0>
+ <__main__.Word instance at 0x1123113b0>]",Violet,2_0,False,False,"[['a'], ['hotdog'], ['made']]",madeahotdog,amadehotdog,0.166666666667,-0.182321556794,False,-0.1823215567939546
+99,99,[<__main__.Word instance at 0x112311710>],Violet,2_0,False,True,[['hotdog']],hotdog,hotdog,1.0,0.0,False,-0.0
+100,100,[<__main__.Word instance at 0x1123115a8>],Violet,2_0,False,True,[['hotdog']],hotdog,hotdog,1.0,0.0,False,-0.0
+101,101,"[<__main__.Word instance at 0x112311bd8>
+ <__main__.Word instance at 0x1123117e8>
+ <__main__.Word instance at 0x112311c68>]",Violet,2_0,False,True,"[['hotdog'], ['a'], [""that's""]]",that'sahotdog,that'sahotdog,0.166666666667,1.79175946923,False,1.791759469228055
+102,102,[<__main__.Word instance at 0x112311d88>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+103,103,[<__main__.Word instance at 0x112311ef0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+104,104,[<__main__.Word instance at 0x112311fc8>],Violet,2_0,False,True,[['four']],four,four,1.0,0.0,False,-0.0
+105,105,"[<__main__.Word instance at 0x112314248>
+ <__main__.Word instance at 0x1123140e0>
+ <__main__.Word instance at 0x1123142d8>]",Violet,2_0,False,False,"[['this'], ['checkers'], ['is']]",thisischeckers,isthischeckers,0.166666666667,-0.182321556794,False,-0.1823215567939546
+106,106,"[<__main__.Word instance at 0x112314368>
+ <__main__.Word instance at 0x112314560>
+ <__main__.Word instance at 0x112314758>
+ <__main__.Word instance at 0x1123145f0>]",Violet,2_0,False,False,"[['has'], ['hole'], ['a'], ['it']]",ithasahole,aitholehas,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+107,107,"[<__main__.Word instance at 0x112314488>
+ <__main__.Word instance at 0x112314908>]",Violet,2_0,False,True,"[['fly', 'away']]",flyaway,flyaway,1.0,0.0,False,-0.0
+108,108,"[<__main__.Word instance at 0x112314998>
+ <__main__.Word instance at 0x112314878>
+ <__main__.Word instance at 0x112314b90>]",Violet,2_0,False,True,"[['come'], ['back'], ['Paul']]",comebackPaul,comebackPaul,0.166666666667,1.79175946923,False,1.791759469228055
+109,109,"[<__main__.Word instance at 0x112314a28>
+ <__main__.Word instance at 0x112314710>]",Violet,2_0,False,False,"[['two'], ['little']]",twolittle,littletwo,0.5,-0.69314718056,False,-0.6931471805599453
+110,110,[<__main__.Word instance at 0x112314200>],Violet,2_0,False,True,[['dummy']],dummy,dummy,1.0,0.0,False,-0.0
+111,111,"[<__main__.Word instance at 0x112314e60>
+ <__main__.Word instance at 0x112314c68>
+ <__main__.Word instance at 0x112314bd8>]",Violet,2_0,False,False,"[['named'], ['other'], ['Jack']]",othernamedJack,namedotherJack,0.166666666667,-0.182321556794,False,-0.1823215567939546
+112,112,"[<__main__.Word instance at 0x112318050>
+ <__main__.Word instance at 0x1123181b8>
+ <__main__.Word instance at 0x112318200>
+ <__main__.Word instance at 0x1123183b0>
+ <__main__.Word instance at 0x112318290>]",Violet,2_0,False,False,"[['that'], ['I'], ['song'], ['and'], ['sing']]",andIsingthatsong,andsingthatIsong,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+113,113,"[<__main__.Word instance at 0x112318440>
+ <__main__.Word instance at 0x112318638>
+ <__main__.Word instance at 0x112318128>
+ <__main__.Word instance at 0x112318830>]",Violet,2_0,False,False,"[['a', 'song'], [""let's""], ['sing']]",let'ssingasong,singasonglet's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+114,114,"[<__main__.Word instance at 0x1123188c0>
+ <__main__.Word instance at 0x112318560>]",Violet,2_0,False,False,"[['three'], ['little']]",threelittle,littlethree,0.5,-0.69314718056,False,-0.6931471805599453
+115,115,"[<__main__.Word instance at 0x112318950>
+ <__main__.Word instance at 0x112318c20>
+ <__main__.Word instance at 0x112318b00>]",Violet,2_0,False,False,"[['a'], ['sings'], ['lullaby']]",singsalullaby,alullabysings,0.166666666667,-0.182321556794,False,-0.1823215567939546
+116,116,"[<__main__.Word instance at 0x112318cb0>
+ <__main__.Word instance at 0x112318ea8>
+ <__main__.Word instance at 0x112318bd8>]",Violet,2_0,False,False,"[['Peter'], ['fly', 'away']]",flyawayPeter,Peterflyaway,0.5,-0.69314718056,False,-0.6931471805599453
+117,117,"[<__main__.Word instance at 0x112318f38>
+ <__main__.Word instance at 0x11231c170>
+ <__main__.Word instance at 0x11231c0e0>]",Violet,2_0,False,True,"[['fly', 'away'], ['Paul']]",flyawayPaul,flyawayPaul,0.5,0.69314718056,False,0.6931471805599453
+118,118,"[<__main__.Word instance at 0x11231c248>
+ <__main__.Word instance at 0x11231c3f8>
+ <__main__.Word instance at 0x11231c4d0>]",Violet,2_0,False,True,"[['back'], ['come'], ['Peter']]",comebackPeter,comebackPeter,0.166666666667,1.79175946923,False,1.791759469228055
+119,119,"[<__main__.Word instance at 0x11231c6c8>
+ <__main__.Word instance at 0x11231c560>
+ <__main__.Word instance at 0x11231c758>]",Violet,2_0,False,True,"[['Paul'], ['back'], ['come']]",comebackPaul,comebackPaul,0.166666666667,1.79175946923,False,1.791759469228055
+120,120,"[<__main__.Word instance at 0x11231c908>
+ <__main__.Word instance at 0x11231c7e8>]",Violet,2_0,False,True,"[['back'], ['coming']]",comingback,comingback,0.5,0.69314718056,False,0.6931471805599453
+121,121,"[<__main__.Word instance at 0x11231cbd8>
+ <__main__.Word instance at 0x11231ccb0>
+ <__main__.Word instance at 0x11231cef0>]",Violet,2_0,False,False,"[['still'], ['it'], ['playing']]",stillplayingit,itstillplaying,0.166666666667,-0.182321556794,False,-0.1823215567939546
+122,122,[<__main__.Word instance at 0x11231cf80>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+123,123,"[<__main__.Word instance at 0x11231ce18>
+ <__main__.Word instance at 0x11231f050>
+ <__main__.Word instance at 0x11231f248>]",Violet,2_0,False,False,"[['happy'], ['day'], ['yeah']]",yeahhappyday,yeahdayhappy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+124,124,"[<__main__.Word instance at 0x11231f488>
+ <__main__.Word instance at 0x11231f0e0>
+ <__main__.Word instance at 0x11231f4d0>
+ <__main__.Word instance at 0x11231f3f8>]",Violet,2_0,False,False,"[['yeah'], ['day'], ['yeah'], ['happy']]",yeahyeahhappyday,yeahdayhappyyeah,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+125,125,"[<__main__.Word instance at 0x11231f560>
+ <__main__.Word instance at 0x11231f5f0>
+ <__main__.Word instance at 0x11231f200>
+ <__main__.Word instance at 0x11231f8c0>
+ <__main__.Word instance at 0x11231f7e8>
+ <__main__.Word instance at 0x11231f9e0>
+ <__main__.Word instance at 0x11231f7a0>
+ <__main__.Word instance at 0x11231fa70>
+ <__main__.Word instance at 0x11231f290>
+ <__main__.Word instance at 0x11231fc20>]",Violet,2_0,False,False,"[['I', 'want'], ['go'], ['in'], ['to'], ['go'], ['there'], ['I', 'want'], ['to']]",IwanttogoIwanttogointhere,IwanttogotogointhereIwant,2.48015873016e-05,-2.4801894866e-05,True,-0.0001984323848162081
+126,126,"[<__main__.Word instance at 0x11231fe18>
+ <__main__.Word instance at 0x11231fcb0>
+ <__main__.Word instance at 0x11231fef0>
+ <__main__.Word instance at 0x11231fbd8>]",Violet,2_0,False,False,"[['there'], ['want'], ['to'], ['go']]",wanttogothere,gotowantthere,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+127,127,"[<__main__.Word instance at 0x11231fe60>
+ <__main__.Word instance at 0x1123221b8>
+ <__main__.Word instance at 0x112322098>
+ <__main__.Word instance at 0x112322368>
+ <__main__.Word instance at 0x112322290>]",Violet,2_0,False,True,"[['there'], ['to'], ['I', 'want'], ['go']]",Iwanttogothere,Iwanttogothere,0.0416666666667,3.17805383035,False,3.1780538303479458
+128,128,"[<__main__.Word instance at 0x112322170>
+ <__main__.Word instance at 0x112322758>
+ <__main__.Word instance at 0x1123226c8>
+ <__main__.Word instance at 0x1123228c0>]",Violet,2_0,False,False,"[['there'], ['go'], ['want'], ['to']]",wanttogothere,gototherewant,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+129,129,"[<__main__.Word instance at 0x112322a70>
+ <__main__.Word instance at 0x112322950>
+ <__main__.Word instance at 0x112322d88>
+ <__main__.Word instance at 0x112322c68>
+ <__main__.Word instance at 0x112322e18>]",Violet,2_0,False,True,"[['go'], ['to'], ['there'], ['I', 'want']]",Iwanttogothere,Iwanttogothere,0.0416666666667,3.17805383035,False,3.1780538303479458
+130,130,"[<__main__.Word instance at 0x112322fc8>
+ <__main__.Word instance at 0x112322ea8>
+ <__main__.Word instance at 0x112322f80>
+ <__main__.Word instance at 0x112322c20>
+ <__main__.Word instance at 0x112325200>
+ <__main__.Word instance at 0x112325098>]",Violet,2_0,False,False,"[['go'], ['in'], ['to'], ['I', 'want'], ['there']]",Iwanttogointhere,Iwanttogotherein,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+131,131,"[<__main__.Word instance at 0x1123255f0>
+ <__main__.Word instance at 0x112325560>
+ <__main__.Word instance at 0x112325638>]",Violet,2_0,False,False,"[[""I'm""], ['checkers'], ['playing']]",I'mplayingcheckers,I'mcheckersplaying,0.166666666667,-0.182321556794,False,-0.1823215567939546
+132,132,"[<__main__.Word instance at 0x1123256c8>
+ <__main__.Word instance at 0x112325908>]",Violet,2_0,False,False,"[['playing'], ['checkers']]",playingcheckers,checkersplaying,0.5,-0.69314718056,False,-0.6931471805599453
+133,133,"[<__main__.Word instance at 0x1123259e0>
+ <__main__.Word instance at 0x112325878>]",Violet,2_0,False,True,"[['my'], ['checkers']]",mycheckers,mycheckers,0.5,0.69314718056,False,0.6931471805599453
+134,134,[<__main__.Word instance at 0x112325ab8>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+135,135,"[<__main__.Word instance at 0x112325950>
+ <__main__.Word instance at 0x112325cf8>
+ <__main__.Word instance at 0x1123257e8>
+ <__main__.Word instance at 0x112325f38>
+ <__main__.Word instance at 0x112325320>]",Violet,2_0,False,False,"[['to'], ['read'], ['I'], ['a'], ['book']]",Itoreadabook,Ireadbooktoa,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+136,136,[<__main__.Word instance at 0x112325ea8>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+137,137,"[<__main__.Word instance at 0x112325e60>
+ <__main__.Word instance at 0x112328098>
+ <__main__.Word instance at 0x112328368>]",Violet,2_0,False,True,"[['sing'], ['a', 'song']]",singasong,singasong,0.5,0.69314718056,False,0.6931471805599453
+138,138,"[<__main__.Word instance at 0x112328560>
+ <__main__.Word instance at 0x1123283f8>
+ <__main__.Word instance at 0x112328638>]",Violet,2_0,False,True,"[['abcdefg'], ['about'], ['how']]",howaboutabcdefg,howaboutabcdefg,0.166666666667,1.79175946923,False,1.791759469228055
+139,139,[<__main__.Word instance at 0x1123286c8>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+140,140,"[<__main__.Word instance at 0x1123288c0>
+ <__main__.Word instance at 0x112328908>
+ <__main__.Word instance at 0x112328b48>]",Violet,2_0,False,False,"[['down'], ['the'], ['walking']]",walkingdownthe,thedownwalking,0.166666666667,-0.182321556794,False,-0.1823215567939546
+141,141,"[<__main__.Word instance at 0x112328d40>
+ <__main__.Word instance at 0x112328bd8>]",Violet,2_0,False,False,"[['down'], ['walking']]",walkingdown,downwalking,0.5,-0.69314718056,False,-0.6931471805599453
+142,142,"[<__main__.Word instance at 0x112328b00>
+ <__main__.Word instance at 0x112328f80>
+ <__main__.Word instance at 0x112328ef0>]",Violet,2_0,False,False,"[['the'], ['open'], ['doors']]",openthedoors,thedoorsopen,0.166666666667,-0.182321556794,False,-0.1823215567939546
+143,143,"[<__main__.Word instance at 0x112328fc8>
+ <__main__.Word instance at 0x11232c098>
+ <__main__.Word instance at 0x11232c128>]",Violet,2_0,False,False,"[['bag'], [""it's""], ['my']]",it'smybag,myit'sbag,0.166666666667,-0.182321556794,False,-0.1823215567939546
+144,144,[<__main__.Word instance at 0x11232c3b0>],Violet,2_0,False,True,[['bag']],bag,bag,1.0,0.0,False,-0.0
+145,145,"[<__main__.Word instance at 0x11232c5a8>
+ <__main__.Word instance at 0x11232c440>
+ <__main__.Word instance at 0x11232c4d0>]",Violet,2_0,False,False,"[['cereal'], ['dirty'], ['old']]",dirtyoldcereal,oldcerealdirty,0.166666666667,-0.182321556794,False,-0.1823215567939546
+146,146,"[<__main__.Word instance at 0x11232c7e8>
+ <__main__.Word instance at 0x11232c560>
+ <__main__.Word instance at 0x11232c9e0>
+ <__main__.Word instance at 0x11232c8c0>
+ <__main__.Word instance at 0x11232ca70>
+ <__main__.Word instance at 0x11232c6c8>
+ <__main__.Word instance at 0x11232ccf8>
+ <__main__.Word instance at 0x11232cc68>]",Violet,2_0,False,False,"[['in'], ['my'], ['all'], ['put'], ['checker'], ['I'], ['bag'], ['pieces']]",Iputallcheckerpiecesinmybag,Iputallincheckerpiecesbagmy,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+147,147,[<__main__.Word instance at 0x11232cb00>],Violet,2_0,False,True,[['two']],two,two,1.0,0.0,False,-0.0
+148,148,[<__main__.Word instance at 0x11232cef0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+149,149,"[<__main__.Word instance at 0x11232f1b8>
+ <__main__.Word instance at 0x11232f0e0>
+ <__main__.Word instance at 0x11232f3f8>
+ <__main__.Word instance at 0x11232f440>
+ <__main__.Word instance at 0x11232f368>]",Violet,2_0,False,False,"[['my'], ['play', 'checkers'], ['bag'], ['in']]",playcheckersinmybag,inmybagplaycheckers,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+150,150,"[<__main__.Word instance at 0x11232f4d0>
+ <__main__.Word instance at 0x11232f518>
+ <__main__.Word instance at 0x11232f290>
+ <__main__.Word instance at 0x11232f9e0>
+ <__main__.Word instance at 0x11232f8c0>]",Violet,2_0,False,False,"[['in'], ['my'], ['play', 'checkers'], ['bag']]",playcheckersinmybag,inplaycheckersbagmy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+151,151,"[<__main__.Word instance at 0x11232f170>
+ <__main__.Word instance at 0x11232fb48>
+ <__main__.Word instance at 0x11232f680>
+ <__main__.Word instance at 0x11232fcf8>
+ <__main__.Word instance at 0x11232fbd8>
+ <__main__.Word instance at 0x11232fea8>]",Violet,2_0,False,False,"[['in'], ['bag'], ['I'], ['play', 'checkers'], ['my']]",Iplaycheckersinmybag,Imybaginplaycheckers,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+152,152,"[<__main__.Word instance at 0x11232fa28>
+ <__main__.Word instance at 0x1123320e0>]",Violet,2_0,False,True,"[['checkers'], ['yeah']]",yeahcheckers,yeahcheckers,0.5,0.69314718056,False,0.6931471805599453
+153,153,[<__main__.Word instance at 0x112332128>],Violet,2_0,False,True,[['checkers']],checkers,checkers,1.0,0.0,False,-0.0
+154,154,"[<__main__.Word instance at 0x1123322d8>
+ <__main__.Word instance at 0x1123325a8>
+ <__main__.Word instance at 0x112332488>]",Violet,2_0,False,False,"[[""let's""], ['play', 'checkers']]",let'splaycheckers,playcheckerslet's,0.5,-0.69314718056,False,-0.6931471805599453
+155,155,[<__main__.Word instance at 0x112332638>],Violet,2_0,False,True,[['water']],water,water,1.0,0.0,False,-0.0
+156,156,"[<__main__.Word instance at 0x1123327e8>
+ <__main__.Word instance at 0x112332ab8>
+ <__main__.Word instance at 0x112332998>
+ <__main__.Word instance at 0x112332c68>]",Violet,2_0,False,False,"[['in'], ['put'], ['the'], ['ball']]",puttheballin,theballputin,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+157,157,"[<__main__.Word instance at 0x112332f80>
+ <__main__.Word instance at 0x112332e18>
+ <__main__.Word instance at 0x1123351b8>]",Violet,2_0,False,False,"[['how'], ['about'], ['this']]",howaboutthis,thisabouthow,0.166666666667,-0.182321556794,False,-0.1823215567939546
+158,158,"[<__main__.Word instance at 0x112335368>
+ <__main__.Word instance at 0x112335248>
+ <__main__.Word instance at 0x1123353f8>]",Violet,2_0,False,False,"[['now'], ['open'], ['I']]",nowIopen,nowopenI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+159,159,"[<__main__.Word instance at 0x112335200>
+ <__main__.Word instance at 0x1123355f0>
+ <__main__.Word instance at 0x1123357a0>]",Violet,2_0,False,False,"[['open'], ['the'], ['door']]",openthedoor,theopendoor,0.166666666667,-0.182321556794,False,-0.1823215567939546
+160,160,[<__main__.Word instance at 0x112335830>],Violet,2_0,False,True,[['here']],here,here,1.0,0.0,False,-0.0
+161,161,[<__main__.Word instance at 0x112335908>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+162,162,"[<__main__.Word instance at 0x112335b00>
+ <__main__.Word instance at 0x112335998>
+ <__main__.Word instance at 0x112335bd8>
+ <__main__.Word instance at 0x112335560>
+ <__main__.Word instance at 0x112335c68>
+ <__main__.Word instance at 0x112335b48>
+ <__main__.Word instance at 0x112335f80>
+ <__main__.Word instance at 0x112335ea8>
+ <__main__.Word instance at 0x112335fc8>]",Violet,2_0,False,False,"[['this', 'one'], ['put'], ['this', 'one'], ['and'], ['in'], ['one'], ['that']]",putthisoneandthatoneinthisone,thisonethatoneinputthisoneand,0.000198412698413,-0.000198432384816,True,-0.00039690415285879686
+163,163,"[<__main__.Word instance at 0x112338128>
+ <__main__.Word instance at 0x112338440>]",Violet,2_0,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+164,164,"[<__main__.Word instance at 0x1123385a8>
+ <__main__.Word instance at 0x1123384d0>]",Violet,2_0,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+165,165,"[<__main__.Word instance at 0x112338488>
+ <__main__.Word instance at 0x112338758>]",Violet,2_0,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+166,166,[<__main__.Word instance at 0x112338a70>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+167,167,"[<__main__.Word instance at 0x112338b48>
+ <__main__.Word instance at 0x112338c20>
+ <__main__.Word instance at 0x112338ab8>]",Violet,2_0,False,True,"[['these', 'are'], ['my']]",thesearemy,thesearemy,0.5,0.69314718056,False,0.6931471805599453
+168,168,"[<__main__.Word instance at 0x112338b90>
+ <__main__.Word instance at 0x112338fc8>]",Violet,2_0,False,False,"[['chair'], ['Elmo']]",Elmochair,chairElmo,0.5,-0.69314718056,False,-0.6931471805599453
+169,169,"[<__main__.Word instance at 0x1123388c0>
+ <__main__.Word instance at 0x11233b2d8>
+ <__main__.Word instance at 0x11233b248>
+ <__main__.Word instance at 0x11233b3b0>
+ <__main__.Word instance at 0x11233b200>]",Violet,2_0,False,False,"[['this'], ['Elmo'], ['chair'], ['is'], ['an']]",thisisanElmochair,anisthisElmochair,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+170,170,"[<__main__.Word instance at 0x11233b560>
+ <__main__.Word instance at 0x11233b638>
+ <__main__.Word instance at 0x11233b320>
+ <__main__.Word instance at 0x11233b710>]",Violet,2_0,False,False,"[['yeah'], ['I', 'want'], ['that']]",yeahIwantthat,Iwantthatyeah,0.166666666667,-0.182321556794,False,-0.1823215567939546
+171,171,"[<__main__.Word instance at 0x11233b680>
+ <__main__.Word instance at 0x11233b5a8>
+ <__main__.Word instance at 0x11233b758>
+ <__main__.Word instance at 0x11233b9e0>]",Violet,2_0,False,False,"[['this'], ['a'], ['is'], ['yeah']]",yeahthisisa,isthisayeah,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+172,172,[<__main__.Word instance at 0x11233bbd8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+173,173,"[<__main__.Word instance at 0x11233bdd0>
+ <__main__.Word instance at 0x11233bc68>
+ <__main__.Word instance at 0x11233be60>]",Violet,2_0,False,False,"[['this'], ['is'], ['rolie']]",thisisrolie,isthisrolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+174,174,"[<__main__.Word instance at 0x11233bef0>
+ <__main__.Word instance at 0x11233bd88>]",Violet,2_0,False,True,"[['polie'], ['olie']]",oliepolie,oliepolie,0.5,0.69314718056,False,0.6931471805599453
+175,175,"[<__main__.Word instance at 0x11233e098>
+ <__main__.Word instance at 0x11233e170>]",Violet,2_0,False,False,"[['is'], ['this']]",thisis,isthis,0.5,-0.69314718056,False,-0.6931471805599453
+176,176,[<__main__.Word instance at 0x11233e0e0>],Violet,2_0,False,True,[['polie']],polie,polie,1.0,0.0,False,-0.0
+177,177,[<__main__.Word instance at 0x11233e290>],Violet,2_0,False,True,[['you']],you,you,1.0,0.0,False,-0.0
+178,178,[<__main__.Word instance at 0x11233e680>],Violet,2_0,False,True,[['olie']],olie,olie,1.0,0.0,False,-0.0
+179,179,[<__main__.Word instance at 0x11233e758>],Violet,2_0,False,True,[['olie']],olie,olie,1.0,0.0,False,-0.0
+180,180,"[<__main__.Word instance at 0x11233e830>
+ <__main__.Word instance at 0x11233e6c8>
+ <__main__.Word instance at 0x11233e9e0>
+ <__main__.Word instance at 0x11233e5a8>]",Violet,2_0,False,False,"[['girl'], ['a'], [""I'm""], ['yeah']]",yeahI'magirl,ayeahI'mgirl,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+181,181,"[<__main__.Word instance at 0x11233e998>
+ <__main__.Word instance at 0x11233eb00>]",Violet,2_0,False,True,"[['that'], ['one']]",thatone,thatone,0.5,0.69314718056,False,0.6931471805599453
+182,182,[<__main__.Word instance at 0x11233ed88>],Violet,2_0,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+183,183,"[<__main__.Word instance at 0x11233ee60>
+ <__main__.Word instance at 0x11233ecb0>]",Violet,2_0,False,True,"[['right'], ['there']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+184,184,"[<__main__.Word instance at 0x11233e908>
+ <__main__.Word instance at 0x112342050>]",Violet,2_0,False,True,"[['there'], ['right']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+185,185,[<__main__.Word instance at 0x1123420e0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+186,186,"[<__main__.Word instance at 0x112342290>
+ <__main__.Word instance at 0x1123424d0>]",Violet,2_0,False,False,"[['the'], ['boy']]",theboy,boythe,0.5,-0.69314718056,False,-0.6931471805599453
+187,187,"[<__main__.Word instance at 0x112342560>
+ <__main__.Word instance at 0x112342440>
+ <__main__.Word instance at 0x112342830>]",Violet,2_0,False,True,"[['olie'], ['polie'], ['rolie']]",roliepolieolie,roliepolieolie,0.166666666667,1.79175946923,False,1.791759469228055
+188,188,[<__main__.Word instance at 0x112342908>],Violet,2_0,False,True,[['alright']],alright,alright,1.0,0.0,False,-0.0
+189,189,"[<__main__.Word instance at 0x112342ab8>
+ <__main__.Word instance at 0x112342758>
+ <__main__.Word instance at 0x112342b48>]",Violet,2_0,False,False,"[['polie'], ['rolie'], ['olie']]",roliepolieolie,olieroliepolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+190,190,"[<__main__.Word instance at 0x1123425f0>
+ <__main__.Word instance at 0x112342cb0>
+ <__main__.Word instance at 0x112342b90>
+ <__main__.Word instance at 0x112342d88>
+ <__main__.Word instance at 0x112342998>]",Violet,2_0,False,False,"[['olie'], ['rolie'], ['polie'], ['polie'], ['rolie']]",roliepolieroliepolieolie,rolieroliepoliepolieolie,0.00833333333333,-0.00836824967052,True,-0.03390155167568134
+191,191,"[<__main__.Word instance at 0x112342e60>
+ <__main__.Word instance at 0x112345200>
+ <__main__.Word instance at 0x112345170>]",Violet,2_0,False,False,"[['in'], [""it's""], ['here']]",it'sinhere,inhereit's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+192,192,[<__main__.Word instance at 0x112345128>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+193,193,"[<__main__.Word instance at 0x1123453b0>
+ <__main__.Word instance at 0x112345680>
+ <__main__.Word instance at 0x112345518>
+ <__main__.Word instance at 0x112345710>]",Violet,2_0,False,False,"[['there'], [""you're""], ['sitting'], ['over']]",you'resittingoverthere,overthereyou'resitting,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+194,194,"[<__main__.Word instance at 0x112345908>
+ <__main__.Word instance at 0x1123457a0>]",Violet,2_0,False,True,"[['I', 'want']]",Iwant,Iwant,1.0,0.0,False,-0.0
+195,195,[<__main__.Word instance at 0x112345638>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+196,196,[<__main__.Word instance at 0x1123459e0>],Violet,2_0,False,True,[['volcano']],volcano,volcano,1.0,0.0,False,-0.0
+197,197,[<__main__.Word instance at 0x112345c68>],Violet,2_0,False,True,[['pecking']],pecking,pecking,1.0,0.0,False,-0.0
+198,198,[<__main__.Word instance at 0x112345b48>],Violet,2_0,False,True,[['turtle']],turtle,turtle,1.0,0.0,False,-0.0
+199,199,"[<__main__.Word instance at 0x112345e60>
+ <__main__.Word instance at 0x112345f80>]",Violet,2_0,False,False,"[['bat'], ['vampire']]",vampirebat,batvampire,0.5,-0.69314718056,False,-0.6931471805599453
+200,200,[<__main__.Word instance at 0x1123481b8>],Violet,2_0,False,True,[['bear']],bear,bear,1.0,0.0,False,-0.0
+201,201,[<__main__.Word instance at 0x112348290>],Violet,2_0,False,True,[['monkey']],monkey,monkey,1.0,0.0,False,-0.0
+202,202,[<__main__.Word instance at 0x112348200>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+203,203,[<__main__.Word instance at 0x1123482d8>],Violet,2_0,False,True,[['sloth']],sloth,sloth,1.0,0.0,False,-0.0
+204,204,"[<__main__.Word instance at 0x1123487a0>
+ <__main__.Word instance at 0x1123486c8>
+ <__main__.Word instance at 0x112348830>]",Violet,2_0,False,False,"[['like'], ['deer'], ['a']]",likeadeer,alikedeer,0.166666666667,-0.182321556794,False,-0.1823215567939546
+205,205,[<__main__.Word instance at 0x112348a28>],Violet,2_0,False,True,[['yak']],yak,yak,1.0,0.0,False,-0.0
+206,206,[<__main__.Word instance at 0x112348bd8>],Violet,2_0,False,True,[['hippopotamus']],hippopotamus,hippopotamus,1.0,0.0,False,-0.0
+207,207,[<__main__.Word instance at 0x112348e60>],Violet,2_0,False,True,[['baby']],baby,baby,1.0,0.0,False,-0.0
+208,208,[<__main__.Word instance at 0x112348ef0>],Violet,2_0,False,True,[['penguin']],penguin,penguin,1.0,0.0,False,-0.0
+209,209,[<__main__.Word instance at 0x112348ea8>],Violet,2_0,False,True,[['pu']],pu,pu,1.0,0.0,False,-0.0
+210,210,"[<__main__.Word instance at 0x112348b90>
+ <__main__.Word instance at 0x112348d88>]",Violet,2_0,False,True,"[['fish'], ['a']]",afish,afish,0.5,0.69314718056,False,0.6931471805599453
+211,211,"[<__main__.Word instance at 0x11234b0e0>
+ <__main__.Word instance at 0x11234b3b0>]",Violet,2_0,False,True,"[['a'], ['fish']]",afish,afish,0.5,0.69314718056,False,0.6931471805599453
+212,212,[<__main__.Word instance at 0x11234b488>],Violet,2_0,False,True,[['angelfish']],angelfish,angelfish,1.0,0.0,False,-0.0
+213,213,"[<__main__.Word instance at 0x11234b3f8>
+ <__main__.Word instance at 0x11234b638>]",Violet,2_0,False,False,"[['clown'], ['fish']]",clownfish,fishclown,0.5,-0.69314718056,False,-0.6931471805599453
+214,214,"[<__main__.Word instance at 0x11234b320>
+ <__main__.Word instance at 0x11234b5a8>]",Violet,2_0,False,False,"[['whale'], ['blue']]",bluewhale,whaleblue,0.5,-0.69314718056,False,-0.6931471805599453
+215,215,[<__main__.Word instance at 0x11234b170>],Violet,2_0,False,True,[['worms']],worms,worms,1.0,0.0,False,-0.0
+216,216,[<__main__.Word instance at 0x11234b950>],Violet,2_0,False,True,[['eels']],eels,eels,1.0,0.0,False,-0.0
+217,217,"[<__main__.Word instance at 0x11234b9e0>
+ <__main__.Word instance at 0x11234b248>]",Violet,2_0,False,False,"[['whale'], ['blue']]",bluewhale,whaleblue,0.5,-0.69314718056,False,-0.6931471805599453
+218,218,"[<__main__.Word instance at 0x11234ba70>
+ <__main__.Word instance at 0x11234bcb0>
+ <__main__.Word instance at 0x11234b290>]",Violet,2_0,False,False,"[['blow'], ['they'], ['out']]",theyblowout,outtheyblow,0.166666666667,-0.182321556794,False,-0.1823215567939546
+219,219,[<__main__.Word instance at 0x11234b680>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+220,220,"[<__main__.Word instance at 0x11234bdd0>
+ <__main__.Word instance at 0x11234bf80>]",Violet,2_0,False,True,"[['sea'], ['horse']]",seahorse,seahorse,0.5,0.69314718056,False,0.6931471805599453
+221,221,"[<__main__.Word instance at 0x11234f050>
+ <__main__.Word instance at 0x11234f290>
+ <__main__.Word instance at 0x11234f560>]",Violet,2_0,False,False,"[['at'], ['there'], ['live']]",liveatthere,thereliveat,0.166666666667,-0.182321556794,False,-0.1823215567939546
+222,222,"[<__main__.Word instance at 0x11234f5f0>
+ <__main__.Word instance at 0x11234f440>
+ <__main__.Word instance at 0x11234f710>]",Violet,2_0,False,True,"[['we', 'live'], ['there']]",welivethere,welivethere,0.5,0.69314718056,False,0.6931471805599453
+223,223,"[<__main__.Word instance at 0x11234f7a0>
+ <__main__.Word instance at 0x11234f098>
+ <__main__.Word instance at 0x11234fa70>
+ <__main__.Word instance at 0x11234f998>]",Violet,2_0,False,False,"[['green'], ['and'], ['and'], ['red']]",greenandredand,andgreenandred,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+224,224,[<__main__.Word instance at 0x11234fb00>],Violet,2_0,False,True,[['one']],one,one,1.0,0.0,False,-0.0
+225,225,[<__main__.Word instance at 0x11234fe18>],Violet,2_0,False,True,[['two']],two,two,1.0,0.0,False,-0.0
+226,226,[<__main__.Word instance at 0x11234f3b0>],Violet,2_0,False,True,[['three']],three,three,1.0,0.0,False,-0.0
+227,227,[<__main__.Word instance at 0x112352440>],Violet,2_0,False,True,[['six']],six,six,1.0,0.0,False,-0.0
+228,228,"[<__main__.Word instance at 0x112352488>
+ <__main__.Word instance at 0x1123525f0>
+ <__main__.Word instance at 0x1123525a8>]",Violet,2_0,False,True,"[[""there's""], ['a'], ['tongue']]",there'satongue,there'satongue,0.166666666667,1.79175946923,False,1.791759469228055
+229,229,"[<__main__.Word instance at 0x1123527a0>
+ <__main__.Word instance at 0x112352950>
+ <__main__.Word instance at 0x112352710>]",Violet,2_0,False,True,"[['brain'], [""there's""], ['a']]",there'sabrain,there'sabrain,0.166666666667,1.79175946923,False,1.791759469228055
+230,230,"[<__main__.Word instance at 0x1123529e0>
+ <__main__.Word instance at 0x112352c68>]",Violet,2_0,False,True,"[['the'], [""where's""]]",where'sthe,where'sthe,0.5,0.69314718056,False,0.6931471805599453
+231,231,[<__main__.Word instance at 0x112352cf8>],Violet,2_0,False,True,[['teacups']],teacups,teacups,1.0,0.0,False,-0.0
+232,232,[<__main__.Word instance at 0x112352ef0>],Violet,2_0,False,True,[['bicycle']],bicycle,bicycle,1.0,0.0,False,-0.0
+233,233,[<__main__.Word instance at 0x112352fc8>],Violet,2_0,False,True,[['bicycle']],bicycle,bicycle,1.0,0.0,False,-0.0
+234,234,"[<__main__.Word instance at 0x112352ea8>
+ <__main__.Word instance at 0x112352bd8>
+ <__main__.Word instance at 0x112355200>
+ <__main__.Word instance at 0x112355098>]",Violet,2_0,False,False,"[['ready'], ['olie'], ['rolie'], ['polie']]",readyroliepolieolie,polieroliereadyolie,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+235,235,"[<__main__.Word instance at 0x1123554d0>
+ <__main__.Word instance at 0x112355368>
+ <__main__.Word instance at 0x1123555f0>]",Violet,2_0,False,False,"[['polie'], ['rolie'], ['olie']]",roliepolieolie,rolieoliepolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+236,236,"[<__main__.Word instance at 0x112355680>
+ <__main__.Word instance at 0x112355b48>
+ <__main__.Word instance at 0x1123559e0>]",Violet,2_0,False,False,"[['rolie'], ['olie'], ['polie']]",roliepolieolie,polieolierolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+237,237,"[<__main__.Word instance at 0x112355950>
+ <__main__.Word instance at 0x112355dd0>
+ <__main__.Word instance at 0x112355cb0>]",Violet,2_0,False,True,"[['olie'], ['polie'], ['rolie']]",roliepolieolie,roliepolieolie,0.166666666667,1.79175946923,False,1.791759469228055
+238,238,"[<__main__.Word instance at 0x112355d88>
+ <__main__.Word instance at 0x112358050>
+ <__main__.Word instance at 0x1123580e0>]",Violet,2_0,False,False,"[['olie'], ['rolie'], ['polie']]",roliepolieolie,polieolierolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+239,239,[<__main__.Word instance at 0x112358170>],Violet,2_0,False,True,[['Spot']],Spot,Spot,1.0,0.0,False,-0.0
+240,240,[<__main__.Word instance at 0x112358368>],Violet,2_0,False,True,[['race']],race,race,1.0,0.0,False,-0.0
+241,241,"[<__main__.Word instance at 0x112358248>
+ <__main__.Word instance at 0x112358710>]",Violet,2_0,False,True,"[['polie'], ['rolie']]",roliepolie,roliepolie,0.5,0.69314718056,False,0.6931471805599453
+242,242,[<__main__.Word instance at 0x112358908>],Violet,2_0,False,True,[['olie']],olie,olie,1.0,0.0,False,-0.0
+243,243,"[<__main__.Word instance at 0x112358ab8>
+ <__main__.Word instance at 0x112358998>
+ <__main__.Word instance at 0x112358c68>]",Violet,2_0,False,True,"[[""that's""], ['a', 'robot']]",that'sarobot,that'sarobot,0.5,0.69314718056,False,0.6931471805599453
+244,244,"[<__main__.Word instance at 0x112358e18>
+ <__main__.Word instance at 0x112358cf8>]",Violet,2_0,False,True,"[['one'], ['that']]",thatone,thatone,0.5,0.69314718056,False,0.6931471805599453
+245,245,"[<__main__.Word instance at 0x112358ea8>
+ <__main__.Word instance at 0x11235b1b8>
+ <__main__.Word instance at 0x11235b098>]",Violet,2_0,False,True,"[['one'], ['that'], ['and']]",andthatone,andthatone,0.166666666667,1.79175946923,False,1.791759469228055
+246,246,[<__main__.Word instance at 0x11235b248>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+247,247,"[<__main__.Word instance at 0x11235b3f8>
+ <__main__.Word instance at 0x11235b488>
+ <__main__.Word instance at 0x11235b320>]",Violet,2_0,False,False,"[['olie'], ['rolie'], ['polie']]",roliepolieolie,olieroliepolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+248,248,[<__main__.Word instance at 0x11235b680>],Violet,2_0,False,True,[['Zoe']],Zoe,Zoe,1.0,0.0,False,-0.0
+249,249,"[<__main__.Word instance at 0x11235b638>
+ <__main__.Word instance at 0x11235b9e0>
+ <__main__.Word instance at 0x11235b8c0>]",Violet,2_0,False,True,"[['fix'], ['fix'], ['fix']]",fixfixfix,fixfixfix,0.166666666667,1.79175946923,True,-0.0
+250,250,[<__main__.Word instance at 0x11235ba70>],Violet,2_0,False,True,[['ball']],ball,ball,1.0,0.0,False,-0.0
+251,251,[<__main__.Word instance at 0x11235bb48>],Violet,2_0,False,True,[['mommy']],mommy,mommy,1.0,0.0,False,-0.0
+252,252,[<__main__.Word instance at 0x11235bdd0>],Violet,2_0,False,True,[['olie']],olie,olie,1.0,0.0,False,-0.0
+253,253,"[<__main__.Word instance at 0x11235bc20>
+ <__main__.Word instance at 0x11235e1b8>]",Violet,2_0,False,False,"[[""there's""], ['olie']]",there'solie,oliethere's,0.5,-0.69314718056,False,-0.6931471805599453
+254,254,[<__main__.Word instance at 0x11235e5f0>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+255,255,[<__main__.Word instance at 0x11235e680>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+256,256,[<__main__.Word instance at 0x11235eab8>],Violet,2_0,False,True,[['olie']],olie,olie,1.0,0.0,False,-0.0
+257,257,"[<__main__.Word instance at 0x11235eb48>
+ <__main__.Word instance at 0x11235e998>
+ <__main__.Word instance at 0x11235ec68>]",Violet,2_0,False,False,"[['Zoe'], [""that's""], ['olie']]",Zoethat'solie,olieZoethat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+258,258,[<__main__.Word instance at 0x11235ed40>],Violet,2_0,False,True,[['puppy']],puppy,puppy,1.0,0.0,False,-0.0
+259,259,[<__main__.Word instance at 0x11235ebd8>],Violet,2_0,False,True,[['Spot']],Spot,Spot,1.0,0.0,False,-0.0
+260,260,[<__main__.Word instance at 0x11235ef80>],Violet,2_0,False,True,[['picture']],picture,picture,1.0,0.0,False,-0.0
+261,261,"[<__main__.Word instance at 0x11235e908>
+ <__main__.Word instance at 0x11235efc8>
+ <__main__.Word instance at 0x11235ed88>
+ <__main__.Word instance at 0x112361098>]",Violet,2_0,False,False,"[['bum'], ['pictures'], ['my'], ['of']]",picturesofmybum,mypicturesofbum,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+262,262,[<__main__.Word instance at 0x1123613f8>],Violet,2_0,False,True,[['daddy']],daddy,daddy,1.0,0.0,False,-0.0
+263,263,[<__main__.Word instance at 0x1123614d0>],Violet,2_0,False,True,[['bathtub']],bathtub,bathtub,1.0,0.0,False,-0.0
+264,264,"[<__main__.Word instance at 0x1123616c8>
+ <__main__.Word instance at 0x112361560>
+ <__main__.Word instance at 0x1123617a0>
+ <__main__.Word instance at 0x112361248>]",Violet,2_0,False,False,"[['a'], [""that's""], ['bath'], ['paper']]",that'sabathpaper,that'sapaperbath,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+265,265,"[<__main__.Word instance at 0x112361710>
+ <__main__.Word instance at 0x112361a28>
+ <__main__.Word instance at 0x1123618c0>]",Violet,2_0,False,True,"[[""there's""], ['a'], ['bath']]",there'sabath,there'sabath,0.166666666667,1.79175946923,False,1.791759469228055
+266,266,"[<__main__.Word instance at 0x112361680>
+ <__main__.Word instance at 0x112361cb0>]",Violet,2_0,False,True,"[['bath'], ['the']]",thebath,thebath,0.5,0.69314718056,False,0.6931471805599453
+267,267,"[<__main__.Word instance at 0x112361e18>
+ <__main__.Word instance at 0x112361e60>]",Violet,2_0,False,True,"[['bath'], ['the']]",thebath,thebath,0.5,0.69314718056,False,0.6931471805599453
+268,268,"[<__main__.Word instance at 0x1123619e0>
+ <__main__.Word instance at 0x112364098>]",Violet,2_0,False,False,"[['a'], [""it's""]]",it'sa,ait's,0.5,-0.69314718056,False,-0.6931471805599453
+269,269,"[<__main__.Word instance at 0x1123640e0>
+ <__main__.Word instance at 0x1123643b0>]",Violet,2_0,False,True,"[['ground'], ['the']]",theground,theground,0.5,0.69314718056,False,0.6931471805599453
+270,270,"[<__main__.Word instance at 0x112364560>
+ <__main__.Word instance at 0x112364440>
+ <__main__.Word instance at 0x112364950>]",Violet,2_0,False,False,"[['see'], ['you'], ['I']]",Iseeyou,youseeI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+271,271,"[<__main__.Word instance at 0x112364d88>
+ <__main__.Word instance at 0x112364c20>
+ <__main__.Word instance at 0x112364dd0>]",Violet,2_0,False,False,"[['over'], ['sit'], ['there']]",sitoverthere,overtheresit,0.166666666667,-0.182321556794,False,-0.1823215567939546
+272,272,"[<__main__.Word instance at 0x112364f80>
+ <__main__.Word instance at 0x112364ef0>]",Violet,2_0,False,True,"[['I', 'want']]",Iwant,Iwant,1.0,0.0,False,-0.0
+273,273,[<__main__.Word instance at 0x1123649e0>],Violet,2_0,False,True,[['baby']],baby,baby,1.0,0.0,False,-0.0
+274,274,"[<__main__.Word instance at 0x112367320>
+ <__main__.Word instance at 0x112367248>]",Violet,2_0,False,True,"[['the'], ['maze']]",themaze,themaze,0.5,0.69314718056,False,0.6931471805599453
+275,275,"[<__main__.Word instance at 0x1123673b0>
+ <__main__.Word instance at 0x112367680>
+ <__main__.Word instance at 0x1123675a8>]",Violet,2_0,False,True,"[['muck'], ['muck'], ['muck']]",muckmuckmuck,muckmuckmuck,0.166666666667,1.79175946923,True,-0.0
+276,276,[<__main__.Word instance at 0x112367710>],Violet,2_0,False,True,[['is']],is,is,1.0,0.0,False,-0.0
+277,277,"[<__main__.Word instance at 0x112367b48>
+ <__main__.Word instance at 0x112367cb0>]",Violet,2_0,False,True,"[['it'], ['Dizzy']]",itDizzy,itDizzy,0.5,0.69314718056,False,0.6931471805599453
+278,278,"[<__main__.Word instance at 0x112367d40>
+ <__main__.Word instance at 0x1123678c0>
+ <__main__.Word instance at 0x112367f80>
+ <__main__.Word instance at 0x112367e60>]",Violet,2_0,False,False,"[['there'], ['right'], ['Dizzy'], [""it's""]]",it'sDizzyrightthere,rightthereDizzyit's,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+279,279,[<__main__.Word instance at 0x1123677e8>],Violet,2_0,False,True,[['Muck']],Muck,Muck,1.0,0.0,False,-0.0
+280,280,"[<__main__.Word instance at 0x11236a098>
+ <__main__.Word instance at 0x11236a170>
+ <__main__.Word instance at 0x11236a200>]",Violet,2_0,False,True,"[['a'], ['I', 'want']]",Iwanta,Iwanta,0.5,0.69314718056,False,0.6931471805599453
+281,281,[<__main__.Word instance at 0x11236a320>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+282,282,"[<__main__.Word instance at 0x11236a758>
+ <__main__.Word instance at 0x11236a908>]",Violet,2_0,False,True,"[['I', 'want']]",Iwant,Iwant,1.0,0.0,False,-0.0
+283,283,[<__main__.Word instance at 0x11236a518>],Violet,2_0,False,True,[['bath']],bath,bath,1.0,0.0,False,-0.0
+284,284,[<__main__.Word instance at 0x11236a638>],Violet,2_0,False,True,[['color']],color,color,1.0,0.0,False,-0.0
+285,285,[<__main__.Word instance at 0x11236aab8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+286,286,"[<__main__.Word instance at 0x11236a5f0>
+ <__main__.Word instance at 0x11236ae60>
+ <__main__.Word instance at 0x11236ad40>]",Violet,2_0,False,False,"[['polie'], ['olie'], ['rolie']]",roliepolieolie,rolieoliepolie,0.166666666667,-0.182321556794,False,-0.1823215567939546
+287,287,[<__main__.Word instance at 0x11236a878>],Violet,2_0,False,True,[['muck']],muck,muck,1.0,0.0,False,-0.0
+288,288,[<__main__.Word instance at 0x11236d368>],Violet,2_0,False,True,[['m']],m,m,1.0,0.0,False,-0.0
+289,289,[<__main__.Word instance at 0x11236d440>],Violet,2_0,False,True,[['o']],o,o,1.0,0.0,False,-0.0
+290,290,[<__main__.Word instance at 0x11236d518>],Violet,2_0,False,True,[['u']],u,u,1.0,0.0,False,-0.0
+291,291,"[<__main__.Word instance at 0x11236d488>
+ <__main__.Word instance at 0x11236d680>]",Violet,2_0,False,True,"[['like'], ['mommy']]",likemommy,likemommy,0.5,0.69314718056,False,0.6931471805599453
+292,292,[<__main__.Word instance at 0x11236d950>],Violet,2_0,False,True,[['m']],m,m,1.0,0.0,False,-0.0
+293,293,[<__main__.Word instance at 0x11236d9e0>],Violet,2_0,False,True,[['i']],i,i,1.0,0.0,False,-0.0
+294,294,[<__main__.Word instance at 0x11236dab8>],Violet,2_0,False,True,[['o']],o,o,1.0,0.0,False,-0.0
+295,295,[<__main__.Word instance at 0x11236dcb0>],Violet,2_0,False,True,[['e']],e,e,1.0,0.0,False,-0.0
+296,296,[<__main__.Word instance at 0x11236dea8>],Violet,2_0,False,True,[['muck']],muck,muck,1.0,0.0,False,-0.0
+297,297,"[<__main__.Word instance at 0x11236df38>
+ <__main__.Word instance at 0x11236dc68>]",Violet,2_0,False,True,"[['mickey'], ['muck']]",mickeymuck,mickeymuck,0.5,0.69314718056,False,0.6931471805599453
+298,298,[<__main__.Word instance at 0x11236de60>],Violet,2_0,False,True,[['wheel']],wheel,wheel,1.0,0.0,False,-0.0
+299,299,"[<__main__.Word instance at 0x112370170>
+ <__main__.Word instance at 0x112370290>]",Violet,2_0,False,False,"[['muck'], ['the']]",themuck,muckthe,0.5,-0.69314718056,False,-0.6931471805599453
+300,300,[<__main__.Word instance at 0x1123704d0>],Violet,2_0,False,True,[['muck']],muck,muck,1.0,0.0,False,-0.0
+301,301,[<__main__.Word instance at 0x112370710>],Violet,2_0,False,True,[['rolie']],rolie,rolie,1.0,0.0,False,-0.0
+302,302,[<__main__.Word instance at 0x1123707e8>],Violet,2_0,False,True,[['color']],color,color,1.0,0.0,False,-0.0
+303,303,[<__main__.Word instance at 0x1123708c0>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+304,304,"[<__main__.Word instance at 0x112370a28>
+ <__main__.Word instance at 0x112370908>
+ <__main__.Word instance at 0x112370ab8>
+ <__main__.Word instance at 0x112370758>
+ <__main__.Word instance at 0x112370bd8>]",Violet,2_0,False,True,"[['you'], ['a', 'kitty', 'cat'], ['make']]",youmakeakittycat,youmakeakittycat,0.166666666667,1.79175946923,False,1.791759469228055
+305,305,"[<__main__.Word instance at 0x112370d88>
+ <__main__.Word instance at 0x112370cf8>
+ <__main__.Word instance at 0x112370ea8>]",Violet,2_0,False,False,"[['a'], ['make'], ['I']]",Imakea,Iamake,0.166666666667,-0.182321556794,False,-0.1823215567939546
+306,306,"[<__main__.Word instance at 0x112370f38>
+ <__main__.Word instance at 0x1123709e0>
+ <__main__.Word instance at 0x1123732d8>
+ <__main__.Word instance at 0x1123731b8>
+ <__main__.Word instance at 0x1123733b0>]",Violet,2_0,False,False,"[['an', 'orange'], ['I'], ['make'], ['dog']]",Imakeanorangedog,Idoganorangemake,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+307,307,"[<__main__.Word instance at 0x112373488>
+ <__main__.Word instance at 0x112373320>]",Violet,2_0,False,False,"[['cat'], ['kitty']]",kittycat,catkitty,0.5,-0.69314718056,False,-0.6931471805599453
+308,308,"[<__main__.Word instance at 0x1123733f8>
+ <__main__.Word instance at 0x112373710>]",Violet,2_0,False,True,"[['cat'], ['monkey']]",monkeycat,monkeycat,0.5,0.69314718056,False,0.6931471805599453
+309,309,"[<__main__.Word instance at 0x1123737a0>
+ <__main__.Word instance at 0x1123735a8>]",Violet,2_0,False,False,"[['cat'], ['kitty']]",kittycat,catkitty,0.5,-0.69314718056,False,-0.6931471805599453
+310,310,"[<__main__.Word instance at 0x1123734d0>
+ <__main__.Word instance at 0x112373bd8>
+ <__main__.Word instance at 0x112373ab8>
+ <__main__.Word instance at 0x112373d40>]",Violet,2_0,False,False,"[['I'], ['another'], ['make'], ['kitty']]",Imakeanotherkitty,Ikittyanothermake,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+311,311,"[<__main__.Word instance at 0x112373e60>
+ <__main__.Word instance at 0x112373b90>]",Violet,2_0,False,True,"[['fishy'], ['make']]",makefishy,makefishy,0.5,0.69314718056,False,0.6931471805599453
+312,312,"[<__main__.Word instance at 0x112373a28>
+ <__main__.Word instance at 0x112373ea8>
+ <__main__.Word instance at 0x112373518>]",Violet,2_0,False,False,"[['a'], ['make'], ['shark']]",makeashark,asharkmake,0.166666666667,-0.182321556794,False,-0.1823215567939546
+313,313,"[<__main__.Word instance at 0x112373f80>
+ <__main__.Word instance at 0x112377050>
+ <__main__.Word instance at 0x112377248>]",Violet,2_0,False,False,"[['make'], ['shark'], ['a']]",makeashark,amakeshark,0.166666666667,-0.182321556794,False,-0.1823215567939546
+314,314,[<__main__.Word instance at 0x1123773b0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+315,315,[<__main__.Word instance at 0x112377638>],Violet,2_0,False,True,[['shark']],shark,shark,1.0,0.0,False,-0.0
+316,316,[<__main__.Word instance at 0x112377680>],Violet,2_0,False,True,[['my']],my,my,1.0,0.0,False,-0.0
+317,317,"[<__main__.Word instance at 0x112377710>
+ <__main__.Word instance at 0x112377a28>]",Violet,2_0,False,True,"[['right'], ['there']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+318,318,"[<__main__.Word instance at 0x112377ab8>
+ <__main__.Word instance at 0x112377440>
+ <__main__.Word instance at 0x112377cb0>
+ <__main__.Word instance at 0x112377b48>]",Violet,2_0,False,False,"[[""kitty's""], [""it's""], ['on'], ['leg']]",it'sonkitty'sleg,it'slegkitty'son,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+319,319,"[<__main__.Word instance at 0x1123777e8>
+ <__main__.Word instance at 0x112377fc8>
+ <__main__.Word instance at 0x112377ef0>]",Violet,2_0,False,False,"[[""kitty's""], ['leg'], ['on']]",onkitty'sleg,onlegkitty's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+320,320,[<__main__.Word instance at 0x11237a128>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+321,321,"[<__main__.Word instance at 0x11237a368>
+ <__main__.Word instance at 0x11237a248>]",Violet,2_0,False,False,"[['did'], ['I']]",Idid,didI,0.5,-0.69314718056,False,-0.6931471805599453
+322,322,"[<__main__.Word instance at 0x11237a440>
+ <__main__.Word instance at 0x11237a6c8>
+ <__main__.Word instance at 0x11237a5f0>]",Violet,2_0,False,False,"[['shark'], ['catching'], ['that']]",catchingthatshark,thatsharkcatching,0.166666666667,-0.182321556794,False,-0.1823215567939546
+323,323,"[<__main__.Word instance at 0x11237a7e8>
+ <__main__.Word instance at 0x11237a998>]",Violet,2_0,False,True,"[['catching'], ['shark']]",catchingshark,catchingshark,0.5,0.69314718056,False,0.6931471805599453
+324,324,"[<__main__.Word instance at 0x11237aa28>
+ <__main__.Word instance at 0x11237a908>]",Violet,2_0,False,False,"[['catch'], ['him']]",catchhim,himcatch,0.5,-0.69314718056,False,-0.6931471805599453
+325,325,[<__main__.Word instance at 0x11237ab48>],Violet,2_0,False,True,[['hook']],hook,hook,1.0,0.0,False,-0.0
+326,326,"[<__main__.Word instance at 0x11237a320>
+ <__main__.Word instance at 0x11237add0>]",Violet,2_0,False,True,"[[""I'm""], ['making']]",I'mmaking,I'mmaking,0.5,0.69314718056,False,0.6931471805599453
+327,327,[<__main__.Word instance at 0x11237ae60>],Violet,2_0,False,True,[['making']],making,making,1.0,0.0,False,-0.0
+328,328,"[<__main__.Word instance at 0x11237d0e0>
+ <__main__.Word instance at 0x11237d290>]",Violet,2_0,False,True,"[['a'], ['fishy']]",afishy,afishy,0.5,0.69314718056,False,0.6931471805599453
+329,329,[<__main__.Word instance at 0x11237d488>],Violet,2_0,False,True,[['fishy']],fishy,fishy,1.0,0.0,False,-0.0
+330,330,[<__main__.Word instance at 0x11237d8c0>],Violet,2_0,False,True,[['yes']],yes,yes,1.0,0.0,False,-0.0
+331,331,[<__main__.Word instance at 0x11237d998>],Violet,2_0,False,True,[['meow']],meow,meow,1.0,0.0,False,-0.0
+332,332,[<__main__.Word instance at 0x11237dd88>],Violet,2_0,False,True,[['cat']],cat,cat,1.0,0.0,False,-0.0
+333,333,"[<__main__.Word instance at 0x11237df38>
+ <__main__.Word instance at 0x11237de18>
+ <__main__.Word instance at 0x11237dfc8>]",Violet,2_0,False,False,"[['cat'], ['right'], ['here']]",catrighthere,rightcathere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+334,334,[<__main__.Word instance at 0x112380128>],Violet,2_0,False,True,[['kit']],kit,kit,1.0,0.0,False,-0.0
+335,335,[<__main__.Word instance at 0x1123801b8>],Violet,2_0,False,True,[['jack']],jack,jack,1.0,0.0,False,-0.0
+336,336,"[<__main__.Word instance at 0x112380368>
+ <__main__.Word instance at 0x1123803f8>]",Violet,2_0,False,True,"[['jack'], ['a']]",ajack,ajack,0.5,0.69314718056,False,0.6931471805599453
+337,337,"[<__main__.Word instance at 0x1123806c8>
+ <__main__.Word instance at 0x1123805f0>
+ <__main__.Word instance at 0x1123807e8>
+ <__main__.Word instance at 0x1123805a8>]",Violet,2_0,False,True,"[['the'], ['I', 'want'], ['pen']]",Iwantthepen,Iwantthepen,0.166666666667,1.79175946923,False,1.791759469228055
+338,338,[<__main__.Word instance at 0x112380a70>],Violet,2_0,False,True,[['pen']],pen,pen,1.0,0.0,False,-0.0
+339,339,[<__main__.Word instance at 0x112380b90>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+340,340,[<__main__.Word instance at 0x112380c20>],Violet,2_0,False,True,[['pen']],pen,pen,1.0,0.0,False,-0.0
+341,341,"[<__main__.Word instance at 0x112380ef0>
+ <__main__.Word instance at 0x112380dd0>]",Violet,2_0,False,True,"[['a'], ['pen']]",apen,apen,0.5,0.69314718056,False,0.6931471805599453
+342,342,"[<__main__.Word instance at 0x112380cb0>
+ <__main__.Word instance at 0x112380e18>
+ <__main__.Word instance at 0x112380a28>]",Violet,2_0,False,False,"[['get'], ['marker'], ['the']]",getthemarker,thegetmarker,0.166666666667,-0.182321556794,False,-0.1823215567939546
+343,343,"[<__main__.Word instance at 0x1123833f8>
+ <__main__.Word instance at 0x112383368>
+ <__main__.Word instance at 0x1123836c8>]",Violet,2_0,False,True,"[['the', 'dots'], ['do']]",dothedots,dothedots,0.5,0.69314718056,False,0.6931471805599453
+344,344,"[<__main__.Word instance at 0x112383638>
+ <__main__.Word instance at 0x112383a28>
+ <__main__.Word instance at 0x112383908>]",Violet,2_0,False,True,"[['the', 'dots'], ['do']]",dothedots,dothedots,0.5,0.69314718056,False,0.6931471805599453
+345,345,"[<__main__.Word instance at 0x112383878>
+ <__main__.Word instance at 0x112383b90>]",Violet,2_0,False,True,"[['dots'], ['connect']]",connectdots,connectdots,0.5,0.69314718056,False,0.6931471805599453
+346,346,"[<__main__.Word instance at 0x112383d40>
+ <__main__.Word instance at 0x112383c20>
+ <__main__.Word instance at 0x112383f80>]",Violet,2_0,False,True,"[['the', 'dots'], ['connect']]",connectthedots,connectthedots,0.5,0.69314718056,False,0.6931471805599453
+347,347,"[<__main__.Word instance at 0x112383a70>
+ <__main__.Word instance at 0x1123860e0>
+ <__main__.Word instance at 0x112386170>]",Violet,2_0,False,True,"[['connect'], ['the', 'dots']]",connectthedots,connectthedots,0.5,0.69314718056,False,0.6931471805599453
+348,348,[<__main__.Word instance at 0x112386200>],Violet,2_0,False,True,[['fun']],fun,fun,1.0,0.0,False,-0.0
+349,349,[<__main__.Word instance at 0x112386560>],Violet,2_0,False,True,[['kitty']],kitty,kitty,1.0,0.0,False,-0.0
+350,350,"[<__main__.Word instance at 0x1123867e8>
+ <__main__.Word instance at 0x1123864d0>
+ <__main__.Word instance at 0x112386998>]",Violet,2_0,False,True,"[[""it's""], ['working'], [""it's""]]",it'sit'sworking,it'sit'sworking,0.166666666667,1.79175946923,True,1.0986122886681098
+351,351,[<__main__.Word instance at 0x112386b90>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+352,352,"[<__main__.Word instance at 0x112386e60>
+ <__main__.Word instance at 0x112386d88>]",Violet,2_0,False,True,"[['coming'], ['out']]",comingout,comingout,0.5,0.69314718056,False,0.6931471805599453
+353,353,"[<__main__.Word instance at 0x112386b48>
+ <__main__.Word instance at 0x112386fc8>
+ <__main__.Word instance at 0x112386d40>]",Violet,2_0,False,True,"[['out'], [""it's"", 'coming']]",it'scomingout,it'scomingout,0.5,0.69314718056,False,0.6931471805599453
+354,354,[<__main__.Word instance at 0x112389248>],Violet,2_0,False,True,[['a']],a,a,1.0,0.0,False,-0.0
+355,355,"[<__main__.Word instance at 0x1123892d8>
+ <__main__.Word instance at 0x112389710>
+ <__main__.Word instance at 0x1123895a8>
+ <__main__.Word instance at 0x112389998>]",Violet,2_0,False,True,"[['a', 'soccer', 'ball'], [""it's""]]",it'sasoccerball,it'sasoccerball,0.5,0.69314718056,False,0.6931471805599453
+356,356,[<__main__.Word instance at 0x112389a70>],Violet,2_0,False,True,[['ball']],ball,ball,1.0,0.0,False,-0.0
+357,357,[<__main__.Word instance at 0x112389b00>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+358,358,[<__main__.Word instance at 0x112389bd8>],Violet,2_0,False,True,[['cats']],cats,cats,1.0,0.0,False,-0.0
+359,359,[<__main__.Word instance at 0x112389e60>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+360,360,"[<__main__.Word instance at 0x112389f38>
+ <__main__.Word instance at 0x112389dd0>]",Violet,2_0,False,True,"[['cats'], ['kit']]",kitcats,kitcats,0.5,0.69314718056,False,0.6931471805599453
+361,361,"[<__main__.Word instance at 0x112389e18>
+ <__main__.Word instance at 0x112389d88>]",Violet,2_0,False,False,"[['cats'], ['ki']]",kicats,catski,0.5,-0.69314718056,False,-0.6931471805599453
+362,362,"[<__main__.Word instance at 0x11238c050>
+ <__main__.Word instance at 0x11238c248>
+ <__main__.Word instance at 0x11238c3f8>]",Violet,2_0,False,False,"[['but'], ['mommy'], ['coming']]",butmommycoming,comingmommybut,0.166666666667,-0.182321556794,False,-0.1823215567939546
+363,363,[<__main__.Word instance at 0x11238c5f0>],Violet,2_0,False,True,[['ice']],ice,ice,1.0,0.0,False,-0.0
+364,364,"[<__main__.Word instance at 0x11238c680>
+ <__main__.Word instance at 0x11238c368>
+ <__main__.Word instance at 0x11238c758>]",Violet,2_0,False,False,"[['is'], ['this'], ['orange']]",thisisorange,isthisorange,0.166666666667,-0.182321556794,False,-0.1823215567939546
+365,365,[<__main__.Word instance at 0x11238c998>],Violet,2_0,False,True,[['pink']],pink,pink,1.0,0.0,False,-0.0
+366,366,"[<__main__.Word instance at 0x11238ca28>
+ <__main__.Word instance at 0x11238c5a8>
+ <__main__.Word instance at 0x11238cc20>]",Violet,2_0,False,True,"[['I', 'want'], ['to']]",Iwantto,Iwantto,0.5,0.69314718056,False,0.6931471805599453
+367,367,[<__main__.Word instance at 0x11238ccf8>],Violet,2_0,False,True,[['bye']],bye,bye,1.0,0.0,False,-0.0
+368,368,"[<__main__.Word instance at 0x11238cea8>
+ <__main__.Word instance at 0x11238cd88>]",Violet,2_0,False,True,"[['bye'], ['tape']]",byetape,byetape,0.5,0.69314718056,False,0.6931471805599453
+369,369,"[<__main__.Word instance at 0x11238ce60>
+ <__main__.Word instance at 0x11238c170>
+ <__main__.Word instance at 0x11238f128>
+ <__main__.Word instance at 0x11238f200>
+ <__main__.Word instance at 0x11238f290>]",Violet,2_0,False,False,"[['put'], ['I'], ['in'], ['go'], ['those']]",goIputthosein,thoseIputingo,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+370,370,"[<__main__.Word instance at 0x11238f5f0>
+ <__main__.Word instance at 0x11238f758>
+ <__main__.Word instance at 0x11238f320>
+ <__main__.Word instance at 0x11238f950>]",Violet,2_0,False,False,"[['yeah'], ['them'], ['in'], ['plugged']]",yeahpluggedthemin,inpluggedthemyeah,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+371,371,"[<__main__.Word instance at 0x11238fab8>
+ <__main__.Word instance at 0x11238f998>]",Violet,2_0,False,True,"[['one', 'more']]",onemore,onemore,1.0,0.0,False,-0.0
+372,372,"[<__main__.Word instance at 0x11238fb90>
+ <__main__.Word instance at 0x11238fd88>]",Violet,2_0,False,True,"[['one', 'more']]",onemore,onemore,1.0,0.0,False,-0.0
+373,373,"[<__main__.Word instance at 0x11238ffc8>
+ <__main__.Word instance at 0x11238fef0>]",Violet,2_0,False,True,"[['one', 'more']]",onemore,onemore,1.0,0.0,False,-0.0
+374,374,[<__main__.Word instance at 0x1123942d8>],Violet,2_0,False,True,[['one']],one,one,1.0,0.0,False,-0.0
+375,375,[<__main__.Word instance at 0x112394560>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+376,376,"[<__main__.Word instance at 0x112394710>
+ <__main__.Word instance at 0x1123945f0>
+ <__main__.Word instance at 0x1123949e0>
+ <__main__.Word instance at 0x112394320>]",Violet,2_0,False,True,"[['put'], ['that'], ['I'], ['in']]",Iputthatin,Iputthatin,0.0416666666667,3.17805383035,False,3.1780538303479458
+377,377,"[<__main__.Word instance at 0x1123947a0>
+ <__main__.Word instance at 0x112394b90>]",Violet,2_0,False,False,"[['that'], ['in']]",thatin,inthat,0.5,-0.69314718056,False,-0.6931471805599453
+378,378,"[<__main__.Word instance at 0x112394c20>
+ <__main__.Word instance at 0x112394e60>
+ <__main__.Word instance at 0x112394908>
+ <__main__.Word instance at 0x112394ef0>]",Violet,2_0,False,False,"[['in'], ['this'], [""I'm""], ['plugging']]",I'mpluggingthisin,thisinI'mplugging,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+379,379,"[<__main__.Word instance at 0x112397098>
+ <__main__.Word instance at 0x1123971b8>
+ <__main__.Word instance at 0x112397998>
+ <__main__.Word instance at 0x1123977a0>]",Violet,2_0,False,False,"[['in'], ['plug'], ['it'], ['I']]",Iplugitin,Iinitplug,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+380,380,"[<__main__.Word instance at 0x112397a70>
+ <__main__.Word instance at 0x112397fc8>
+ <__main__.Word instance at 0x112397cb0>
+ <__main__.Word instance at 0x11239a170>]",Violet,2_0,False,False,"[['plugged'], ['them'], ['in'], ['I']]",Ipluggedthemin,Iinthemplugged,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+381,381,[<__main__.Word instance at 0x11239a7e8>],Violet,2_0,False,True,[['here']],here,here,1.0,0.0,False,-0.0
+382,382,[<__main__.Word instance at 0x11239a998>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+383,383,"[<__main__.Word instance at 0x11239aa70>
+ <__main__.Word instance at 0x11239a6c8>
+ <__main__.Word instance at 0x11239aea8>
+ <__main__.Word instance at 0x11239abd8>]",Violet,2_0,False,False,"[['in'], ['halloween'], ['there'], ['some']]",somehalloweeninthere,intheresomehalloween,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+384,384,[<__main__.Word instance at 0x11239ae60>],Violet,2_0,False,True,[['box']],box,box,1.0,0.0,False,-0.0
+385,385,"[<__main__.Word instance at 0x11239d050>
+ <__main__.Word instance at 0x1123a0ef0>
+ <__main__.Word instance at 0x1123a0bd8>]",Violet,2_0,False,False,"[['a'], ['little'], ['cat']]",alittlecat,littlecata,0.166666666667,-0.182321556794,False,-0.1823215567939546
+386,386,"[<__main__.Word instance at 0x1123a0cf8>
+ <__main__.Word instance at 0x1123a3170>
+ <__main__.Word instance at 0x1123a3050>
+ <__main__.Word instance at 0x1123a3320>]",Violet,2_0,False,False,"[['those'], ['up'], ['wanna', 'hang']]",wannahangthoseup,thosewannahangup,0.166666666667,-0.182321556794,False,-0.1823215567939546
+387,387,"[<__main__.Word instance at 0x1123a3cb0>
+ <__main__.Word instance at 0x1123a3ab8>
+ <__main__.Word instance at 0x1123a3ea8>]",Violet,2_0,False,True,"[['like', 'this'], ['I']]",Ilikethis,Ilikethis,0.5,0.69314718056,False,0.6931471805599453
+388,388,[<__main__.Word instance at 0x1123a63b0>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+389,389,[<__main__.Word instance at 0x1123a6488>],Violet,2_0,False,True,[['hello']],hello,hello,1.0,0.0,False,-0.0
+390,390,"[<__main__.Word instance at 0x1123a6758>
+ <__main__.Word instance at 0x1123a66c8>]",Violet,2_0,False,False,"[['this'], ['in']]",inthis,thisin,0.5,-0.69314718056,False,-0.6931471805599453
+391,391,"[<__main__.Word instance at 0x1123a6638>
+ <__main__.Word instance at 0x1123a68c0>]",Violet,2_0,False,True,"[['a', 'pumpkin']]",apumpkin,apumpkin,1.0,0.0,False,-0.0
+392,392,"[<__main__.Word instance at 0x1123a6a70>
+ <__main__.Word instance at 0x1123a6950>
+ <__main__.Word instance at 0x1123a6c20>]",Violet,2_0,False,True,"[['a'], ['little', 'pumpkin']]",alittlepumpkin,alittlepumpkin,0.5,0.69314718056,False,0.6931471805599453
+393,393,[<__main__.Word instance at 0x1123a6f38>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+394,394,[<__main__.Word instance at 0x1123a6e60>],Violet,2_0,False,True,[['hello']],hello,hello,1.0,0.0,False,-0.0
+395,395,"[<__main__.Word instance at 0x1123a6bd8>
+ <__main__.Word instance at 0x1123a6fc8>
+ <__main__.Word instance at 0x1123a6dd0>
+ <__main__.Word instance at 0x1123aa050>
+ <__main__.Word instance at 0x1123aa170>]",Violet,2_0,False,False,"[['it'], ['put'], ['the'], ['chair'], ['on']]",putitonthechair,theputitonchair,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+396,396,"[<__main__.Word instance at 0x1123aa3b0>
+ <__main__.Word instance at 0x1123aa290>]",Violet,2_0,False,True,"[['a'], ['bag']]",abag,abag,0.5,0.69314718056,False,0.6931471805599453
+397,397,"[<__main__.Word instance at 0x1123aa5f0>
+ <__main__.Word instance at 0x1123aa878>]",Violet,2_0,False,False,"[['in'], ['this']]",inthis,thisin,0.5,-0.69314718056,False,-0.6931471805599453
+398,398,[<__main__.Word instance at 0x1123aab48>],Violet,2_0,False,True,[['bag']],bag,bag,1.0,0.0,False,-0.0
+399,399,[<__main__.Word instance at 0x1123aacb0>],Violet,2_0,False,True,[['nothing']],nothing,nothing,1.0,0.0,False,-0.0
+400,400,[<__main__.Word instance at 0x1123aaea8>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+401,401,"[<__main__.Word instance at 0x1123aaf38>
+ <__main__.Word instance at 0x1123aab90>
+ <__main__.Word instance at 0x1123aac68>
+ <__main__.Word instance at 0x1123ad098>]",Violet,2_0,False,False,"[['my'], ['is'], ['stuff'], ['this']]",thisismystuff,isthismystuff,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+402,402,"[<__main__.Word instance at 0x1123ad368>
+ <__main__.Word instance at 0x1123ad290>
+ <__main__.Word instance at 0x1123ad3f8>
+ <__main__.Word instance at 0x1123ad050>]",Violet,2_0,False,False,"[['this'], ['this'], ['my'], ['is']]",thisthisismy,isthisthismy,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+403,403,[<__main__.Word instance at 0x1123ad248>],Violet,2_0,False,True,[['pumpkin']],pumpkin,pumpkin,1.0,0.0,False,-0.0
+404,404,[<__main__.Word instance at 0x1123ad8c0>],Violet,2_0,False,True,[['pumpkin']],pumpkin,pumpkin,1.0,0.0,False,-0.0
+405,405,"[<__main__.Word instance at 0x1123ada28>
+ <__main__.Word instance at 0x1123ad908>
+ <__main__.Word instance at 0x1123add88>]",Violet,2_0,False,False,"[['hold'], ['you'], ['this']]",youholdthis,youthishold,0.166666666667,-0.182321556794,False,-0.1823215567939546
+406,406,"[<__main__.Word instance at 0x1123ade18>
+ <__main__.Word instance at 0x1123ad6c8>
+ <__main__.Word instance at 0x1123adea8>]",Violet,2_0,False,True,"[['hold'], ['it'], ['you']]",youholdit,youholdit,0.166666666667,1.79175946923,False,1.791759469228055
+407,407,"[<__main__.Word instance at 0x1123adb00>
+ <__main__.Word instance at 0x1123adbd8>
+ <__main__.Word instance at 0x1123b0050>
+ <__main__.Word instance at 0x1123b0290>]",Violet,2_0,False,False,"[['little'], ['pumpkins'], ['little', 'pumpkin']]",littlepumpkinlittlepumpkins,littlelittlepumpkinpumpkins,0.166666666667,-0.182321556794,False,-0.1823215567939546
+408,408,"[<__main__.Word instance at 0x1123b00e0>
+ <__main__.Word instance at 0x1123b03f8>]",Violet,2_0,False,False,"[['book'], ['halloween']]",halloweenbook,bookhalloween,0.5,-0.69314718056,False,-0.6931471805599453
+409,409,"[<__main__.Word instance at 0x1123b0200>
+ <__main__.Word instance at 0x1123b0560>
+ <__main__.Word instance at 0x1123b0680>
+ <__main__.Word instance at 0x1123b0170>
+ <__main__.Word instance at 0x1123b0878>
+ <__main__.Word instance at 0x1123b07a0>
+ <__main__.Word instance at 0x1123b0950>]",Violet,2_0,False,False,"[['a'], ['is'], ['this'], ['a'], ['book'], ['halloween'], ['this']]",thisathisisahalloweenbook,isthisbookthisahalloweena,0.000198412698413,-0.000198432384816,True,-0.000793965901176512
+410,410,"[<__main__.Word instance at 0x1123b09e0>
+ <__main__.Word instance at 0x1123b08c0>
+ <__main__.Word instance at 0x1123b0c20>
+ <__main__.Word instance at 0x1123b0a70>
+ <__main__.Word instance at 0x1123b0d40>]",Violet,2_0,False,False,"[['look', 'at'], ['let'], ['me'], ['this']]",letmelookatthis,thisletmelookat,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+411,411,"[<__main__.Word instance at 0x1123b0fc8>
+ <__main__.Word instance at 0x1123b0cf8>
+ <__main__.Word instance at 0x1123b0f38>]",Violet,2_0,False,False,"[['this'], ['wanna', 'read']]",wannareadthis,thiswannaread,0.5,-0.69314718056,False,-0.6931471805599453
+412,412,[<__main__.Word instance at 0x1123b3050>],Violet,2_0,False,True,[['ready']],ready,ready,1.0,0.0,False,-0.0
+413,413,[<__main__.Word instance at 0x1123b3248>],Violet,2_0,False,True,[['book']],book,book,1.0,0.0,False,-0.0
+414,414,"[<__main__.Word instance at 0x1123b31b8>
+ <__main__.Word instance at 0x1123b35a8>
+ <__main__.Word instance at 0x1123b3488>
+ <__main__.Word instance at 0x1123b37a0>
+ <__main__.Word instance at 0x1123b3680>
+ <__main__.Word instance at 0x1123b3998>
+ <__main__.Word instance at 0x1123b3830>]",Violet,2_0,False,False,"[['wanna'], ['here'], ['up'], ['up'], ['here'], ['I'], ['get']]",Iwannagetuphereuphere,Igetupwannaupherehere,0.000198412698413,-0.000198432384816,True,-0.000793965901176512
+415,415,"[<__main__.Word instance at 0x1123b3bd8>
+ <__main__.Word instance at 0x1123b3ab8>]",Violet,2_0,False,True,"[['in'], ['here']]",inhere,inhere,0.5,0.69314718056,False,0.6931471805599453
+416,416,"[<__main__.Word instance at 0x1123b3cb0>
+ <__main__.Word instance at 0x1123b3f80>]",Violet,2_0,False,True,"[['bat'], ['roast']]",roastbat,roastbat,0.5,0.69314718056,False,0.6931471805599453
+417,417,"[<__main__.Word instance at 0x1123b60e0>
+ <__main__.Word instance at 0x1123b6170>]",Violet,2_0,False,True,"[['taste'], ['glorious']]",glorioustaste,glorioustaste,0.5,0.69314718056,False,0.6931471805599453
+418,418,[<__main__.Word instance at 0x1123b6320>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+419,419,"[<__main__.Word instance at 0x1123b6518>
+ <__main__.Word instance at 0x1123b63b0>
+ <__main__.Word instance at 0x1123b65a8>
+ <__main__.Word instance at 0x1123b67a0>
+ <__main__.Word instance at 0x1123b6638>
+ <__main__.Word instance at 0x1123b6878>
+ <__main__.Word instance at 0x1123b64d0>]",Violet,2_0,False,False,"[['it'], [""I'm""], ['up'], ['this'], ['hanging'], ['up'], ['hang']]",hangitupI'mhangingthisup,thishangupupitI'mhanging,0.000198412698413,-0.000198432384816,True,-0.00039690415285879686
+420,420,[<__main__.Word instance at 0x1123b6908>],Violet,2_0,False,True,[['yes']],yes,yes,1.0,0.0,False,-0.0
+421,421,"[<__main__.Word instance at 0x1123b6c68>
+ <__main__.Word instance at 0x1123b6ef0>
+ <__main__.Word instance at 0x1123b6dd0>]",Violet,2_0,False,False,"[['some'], ['tape'], ['get']]",getsometape,gettapesome,0.166666666667,-0.182321556794,False,-0.1823215567939546
+422,422,[<__main__.Word instance at 0x1123b62d8>],Violet,2_0,False,True,[['get']],get,get,1.0,0.0,False,-0.0
+423,423,"[<__main__.Word instance at 0x1123b6bd8>
+ <__main__.Word instance at 0x1123b6ea8>]",Violet,2_0,False,True,"[['tool'], ['drawer']]",tooldrawer,tooldrawer,0.5,0.69314718056,False,0.6931471805599453
+424,424,"[<__main__.Word instance at 0x1123b90e0>
+ <__main__.Word instance at 0x1123b91b8>
+ <__main__.Word instance at 0x1123b93b0>
+ <__main__.Word instance at 0x1123b9248>]",Violet,2_0,False,False,"[['got'], ['tape'], ['some'], [""I've""]]",I'vegotsometape,I'vegottapesome,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+425,425,"[<__main__.Word instance at 0x1123b96c8>
+ <__main__.Word instance at 0x1123b97e8>
+ <__main__.Word instance at 0x1123b9710>
+ <__main__.Word instance at 0x1123b98c0>]",Violet,2_0,False,True,"[['I'], ['on'], ['put'], ['that']]",Iputthaton,Iputthaton,0.0416666666667,3.17805383035,False,3.1780538303479458
+426,426,"[<__main__.Word instance at 0x1123b9b00>
+ <__main__.Word instance at 0x1123b97a0>
+ <__main__.Word instance at 0x1123b9b48>]",Violet,2_0,False,True,"[['put'], ['that'], ['on']]",putthaton,putthaton,0.166666666667,1.79175946923,False,1.791759469228055
+427,427,"[<__main__.Word instance at 0x1123b9d40>
+ <__main__.Word instance at 0x1123b9bd8>
+ <__main__.Word instance at 0x1123b9e18>]",Violet,2_0,False,True,"[['the', 'back'], ['on']]",ontheback,ontheback,0.5,0.69314718056,False,0.6931471805599453
+428,428,"[<__main__.Word instance at 0x1123b9f80>
+ <__main__.Word instance at 0x1123b9ea8>
+ <__main__.Word instance at 0x1123bc290>
+ <__main__.Word instance at 0x1123bc1b8>]",Violet,2_0,False,False,"[['some'], ['more'], ['I', 'want']]",Iwantsomemore,Iwantmoresome,0.166666666667,-0.182321556794,False,-0.1823215567939546
+429,429,"[<__main__.Word instance at 0x1123bc4d0>
+ <__main__.Word instance at 0x1123bc518>
+ <__main__.Word instance at 0x1123bc170>
+ <__main__.Word instance at 0x1123bc908>]",Violet,2_0,False,False,"[['of'], ['another'], ['tape'], ['piece']]",anotherpieceoftape,pieceoftapeanother,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+430,430,"[<__main__.Word instance at 0x1123bcb90>
+ <__main__.Word instance at 0x1123bc680>]",Violet,2_0,False,True,"[[""that's""], ['another']]",that'sanother,that'sanother,0.5,0.69314718056,False,0.6931471805599453
+431,431,[<__main__.Word instance at 0x1123bc440>],Violet,2_0,False,True,[['cauldron']],cauldron,cauldron,1.0,0.0,False,-0.0
+432,432,[<__main__.Word instance at 0x1123bcc68>],Violet,2_0,False,True,[['pumpkin']],pumpkin,pumpkin,1.0,0.0,False,-0.0
+433,433,"[<__main__.Word instance at 0x1123bce60>
+ <__main__.Word instance at 0x1123bc7e8>
+ <__main__.Word instance at 0x1123bcef0>]",Violet,2_0,False,False,"[['the'], ['over'], ['on']]",overonthe,theonover,0.166666666667,-0.182321556794,False,-0.1823215567939546
+434,434,"[<__main__.Word instance at 0x1123bf170>
+ <__main__.Word instance at 0x1123bf050>
+ <__main__.Word instance at 0x1123bf320>]",Violet,2_0,False,False,"[['out'], ['it'], ['pull']]",pullitout,itoutpull,0.166666666667,-0.182321556794,False,-0.1823215567939546
+435,435,[<__main__.Word instance at 0x1123bf638>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+436,436,"[<__main__.Word instance at 0x1123bf7e8>
+ <__main__.Word instance at 0x1123bf6c8>
+ <__main__.Word instance at 0x1123bf8c0>
+ <__main__.Word instance at 0x1123bf3f8>]",Violet,2_0,False,False,"[['hang'], ['it'], ['on'], ['the']]",hangitonthe,theitonhang,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+437,437,[<__main__.Word instance at 0x1123bfa28>],Violet,2_0,False,True,"[[""what's""]]",what's,what's,1.0,0.0,False,-0.0
+438,438,"[<__main__.Word instance at 0x1123bfb48>
+ <__main__.Word instance at 0x1123bf680>
+ <__main__.Word instance at 0x1123bfcb0>
+ <__main__.Word instance at 0x1123bfc20>
+ <__main__.Word instance at 0x1123bfd40>
+ <__main__.Word instance at 0x1123bf7a0>]",Violet,2_0,False,False,"[['the'], ['Elmo'], ['here'], ['on'], ['chair'], ['over']]",overhereontheElmochair,theonhereElmooverchair,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+439,439,"[<__main__.Word instance at 0x1123bf830>
+ <__main__.Word instance at 0x1123bfea8>
+ <__main__.Word instance at 0x1123bfb90>
+ <__main__.Word instance at 0x1123bfcf8>]",Violet,2_0,False,False,"[['my'], [""I'm""], ['backpack'], ['wearing']]",I'mwearingmybackpack,mywearingbackpackI'm,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+440,440,"[<__main__.Word instance at 0x1123c2050>
+ <__main__.Word instance at 0x1123c21b8>]",Violet,2_0,False,True,"[['color'], ['yeah']]",yeahcolor,yeahcolor,0.5,0.69314718056,False,0.6931471805599453
+441,441,"[<__main__.Word instance at 0x1123c2518>
+ <__main__.Word instance at 0x1123c2200>
+ <__main__.Word instance at 0x1123c25a8>
+ <__main__.Word instance at 0x1123c2488>]",Violet,2_0,False,True,"[['color'], ['you'], ['me'], ['with']]",youcolorwithme,youcolorwithme,0.0416666666667,3.17805383035,False,3.1780538303479458
+442,442,"[<__main__.Word instance at 0x1123c23f8>
+ <__main__.Word instance at 0x1123c2758>
+ <__main__.Word instance at 0x1123c25f0>]",Violet,2_0,False,True,"[['I'], ['this'], ['color']]",Icolorthis,Icolorthis,0.166666666667,1.79175946923,False,1.791759469228055
+443,443,"[<__main__.Word instance at 0x1123c28c0>
+ <__main__.Word instance at 0x1123c27a0>
+ <__main__.Word instance at 0x1123c2a70>]",Violet,2_0,False,True,"[['that'], ['you'], ['color']]",youcolorthat,youcolorthat,0.166666666667,1.79175946923,False,1.791759469228055
+444,444,"[<__main__.Word instance at 0x1123c2d88>
+ <__main__.Word instance at 0x1123c2c68>
+ <__main__.Word instance at 0x1123c2ef0>
+ <__main__.Word instance at 0x1123c2e60>
+ <__main__.Word instance at 0x1123c2fc8>
+ <__main__.Word instance at 0x1123c2bd8>]",Violet,2_0,False,False,"[['that'], ['you'], ['color'], ['this'], ['color'], ['I']]",Icolorthisyoucolorthat,youcolorthisIcolorthat,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+445,445,[<__main__.Word instance at 0x1123c26c8>],Violet,2_0,False,True,[['cheese']],cheese,cheese,1.0,0.0,False,-0.0
+446,446,[<__main__.Word instance at 0x1123c5098>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+447,447,[<__main__.Word instance at 0x1123c5440>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+448,448,"[<__main__.Word instance at 0x1123c5638>
+ <__main__.Word instance at 0x1123c5518>]",Violet,2_0,False,True,"[['the'], ['crayon']]",thecrayon,thecrayon,0.5,0.69314718056,False,0.6931471805599453
+449,449,"[<__main__.Word instance at 0x1123c56c8>
+ <__main__.Word instance at 0x1123c5950>
+ <__main__.Word instance at 0x1123c5878>]",Violet,2_0,False,True,"[['my'], ['I'], ['color']]",Icolormy,Icolormy,0.166666666667,1.79175946923,False,1.791759469228055
+450,450,"[<__main__.Word instance at 0x1123c57a0>
+ <__main__.Word instance at 0x1123c5ab8>]",Violet,2_0,False,True,"[['yeah'], ['yeah']]",yeahyeah,yeahyeah,0.5,0.69314718056,True,-0.0
+451,451,[<__main__.Word instance at 0x1123c5b48>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+452,452,[<__main__.Word instance at 0x1123c5d88>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+453,453,[<__main__.Word instance at 0x1123c55f0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+454,454,"[<__main__.Word instance at 0x1123c5e60>
+ <__main__.Word instance at 0x1123c5f38>]",Violet,2_0,False,False,"[['n'], ['o']]",no,on,0.5,-0.69314718056,False,-0.6931471805599453
+455,455,"[<__main__.Word instance at 0x1123c9200>
+ <__main__.Word instance at 0x1123c9320>
+ <__main__.Word instance at 0x1123c91b8>
+ <__main__.Word instance at 0x1123c93f8>]",Violet,2_0,False,False,"[['under'], ['one'], ['here'], ['another']]",anotheroneunderhere,oneanotherunderhere,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+456,456,"[<__main__.Word instance at 0x1123c9710>
+ <__main__.Word instance at 0x1123c95f0>]",Violet,2_0,False,True,"[['yeah'], ['yeah']]",yeahyeah,yeahyeah,0.5,0.69314718056,True,-0.0
+457,457,[<__main__.Word instance at 0x1123c9560>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+458,458,"[<__main__.Word instance at 0x1123c9c20>
+ <__main__.Word instance at 0x1123c9e18>
+ <__main__.Word instance at 0x1123c9ef0>]",Violet,2_0,False,True,"[['the', 'top'], ['in']]",inthetop,inthetop,0.5,0.69314718056,False,0.6931471805599453
+459,459,"[<__main__.Word instance at 0x1123c9fc8>
+ <__main__.Word instance at 0x1123c9e60>]",Violet,2_0,False,True,"[['black'], ['yellow']]",blackyellow,blackyellow,0.5,0.69314718056,False,0.6931471805599453
+460,460,[<__main__.Word instance at 0x1123c9cf8>],Violet,2_0,False,True,[['black']],black,black,1.0,0.0,False,-0.0
+461,461,[<__main__.Word instance at 0x1123cc0e0>],Violet,2_0,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+462,462,[<__main__.Word instance at 0x1123cc2d8>],Violet,2_0,False,True,[['black']],black,black,1.0,0.0,False,-0.0
+463,463,"[<__main__.Word instance at 0x1123cc4d0>
+ <__main__.Word instance at 0x1123cc3f8>
+ <__main__.Word instance at 0x1123cc5f0>]",Violet,2_0,False,False,"[[""what's""], ['that'], ['dino']]",what'sthatdino,thatdinowhat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+464,464,[<__main__.Word instance at 0x1123cc638>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+465,465,"[<__main__.Word instance at 0x1123cc128>
+ <__main__.Word instance at 0x1123cc908>
+ <__main__.Word instance at 0x1123cc7e8>
+ <__main__.Word instance at 0x1123ccab8>]",Violet,2_0,False,True,"[['the'], ['color'], ['you'], ['bus']]",youcolorthebus,youcolorthebus,0.0416666666667,3.17805383035,False,3.1780538303479458
+466,466,[<__main__.Word instance at 0x1123ccc68>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+467,467,"[<__main__.Word instance at 0x1123ccf38>
+ <__main__.Word instance at 0x1123cce18>
+ <__main__.Word instance at 0x1123cf290>
+ <__main__.Word instance at 0x1123cf1b8>]",Violet,2_0,False,False,"[['front'], ['the'], ['dino'], ['on']]",dinoonthefront,theonfrontdino,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+468,468,"[<__main__.Word instance at 0x1123cf488>
+ <__main__.Word instance at 0x1123cf758>
+ <__main__.Word instance at 0x1123cf5f0>
+ <__main__.Word instance at 0x1123cf7e8>
+ <__main__.Word instance at 0x1123cf320>
+ <__main__.Word instance at 0x1123cf9e0>]",Violet,2_0,False,False,"[[""that's""], ['dino'], ['the', 'back'], ['a'], ['on']]",that'sadinoontheback,that'sonthebackdinoa,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+469,469,"[<__main__.Word instance at 0x1123cf908>
+ <__main__.Word instance at 0x1123cf710>
+ <__main__.Word instance at 0x1123cfc20>]",Violet,2_0,False,True,"[['a'], [""that's""], ['dino']]",that'sadino,that'sadino,0.166666666667,1.79175946923,False,1.791759469228055
+470,470,"[<__main__.Word instance at 0x1123cfe18>
+ <__main__.Word instance at 0x1123cfd40>
+ <__main__.Word instance at 0x1123cffc8>]",Violet,2_0,False,True,"[['dino'], [""that's""], ['a']]",that'sadino,that'sadino,0.166666666667,1.79175946923,False,1.791759469228055
+471,471,"[<__main__.Word instance at 0x1123cff80>
+ <__main__.Word instance at 0x1123cfa70>
+ <__main__.Word instance at 0x1123d2200>]",Violet,2_0,False,True,"[['coloring'], ['that'], ['you']]",youcoloringthat,youcoloringthat,0.166666666667,1.79175946923,False,1.791759469228055
+472,472,"[<__main__.Word instance at 0x1123d2248>
+ <__main__.Word instance at 0x1123d2830>]",Violet,2_0,False,True,"[['coloring'], [""I'm""]]",I'mcoloring,I'mcoloring,0.5,0.69314718056,False,0.6931471805599453
+473,473,"[<__main__.Word instance at 0x1123d2878>
+ <__main__.Word instance at 0x1123d2ab8>
+ <__main__.Word instance at 0x1123d2320>
+ <__main__.Word instance at 0x1123d29e0>
+ <__main__.Word instance at 0x1123d2bd8>
+ <__main__.Word instance at 0x1123d2c68>]",Violet,2_0,False,False,"[['the'], ['the'], ['train'], ['coloring'], [""I'm""], ['train']]",I'mcoloringthetrainthetrain,thecoloringtrainI'mthetrain,0.00138888888889,-0.00138985428905,True,-0.005571045049455361
+474,474,"[<__main__.Word instance at 0x1123d2d40>
+ <__main__.Word instance at 0x1123d2b00>
+ <__main__.Word instance at 0x1123d2f38>
+ <__main__.Word instance at 0x1123d2a70>
+ <__main__.Word instance at 0x1123d2dd0>]",Violet,2_0,False,False,"[['look'], ['train'], ['coloring'], [""I'm""], ['the']]",lookI'mcoloringthetrain,lookI'mtrainthecoloring,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+475,475,"[<__main__.Word instance at 0x1123d5170>
+ <__main__.Word instance at 0x1123d53f8>
+ <__main__.Word instance at 0x1123d5320>]",Violet,2_0,False,False,"[['crayon'], ['the'], ['broke']]",brokethecrayon,thebrokecrayon,0.166666666667,-0.182321556794,False,-0.1823215567939546
+476,476,"[<__main__.Word instance at 0x1123d5488>
+ <__main__.Word instance at 0x1123d5638>
+ <__main__.Word instance at 0x1123d57a0>]",Violet,2_0,False,True,"[['crayon'], ['my'], ['brokes']]",mycrayonbrokes,mycrayonbrokes,0.166666666667,1.79175946923,False,1.791759469228055
+477,477,"[<__main__.Word instance at 0x1123d5998>
+ <__main__.Word instance at 0x1123d5560>
+ <__main__.Word instance at 0x1123d5a28>
+ <__main__.Word instance at 0x1123d5758>]",Violet,2_0,False,False,"[['using'], [""I'm""], ['the'], ['top']]",I'musingthetop,thetopI'musing,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+478,478,"[<__main__.Word instance at 0x1123d5878>
+ <__main__.Word instance at 0x1123d5c68>]",Violet,2_0,False,True,"[['the', 'top']]",thetop,thetop,1.0,0.0,False,-0.0
+479,479,[<__main__.Word instance at 0x1123d5cf8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+480,480,"[<__main__.Word instance at 0x1123d5f80>
+ <__main__.Word instance at 0x1123d5e60>
+ <__main__.Word instance at 0x1123d5b90>
+ <__main__.Word instance at 0x1123d5fc8>]",Violet,2_0,False,False,"[['top'], ['the'], [""I'm""], ['using']]",I'musingthetop,thetopI'musing,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+481,481,"[<__main__.Word instance at 0x1123d8128>
+ <__main__.Word instance at 0x1123d82d8>
+ <__main__.Word instance at 0x1123d8200>]",Violet,2_0,False,False,"[['there'], ['we'], ['go']]",therewego,wegothere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+482,482,"[<__main__.Word instance at 0x1123d84d0>
+ <__main__.Word instance at 0x1123d87a0>]",Violet,2_0,False,True,"[['bye'], ['bye']]",byebye,byebye,0.5,0.69314718056,True,-0.0
+483,483,[<__main__.Word instance at 0x1123d8830>],Violet,2_0,False,True,[['me']],me,me,1.0,0.0,False,-0.0
+484,484,"[<__main__.Word instance at 0x1123d89e0>
+ <__main__.Word instance at 0x1123d88c0>
+ <__main__.Word instance at 0x1123d8c68>
+ <__main__.Word instance at 0x1123d8998>]",Violet,2_0,False,False,"[['color'], ['you'], ['have'], ['this']]",youhavethiscolor,youhavecolorthis,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+485,485,"[<__main__.Word instance at 0x1123d8d88>
+ <__main__.Word instance at 0x1123d8f38>
+ <__main__.Word instance at 0x1123d8e60>]",Violet,2_0,False,False,"[['my'], ['I', 'broke']]",Ibrokemy,myIbroke,0.5,-0.69314718056,False,-0.6931471805599453
+486,486,"[<__main__.Word instance at 0x1123d8b48>
+ <__main__.Word instance at 0x1123d8dd0>
+ <__main__.Word instance at 0x1123db098>]",Violet,2_0,False,False,"[['this'], ['I', 'broke']]",Ibrokethis,thisIbroke,0.5,-0.69314718056,False,-0.6931471805599453
+487,487,"[<__main__.Word instance at 0x1123db290>
+ <__main__.Word instance at 0x1123db170>
+ <__main__.Word instance at 0x1123db488>]",Violet,2_0,False,False,"[['this'], ['I', 'broke']]",Ibrokethis,thisIbroke,0.5,-0.69314718056,False,-0.6931471805599453
+488,488,"[<__main__.Word instance at 0x1123db680>
+ <__main__.Word instance at 0x1123db518>
+ <__main__.Word instance at 0x1123db758>]",Violet,2_0,False,False,"[['this'], ['I', 'broke']]",Ibrokethis,thisIbroke,0.5,-0.69314718056,False,-0.6931471805599453
+489,489,"[<__main__.Word instance at 0x1123db7e8>
+ <__main__.Word instance at 0x1123db6c8>
+ <__main__.Word instance at 0x1123db998>]",Violet,2_0,False,False,"[['those'], ['are'], ['yours']]",thoseareyours,areyoursthose,0.166666666667,-0.182321556794,False,-0.1823215567939546
+490,490,"[<__main__.Word instance at 0x1123dbb48>
+ <__main__.Word instance at 0x1123dba28>
+ <__main__.Word instance at 0x1123dbcf8>
+ <__main__.Word instance at 0x1123dbbd8>]",Violet,2_0,False,False,"[['have'], ['too'], ['those'], ['I']]",Ihavethosetoo,thosehavetooI,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+491,491,"[<__main__.Word instance at 0x1123dbd88>
+ <__main__.Word instance at 0x1123dbfc8>
+ <__main__.Word instance at 0x1123dbf38>]",Violet,2_0,False,False,"[['have'], ['I'], ['those']]",Ihavethose,thoseIhave,0.166666666667,-0.182321556794,False,-0.1823215567939546
+492,492,"[<__main__.Word instance at 0x1123de098>
+ <__main__.Word instance at 0x1123de128>
+ <__main__.Word instance at 0x1123de368>
+ <__main__.Word instance at 0x1123de5a8>
+ <__main__.Word instance at 0x1123de518>
+ <__main__.Word instance at 0x1123de7a0>]",Violet,2_0,False,False,"[['I'], ['I'], ['all'], ['I'], ['have'], ['those']]",IIIhaveallthose,thoseIhaveallII,0.00138888888889,-0.00138985428905,True,-0.00836824967051658
+493,493,[<__main__.Word instance at 0x1123de8c0>],Violet,2_0,False,True,[['gray']],gray,gray,1.0,0.0,False,-0.0
+494,494,[<__main__.Word instance at 0x1123de950>],Violet,2_0,False,True,[['blue']],blue,blue,1.0,0.0,False,-0.0
+495,495,[<__main__.Word instance at 0x1123dea28>],Violet,2_0,False,True,[['yellow']],yellow,yellow,1.0,0.0,False,-0.0
+496,496,[<__main__.Word instance at 0x1123deb00>],Violet,2_0,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+497,497,[<__main__.Word instance at 0x1123decb0>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+498,498,[<__main__.Word instance at 0x1123deea8>],Violet,2_0,False,True,[['pink']],pink,pink,1.0,0.0,False,-0.0
+499,499,"[<__main__.Word instance at 0x1123deab8>
+ <__main__.Word instance at 0x1123deb48>
+ <__main__.Word instance at 0x1123e1098>
+ <__main__.Word instance at 0x1123e1248>]",Violet,2_0,False,False,"[['pink'], ['the', 'top'], ['is']]",thetopispink,pinkthetopis,0.166666666667,-0.182321556794,False,-0.1823215567939546
+500,500,"[<__main__.Word instance at 0x1123e1440>
+ <__main__.Word instance at 0x1123e1320>]",Violet,2_0,False,True,"[['eyes'], ['pink']]",pinkeyes,pinkeyes,0.5,0.69314718056,False,0.6931471805599453
+501,501,"[<__main__.Word instance at 0x1123e1638>
+ <__main__.Word instance at 0x1123e17e8>
+ <__main__.Word instance at 0x1123e1710>]",Violet,2_0,False,False,"[['pink'], ['eyes'], ['making']]",makingpinkeyes,pinkmakingeyes,0.166666666667,-0.182321556794,False,-0.1823215567939546
+502,502,"[<__main__.Word instance at 0x1123e15f0>
+ <__main__.Word instance at 0x1123e1a28>
+ <__main__.Word instance at 0x1123e1908>]",Violet,2_0,False,True,"[['color'], ['this'], ['I']]",Icolorthis,Icolorthis,0.166666666667,1.79175946923,False,1.791759469228055
+503,503,[<__main__.Word instance at 0x1123e1b00>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+504,504,[<__main__.Word instance at 0x1123e19e0>],Violet,2_0,False,True,[['tick']],tick,tick,1.0,0.0,False,-0.0
+505,505,[<__main__.Word instance at 0x1123e1cb0>],Violet,2_0,False,True,[['nine']],nine,nine,1.0,0.0,False,-0.0
+506,506,[<__main__.Word instance at 0x1123e1e60>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+507,507,"[<__main__.Word instance at 0x1123e1f38>
+ <__main__.Word instance at 0x1123e41b8>
+ <__main__.Word instance at 0x1123e4050>
+ <__main__.Word instance at 0x1123e4290>
+ <__main__.Word instance at 0x1123e4368>]",Violet,2_0,False,True,"[['my'], ['on'], ['hand'], ['color'], ['I']]",Icoloronmyhand,Icoloronmyhand,0.00833333333333,4.78749174278,False,4.787491742782046
+508,508,"[<__main__.Word instance at 0x1123e44d0>
+ <__main__.Word instance at 0x1123e4440>
+ <__main__.Word instance at 0x1123e4560>
+ <__main__.Word instance at 0x1123e4638>
+ <__main__.Word instance at 0x1123e4518>]",Violet,2_0,False,True,"[['my'], ['hand'], ['color'], ['I'], ['on']]",Icoloronmyhand,Icoloronmyhand,0.00833333333333,4.78749174278,False,4.787491742782046
+509,509,[<__main__.Word instance at 0x1123e46c8>],Violet,2_0,False,True,[['what']],what,what,1.0,0.0,False,-0.0
+510,510,"[<__main__.Word instance at 0x1123e4878>
+ <__main__.Word instance at 0x1123e4b48>]",Violet,2_0,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+511,511,"[<__main__.Word instance at 0x1123e4cf8>
+ <__main__.Word instance at 0x1123e4bd8>
+ <__main__.Word instance at 0x1123e4ea8>]",Violet,2_0,False,False,"[['what', 'color'], ['is']]",whatcoloris,iswhatcolor,0.5,-0.69314718056,False,-0.6931471805599453
+512,512,"[<__main__.Word instance at 0x1123e4fc8>
+ <__main__.Word instance at 0x1123e43b0>
+ <__main__.Word instance at 0x1123e4f38>]",Violet,2_0,False,False,"[['this'], ['what', 'color']]",whatcolorthis,thiswhatcolor,0.5,-0.69314718056,False,-0.6931471805599453
+513,513,"[<__main__.Word instance at 0x1123e70e0>
+ <__main__.Word instance at 0x1123e7290>]",Violet,2_0,False,False,"[['what'], ['this']]",whatthis,thiswhat,0.5,-0.69314718056,False,-0.6931471805599453
+514,514,"[<__main__.Word instance at 0x1123e73b0>
+ <__main__.Word instance at 0x1123e7488>]",Violet,2_0,False,False,"[[""what's""], ['this']]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+515,515,"[<__main__.Word instance at 0x1123e7680>
+ <__main__.Word instance at 0x1123e7128>]",Violet,2_0,False,False,"[['this'], [""what's""]]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+516,516,"[<__main__.Word instance at 0x1123e76c8>
+ <__main__.Word instance at 0x1123e79e0>
+ <__main__.Word instance at 0x1123e7908>]",Violet,2_0,False,False,"[['this', 'one'], [""what's""]]",what'sthisone,thisonewhat's,0.5,-0.69314718056,False,-0.6931471805599453
+517,517,[<__main__.Word instance at 0x1123e7758>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+518,518,[<__main__.Word instance at 0x1123e72d8>],Violet,2_0,False,True,[['pink']],pink,pink,1.0,0.0,False,-0.0
+519,519,"[<__main__.Word instance at 0x1123e77e8>
+ <__main__.Word instance at 0x1123e7d40>]",Violet,2_0,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+520,520,"[<__main__.Word instance at 0x1123e7fc8>
+ <__main__.Word instance at 0x1123e7f38>]",Violet,2_0,False,False,"[['one'], ['another']]",anotherone,oneanother,0.5,-0.69314718056,False,-0.6931471805599453
+521,521,[<__main__.Word instance at 0x1123e7e60>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+522,522,"[<__main__.Word instance at 0x1123eb0e0>
+ <__main__.Word instance at 0x1123eb170>]",Violet,2_0,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+523,523,"[<__main__.Word instance at 0x1123eb050>
+ <__main__.Word instance at 0x1123eb440>
+ <__main__.Word instance at 0x1123eb320>]",Violet,2_0,False,False,"[['maybe'], ['red'], ['red']]",redmaybered,mayberedred,0.166666666667,-0.182321556794,True,-0.4054651081081643
+524,524,"[<__main__.Word instance at 0x1123eb4d0>
+ <__main__.Word instance at 0x1123eb6c8>
+ <__main__.Word instance at 0x1123eb3f8>]",Violet,2_0,False,True,"[['green'], ['this', ""one's""]]",thisone'sgreen,thisone'sgreen,0.5,0.69314718056,False,0.6931471805599453
+525,525,"[<__main__.Word instance at 0x1123eb758>
+ <__main__.Word instance at 0x1123eba70>]",Violet,2_0,False,False,"[['another'], ['red']]",anotherred,redanother,0.5,-0.69314718056,False,-0.6931471805599453
+526,526,"[<__main__.Word instance at 0x1123ebc68>
+ <__main__.Word instance at 0x1123ebdd0>]",Violet,2_0,False,False,"[['two'], ['reds']]",tworeds,redstwo,0.5,-0.69314718056,False,-0.6931471805599453
+527,527,[<__main__.Word instance at 0x1123ebf80>],Violet,2_0,False,True,[['yellow']],yellow,yellow,1.0,0.0,False,-0.0
+528,528,[<__main__.Word instance at 0x1123ee1b8>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+529,529,[<__main__.Word instance at 0x1123ee3b0>],Violet,2_0,False,True,[['brown']],brown,brown,1.0,0.0,False,-0.0
+530,530,[<__main__.Word instance at 0x1123ee488>],Violet,2_0,False,True,[['gray']],gray,gray,1.0,0.0,False,-0.0
+531,531,[<__main__.Word instance at 0x1123ee5f0>],Violet,2_0,False,True,[['gray']],gray,gray,1.0,0.0,False,-0.0
+532,532,"[<__main__.Word instance at 0x1123ee710>
+ <__main__.Word instance at 0x1123ee638>]",Violet,2_0,False,True,"[['this'], ['yellow']]",thisyellow,thisyellow,0.5,0.69314718056,False,0.6931471805599453
+533,533,[<__main__.Word instance at 0x1123ee758>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+534,534,"[<__main__.Word instance at 0x1123ee908>
+ <__main__.Word instance at 0x1123eec20>]",Violet,2_0,False,False,"[['hug'], ['huggy']]",hughuggy,huggyhug,0.5,-0.69314718056,False,-0.6931471805599453
+535,535,[<__main__.Word instance at 0x1123eedd0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+536,536,"[<__main__.Word instance at 0x1123eeea8>
+ <__main__.Word instance at 0x1123eeb48>
+ <__main__.Word instance at 0x1123eef38>
+ <__main__.Word instance at 0x1123eec68>]",Violet,2_0,False,False,"[['other'], ['yeah'], ['any'], ['kids']]",yeahanyotherkids,anyotheryeahkids,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+537,537,"[<__main__.Word instance at 0x1123eeef0>
+ <__main__.Word instance at 0x1123eef80>]",Violet,2_0,False,True,"[['kids'], ['coloring']]",kidscoloring,kidscoloring,0.5,0.69314718056,False,0.6931471805599453
+538,538,[<__main__.Word instance at 0x1123ee9e0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+539,539,[<__main__.Word instance at 0x1123f2128>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+540,540,[<__main__.Word instance at 0x1123f2368>],Violet,2_0,False,True,"[[""that's""]]",that's,that's,1.0,0.0,False,-0.0
+541,541,"[<__main__.Word instance at 0x1123f2518>
+ <__main__.Word instance at 0x1123f2440>]",Violet,2_0,False,True,"[['ha'], ['ha']]",haha,haha,0.5,0.69314718056,True,-0.0
+542,542,"[<__main__.Word instance at 0x1123f23f8>
+ <__main__.Word instance at 0x1123f26c8>
+ <__main__.Word instance at 0x1123f2878>
+ <__main__.Word instance at 0x1123f2758>]",Violet,2_0,False,False,"[['that'], ['I'], ['color'], ['I']]",IIcolorthat,IcolorthatI,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+543,543,[<__main__.Word instance at 0x1123f2950>],Violet,2_0,False,True,[['abcdef']],abcdef,abcdef,1.0,0.0,False,-0.0
+544,544,"[<__main__.Word instance at 0x1123f2b00>
+ <__main__.Word instance at 0x1123f2cb0>
+ <__main__.Word instance at 0x1123f2bd8>]",Violet,2_0,False,True,"[['that'], ['color'], ['I']]",Icolorthat,Icolorthat,0.166666666667,1.79175946923,False,1.791759469228055
+545,545,"[<__main__.Word instance at 0x1123f2ea8>
+ <__main__.Word instance at 0x1123f2830>]",Violet,2_0,False,False,"[['that'], ['yeah']]",yeahthat,thatyeah,0.5,-0.69314718056,False,-0.6931471805599453
+546,546,[<__main__.Word instance at 0x1123f2e18>],Violet,2_0,False,True,[['that']],that,that,1.0,0.0,False,-0.0
+547,547,"[<__main__.Word instance at 0x1123f2ef0>
+ <__main__.Word instance at 0x1123f5050>]",Violet,2_0,False,True,"[['yeah'], ['clock']]",yeahclock,yeahclock,0.5,0.69314718056,False,0.6931471805599453
+548,548,"[<__main__.Word instance at 0x1123f50e0>
+ <__main__.Word instance at 0x1123f53f8>
+ <__main__.Word instance at 0x1123f52d8>
+ <__main__.Word instance at 0x1123f56c8>
+ <__main__.Word instance at 0x1123f55f0>
+ <__main__.Word instance at 0x1123f5758>
+ <__main__.Word instance at 0x1123f5488>]",Violet,2_0,False,True,"[['those'], ['those'], ['those'], ['those'], ['color'], ['you'], ['those']]",youcolorthosethosethosethosethose,youcolorthosethosethosethosethose,0.000198412698413,8.52516136107,True,3.7376696182833684
+549,549,"[<__main__.Word instance at 0x1123f58c0>
+ <__main__.Word instance at 0x1123f5a28>
+ <__main__.Word instance at 0x1123f53b0>]",Violet,2_0,False,False,"[['more'], ['some'], ['color']]",colorsomemore,moresomecolor,0.166666666667,-0.182321556794,False,-0.1823215567939546
+550,550,[<__main__.Word instance at 0x1123f5b90>],Violet,2_0,False,True,[['yes']],yes,yes,1.0,0.0,False,-0.0
+551,551,"[<__main__.Word instance at 0x1123f5e60>
+ <__main__.Word instance at 0x1123f5dd0>
+ <__main__.Word instance at 0x1123f5ef0>]",Violet,2_0,False,False,"[['this', 'one'], [""what's""]]",what'sthisone,thisonewhat's,0.5,-0.69314718056,False,-0.6931471805599453
+552,552,[<__main__.Word instance at 0x1123f5518>],Violet,2_0,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+553,553,"[<__main__.Word instance at 0x1123f8170>
+ <__main__.Word instance at 0x1123f8290>]",Violet,2_0,False,False,"[[""what's""], ['this']]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+554,554,[<__main__.Word instance at 0x1123f83b0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+555,555,"[<__main__.Word instance at 0x1123f8878>
+ <__main__.Word instance at 0x1123f8998>
+ <__main__.Word instance at 0x1123f85f0>]",Violet,2_0,False,False,"[['what'], ['this', 'one']]",whatthisone,thisonewhat,0.5,-0.69314718056,False,-0.6931471805599453
+556,556,"[<__main__.Word instance at 0x1123f8b00>
+ <__main__.Word instance at 0x1123f8cf8>]",Violet,2_0,False,False,"[['this'], [""what's""]]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+557,557,"[<__main__.Word instance at 0x1123f8d88>
+ <__main__.Word instance at 0x1123f8c68>]",Violet,2_0,False,False,"[[""what's""], ['this']]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+558,558,[<__main__.Word instance at 0x1123f8ab8>],Violet,2_0,False,True,[['pink']],pink,pink,1.0,0.0,False,-0.0
+559,559,[<__main__.Word instance at 0x1123f8bd8>],Violet,2_0,False,True,[['pink']],pink,pink,1.0,0.0,False,-0.0
+560,560,"[<__main__.Word instance at 0x1123f8ea8>
+ <__main__.Word instance at 0x1123f8248>]",Violet,2_0,False,False,"[['pink'], ['the']]",thepink,pinkthe,0.5,-0.69314718056,False,-0.6931471805599453
+561,561,"[<__main__.Word instance at 0x1123fb170>
+ <__main__.Word instance at 0x1123fb200>
+ <__main__.Word instance at 0x1123fb290>]",Violet,2_0,False,True,"[['pink'], ['this', 'one']]",thisonepink,thisonepink,0.5,0.69314718056,False,0.6931471805599453
+562,562,"[<__main__.Word instance at 0x1123fb560>
+ <__main__.Word instance at 0x1123fb098>
+ <__main__.Word instance at 0x1123fb908>]",Violet,2_0,False,True,"[['this', 'one'], ['pink']]",thisonepink,thisonepink,0.5,0.69314718056,False,0.6931471805599453
+563,563,"[<__main__.Word instance at 0x1123fb998>
+ <__main__.Word instance at 0x1123fb830>
+ <__main__.Word instance at 0x1123fba70>]",Violet,2_0,False,False,"[['this'], ['is'], ['pumpkin']]",thisispumpkin,isthispumpkin,0.166666666667,-0.182321556794,False,-0.1823215567939546
+564,564,"[<__main__.Word instance at 0x1123fbc68>
+ <__main__.Word instance at 0x1123fbb00>]",Violet,2_0,False,True,"[['pumpkin'], ['silly']]",sillypumpkin,sillypumpkin,0.5,0.69314718056,False,0.6931471805599453
+565,565,"[<__main__.Word instance at 0x1123fb758>
+ <__main__.Word instance at 0x1123fbfc8>
+ <__main__.Word instance at 0x1123fbe60>
+ <__main__.Word instance at 0x1123fbd88>]",Violet,2_0,False,False,"[['the'], ['going'], ['train'], ['on']]",goingonthetrain,thegoingontrain,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+566,566,"[<__main__.Word instance at 0x1124010e0>
+ <__main__.Word instance at 0x112401128>
+ <__main__.Word instance at 0x112401050>]",Violet,2_0,False,False,"[['going'], ['on'], ['train']]",goingontrain,ongoingtrain,0.166666666667,-0.182321556794,False,-0.1823215567939546
+567,567,"[<__main__.Word instance at 0x1124011b8>
+ <__main__.Word instance at 0x112401488>
+ <__main__.Word instance at 0x112401368>]",Violet,2_0,False,True,"[['pumpkin'], ['says'], ['the']]",thepumpkinsays,thepumpkinsays,0.166666666667,1.79175946923,False,1.791759469228055
+568,568,[<__main__.Word instance at 0x112401680>],Violet,2_0,False,True,[['halloween']],halloween,halloween,1.0,0.0,False,-0.0
+569,569,"[<__main__.Word instance at 0x112401440>
+ <__main__.Word instance at 0x112401710>]",Violet,2_0,False,True,"[['ding'], ['ding']]",dingding,dingding,0.5,0.69314718056,True,-0.0
+570,570,"[<__main__.Word instance at 0x112401ab8>
+ <__main__.Word instance at 0x1124019e0>]",Violet,2_0,False,False,"[['that'], ['use']]",usethat,thatuse,0.5,-0.69314718056,False,-0.6931471805599453
+571,571,"[<__main__.Word instance at 0x1124015a8>
+ <__main__.Word instance at 0x112401c20>
+ <__main__.Word instance at 0x112401b00>]",Violet,2_0,False,False,"[['use'], ['color'], ['this']]",usethiscolor,thiscoloruse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+572,572,"[<__main__.Word instance at 0x112401950>
+ <__main__.Word instance at 0x112401ef0>]",Violet,2_0,False,True,"[['in'], ['here']]",inhere,inhere,0.5,0.69314718056,False,0.6931471805599453
+573,573,"[<__main__.Word instance at 0x112401f80>
+ <__main__.Word instance at 0x112401908>
+ <__main__.Word instance at 0x1123fe0e0>
+ <__main__.Word instance at 0x1123fe368>]",Violet,2_0,False,False,"[['here'], ['in'], ['what', 'color']]",whatcolorinhere,inherewhatcolor,0.166666666667,-0.182321556794,False,-0.1823215567939546
+574,574,"[<__main__.Word instance at 0x1123fe440>
+ <__main__.Word instance at 0x1123fe290>]",Violet,2_0,False,True,"[['teeth'], ['orange']]",orangeteeth,orangeteeth,0.5,0.69314718056,False,0.6931471805599453
+575,575,"[<__main__.Word instance at 0x1123fe680>
+ <__main__.Word instance at 0x1123fe560>
+ <__main__.Word instance at 0x1123fe830>]",Violet,2_0,False,True,"[['an', 'orange'], ['tongue']]",anorangetongue,anorangetongue,0.5,0.69314718056,False,0.6931471805599453
+576,576,[<__main__.Word instance at 0x1123feb48>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+577,577,[<__main__.Word instance at 0x1123fec68>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+578,578,"[<__main__.Word instance at 0x1123fef38>
+ <__main__.Word instance at 0x1123feea8>]",Violet,2_0,False,False,"[['do'], ['yeah']]",yeahdo,doyeah,0.5,-0.69314718056,False,-0.6931471805599453
+579,579,"[<__main__.Word instance at 0x1123fec20>
+ <__main__.Word instance at 0x112404170>]",Violet,2_0,False,False,"[['white'], ['teeth']]",whiteteeth,teethwhite,0.5,-0.69314718056,False,-0.6931471805599453
+580,580,"[<__main__.Word instance at 0x112404368>
+ <__main__.Word instance at 0x112404248>
+ <__main__.Word instance at 0x112404518>
+ <__main__.Word instance at 0x1124043f8>
+ <__main__.Word instance at 0x1124046c8>]",Violet,2_0,False,False,"[['hair'], ['my'], ['on'], ['what', ""color's""]]",whatcolor'sonmyhair,whatcolor'smyonhair,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+581,581,[<__main__.Word instance at 0x112404878>],Violet,2_0,False,True,[['brown']],brown,brown,1.0,0.0,False,-0.0
+582,582,"[<__main__.Word instance at 0x112404a70>
+ <__main__.Word instance at 0x112404b90>
+ <__main__.Word instance at 0x112404ab8>]",Violet,2_0,False,False,"[[""what's""], ['there'], ['on']]",what'sonthere,ontherewhat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+583,583,"[<__main__.Word instance at 0x112404998>
+ <__main__.Word instance at 0x112404e60>]",Violet,2_0,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+584,584,"[<__main__.Word instance at 0x112404ef0>
+ <__main__.Word instance at 0x112404b48>
+ <__main__.Word instance at 0x112404f80>
+ <__main__.Word instance at 0x112407248>
+ <__main__.Word instance at 0x112407200>]",Violet,2_0,False,False,"[['is'], ['what', 'color'], ['bathrobe'], ['your']]",whatcolorisyourbathrobe,isyourbathrobewhatcolor,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+585,585,[<__main__.Word instance at 0x112407710>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+586,586,"[<__main__.Word instance at 0x1124077a0>
+ <__main__.Word instance at 0x112407368>
+ <__main__.Word instance at 0x112407950>
+ <__main__.Word instance at 0x112407830>]",Violet,2_0,False,True,"[['your'], ['back'], ['this'], ['on']]",thisonyourback,thisonyourback,0.0416666666667,3.17805383035,False,3.1780538303479458
+587,587,"[<__main__.Word instance at 0x112407a28>
+ <__main__.Word instance at 0x112407e60>
+ <__main__.Word instance at 0x112407d40>
+ <__main__.Word instance at 0x112407f38>
+ <__main__.Word instance at 0x112407dd0>]",Violet,2_0,False,False,"[['red'], ['and'], ['and'], ['yellow'], ['blue']]",redandyellowandblue,andblueandredyellow,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+588,588,"[<__main__.Word instance at 0x112407ea8>
+ <__main__.Word instance at 0x11240a128>
+ <__main__.Word instance at 0x11240a320>]",Violet,2_0,False,False,"[['green'], ['and'], ['and']]",andandgreen,andgreenand,0.166666666667,-0.182321556794,True,-0.4054651081081643
+589,589,"[<__main__.Word instance at 0x11240a368>
+ <__main__.Word instance at 0x11240a440>
+ <__main__.Word instance at 0x11240a290>]",Violet,2_0,False,False,"[['talked'], ['about'], ['you']]",talkedaboutyou,youabouttalked,0.166666666667,-0.182321556794,False,-0.1823215567939546
+590,590,[<__main__.Word instance at 0x11240a518>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+591,591,"[<__main__.Word instance at 0x11240a200>
+ <__main__.Word instance at 0x11240a8c0>]",Violet,2_0,False,False,"[['color'], ['this']]",colorthis,thiscolor,0.5,-0.69314718056,False,-0.6931471805599453
+592,592,"[<__main__.Word instance at 0x11240ab90>
+ <__main__.Word instance at 0x11240ab00>
+ <__main__.Word instance at 0x11240ad88>
+ <__main__.Word instance at 0x11240ac68>
+ <__main__.Word instance at 0x11240ae60>
+ <__main__.Word instance at 0x11240aab8>
+ <__main__.Word instance at 0x11240aef0>
+ <__main__.Word instance at 0x11240ac20>
+ <__main__.Word instance at 0x11240add0>]",Violet,2_0,False,False,"[['that'], [""that's""], ['colored'], ['colored'], [""that's""], ['that'], ['colored'], ['colored'], [""that's""]]",that'scoloredthat'sthat'scoloredthatcoloredthatcolored,that'sthat'sthat'sthatcoloredcoloredcoloredcoloredthat,2.7557319224e-06,-2.75573571947e-06,True,-0.000793965901176512
+593,593,"[<__main__.Word instance at 0x11240d170>
+ <__main__.Word instance at 0x11240d320>]",Violet,2_0,False,True,"[['colored'], ['that']]",thatcolored,thatcolored,0.5,0.69314718056,False,0.6931471805599453
+594,594,"[<__main__.Word instance at 0x11240d4d0>
+ <__main__.Word instance at 0x11240d3b0>
+ <__main__.Word instance at 0x11240d6c8>]",Violet,2_0,False,False,"[['this'], ['colored'], ['is']]",thisiscolored,isthiscolored,0.166666666667,-0.182321556794,False,-0.1823215567939546
+595,595,[<__main__.Word instance at 0x11240d9e0>],Violet,2_0,False,True,[['color']],color,color,1.0,0.0,False,-0.0
+596,596,"[<__main__.Word instance at 0x11240da70>
+ <__main__.Word instance at 0x11240dea8>
+ <__main__.Word instance at 0x11240db00>
+ <__main__.Word instance at 0x11240df38>
+ <__main__.Word instance at 0x11240dbd8>
+ <__main__.Word instance at 0x11240d830>
+ <__main__.Word instance at 0x11240de60>
+ <__main__.Word instance at 0x11240df80>]",Violet,2_0,False,False,"[['all'], [""that's""], ['is'], ['this'], ['colored'], ['this'], ['all'], ['colored']]",that'sallcoloredthisthisisallcolored,isthiscoloredthisallallthat'scolored,2.48015873016e-05,-2.4801894866e-05,True,-0.0001984323848162081
+597,597,"[<__main__.Word instance at 0x112413248>
+ <__main__.Word instance at 0x1124131b8>
+ <__main__.Word instance at 0x1124132d8>
+ <__main__.Word instance at 0x112413368>]",Violet,2_0,False,False,"[['is'], ['all'], ['this'], ['color']]",thisisallcolor,isthiscolorall,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+598,598,[<__main__.Word instance at 0x112413560>],Violet,2_0,False,True,[['peekaboo']],peekaboo,peekaboo,1.0,0.0,False,-0.0
+599,599,"[<__main__.Word instance at 0x112413758>
+ <__main__.Word instance at 0x1124135f0>
+ <__main__.Word instance at 0x1124137e8>
+ <__main__.Word instance at 0x112413bd8>
+ <__main__.Word instance at 0x112413b48>
+ <__main__.Word instance at 0x112413f38>]",Violet,2_0,False,False,"[['coloring'], ['just'], [""I'm""], ['page'], ['in'], ['this']]",I'mjustcoloringinthispage,thisinI'mjustcoloringpage,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+600,600,"[<__main__.Word instance at 0x112413f80>
+ <__main__.Word instance at 0x112410050>
+ <__main__.Word instance at 0x112410248>
+ <__main__.Word instance at 0x112410170>]",Violet,2_0,False,False,"[['all'], ['colored'], ['this'], ['is']]",thisisallcolored,isthiscoloredall,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+601,601,"[<__main__.Word instance at 0x1124103b0>
+ <__main__.Word instance at 0x112410320>
+ <__main__.Word instance at 0x1124103f8>
+ <__main__.Word instance at 0x112410128>]",Violet,2_0,False,False,"[['page'], [""I'm""], ['just'], ['coloring']]",I'mjustcoloringpage,justcoloringI'mpage,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+602,602,[<__main__.Word instance at 0x112410680>],Violet,2_0,False,True,[['color']],color,color,1.0,0.0,False,-0.0
+603,603,[<__main__.Word instance at 0x112410878>],Violet,2_0,False,True,[['&-um']],&-um,&-um,1.0,0.0,False,-0.0
+604,604,[<__main__.Word instance at 0x112410998>],Violet,2_0,False,True,[['pumpkin']],pumpkin,pumpkin,1.0,0.0,False,-0.0
+605,605,"[<__main__.Word instance at 0x112410a28>
+ <__main__.Word instance at 0x1124104d0>
+ <__main__.Word instance at 0x112410bd8>
+ <__main__.Word instance at 0x112410ab8>
+ <__main__.Word instance at 0x112410fc8>]",Violet,2_0,False,False,"[['this'], ['you'], ['in'], ['color'], ['for']]",colorinthisforyou,youcolorinthisfor,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+606,606,"[<__main__.Word instance at 0x112410cb0>
+ <__main__.Word instance at 0x112410ea8>
+ <__main__.Word instance at 0x112416248>
+ <__main__.Word instance at 0x112416128>
+ <__main__.Word instance at 0x112416290>]",Violet,2_0,False,False,"[['m'], ['u'], ['o'], ['s'], ['e']]",mouse,moues,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+607,607,[<__main__.Word instance at 0x112416320>],Violet,2_0,False,True,[['m']],m,m,1.0,0.0,False,-0.0
+608,608,"[<__main__.Word instance at 0x1124163f8>
+ <__main__.Word instance at 0x1124165a8>
+ <__main__.Word instance at 0x1124163b0>
+ <__main__.Word instance at 0x1124169e0>
+ <__main__.Word instance at 0x112416830>]",Violet,2_0,False,False,"[['u'], ['e'], ['o'], ['m'], ['s']]",mouse,soemu,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+609,609,"[<__main__.Word instance at 0x112416b00>
+ <__main__.Word instance at 0x112416950>
+ <__main__.Word instance at 0x112416cb0>]",Violet,2_0,False,True,"[['mouse'], ['that', 'spells']]",thatspellsmouse,thatspellsmouse,0.5,0.69314718056,False,0.6931471805599453
+610,610,"[<__main__.Word instance at 0x112416bd8>
+ <__main__.Word instance at 0x112416ef0>
+ <__main__.Word instance at 0x112416710>]",Violet,2_0,False,False,"[['Mouse'], ['club'], ['Micky']]",MickyMouseclub,MickyclubMouse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+611,611,"[<__main__.Word instance at 0x112419170>
+ <__main__.Word instance at 0x112419098>
+ <__main__.Word instance at 0x112419290>
+ <__main__.Word instance at 0x1124193f8>
+ <__main__.Word instance at 0x112419368>
+ <__main__.Word instance at 0x112419518>
+ <__main__.Word instance at 0x1124195f0>
+ <__main__.Word instance at 0x1124192d8>
+ <__main__.Word instance at 0x112419908>
+ <__main__.Word instance at 0x1124196c8>
+ <__main__.Word instance at 0x112419998>]",Violet,2_0,False,False,"[['e'], ['s'], ['o'], ['e', 'y'], ['m'], ['u'], ['m', 'i'], ['c', 'k']]",mickeymouse,miusmckoeye,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+612,612,"[<__main__.Word instance at 0x112419a70>
+ <__main__.Word instance at 0x112419878>]",Violet,2_0,False,True,"[['Mouse'], ['Micky']]",MickyMouse,MickyMouse,0.5,0.69314718056,False,0.6931471805599453
+613,613,"[<__main__.Word instance at 0x1124199e0>
+ <__main__.Word instance at 0x112419bd8>
+ <__main__.Word instance at 0x1124197a0>
+ <__main__.Word instance at 0x112419dd0>]",Violet,2_0,False,False,"[['here'], ['right'], ['color'], ['some']]",colorsomerighthere,rightherecolorsome,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+614,614,"[<__main__.Word instance at 0x112419f80>
+ <__main__.Word instance at 0x112419e60>
+ <__main__.Word instance at 0x11241c200>
+ <__main__.Word instance at 0x11241c1b8>
+ <__main__.Word instance at 0x11241c2d8>
+ <__main__.Word instance at 0x11241c0e0>]",Violet,2_0,False,False,"[['pen'], ['I', 'want'], ['use'], ['to'], ['the']]",Iwanttousethepen,Iwanttotheusepen,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+615,615,[<__main__.Word instance at 0x11241c290>],Violet,2_0,False,True,[['pen']],pen,pen,1.0,0.0,False,-0.0
+616,616,[<__main__.Word instance at 0x11241c440>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+617,617,"[<__main__.Word instance at 0x11241c5f0>
+ <__main__.Word instance at 0x11241ca28>]",Violet,2_0,False,True,"[['works'], ['this']]",thisworks,thisworks,0.5,0.69314718056,False,0.6931471805599453
+618,618,[<__main__.Word instance at 0x11241cb90>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+619,619,"[<__main__.Word instance at 0x11241cd88>
+ <__main__.Word instance at 0x11241cc68>
+ <__main__.Word instance at 0x11241cf80>
+ <__main__.Word instance at 0x11241c050>
+ <__main__.Word instance at 0x11241ce18>]",Violet,2_0,False,False,"[['it'], ['yeah'], ['got'], ['works'], ['to']]",yeahgotittoworks,gotittoworksyeah,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+620,620,"[<__main__.Word instance at 0x11241f248>
+ <__main__.Word instance at 0x11241f050>
+ <__main__.Word instance at 0x11241f170>]",Violet,2_0,False,True,"[['it'], ['I'], ['got']]",Igotit,Igotit,0.166666666667,1.79175946923,False,1.791759469228055
+621,621,"[<__main__.Word instance at 0x11241f638>
+ <__main__.Word instance at 0x11241f518>
+ <__main__.Word instance at 0x11241f710>
+ <__main__.Word instance at 0x11241f5a8>]",Violet,2_0,False,False,"[['colored'], ['this'], ['is'], ['all']]",thisisallcolored,isthisallcolored,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+622,622,"[<__main__.Word instance at 0x11241f9e0>
+ <__main__.Word instance at 0x11241fb48>
+ <__main__.Word instance at 0x11241fab8>
+ <__main__.Word instance at 0x11241fc20>
+ <__main__.Word instance at 0x11241f908>]",Violet,2_0,False,False,"[['colored'], ['this'], ['and'], ['is'], ['all']]",andthisisallcolored,andthisiscoloredall,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+623,623,"[<__main__.Word instance at 0x11241fcb0>
+ <__main__.Word instance at 0x11241ff80>
+ <__main__.Word instance at 0x11241fe60>]",Violet,2_0,False,True,"[['you'], ['try'], ['this']]",youtrythis,youtrythis,0.166666666667,1.79175946923,False,1.791759469228055
+624,624,"[<__main__.Word instance at 0x11241ff38>
+ <__main__.Word instance at 0x112422290>
+ <__main__.Word instance at 0x1124221b8>]",Violet,2_0,False,False,"[['go'], ['there'], ['we']]",therewego,wegothere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+625,625,"[<__main__.Word instance at 0x112422170>
+ <__main__.Word instance at 0x1124223f8>
+ <__main__.Word instance at 0x1124225f0>]",Violet,2_0,False,True,"[['it'], ['I'], ['got']]",Igotit,Igotit,0.166666666667,1.79175946923,False,1.791759469228055
+626,626,[<__main__.Word instance at 0x1124227e8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+627,627,[<__main__.Word instance at 0x1124228c0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+628,628,[<__main__.Word instance at 0x1124229e0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+629,629,"[<__main__.Word instance at 0x112422710>
+ <__main__.Word instance at 0x112422b48>]",Violet,2_0,False,True,"[['poke', 'holes']]",pokeholes,pokeholes,1.0,0.0,False,-0.0
+630,630,[<__main__.Word instance at 0x112422bd8>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+631,631,"[<__main__.Word instance at 0x112422d88>
+ <__main__.Word instance at 0x112422c68>
+ <__main__.Word instance at 0x112422f80>
+ <__main__.Word instance at 0x112422e18>]",Violet,2_0,False,False,"[['holes'], ['holes'], ['everywhere'], ['poke']]",holeseverywherepokeholes,everywherepokeholesholes,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+632,632,[<__main__.Word instance at 0x112422d40>],Violet,2_0,False,True,[['good']],good,good,1.0,0.0,False,-0.0
+633,633,"[<__main__.Word instance at 0x1124260e0>
+ <__main__.Word instance at 0x112426290>
+ <__main__.Word instance at 0x112426098>
+ <__main__.Word instance at 0x112426488>]",Violet,2_0,False,False,"[['I'], ['yeah'], ['many'], ['poked']]",yeahIpokedmany,Imanypokedyeah,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+634,634,"[<__main__.Word instance at 0x112426518>
+ <__main__.Word instance at 0x112426170>
+ <__main__.Word instance at 0x1124266c8>
+ <__main__.Word instance at 0x1124265a8>
+ <__main__.Word instance at 0x1124268c0>
+ <__main__.Word instance at 0x1124267a0>
+ <__main__.Word instance at 0x112426b48>
+ <__main__.Word instance at 0x112426950>]",Violet,2_0,False,False,"[['two'], ['eight'], ['seven'], ['one'], ['five'], ['four'], ['six'], ['three']]",onetwothreefourfivesixseveneight,onetwothreefourfiveeightsevensix,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+635,635,"[<__main__.Word instance at 0x112426b90>
+ <__main__.Word instance at 0x112426dd0>]",Violet,2_0,False,True,"[['yeah'], ['eight']]",yeaheight,yeaheight,0.5,0.69314718056,False,0.6931471805599453
+636,636,[<__main__.Word instance at 0x112426cf8>],Violet,2_0,False,True,[['cheese']],cheese,cheese,1.0,0.0,False,-0.0
+637,637,"[<__main__.Word instance at 0x112426ef0>
+ <__main__.Word instance at 0x112426e18>
+ <__main__.Word instance at 0x112426ea8>
+ <__main__.Word instance at 0x112426908>]",Violet,2_0,False,False,"[['next'], ['time'], ['ya'], ['see']]",seeyanexttime,yanextseetime,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+638,638,"[<__main__.Word instance at 0x1124290e0>
+ <__main__.Word instance at 0x1124292d8>
+ <__main__.Word instance at 0x112429368>
+ <__main__.Word instance at 0x112429440>
+ <__main__.Word instance at 0x112429248>
+ <__main__.Word instance at 0x1124297a0>]",Violet,2_0,False,False,"[['mama'], ['three'], ['number'], ['gonna', 'be'], ['I']]",Igonnabenumberthreemama,gonnabenumberthreemamaI,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+639,639,"[<__main__.Word instance at 0x112429830>
+ <__main__.Word instance at 0x1124295f0>]",Violet,2_0,False,True,"[['number'], ['three']]",numberthree,numberthree,0.5,0.69314718056,False,0.6931471805599453
+640,640,"[<__main__.Word instance at 0x112429b90>
+ <__main__.Word instance at 0x112429cf8>]",Violet,2_0,False,True,"[['what'], ['two']]",whattwo,whattwo,0.5,0.69314718056,False,0.6931471805599453
+641,641,[<__main__.Word instance at 0x112429e18>],Violet,2_0,False,True,[['you']],you,you,1.0,0.0,False,-0.0
+642,642,[<__main__.Word instance at 0x112429f38>],Violet,2_0,False,True,[['hello']],hello,hello,1.0,0.0,False,-0.0
+643,643,"[<__main__.Word instance at 0x112429a70>
+ <__main__.Word instance at 0x112429ef0>
+ <__main__.Word instance at 0x1124298c0>
+ <__main__.Word instance at 0x112429f80>
+ <__main__.Word instance at 0x11242c128>
+ <__main__.Word instance at 0x11242c050>
+ <__main__.Word instance at 0x11242c200>
+ <__main__.Word instance at 0x11242c2d8>]",Violet,2_0,False,False,"[['ugh'], ['I'], ['looked'], ['owl'], ['I', ""didn't""], ['grand'], ['at']]",ughIIdidn'tlookedatgrandowl,IatIdidn'tughowllookedgrand,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+644,644,"[<__main__.Word instance at 0x11242c368>
+ <__main__.Word instance at 0x11242c248>
+ <__main__.Word instance at 0x11242c440>
+ <__main__.Word instance at 0x11242c638>]",Violet,2_0,False,False,"[['because'], ['color'], [""we're""], ['gonna']]",becausewe'regonnacolor,becausegonnacolorwe're,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+645,645,[<__main__.Word instance at 0x11242c6c8>],Violet,2_0,False,True,[['back']],back,back,1.0,0.0,False,-0.0
+646,646,"[<__main__.Word instance at 0x11242c758>
+ <__main__.Word instance at 0x11242cab8>
+ <__main__.Word instance at 0x11242c950>
+ <__main__.Word instance at 0x11242cb90>
+ <__main__.Word instance at 0x11242cc20>
+ <__main__.Word instance at 0x11242cb00>
+ <__main__.Word instance at 0x11242cea8>
+ <__main__.Word instance at 0x11242ce18>]",Violet,2_0,False,False,"[[""that's""], ['yeah'], ['stickers'], ['stickers'], ['him'], [""that's""], [""that's""], ['coloring']]",yeahthat'sstickersthat'shimthat'sstickerscoloring,that'scoloringthat'sstickersthat'shimstickersyeah,2.48015873016e-05,-2.4801894866e-05,True,-0.0002976633449571718
+647,647,[<__main__.Word instance at 0x11242c830>],Violet,2_0,False,True,[['hands']],hands,hands,1.0,0.0,False,-0.0
+648,648,"[<__main__.Word instance at 0x11242cdd0>
+ <__main__.Word instance at 0x11242ca70>
+ <__main__.Word instance at 0x1124321b8>
+ <__main__.Word instance at 0x112432128>
+ <__main__.Word instance at 0x1124322d8>]",Violet,2_0,False,False,"[['color'], ['the'], ['ugh'], ['pen'], [""where's""]]",ughwhere'sthecolorpen,thecolorpenughwhere's,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+649,649,"[<__main__.Word instance at 0x112432638>
+ <__main__.Word instance at 0x1124325a8>
+ <__main__.Word instance at 0x112432710>]",Violet,2_0,False,True,"[['the', 'coloring'], ['where']]",wherethecoloring,wherethecoloring,0.5,0.69314718056,False,0.6931471805599453
+650,650,"[<__main__.Word instance at 0x1124327e8>
+ <__main__.Word instance at 0x112432b00>]",Violet,2_0,False,True,"[['cupcake'], ['these']]",thesecupcake,thesecupcake,0.5,0.69314718056,False,0.6931471805599453
+651,651,[<__main__.Word instance at 0x112432b90>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+652,652,[<__main__.Word instance at 0x112432c68>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+653,653,"[<__main__.Word instance at 0x112432e18>
+ <__main__.Word instance at 0x112432cf8>
+ <__main__.Word instance at 0x112432ea8>
+ <__main__.Word instance at 0x112435290>]",Violet,2_0,False,False,"[['color'], ['the', 'witch'], ['we']]",wecolorthewitch,thewitchwecolor,0.166666666667,-0.182321556794,False,-0.1823215567939546
+654,654,"[<__main__.Word instance at 0x112435200>
+ <__main__.Word instance at 0x112435518>
+ <__main__.Word instance at 0x112435050>]",Violet,2_0,False,True,"[['I'], ['be'], ['orange']]",Ibeorange,Ibeorange,0.166666666667,1.79175946923,False,1.791759469228055
+655,655,"[<__main__.Word instance at 0x112435440>
+ <__main__.Word instance at 0x1124356c8>
+ <__main__.Word instance at 0x112435320>
+ <__main__.Word instance at 0x112435830>]",Violet,2_0,False,True,"[['color'], ['that', 'star'], ['I']]",Icolorthatstar,Icolorthatstar,0.166666666667,1.79175946923,False,1.791759469228055
+656,656,"[<__main__.Word instance at 0x1124358c0>
+ <__main__.Word instance at 0x1124353b0>]",Violet,2_0,False,True,"[['hand'], ['got']]",gothand,gothand,0.5,0.69314718056,False,0.6931471805599453
+657,657,"[<__main__.Word instance at 0x1124352d8>
+ <__main__.Word instance at 0x112435ab8>]",Violet,2_0,False,True,"[['broomstick'], ['a']]",abroomstick,abroomstick,0.5,0.69314718056,False,0.6931471805599453
+658,658,"[<__main__.Word instance at 0x112435cb0>
+ <__main__.Word instance at 0x112435b48>
+ <__main__.Word instance at 0x112435d88>]",Violet,2_0,False,True,"[['color'], ['cat'], ['I']]",Icolorcat,Icolorcat,0.166666666667,1.79175946923,False,1.791759469228055
+659,659,"[<__main__.Word instance at 0x112435f38>
+ <__main__.Word instance at 0x112435e18>
+ <__main__.Word instance at 0x11242f098>]",Violet,2_0,False,True,"[['a'], [""that's""], ['broomstick']]",that'sabroomstick,that'sabroomstick,0.166666666667,1.79175946923,False,1.791759469228055
+660,660,"[<__main__.Word instance at 0x11242f2d8>
+ <__main__.Word instance at 0x11242f1b8>]",Violet,2_0,False,True,"[['what'], ['thats']]",whatthats,whatthats,0.5,0.69314718056,False,0.6931471805599453
+661,661,"[<__main__.Word instance at 0x11242f518>
+ <__main__.Word instance at 0x11242f6c8>
+ <__main__.Word instance at 0x11242f488>]",Violet,2_0,False,True,"[['broomstick'], ['a'], [""that's""]]",that'sabroomstick,that'sabroomstick,0.166666666667,1.79175946923,False,1.791759469228055
+662,662,"[<__main__.Word instance at 0x11242f758>
+ <__main__.Word instance at 0x11242f9e0>
+ <__main__.Word instance at 0x11242f3b0>]",Violet,2_0,False,False,"[['red'], ['hair'], ['yeah']]",yeahredhair,redhairyeah,0.166666666667,-0.182321556794,False,-0.1823215567939546
+663,663,"[<__main__.Word instance at 0x11242f950>
+ <__main__.Word instance at 0x11242fc20>
+ <__main__.Word instance at 0x11242fb48>
+ <__main__.Word instance at 0x11242fe18>
+ <__main__.Word instance at 0x11242fcf8>]",Violet,2_0,False,False,"[['you'], ['red'], ['gonna'], ['color'], ['hair']]",yougonnacolorredhair,yougonnacolorhairred,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+664,664,"[<__main__.Word instance at 0x11242fbd8>
+ <__main__.Word instance at 0x11242ff80>
+ <__main__.Word instance at 0x11242fdd0>
+ <__main__.Word instance at 0x11242ff38>
+ <__main__.Word instance at 0x112438290>]",Violet,2_0,False,False,"[[""cat's""], ['hair'], ['wanna'], ['I'], ['color']]",Iwannacolorcat'shair,Icolorcat'swannahair,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+665,665,"[<__main__.Word instance at 0x112438440>
+ <__main__.Word instance at 0x1124383f8>
+ <__main__.Word instance at 0x1124384d0>]",Violet,2_0,False,True,"[['I'], ['handstand'], ['wanna']]",Iwannahandstand,Iwannahandstand,0.166666666667,1.79175946923,False,1.791759469228055
+666,666,[<__main__.Word instance at 0x112438560>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+667,667,"[<__main__.Word instance at 0x1124382d8>
+ <__main__.Word instance at 0x112438a70>]",Violet,2_0,False,True,"[['like', 'this']]",likethis,likethis,1.0,0.0,False,-0.0
+668,668,[<__main__.Word instance at 0x112438cf8>],Violet,2_0,False,True,[['good']],good,good,1.0,0.0,False,-0.0
+669,669,[<__main__.Word instance at 0x112438e18>],Violet,2_0,False,True,[['way']],way,way,1.0,0.0,False,-0.0
+670,670,"[<__main__.Word instance at 0x112438f80>
+ <__main__.Word instance at 0x112438e60>
+ <__main__.Word instance at 0x112438f38>
+ <__main__.Word instance at 0x1124387e8>
+ <__main__.Word instance at 0x11243b200>
+ <__main__.Word instance at 0x11243b098>]",Violet,2_0,False,False,"[[""I'm""], ['you'], ['walk'], ['my'], ['gonna'], ['show']]",I'mgonnashowyoumywalk,yougonnaI'mshowmywalk,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+671,671,"[<__main__.Word instance at 0x11243b3f8>
+ <__main__.Word instance at 0x11243b440>
+ <__main__.Word instance at 0x11243b128>
+ <__main__.Word instance at 0x11243b5f0>
+ <__main__.Word instance at 0x11243b4d0>]",Violet,2_0,False,True,"[['color'], ['book'], ['gonna'], ['in'], ['you']]",yougonnacolorinbook,yougonnacolorinbook,0.00833333333333,4.78749174278,False,4.787491742782046
+672,672,"[<__main__.Word instance at 0x11243b758>
+ <__main__.Word instance at 0x11243bab8>
+ <__main__.Word instance at 0x11243b320>]",Violet,2_0,False,False,"[['coloring'], [""you're""], ['in']]",you'recoloringin,incoloringyou're,0.166666666667,-0.182321556794,False,-0.1823215567939546
+673,673,"[<__main__.Word instance at 0x11243bb00>
+ <__main__.Word instance at 0x11243bd88>
+ <__main__.Word instance at 0x11243bcf8>]",Violet,2_0,False,False,"[['dress'], ['a', 'brown']]",abrowndress,dressabrown,0.5,-0.69314718056,False,-0.6931471805599453
+674,674,"[<__main__.Word instance at 0x11243b7e8>
+ <__main__.Word instance at 0x11243bef0>
+ <__main__.Word instance at 0x11243bb90>
+ <__main__.Word instance at 0x11243b9e0>
+ <__main__.Word instance at 0x11243f1b8>]",Violet,2_0,False,True,"[['got'], ['her'], ['arms'], ['you'], ['and']]",andyougotherarms,andyougotherarms,0.00833333333333,4.78749174278,False,4.787491742782046
+675,675,[<__main__.Word instance at 0x11243f128>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+676,676,"[<__main__.Word instance at 0x11243f4d0>
+ <__main__.Word instance at 0x11243f560>
+ <__main__.Word instance at 0x11243f290>
+ <__main__.Word instance at 0x11243f7a0>
+ <__main__.Word instance at 0x11243f680>
+ <__main__.Word instance at 0x11243f830>
+ <__main__.Word instance at 0x11243f368>]",Violet,2_0,False,False,"[['for'], ['I'], ['be'], ['wanna'], ['cat'], ['a'], ['you']]",Iwannabeacatforyou,youbeacatforwannaI,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+677,677,"[<__main__.Word instance at 0x11243f8c0>
+ <__main__.Word instance at 0x11243fc20>
+ <__main__.Word instance at 0x11243f440>
+ <__main__.Word instance at 0x11243fc68>
+ <__main__.Word instance at 0x11243fab8>
+ <__main__.Word instance at 0x11243ff80>
+ <__main__.Word instance at 0x11243f950>
+ <__main__.Word instance at 0x11243fd88>]",Violet,2_0,False,False,"[['be'], ['for'], ['a'], ['you'], ['yes'], ['I'], ['cat'], ['wanna']]",yesIwannabeacatforyou,youbeacatforwannayesI,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+678,678,"[<__main__.Word instance at 0x112442050>
+ <__main__.Word instance at 0x1124421b8>
+ <__main__.Word instance at 0x112442320>
+ <__main__.Word instance at 0x112442200>]",Violet,2_0,False,False,"[['I'], ['be'], ['a'], ['wanna']]",Iwannabea,Ibeawanna,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+679,679,"[<__main__.Word instance at 0x112442560>
+ <__main__.Word instance at 0x1124426c8>
+ <__main__.Word instance at 0x112442638>]",Violet,2_0,False,False,"[['you'], ['for'], ['cat']]",catforyou,youforcat,0.166666666667,-0.182321556794,False,-0.1823215567939546
+680,680,[<__main__.Word instance at 0x1124422d8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+681,681,"[<__main__.Word instance at 0x112442488>
+ <__main__.Word instance at 0x1124428c0>]",Violet,2_0,False,True,"[['go'], ['here']]",gohere,gohere,0.5,0.69314718056,False,0.6931471805599453
+682,682,[<__main__.Word instance at 0x112442ab8>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+683,683,"[<__main__.Word instance at 0x112442c68>
+ <__main__.Word instance at 0x1124423f8>
+ <__main__.Word instance at 0x112442cb0>
+ <__main__.Word instance at 0x112442c20>
+ <__main__.Word instance at 0x112442d88>]",Violet,2_0,False,False,"[['crayon'], ['for'], ['have'], ['you'], ['a']]",haveacrayonforyou,youhaveacrayonfor,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+684,684,"[<__main__.Word instance at 0x112442f38>
+ <__main__.Word instance at 0x112442e18>]",Violet,2_0,False,True,"[['ha'], ['ha']]",haha,haha,0.5,0.69314718056,True,-0.0
+685,685,"[<__main__.Word instance at 0x112442b00>
+ <__main__.Word instance at 0x112445128>
+ <__main__.Word instance at 0x1124452d8>]",Violet,2_0,False,True,"[['dress'], ['here'], ['your']]",yourdresshere,yourdresshere,0.166666666667,1.79175946923,False,1.791759469228055
+686,686,"[<__main__.Word instance at 0x112445488>
+ <__main__.Word instance at 0x112445368>
+ <__main__.Word instance at 0x112445518>
+ <__main__.Word instance at 0x1124450e0>
+ <__main__.Word instance at 0x112445638>
+ <__main__.Word instance at 0x112445320>]",Violet,2_0,False,False,"[['my'], ['on'], ['me'], ['with'], ['is'], ['dress']]",mydressisonwithme,withdressmeismyon,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+687,687,"[<__main__.Word instance at 0x1124458c0>
+ <__main__.Word instance at 0x1124457a0>
+ <__main__.Word instance at 0x112445950>
+ <__main__.Word instance at 0x112445440>
+ <__main__.Word instance at 0x112445bd8>]",Violet,2_0,False,False,"[['my'], ['when'], ['dress'], ['halloween'], ['put']]",whenputmyhalloweendress,putdresshalloweenmywhen,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+688,688,"[<__main__.Word instance at 0x112445d88>
+ <__main__.Word instance at 0x112445c20>
+ <__main__.Word instance at 0x112445e18>
+ <__main__.Word instance at 0x112445ab8>
+ <__main__.Word instance at 0x112445f38>
+ <__main__.Word instance at 0x112445d40>
+ <__main__.Word instance at 0x1124481b8>]",Violet,2_0,False,False,"[['am'], ['going'], ['to'], ['I'], ['soon'], ['mom'], ['go']]",momamIgoingtogosoon,Igotomomsoongoingam,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+689,689,"[<__main__.Word instance at 0x112448368>
+ <__main__.Word instance at 0x1124482d8>]",Violet,2_0,False,True,"[['I'], ['going']]",Igoing,Igoing,0.5,0.69314718056,False,0.6931471805599453
+690,690,"[<__main__.Word instance at 0x112448170>
+ <__main__.Word instance at 0x1124485f0>]",Violet,2_0,False,True,"[['hello'], ['mama']]",hellomama,hellomama,0.5,0.69314718056,False,0.6931471805599453
+691,691,"[<__main__.Word instance at 0x112448830>
+ <__main__.Word instance at 0x112448758>
+ <__main__.Word instance at 0x112448a28>
+ <__main__.Word instance at 0x112448518>]",Violet,2_0,False,False,"[['have'], ['have_to'], ['I'], ['a']]",Ihave_tohavea,Ihaveahave_to,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+692,692,"[<__main__.Word instance at 0x112448a70>
+ <__main__.Word instance at 0x112448c68>
+ <__main__.Word instance at 0x112448950>]",Violet,2_0,False,False,"[['happy'], ['halloween'], [""it's""]]",it'shappyhalloween,it'shalloweenhappy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+693,693,[<__main__.Word instance at 0x1124489e0>],Violet,2_0,False,True,[['alright']],alright,alright,1.0,0.0,False,-0.0
+694,694,"[<__main__.Word instance at 0x112448d88>
+ <__main__.Word instance at 0x112448f38>
+ <__main__.Word instance at 0x1124484d0>
+ <__main__.Word instance at 0x11244b0e0>
+ <__main__.Word instance at 0x11244b128>]",Violet,2_0,False,False,"[['halloween'], ['halloween'], ['coming'], ['is'], ['com']]",halloweencominghalloweeniscom,iscomhalloweenhalloweencoming,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+695,695,"[<__main__.Word instance at 0x11244b050>
+ <__main__.Word instance at 0x11244b170>]",Violet,2_0,False,True,"[[""today's""], ['halloween']]",today'shalloween,today'shalloween,0.5,0.69314718056,False,0.6931471805599453
+696,696,"[<__main__.Word instance at 0x11244b440>
+ <__main__.Word instance at 0x11244b758>
+ <__main__.Word instance at 0x11244b5f0>
+ <__main__.Word instance at 0x11244b7a0>]",Violet,2_0,False,False,"[['do'], ['we'], ['halloween', 'costumes']]",dowehalloweencostumes,wedohalloweencostumes,0.166666666667,-0.182321556794,False,-0.1823215567939546
+697,697,"[<__main__.Word instance at 0x11244b518>
+ <__main__.Word instance at 0x11244bab8>]",Violet,2_0,False,False,"[['ah'], ['go']]",ahgo,goah,0.5,-0.69314718056,False,-0.6931471805599453
+698,698,"[<__main__.Word instance at 0x11244bb48>
+ <__main__.Word instance at 0x11244b6c8>
+ <__main__.Word instance at 0x11244bcf8>]",Violet,2_0,False,False,"[['back'], ['please'], ['mama']]",pleasemamaback,pleasebackmama,0.166666666667,-0.182321556794,False,-0.1823215567939546
+699,699,[<__main__.Word instance at 0x11244bf38>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+700,700,"[<__main__.Word instance at 0x11244be60>
+ <__main__.Word instance at 0x11244e050>]",Violet,2_0,False,True,"[['yeah'], ['be']]",yeahbe,yeahbe,0.5,0.69314718056,False,0.6931471805599453
+701,701,[<__main__.Word instance at 0x11244e248>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+702,702,"[<__main__.Word instance at 0x11244e290>
+ <__main__.Word instance at 0x11244e7a0>
+ <__main__.Word instance at 0x11244e6c8>
+ <__main__.Word instance at 0x11244e8c0>
+ <__main__.Word instance at 0x11244e758>
+ <__main__.Word instance at 0x11244ea70>]",Violet,2_0,False,False,"[['gonna'], ['gonna'], ['eyes'], [""I'm""], ['color'], [""I'm""]]",I'mgonnaI'mgonnacoloreyes,eyesI'mgonnacolorI'mgonna,0.00138888888889,-0.00138985428905,True,-0.005571045049455361
+703,703,"[<__main__.Word instance at 0x11244ec20>
+ <__main__.Word instance at 0x11244eb00>
+ <__main__.Word instance at 0x11244edd0>
+ <__main__.Word instance at 0x11244ecb0>]",Violet,2_0,False,False,"[['like'], ['green'], ['yeah'], ['mine']]",yeahgreenlikemine,likeminegreenyeah,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+704,704,"[<__main__.Word instance at 0x11244eef0>
+ <__main__.Word instance at 0x11244e5a8>
+ <__main__.Word instance at 0x1124510e0>
+ <__main__.Word instance at 0x1124511b8>]",Violet,2_0,False,True,"[['blue'], ['have'], ['I'], ['eyes']]",Ihaveblueeyes,Ihaveblueeyes,0.0416666666667,3.17805383035,False,3.1780538303479458
+705,705,"[<__main__.Word instance at 0x112451128>
+ <__main__.Word instance at 0x112451320>]",Violet,2_0,False,True,"[['green'], ['you']]",yougreen,yougreen,0.5,0.69314718056,False,0.6931471805599453
+706,706,"[<__main__.Word instance at 0x1124513b0>
+ <__main__.Word instance at 0x1124515a8>]",Violet,2_0,False,False,"[['blue'], ['eyes']]",blueeyes,eyesblue,0.5,-0.69314718056,False,-0.6931471805599453
+707,707,"[<__main__.Word instance at 0x112451638>
+ <__main__.Word instance at 0x112451878>]",Violet,2_0,False,False,"[['eyes'], ['blue']]",blueeyes,eyesblue,0.5,-0.69314718056,False,-0.6931471805599453
+708,708,"[<__main__.Word instance at 0x112451a70>
+ <__main__.Word instance at 0x112451908>
+ <__main__.Word instance at 0x112451b90>
+ <__main__.Word instance at 0x112451c20>]",Violet,2_0,False,False,"[['I'], ['blue'], ['eyes'], ['have']]",Ihaveblueeyes,Ihaveeyesblue,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+709,709,[<__main__.Word instance at 0x112451f80>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+710,710,[<__main__.Word instance at 0x112454098>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+711,711,"[<__main__.Word instance at 0x1124542d8>
+ <__main__.Word instance at 0x112454488>
+ <__main__.Word instance at 0x112454320>
+ <__main__.Word instance at 0x112454290>]",Violet,2_0,False,False,"[['green'], ['you'], ['eyes'], ['have']]",youhavegreeneyes,youhaveeyesgreen,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+712,712,[<__main__.Word instance at 0x1124540e0>],Violet,2_0,False,True,[['ah']],ah,ah,1.0,0.0,False,-0.0
+713,713,"[<__main__.Word instance at 0x112454680>
+ <__main__.Word instance at 0x112454998>
+ <__main__.Word instance at 0x112454830>
+ <__main__.Word instance at 0x112454a28>]",Violet,2_0,False,False,"[['to'], ['want'], ['I', ""don't""]]",Idon'twantto,wanttoIdon't,0.166666666667,-0.182321556794,False,-0.1823215567939546
+714,714,"[<__main__.Word instance at 0x112454d40>
+ <__main__.Word instance at 0x112454c68>]",Violet,2_0,False,False,"[['no'], ['green']]",nogreen,greenno,0.5,-0.69314718056,False,-0.6931471805599453
+715,715,[<__main__.Word instance at 0x112454950>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+716,716,[<__main__.Word instance at 0x112454c20>],Violet,2_0,False,True,[['green']],green,green,1.0,0.0,False,-0.0
+717,717,"[<__main__.Word instance at 0x1124544d0>
+ <__main__.Word instance at 0x112454ab8>
+ <__main__.Word instance at 0x112454d88>
+ <__main__.Word instance at 0x112457320>]",Violet,2_0,False,False,"[['hey'], ['I'], ['color'], ['her']]",heyIcolorher,Icolorheyher,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+718,718,"[<__main__.Word instance at 0x1124573b0>
+ <__main__.Word instance at 0x1124571b8>
+ <__main__.Word instance at 0x112457440>
+ <__main__.Word instance at 0x112457518>
+ <__main__.Word instance at 0x112457290>
+ <__main__.Word instance at 0x112457710>]",Violet,2_0,False,False,"[['I', 'want'], ['that'], ['color'], ['blue'], ['neck']]",Iwantthatcolorblueneck,Iwantneckcolorbluethat,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+719,719,"[<__main__.Word instance at 0x112457b00>
+ <__main__.Word instance at 0x112457a28>
+ <__main__.Word instance at 0x112457a70>]",Violet,2_0,False,False,"[['blue'], ['yellow'], ['purple']]",blueyellowpurple,yellowbluepurple,0.166666666667,-0.182321556794,False,-0.1823215567939546
+720,720,"[<__main__.Word instance at 0x112457cb0>
+ <__main__.Word instance at 0x112457d40>]",Violet,2_0,False,False,"[['purple'], ['eyes']]",purpleeyes,eyespurple,0.5,-0.69314718056,False,-0.6931471805599453
+721,721,[<__main__.Word instance at 0x112457f38>],Violet,2_0,False,True,[['whoops']],whoops,whoops,1.0,0.0,False,-0.0
+722,722,[<__main__.Word instance at 0x1124577a0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+723,723,[<__main__.Word instance at 0x11245b050>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+724,724,[<__main__.Word instance at 0x11245b290>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+725,725,[<__main__.Word instance at 0x11245b248>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+726,726,"[<__main__.Word instance at 0x11245b368>
+ <__main__.Word instance at 0x11245b560>
+ <__main__.Word instance at 0x11245b170>]",Violet,2_0,False,False,"[['spider'], ['itsy'], ['bitsy']]",itsybitsyspider,bitsyitsyspider,0.166666666667,-0.182321556794,False,-0.1823215567939546
+727,727,[<__main__.Word instance at 0x11245b5f0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+728,728,"[<__main__.Word instance at 0x11245b7a0>
+ <__main__.Word instance at 0x11245bab8>]",Violet,2_0,False,True,"[['brown'], ['that']]",thatbrown,thatbrown,0.5,0.69314718056,False,0.6931471805599453
+729,729,[<__main__.Word instance at 0x11245bb48>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+730,730,[<__main__.Word instance at 0x11245bc20>],Violet,2_0,False,True,[['purple']],purple,purple,1.0,0.0,False,-0.0
+731,731,"[<__main__.Word instance at 0x11245be18>
+ <__main__.Word instance at 0x11245bcb0>]",Violet,2_0,False,True,"[['done'], ['almost']]",almostdone,almostdone,0.5,0.69314718056,False,0.6931471805599453
+732,732,"[<__main__.Word instance at 0x11245b878>
+ <__main__.Word instance at 0x11245bdd0>
+ <__main__.Word instance at 0x11245e098>]",Violet,2_0,False,True,"[['almost'], [""it's""], ['done']]",it'salmostdone,it'salmostdone,0.166666666667,1.79175946923,False,1.791759469228055
+733,733,[<__main__.Word instance at 0x11245e2d8>],Violet,2_0,False,True,[['what']],what,what,1.0,0.0,False,-0.0
+734,734,[<__main__.Word instance at 0x11245e3b0>],Violet,2_0,False,True,[['Munsty']],Munsty,Munsty,1.0,0.0,False,-0.0
+735,735,"[<__main__.Word instance at 0x11245e758>
+ <__main__.Word instance at 0x11245e6c8>]",Violet,2_0,False,True,"[['it'], ['Munsty']]",itMunsty,itMunsty,0.5,0.69314718056,False,0.6931471805599453
+736,736,[<__main__.Word instance at 0x11245e290>],Violet,2_0,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+737,737,[<__main__.Word instance at 0x11245e9e0>],Violet,2_0,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+738,738,"[<__main__.Word instance at 0x11245e5a8>
+ <__main__.Word instance at 0x11245eef0>]",Violet,2_0,False,False,"[['there'], ['Munsty']]",thereMunsty,Munstythere,0.5,-0.69314718056,False,-0.6931471805599453
+739,739,"[<__main__.Word instance at 0x11245efc8>
+ <__main__.Word instance at 0x11245ecb0>
+ <__main__.Word instance at 0x11245ef80>]",Violet,2_0,False,True,"[['there'], [""there's""], ['Munsty']]",there'sMunstythere,there'sMunstythere,0.166666666667,1.79175946923,False,1.791759469228055
+740,740,"[<__main__.Word instance at 0x1124611b8>
+ <__main__.Word instance at 0x112461290>
+ <__main__.Word instance at 0x1124614d0>]",Violet,2_0,False,True,"[['there'], ['Munsty'], [""there's""]]",there'sMunstythere,there'sMunstythere,0.166666666667,1.79175946923,False,1.791759469228055
+741,741,"[<__main__.Word instance at 0x112461638>
+ <__main__.Word instance at 0x1124615a8>]",Violet,2_0,False,True,"[['Munsty'], [""there's""]]",there'sMunsty,there'sMunsty,0.5,0.69314718056,False,0.6931471805599453
+742,742,"[<__main__.Word instance at 0x1124613f8>
+ <__main__.Word instance at 0x1124617a0>]",Violet,2_0,False,True,"[[""there's""], ['Munsty']]",there'sMunsty,there'sMunsty,0.5,0.69314718056,False,0.6931471805599453
+743,743,"[<__main__.Word instance at 0x112461950>
+ <__main__.Word instance at 0x112461830>]",Violet,2_0,False,True,"[[""there's""], ['a']]",there'sa,there'sa,0.5,0.69314718056,False,0.6931471805599453
+744,744,"[<__main__.Word instance at 0x112461b48>
+ <__main__.Word instance at 0x112461dd0>
+ <__main__.Word instance at 0x112461cb0>]",Violet,2_0,False,False,"[['a'], ['Munsty'], ['sticker']]",aMunstysticker,astickerMunsty,0.166666666667,-0.182321556794,False,-0.1823215567939546
+745,745,"[<__main__.Word instance at 0x1124619e0>
+ <__main__.Word instance at 0x112461f80>
+ <__main__.Word instance at 0x112461c68>
+ <__main__.Word instance at 0x112461518>]",Violet,2_0,False,False,"[['right'], ['staying'], [""I'm""], ['here']]",I'mstayingrighthere,righthereI'mstaying,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+746,746,[<__main__.Word instance at 0x112464290>],Violet,2_0,False,True,[['me']],me,me,1.0,0.0,False,-0.0
+747,747,"[<__main__.Word instance at 0x112464440>
+ <__main__.Word instance at 0x1124643b0>]",Violet,2_0,False,True,"[['a'], ['list']]",alist,alist,0.5,0.69314718056,False,0.6931471805599453
+748,748,"[<__main__.Word instance at 0x112464248>
+ <__main__.Word instance at 0x1124645a8>
+ <__main__.Word instance at 0x112464320>
+ <__main__.Word instance at 0x1124647a0>
+ <__main__.Word instance at 0x112464680>]",Violet,2_0,False,True,"[['have_to'], ['you'], ['a'], ['list'], ['make']]",youhave_tomakealist,youhave_tomakealist,0.00833333333333,4.78749174278,False,4.787491742782046
+749,749,"[<__main__.Word instance at 0x112464950>
+ <__main__.Word instance at 0x112464ab8>
+ <__main__.Word instance at 0x1124649e0>]",Violet,2_0,False,False,"[['that'], ['I'], ['colored']]",Icoloredthat,Ithatcolored,0.166666666667,-0.182321556794,False,-0.1823215567939546
+750,750,"[<__main__.Word instance at 0x112464bd8>
+ <__main__.Word instance at 0x112464dd0>]",Violet,2_0,False,True,"[['and'], ['that']]",andthat,andthat,0.5,0.69314718056,False,0.6931471805599453
+751,751,"[<__main__.Word instance at 0x112464ea8>
+ <__main__.Word instance at 0x1124648c0>]",Violet,2_0,False,False,"[['a'], [""here's""]]",here'sa,ahere's,0.5,-0.69314718056,False,-0.6931471805599453
+752,752,"[<__main__.Word instance at 0x112464e18>
+ <__main__.Word instance at 0x112464d40>
+ <__main__.Word instance at 0x112467170>
+ <__main__.Word instance at 0x112467368>]",Violet,2_0,False,False,"[['rest'], ['a'], ['might'], ['I']]",Imightarest,Iarestmight,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+753,753,"[<__main__.Word instance at 0x112467518>
+ <__main__.Word instance at 0x1124673f8>
+ <__main__.Word instance at 0x1124677a0>
+ <__main__.Word instance at 0x112467710>
+ <__main__.Word instance at 0x112467998>]",Violet,2_0,False,False,"[['rest'], ['have'], ['my'], ['wanna'], ['I']]",Iwannahavemyrest,Ihavemyrestwanna,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+754,754,[<__main__.Word instance at 0x112467a70>],Violet,2_0,False,True,[['violin']],violin,violin,1.0,0.0,False,-0.0
+755,755,"[<__main__.Word instance at 0x112467b48>
+ <__main__.Word instance at 0x112467830>]",Violet,2_0,False,False,"[['coffee'], ['violin']]",coffeeviolin,violincoffee,0.5,-0.69314718056,False,-0.6931471805599453
+756,756,"[<__main__.Word instance at 0x112467a28>
+ <__main__.Word instance at 0x112467c68>]",Violet,2_0,False,True,"[['tickets'], ['and']]",andtickets,andtickets,0.5,0.69314718056,False,0.6931471805599453
+757,757,"[<__main__.Word instance at 0x112467fc8>
+ <__main__.Word instance at 0x112467e60>
+ <__main__.Word instance at 0x112467f80>]",Violet,2_0,False,True,"[['I'], ['brown'], ['be']]",Ibebrown,Ibebrown,0.166666666667,1.79175946923,False,1.791759469228055
+758,758,"[<__main__.Word instance at 0x112467950>
+ <__main__.Word instance at 0x112467ef0>
+ <__main__.Word instance at 0x11246a098>]",Violet,2_0,False,True,"[['have'], ['I'], ['brown']]",Ihavebrown,Ihavebrown,0.166666666667,1.79175946923,False,1.791759469228055
+759,759,"[<__main__.Word instance at 0x11246a488>
+ <__main__.Word instance at 0x11246a518>
+ <__main__.Word instance at 0x11246a440>
+ <__main__.Word instance at 0x11246a878>]",Violet,2_0,False,False,"[['I'], ['brown'], ['have'], ['mama']]",mamaIhavebrown,Ihavebrownmama,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+760,760,"[<__main__.Word instance at 0x11246a998>
+ <__main__.Word instance at 0x11246a710>]",Violet,2_0,False,True,"[['I', 'go']]",Igo,Igo,1.0,0.0,False,-0.0
+761,761,[<__main__.Word instance at 0x11246ab48>],Violet,2_0,False,True,[['beaujolais']],beaujolais,beaujolais,1.0,0.0,False,-0.0
+762,762,"[<__main__.Word instance at 0x11246ac20>
+ <__main__.Word instance at 0x11246a680>]",Violet,2_0,False,False,"[['this'], [""it's""]]",it'sthis,thisit's,0.5,-0.69314718056,False,-0.6931471805599453
+763,763,"[<__main__.Word instance at 0x11246ae60>
+ <__main__.Word instance at 0x11246afc8>
+ <__main__.Word instance at 0x11246ad40>
+ <__main__.Word instance at 0x11246ae18>
+ <__main__.Word instance at 0x11246a8c0>
+ <__main__.Word instance at 0x11246a5a8>]",Violet,2_0,False,False,"[['have'], ['Mouse'], [""I'm""], ['Mickey'], ['e'], ['o']]",I'mhaveeoMickeyMouse,haveMouseeoI'mMickey,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+764,764,"[<__main__.Word instance at 0x11246d200>
+ <__main__.Word instance at 0x11246d518>
+ <__main__.Word instance at 0x11246d440>]",Violet,2_0,False,True,"[['you'], ['call'], ['him']]",youcallhim,youcallhim,0.166666666667,1.79175946923,False,1.791759469228055
+765,765,"[<__main__.Word instance at 0x11246d5a8>
+ <__main__.Word instance at 0x11246dab8>
+ <__main__.Word instance at 0x11246d950>
+ <__main__.Word instance at 0x11246db48>]",Violet,2_0,False,False,"[['call', 'Mickey'], ['yeah'], ['Mouse']]",yeahcallMickeyMouse,callMickeyyeahMouse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+766,766,"[<__main__.Word instance at 0x11246dc68>
+ <__main__.Word instance at 0x11246d758>
+ <__main__.Word instance at 0x11246dd40>
+ <__main__.Word instance at 0x11246def0>
+ <__main__.Word instance at 0x11246ddd0>]",Violet,2_0,False,True,"[['color'], ['the'], ['you'], ['gonna'], ['pump']]",yougonnacolorthepump,yougonnacolorthepump,0.00833333333333,4.78749174278,False,4.787491742782046
+767,767,"[<__main__.Word instance at 0x1124700e0>
+ <__main__.Word instance at 0x1124704d0>
+ <__main__.Word instance at 0x112470440>]",Violet,2_0,False,False,"[['about'], ['that'], ['pumpkin']]",aboutthatpumpkin,thatpumpkinabout,0.166666666667,-0.182321556794,False,-0.1823215567939546
+768,768,"[<__main__.Word instance at 0x1124703f8>
+ <__main__.Word instance at 0x1124707a0>]",Violet,2_0,False,True,"[['that'], ['mine']]",thatmine,thatmine,0.5,0.69314718056,False,0.6931471805599453
+769,769,"[<__main__.Word instance at 0x112470908>
+ <__main__.Word instance at 0x112470878>
+ <__main__.Word instance at 0x1124709e0>
+ <__main__.Word instance at 0x112470950>]",Violet,2_0,False,False,"[['wanna'], ['I'], ['color'], ['it']]",Iwannacolorit,Icoloritwanna,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+770,770,[<__main__.Word instance at 0x1124702d8>],Violet,2_0,False,True,[['me']],me,me,1.0,0.0,False,-0.0
+771,771,"[<__main__.Word instance at 0x112470710>
+ <__main__.Word instance at 0x112470cf8>
+ <__main__.Word instance at 0x112470b90>]",Violet,2_0,False,True,"[['Pap'], ['yeah'], ['Pap']]",yeahPapPap,yeahPapPap,0.166666666667,1.79175946923,True,1.0986122886681098
+772,772,[<__main__.Word instance at 0x112470998>],Violet,2_0,False,True,[['Munsty']],Munsty,Munsty,1.0,0.0,False,-0.0
+773,773,"[<__main__.Word instance at 0x112470e18>
+ <__main__.Word instance at 0x112470f38>]",Violet,2_0,False,True,"[['where'], ['purple']]",wherepurple,wherepurple,0.5,0.69314718056,False,0.6931471805599453
+774,774,"[<__main__.Word instance at 0x112473170>
+ <__main__.Word instance at 0x112473200>
+ <__main__.Word instance at 0x1124733f8>]",Violet,2_0,False,False,"[['and'], ['purple'], ['black']]",purpleandblack,andpurpleblack,0.166666666667,-0.182321556794,False,-0.1823215567939546
+775,775,"[<__main__.Word instance at 0x1124737e8>
+ <__main__.Word instance at 0x112473710>
+ <__main__.Word instance at 0x112473998>]",Violet,2_0,False,True,"[['mine'], ['black'], ['is']]",blackismine,blackismine,0.166666666667,1.79175946923,False,1.791759469228055
+776,776,"[<__main__.Word instance at 0x112473b48>
+ <__main__.Word instance at 0x112473a28>
+ <__main__.Word instance at 0x112473dd0>]",Violet,2_0,False,False,"[['grey'], ['got'], ['hairs']]",gotgreyhairs,gothairsgrey,0.166666666667,-0.182321556794,False,-0.1823215567939546
+777,777,"[<__main__.Word instance at 0x112473ea8>
+ <__main__.Word instance at 0x112473b00>
+ <__main__.Word instance at 0x112473ef0>
+ <__main__.Word instance at 0x112473e18>]",Violet,2_0,False,True,"[['popsicles'], ['popsicles'], ['popsicles'], ['popsicles']]",popsiclespopsiclespopsiclespopsicles,popsiclespopsiclespopsiclespopsicles,0.0416666666667,3.17805383035,True,-0.0
+778,778,[<__main__.Word instance at 0x112476170>],Violet,2_0,False,True,[['popsicle']],popsicle,popsicle,1.0,0.0,False,-0.0
+779,779,"[<__main__.Word instance at 0x1124762d8>
+ <__main__.Word instance at 0x112476560>
+ <__main__.Word instance at 0x1124764d0>]",Violet,2_0,False,False,"[['in'], ['box'], ['the']]",inthebox,theboxin,0.166666666667,-0.182321556794,False,-0.1823215567939546
+780,780,"[<__main__.Word instance at 0x112476440>
+ <__main__.Word instance at 0x1124766c8>
+ <__main__.Word instance at 0x1124765a8>
+ <__main__.Word instance at 0x1124768c0>
+ <__main__.Word instance at 0x112476758>
+ <__main__.Word instance at 0x112476950>
+ <__main__.Word instance at 0x112476290>
+ <__main__.Word instance at 0x112476b00>
+ <__main__.Word instance at 0x1124769e0>
+ <__main__.Word instance at 0x112476e18>
+ <__main__.Word instance at 0x112476c68>
+ <__main__.Word instance at 0x112476ea8>
+ <__main__.Word instance at 0x112476d40>]",Violet,2_0,False,False,"[['crayons'], ['you'], ['here'], ['for'], ['some'], ['for'], ['some'], ['here'], ['crayons'], [""here's""], ['here'], ['some'], ['you']]",here'ssomehereheresomecrayonsforyouheresomecrayonsforyou,youforsomeyouforhere'scrayonssomesomehereherecrayonshere,1.60590438368e-10,-1.60590429856e-10,True,-4.625004730679512e-08
+781,781,"[<__main__.Word instance at 0x112476d88>
+ <__main__.Word instance at 0x1124790e0>]",Violet,2_0,False,False,"[['this'], ['what']]",whatthis,thiswhat,0.5,-0.69314718056,False,-0.6931471805599453
+782,782,"[<__main__.Word instance at 0x112479368>
+ <__main__.Word instance at 0x112479128>]",Violet,2_0,False,False,"[['yellow'], [""where's""]]",where'syellow,yellowwhere's,0.5,-0.69314718056,False,-0.6931471805599453
+783,783,"[<__main__.Word instance at 0x112479050>
+ <__main__.Word instance at 0x112479710>
+ <__main__.Word instance at 0x112479680>]",Violet,2_0,False,False,"[['there'], ['yellow'], ['is']]",thereisyellow,isthereyellow,0.166666666667,-0.182321556794,False,-0.1823215567939546
+784,784,[<__main__.Word instance at 0x112479638>],Violet,2_0,False,True,[['left']],left,left,1.0,0.0,False,-0.0
+785,785,[<__main__.Word instance at 0x1124798c0>],Violet,2_0,False,True,[['yellow']],yellow,yellow,1.0,0.0,False,-0.0
+786,786,[<__main__.Word instance at 0x112479998>],Violet,2_0,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+787,787,[<__main__.Word instance at 0x112479b48>],Violet,2_0,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+788,788,[<__main__.Word instance at 0x112479a70>],Violet,2_0,False,True,[['yellow']],yellow,yellow,1.0,0.0,False,-0.0
+789,789,"[<__main__.Word instance at 0x112479c20>
+ <__main__.Word instance at 0x112479ef0>
+ <__main__.Word instance at 0x112479dd0>
+ <__main__.Word instance at 0x112479f80>]",Violet,2_0,False,False,"[['a'], ['go'], ['here'], ['red']]",aredherego,redagohere,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+790,790,[<__main__.Word instance at 0x112479758>],Violet,2_0,False,True,[['blue']],blue,blue,1.0,0.0,False,-0.0
+791,791,"[<__main__.Word instance at 0x11247c200>
+ <__main__.Word instance at 0x11247c2d8>]",Violet,2_0,False,False,"[['red'], ['that']]",thatred,redthat,0.5,-0.69314718056,False,-0.6931471805599453
+792,792,[<__main__.Word instance at 0x11247c290>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+793,793,[<__main__.Word instance at 0x11247c3b0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+794,794,"[<__main__.Word instance at 0x11247c0e0>
+ <__main__.Word instance at 0x11247c680>
+ <__main__.Word instance at 0x11247c248>
+ <__main__.Word instance at 0x11247c878>]",Violet,2_0,False,True,"[['color'], ['red'], ['I'], ['in']]",Icolorinred,Icolorinred,0.0416666666667,3.17805383035,False,3.1780538303479458
+795,795,"[<__main__.Word instance at 0x11247ca70>
+ <__main__.Word instance at 0x11247c998>
+ <__main__.Word instance at 0x11247cd40>]",Violet,2_0,False,True,"[['I'], ['got'], ['I']]",IgotI,IgotI,0.166666666667,1.79175946923,True,1.0986122886681098
+796,796,"[<__main__.Word instance at 0x11247cef0>
+ <__main__.Word instance at 0x11247ce18>]",Violet,2_0,False,True,"[['your'], ['list']]",yourlist,yourlist,0.5,0.69314718056,False,0.6931471805599453
+797,797,[<__main__.Word instance at 0x11247c758>],Violet,2_0,False,True,[['again']],again,again,1.0,0.0,False,-0.0
+798,798,"[<__main__.Word instance at 0x11247f098>
+ <__main__.Word instance at 0x11247f1b8>
+ <__main__.Word instance at 0x11247f368>
+ <__main__.Word instance at 0x11247f200>]",Violet,2_0,False,False,"[['this'], ['book'], ['my'], ['is']]",thisismybook,isthisbookmy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+799,799,"[<__main__.Word instance at 0x11247f518>
+ <__main__.Word instance at 0x11247f3f8>
+ <__main__.Word instance at 0x11247f6c8>
+ <__main__.Word instance at 0x11247f5f0>]",Violet,2_0,False,False,"[['this'], ['is'], ['my'], ['book']]",thisismybook,isthisbookmy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+800,800,"[<__main__.Word instance at 0x11247f7a0>
+ <__main__.Word instance at 0x11247fa70>
+ <__main__.Word instance at 0x11247f998>
+ <__main__.Word instance at 0x11247fb48>]",Violet,2_0,False,False,"[['book'], ['my'], ['this'], ['is']]",thisismybook,isthisbookmy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+801,801,"[<__main__.Word instance at 0x11247fbd8>
+ <__main__.Word instance at 0x11247fab8>
+ <__main__.Word instance at 0x11247fe18>
+ <__main__.Word instance at 0x11247fcf8>
+ <__main__.Word instance at 0x11247fea8>
+ <__main__.Word instance at 0x11247f680>
+ <__main__.Word instance at 0x11247f7e8>
+ <__main__.Word instance at 0x11247ff38>
+ <__main__.Word instance at 0x11247f908>]",Violet,2_0,False,False,"[['mama'], ['is'], ['this'], ['my'], ['my'], ['this'], ['is'], ['book'], ['book']]",thisismybookmamathisismybook,isthisbookbookisthismymamamy,2.7557319224e-06,-2.75573571947e-06,True,-4.4092682826417266e-05
+802,802,"[<__main__.Word instance at 0x112482050>
+ <__main__.Word instance at 0x112482248>
+ <__main__.Word instance at 0x112482368>
+ <__main__.Word instance at 0x1124823f8>]",Violet,2_0,False,False,"[['it'], ['look', 'at'], ['you']]",youlookatit,youitlookat,0.166666666667,-0.182321556794,False,-0.1823215567939546
+803,803,"[<__main__.Word instance at 0x112482758>
+ <__main__.Word instance at 0x112482560>
+ <__main__.Word instance at 0x112482908>
+ <__main__.Word instance at 0x1124827a0>]",Violet,2_0,False,False,"[['you'], ['look', 'at'], ['this']]",youlookatthis,youthislookat,0.166666666667,-0.182321556794,False,-0.1823215567939546
+804,804,"[<__main__.Word instance at 0x112482b00>
+ <__main__.Word instance at 0x112482998>]",Violet,2_0,False,False,"[['what'], ['that']]",whatthat,thatwhat,0.5,-0.69314718056,False,-0.6931471805599453
+805,805,"[<__main__.Word instance at 0x112482a70>
+ <__main__.Word instance at 0x112482dd0>
+ <__main__.Word instance at 0x1124828c0>]",Violet,2_0,False,True,"[['gonna', 'peel'], [""I'm""]]",I'mgonnapeel,I'mgonnapeel,0.5,0.69314718056,False,0.6931471805599453
+806,806,"[<__main__.Word instance at 0x112482d40>
+ <__main__.Word instance at 0x112482f80>
+ <__main__.Word instance at 0x112482ea8>
+ <__main__.Word instance at 0x112482e60>]",Violet,2_0,False,False,"[['book'], ['in'], ['go'], ['my']]",goinmybook,gomybookin,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+807,807,"[<__main__.Word instance at 0x112485368>
+ <__main__.Word instance at 0x112485248>
+ <__main__.Word instance at 0x112485200>]",Violet,2_0,False,True,"[['out'], ['it'], ['yes']]",itoutyes,itoutyes,0.166666666667,1.79175946923,False,1.791759469228055
+808,808,"[<__main__.Word instance at 0x1124854d0>
+ <__main__.Word instance at 0x1124851b8>
+ <__main__.Word instance at 0x112485518>
+ <__main__.Word instance at 0x112485290>
+ <__main__.Word instance at 0x1124855f0>
+ <__main__.Word instance at 0x1124853f8>
+ <__main__.Word instance at 0x1124857e8>
+ <__main__.Word instance at 0x1124856c8>]",Violet,2_0,False,False,"[['up'], ['name'], ['to'], ['my'], ['here'], ['on'], ['write'], ['want']]",wanttowritemynameonuphere,myuptowantwritehereonname,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+809,809,"[<__main__.Word instance at 0x112485878>
+ <__main__.Word instance at 0x112485b90>]",Violet,2_0,False,False,"[['oh'], ['up']]",ohup,upoh,0.5,-0.69314718056,False,-0.6931471805599453
+810,810,"[<__main__.Word instance at 0x112485c20>
+ <__main__.Word instance at 0x112485908>
+ <__main__.Word instance at 0x112485f80>
+ <__main__.Word instance at 0x112485cf8>
+ <__main__.Word instance at 0x112485a28>]",Violet,2_0,False,False,"[['s'], ['m'], ['u'], ['e'], ['o']]",mouse,uoesm,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+811,811,"[<__main__.Word instance at 0x112488170>
+ <__main__.Word instance at 0x112488128>
+ <__main__.Word instance at 0x112488518>]",Violet,2_0,False,False,"[['Mickey', 'Mouse'], ['club']]",MickeyMouseclub,clubMickeyMouse,0.5,-0.69314718056,False,-0.6931471805599453
+812,812,"[<__main__.Word instance at 0x112488b90>
+ <__main__.Word instance at 0x112488b00>
+ <__main__.Word instance at 0x112488d40>
+ <__main__.Word instance at 0x112488c20>
+ <__main__.Word instance at 0x112488e18>]",Violet,2_0,False,False,"[['how'], ['make'], [""that's""], ['a', 'rainbow']]",that'showmakearainbow,that'sarainbowhowmake,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+813,813,"[<__main__.Word instance at 0x112488ea8>
+ <__main__.Word instance at 0x11248b248>]",Violet,2_0,False,True,"[['write'], ['I']]",Iwrite,Iwrite,0.5,0.69314718056,False,0.6931471805599453
+814,814,"[<__main__.Word instance at 0x11248b320>
+ <__main__.Word instance at 0x11248b1b8>
+ <__main__.Word instance at 0x11248b488>
+ <__main__.Word instance at 0x11248b3f8>
+ <__main__.Word instance at 0x11248b758>]",Violet,2_0,False,False,"[['row'], ['boat'], ['row'], ['row'], ['and']]",androwrowrowboat,androwboatrowrow,0.00833333333333,-0.00836824967052,True,-0.051293294387550585
+815,815,"[<__main__.Word instance at 0x11248b878>
+ <__main__.Word instance at 0x11248b908>]",Violet,2_0,False,True,"[['mouse'], ['mouse']]",mousemouse,mousemouse,0.5,0.69314718056,True,-0.0
+816,816,"[<__main__.Word instance at 0x11248bb00>
+ <__main__.Word instance at 0x11248b998>]",Violet,2_0,False,True,"[['mouse'], ['the']]",themouse,themouse,0.5,0.69314718056,False,0.6931471805599453
+817,817,"[<__main__.Word instance at 0x11248b5a8>
+ <__main__.Word instance at 0x11248bdd0>
+ <__main__.Word instance at 0x11248bcf8>
+ <__main__.Word instance at 0x11248be60>]",Violet,2_0,False,False,"[['do'], ['can'], ['it'], ['I']]",Icandoit,canIitdo,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+818,818,"[<__main__.Word instance at 0x11248bfc8>
+ <__main__.Word instance at 0x11248bc68>]",Violet,2_0,False,False,"[['stuck'], ['on']]",stuckon,onstuck,0.5,-0.69314718056,False,-0.6931471805599453
+819,819,[<__main__.Word instance at 0x11248e050>],Violet,2_0,False,True,[['you']],you,you,1.0,0.0,False,-0.0
+820,820,[<__main__.Word instance at 0x11248e248>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+821,821,"[<__main__.Word instance at 0x11248e3f8>
+ <__main__.Word instance at 0x11248e830>
+ <__main__.Word instance at 0x11248e680>
+ <__main__.Word instance at 0x11248ebd8>
+ <__main__.Word instance at 0x11248eb48>]",Violet,2_0,False,False,"[['it'], ['take'], ['you', 'going'], ['off']]",yougoingtakeitoff,itofftakeyougoing,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+822,822,"[<__main__.Word instance at 0x11248eab8>
+ <__main__.Word instance at 0x11248ed40>]",Violet,2_0,False,False,"[['coming'], ['off']]",comingoff,offcoming,0.5,-0.69314718056,False,-0.6931471805599453
+823,823,"[<__main__.Word instance at 0x11248ef80>
+ <__main__.Word instance at 0x11248ee18>]",Violet,2_0,False,True,"[['I', 'go']]",Igo,Igo,1.0,0.0,False,-0.0
+824,824,[<__main__.Word instance at 0x11248ef38>],Violet,2_0,False,True,[['t']],t,t,1.0,0.0,False,-0.0
+825,825,"[<__main__.Word instance at 0x112491248>
+ <__main__.Word instance at 0x1124910e0>
+ <__main__.Word instance at 0x112491170>
+ <__main__.Word instance at 0x112491488>
+ <__main__.Word instance at 0x1124913b0>]",Violet,2_0,False,False,"[['s'], ['m'], ['o'], ['e'], ['u']]",mouse,eoums,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+826,826,"[<__main__.Word instance at 0x112491368>
+ <__main__.Word instance at 0x1124918c0>]",Violet,2_0,False,True,"[['Mickey', 'Mouse']]",MickeyMouse,MickeyMouse,1.0,0.0,False,-0.0
+827,827,"[<__main__.Word instance at 0x112491908>
+ <__main__.Word instance at 0x112491710>]",Violet,2_0,False,True,"[['Mickey', 'Mouse']]",MickeyMouse,MickeyMouse,1.0,0.0,False,-0.0
+828,828,"[<__main__.Word instance at 0x112491998>
+ <__main__.Word instance at 0x112491bd8>
+ <__main__.Word instance at 0x1124912d8>]",Violet,2_0,False,True,"[['hi'], ['hi'], ['hi']]",hihihi,hihihi,0.166666666667,1.79175946923,True,-0.0
+829,829,"[<__main__.Word instance at 0x112491c68>
+ <__main__.Word instance at 0x112491fc8>]",Violet,2_0,False,True,"[['red'], ['where']]",redwhere,redwhere,0.5,0.69314718056,False,0.6931471805599453
+830,830,[<__main__.Word instance at 0x112491e60>],Violet,2_0,False,True,[['yes']],yes,yes,1.0,0.0,False,-0.0
+831,831,[<__main__.Word instance at 0x112494128>],Violet,2_0,False,True,"[[""what's""]]",what's,what's,1.0,0.0,False,-0.0
+832,832,[<__main__.Word instance at 0x1124943b0>],Violet,2_0,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+833,833,[<__main__.Word instance at 0x1124944d0>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+834,834,"[<__main__.Word instance at 0x112494440>
+ <__main__.Word instance at 0x112494710>
+ <__main__.Word instance at 0x1124945f0>
+ <__main__.Word instance at 0x1124948c0>]",Violet,2_0,False,False,"[[""I'm""], [""I'm""], ['hun'], [""I'm""]]",I'mhunI'mI'm,I'mI'mhunI'm,0.0416666666667,-0.0425596144188,True,-0.2876820724517809
+835,835,"[<__main__.Word instance at 0x112494b90>
+ <__main__.Word instance at 0x112494c20>
+ <__main__.Word instance at 0x112494b48>]",Violet,2_0,False,False,"[['hungry'], ['hungry'], [""I'm""]]",hungryI'mhungry,I'mhungryhungry,0.166666666667,-0.182321556794,True,-0.4054651081081643
+836,836,"[<__main__.Word instance at 0x112494878>
+ <__main__.Word instance at 0x112494fc8>
+ <__main__.Word instance at 0x112494d88>
+ <__main__.Word instance at 0x112494ef0>]",Violet,2_0,False,False,"[['gonna'], [""I'm""], ['gonna'], [""I'm""]]",I'mgonnaI'mgonna,I'mgonnagonnaI'm,0.0416666666667,-0.0425596144188,True,-0.1823215567939546
+837,837,"[<__main__.Word instance at 0x112494a70>
+ <__main__.Word instance at 0x112497128>
+ <__main__.Word instance at 0x112497200>
+ <__main__.Word instance at 0x112497440>
+ <__main__.Word instance at 0x112497560>
+ <__main__.Word instance at 0x112497488>
+ <__main__.Word instance at 0x112497638>
+ <__main__.Word instance at 0x112497320>
+ <__main__.Word instance at 0x1124977e8>]",Violet,2_0,False,False,"[['up'], ['go'], ['here'], ['my'], ['sit'], ['gonna'], ['back'], ['on'], [""I'm""]]",I'mgonnagoupheresitonmyback,goupmygonnasitonherebackI'm,2.7557319224e-06,-2.75573571947e-06,False,-2.7557357194686928e-06
+838,838,"[<__main__.Word instance at 0x112497950>
+ <__main__.Word instance at 0x112497878>
+ <__main__.Word instance at 0x112497a28>]",Violet,2_0,False,False,"[['bum'], ['on'], ['my']]",onmybum,mybumon,0.166666666667,-0.182321556794,False,-0.1823215567939546
+839,839,"[<__main__.Word instance at 0x112497bd8>
+ <__main__.Word instance at 0x112497ab8>
+ <__main__.Word instance at 0x112497dd0>
+ <__main__.Word instance at 0x112497b90>]",Violet,2_0,False,False,"[['bum'], ['on'], ['sit'], ['my']]",sitonmybum,mysitonbum,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+840,840,"[<__main__.Word instance at 0x112497518>
+ <__main__.Word instance at 0x11249a050>
+ <__main__.Word instance at 0x11249a0e0>
+ <__main__.Word instance at 0x11249a1b8>
+ <__main__.Word instance at 0x11249a098>
+ <__main__.Word instance at 0x11249a368>]",Violet,2_0,False,False,"[['my'], ['popsicle'], ['to'], [""I'm""], ['going'], ['eat']]",I'mgoingtoeatmypopsicle,myeattoI'mpopsiclegoing,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+841,841,"[<__main__.Word instance at 0x11249a518>
+ <__main__.Word instance at 0x11249a3f8>
+ <__main__.Word instance at 0x11249a6c8>
+ <__main__.Word instance at 0x11249a5a8>]",Violet,2_0,False,False,"[['sitting'], ['my'], [""I'm""], ['bum']]",I'msittingmybum,mybumsittingI'm,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+842,842,"[<__main__.Word instance at 0x11249a758>
+ <__main__.Word instance at 0x11249a9e0>
+ <__main__.Word instance at 0x11249a908>]",Violet,2_0,False,True,"[['I', 'want'], ['juice']]",Iwantjuice,Iwantjuice,0.5,0.69314718056,False,0.6931471805599453
+843,843,"[<__main__.Word instance at 0x11249a8c0>
+ <__main__.Word instance at 0x11249ae60>]",Violet,2_0,False,True,"[['juicy'], ['yeah']]",yeahjuicy,yeahjuicy,0.5,0.69314718056,False,0.6931471805599453
+844,844,[<__main__.Word instance at 0x11249aef0>],Violet,2_0,False,True,[['cups']],cups,cups,1.0,0.0,False,-0.0
+845,845,"[<__main__.Word instance at 0x11249ab48>
+ <__main__.Word instance at 0x11249af80>
+ <__main__.Word instance at 0x11249ac20>
+ <__main__.Word instance at 0x11249d170>
+ <__main__.Word instance at 0x11249d1b8>
+ <__main__.Word instance at 0x11249d050>
+ <__main__.Word instance at 0x11249d248>
+ <__main__.Word instance at 0x11249d560>
+ <__main__.Word instance at 0x11249d4d0>
+ <__main__.Word instance at 0x11249d638>]",Violet,2_0,False,False,"[['got'], ['you'], ['you'], ['got'], ['got'], ['mm'], ['a'], ['one'], ['one'], ['other']]",mmyougotayougototheronegotone,yougotoneotheroneyougotgotamm,2.7557319224e-07,-2.75573230236e-07,True,-6.613778484689485e-06
+846,846,"[<__main__.Word instance at 0x11249d7e8>
+ <__main__.Word instance at 0x11249d6c8>
+ <__main__.Word instance at 0x11249dab8>]",Violet,2_0,False,False,"[['cups'], ['the', 'halloween']]",thehalloweencups,cupsthehalloween,0.5,-0.69314718056,False,-0.6931471805599453
+847,847,"[<__main__.Word instance at 0x11249dcb0>
+ <__main__.Word instance at 0x11249d830>
+ <__main__.Word instance at 0x11249dd40>]",Violet,2_0,False,False,"[['know'], ['we'], ['yes']]",yesweknow,weknowyes,0.166666666667,-0.182321556794,False,-0.1823215567939546
+848,848,[<__main__.Word instance at 0x11249de60>],Violet,2_0,False,True,[['bagel']],bagel,bagel,1.0,0.0,False,-0.0
+849,849,"[<__main__.Word instance at 0x11249dea8>
+ <__main__.Word instance at 0x11249df38>]",Violet,2_0,False,False,"[['cream'], ['cheese']]",creamcheese,cheesecream,0.5,-0.69314718056,False,-0.6931471805599453
+850,850,[<__main__.Word instance at 0x11249dc20>],Violet,2_0,False,True,[['butter']],butter,butter,1.0,0.0,False,-0.0
+851,851,"[<__main__.Word instance at 0x1124a0200>
+ <__main__.Word instance at 0x1124a02d8>
+ <__main__.Word instance at 0x1124a01b8>
+ <__main__.Word instance at 0x1124a0248>]",Violet,2_0,False,False,"[['look'], ['this'], ['I', 'want']]",Iwantlookthis,lookIwantthis,0.166666666667,-0.182321556794,False,-0.1823215567939546
+852,852,[<__main__.Word instance at 0x1124a03f8>],Violet,2_0,False,True,[['halloween']],halloween,halloween,1.0,0.0,False,-0.0
+853,853,"[<__main__.Word instance at 0x1124a05f0>
+ <__main__.Word instance at 0x1124a0878>
+ <__main__.Word instance at 0x1124a07a0>]",Violet,2_0,False,False,"[['halloween'], ['this'], ['is']]",thisishalloween,isthishalloween,0.166666666667,-0.182321556794,False,-0.1823215567939546
+854,854,[<__main__.Word instance at 0x1124a0908>],Violet,2_0,False,True,[['ree']],ree,ree,1.0,0.0,False,-0.0
+855,855,"[<__main__.Word instance at 0x1124a08c0>
+ <__main__.Word instance at 0x1124a0dd0>
+ <__main__.Word instance at 0x1124a0170>
+ <__main__.Word instance at 0x1124a0998>
+ <__main__.Word instance at 0x1124a0f38>]",Violet,2_0,False,False,"[['a'], ['is'], ['look'], ['this'], ['ghost']]",lookthisisaghost,lookghostthisisa,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+856,856,"[<__main__.Word instance at 0x1124a3200>
+ <__main__.Word instance at 0x1124a3320>
+ <__main__.Word instance at 0x1124a3368>
+ <__main__.Word instance at 0x1124a3560>
+ <__main__.Word instance at 0x1124a33f8>
+ <__main__.Word instance at 0x1124a3680>]",Violet,2_0,False,False,"[['ghost'], ['boo'], ['says'], ['says'], ['this'], ['it']]",itsaysthisghostsaysboo,thissaysbooitsaysghost,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+857,857,"[<__main__.Word instance at 0x1124a3710>
+ <__main__.Word instance at 0x1124a30e0>]",Violet,2_0,False,True,"[['says'], ['he']]",hesays,hesays,0.5,0.69314718056,False,0.6931471805599453
+858,858,"[<__main__.Word instance at 0x1124a35f0>
+ <__main__.Word instance at 0x1124a3b48>
+ <__main__.Word instance at 0x1124a3878>]",Violet,2_0,False,False,"[['halloween'], ['is'], ['this']]",thisishalloween,isthishalloween,0.166666666667,-0.182321556794,False,-0.1823215567939546
+859,859,"[<__main__.Word instance at 0x1124a3830>
+ <__main__.Word instance at 0x1124a3ea8>
+ <__main__.Word instance at 0x1124a3dd0>]",Violet,2_0,False,True,"[['he'], ['me'], ['scared']]",hescaredme,hescaredme,0.166666666667,1.79175946923,False,1.791759469228055
+860,860,"[<__main__.Word instance at 0x1124a3c20>
+ <__main__.Word instance at 0x1124a6098>]",Violet,2_0,False,True,"[['day'], ['picture']]",pictureday,pictureday,0.5,0.69314718056,False,0.6931471805599453
+861,861,"[<__main__.Word instance at 0x1124a6248>
+ <__main__.Word instance at 0x1124a6518>
+ <__main__.Word instance at 0x1124a63f8>
+ <__main__.Word instance at 0x1124a65a8>
+ <__main__.Word instance at 0x1124a6290>]",Violet,2_0,False,False,"[['day'], ['have'], ['picture'], ['we'], ['a']]",wehaveapictureday,picturedayhaveawe,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+862,862,[<__main__.Word instance at 0x1124a6170>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+863,863,[<__main__.Word instance at 0x1124a68c0>],Violet,2_0,False,True,[['we']],we,we,1.0,0.0,False,-0.0
+864,864,[<__main__.Word instance at 0x1124a6c20>],Violet,2_0,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+865,865,[<__main__.Word instance at 0x1124a6e18>],Violet,2_0,False,True,[['mm']],mm,mm,1.0,0.0,False,-0.0
+866,866,"[<__main__.Word instance at 0x1124a6f38>
+ <__main__.Word instance at 0x1124a67e8>
+ <__main__.Word instance at 0x1124a6ab8>]",Violet,2_0,False,False,"[['that'], ['pan'], ['frying']]",thatfryingpan,thatpanfrying,0.166666666667,-0.182321556794,False,-0.1823215567939546
+867,867,"[<__main__.Word instance at 0x1124a9200>
+ <__main__.Word instance at 0x1124a90e0>
+ <__main__.Word instance at 0x1124a94d0>
+ <__main__.Word instance at 0x1124a93f8>]",Violet,2_0,False,False,"[['mama'], ['your'], ['pan'], ['that']]",thatyourpanmama,yourpanmamathat,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+868,868,"[<__main__.Word instance at 0x1124a9320>
+ <__main__.Word instance at 0x1124a9638>
+ <__main__.Word instance at 0x1124a93b0>
+ <__main__.Word instance at 0x1124a9998>
+ <__main__.Word instance at 0x1124a9710>]",Violet,2_0,False,False,"[['that'], ['your'], ['pan'], ['over'], ['there']]",thatyourpanoverthere,yourtherepanoverthat,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+869,869,"[<__main__.Word instance at 0x1124a97a0>
+ <__main__.Word instance at 0x1124a9b00>
+ <__main__.Word instance at 0x1124a91b8>
+ <__main__.Word instance at 0x1124a9bd8>
+ <__main__.Word instance at 0x1124a97e8>
+ <__main__.Word instance at 0x1124a9c20>]",Violet,2_0,False,False,"[['I', ""don't""], ['have'], ['wanna'], ['my'], ['cereal']]",Idon'twannahavemycereal,wannahavecerealmyIdon't,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+870,870,"[<__main__.Word instance at 0x1124a9e18>
+ <__main__.Word instance at 0x1124a9d40>]",Violet,2_0,False,True,"[['that'], [""mummy's""]]",thatmummy's,thatmummy's,0.5,0.69314718056,False,0.6931471805599453
+871,871,"[<__main__.Word instance at 0x1124a9ea8>
+ <__main__.Word instance at 0x1124a9e60>
+ <__main__.Word instance at 0x1124ac098>
+ <__main__.Word instance at 0x1124ac248>]",Violet,2_0,False,True,"[['you'], ['in'], ['squashed'], ['have']]",youhavesquashedin,youhavesquashedin,0.0416666666667,3.17805383035,False,3.1780538303479458
+872,872,"[<__main__.Word instance at 0x1124ac518>
+ <__main__.Word instance at 0x1124ac440>
+ <__main__.Word instance at 0x1124ac7e8>
+ <__main__.Word instance at 0x1124ac5a8>
+ <__main__.Word instance at 0x1124acab8>
+ <__main__.Word instance at 0x1124ac638>
+ <__main__.Word instance at 0x1124acb00>]",Violet,2_0,False,False,"[['eat'], ['cinnamon'], ['gonna'], [""I'm"", 'not'], ['know'], ['do']]",doknowI'mnotgonnaeatcinnamon,doknowgonnaeatI'mnotcinnamon,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+873,873,"[<__main__.Word instance at 0x1124ace18>
+ <__main__.Word instance at 0x1124ac8c0>
+ <__main__.Word instance at 0x1124acfc8>]",Violet,2_0,False,True,"[['it'], ['like'], ['I']]",Ilikeit,Ilikeit,0.166666666667,1.79175946923,False,1.791759469228055
+874,874,[<__main__.Word instance at 0x1124acdd0>],Violet,2_0,False,True,[['bananas']],bananas,bananas,1.0,0.0,False,-0.0
+875,875,"[<__main__.Word instance at 0x1124af200>
+ <__main__.Word instance at 0x1124af2d8>
+ <__main__.Word instance at 0x1124af0e0>
+ <__main__.Word instance at 0x1124af5f0>
+ <__main__.Word instance at 0x1124af518>]",Violet,2_0,False,False,"[['move'], ['it'], ['there'], ['over'], ['I']]",Imoveitoverthere,Imoveoverthereit,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+876,876,"[<__main__.Word instance at 0x1124af680>
+ <__main__.Word instance at 0x1124af950>
+ <__main__.Word instance at 0x1124af830>]",Violet,2_0,False,True,"[['gonna'], ['sing'], [""I'm""]]",I'mgonnasing,I'mgonnasing,0.166666666667,1.79175946923,False,1.791759469228055
+877,877,"[<__main__.Word instance at 0x1124afb00>
+ <__main__.Word instance at 0x1124afcf8>
+ <__main__.Word instance at 0x1124afd88>]",Violet,2_0,False,True,"[['one'], ['a', 'squished']]",asquishedone,asquishedone,0.5,0.69314718056,False,0.6931471805599453
+878,878,"[<__main__.Word instance at 0x1124afe60>
+ <__main__.Word instance at 0x1124afbd8>
+ <__main__.Word instance at 0x1124afb48>]",Violet,2_0,False,True,"[['one'], ['a', 'squished']]",asquishedone,asquishedone,0.5,0.69314718056,False,0.6931471805599453
+879,879,"[<__main__.Word instance at 0x1124b2098>
+ <__main__.Word instance at 0x1124b2200>]",Violet,2_0,False,True,"[['a', 'squished']]",asquished,asquished,1.0,0.0,False,-0.0
+880,880,[<__main__.Word instance at 0x1124b2518>],Violet,2_0,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+881,881,"[<__main__.Word instance at 0x1124b25f0>
+ <__main__.Word instance at 0x1124b2440>
+ <__main__.Word instance at 0x1124b27e8>]",Violet,2_0,False,True,"[['you'], ['did'], ['bagel']]",didyoubagel,didyoubagel,0.166666666667,1.79175946923,False,1.791759469228055
+882,882,"[<__main__.Word instance at 0x1124b2a28>
+ <__main__.Word instance at 0x1124b2368>]",Violet,2_0,False,True,"[['mine'], ['where']]",wheremine,wheremine,0.5,0.69314718056,False,0.6931471805599453

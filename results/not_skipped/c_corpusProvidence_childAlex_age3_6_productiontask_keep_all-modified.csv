@@ -1,0 +1,2266 @@
+,num,utterance,child,age,skipped,reconstructed,bow,gold,prediction,chance,controlledscore,repetition,correctedscore
+0,0,"[<__main__.Word instance at 0x11a850488>
+ <__main__.Word instance at 0x11a8505f0>
+ <__main__.Word instance at 0x11a850680>
+ <__main__.Word instance at 0x11a8507e8>]",Alex,3_6,False,True,"[['how', 'bout'], ['this', 'one']]",howboutthisone,howboutthisone,0.5,0.69314718056,False,0.6931471805599453
+1,1,[<__main__.Word instance at 0x11a850ab8>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+2,2,"[<__main__.Word instance at 0x11a850cf8>
+ <__main__.Word instance at 0x11a850e18>]",Alex,3_6,False,True,"[['no'], ['yes']]",noyes,noyes,0.5,0.69314718056,False,0.6931471805599453
+3,3,[<__main__.Word instance at 0x108ef56c8>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+4,4,"[<__main__.Word instance at 0x108ef5998>
+ <__main__.Word instance at 0x108ef5b48>
+ <__main__.Word instance at 0x108ef5b00>]",Alex,3_6,False,False,"[['this', 'one'], ['oh']]",ohthisone,thisoneoh,0.5,-0.69314718056,False,-0.6931471805599453
+5,5,"[<__main__.Word instance at 0x108ef7ab8>
+ <__main__.Word instance at 0x108ef7bd8>
+ <__main__.Word instance at 0x108ef7c68>
+ <__main__.Word instance at 0x10908e560>
+ <__main__.Word instance at 0x10908ea70>
+ <__main__.Word instance at 0x10908e7a0>
+ <__main__.Word instance at 0x10908ecf8>]",Alex,3_6,False,False,"[['more'], ['like'], ['with'], ['bat'], ['it'], ['I'], ['the']]",Ilikeitmorewiththebat,batthewithitlikemoreI,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+6,6,"[<__main__.Word instance at 0x10908e758>
+ <__main__.Word instance at 0x10908e8c0>
+ <__main__.Word instance at 0x10908e518>
+ <__main__.Word instance at 0x10908e680>]",Alex,3_6,False,False,"[['bat'], ['remove'], ['the'], ['I']]",Iremovethebat,batremoveIthe,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+7,7,[<__main__.Word instance at 0x11a856170>],Alex,3_6,False,True,[['Amanda']],Amanda,Amanda,1.0,0.0,False,-0.0
+8,8,[<__main__.Word instance at 0x11a856320>],Alex,3_6,False,True,[['throw']],throw,throw,1.0,0.0,False,-0.0
+9,9,"[<__main__.Word instance at 0x11a856518>
+ <__main__.Word instance at 0x11a8566c8>]",Alex,3_6,False,True,"[['throw'], ['ball']]",throwball,throwball,0.5,0.69314718056,False,0.6931471805599453
+10,10,"[<__main__.Word instance at 0x11a8567a0>
+ <__main__.Word instance at 0x11a856878>]",Alex,3_6,False,True,"[['for'], [""that's""]]",that'sfor,that'sfor,0.5,0.69314718056,False,0.6931471805599453
+11,11,[<__main__.Word instance at 0x11a856950>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+12,12,"[<__main__.Word instance at 0x11a856a28>
+ <__main__.Word instance at 0x11a8568c0>
+ <__main__.Word instance at 0x11a856b00>]",Alex,3_6,False,False,"[['let'], ['okay'], ['play']]",okayletplay,playletokay,0.166666666667,-0.182321556794,False,-0.1823215567939546
+13,13,"[<__main__.Word instance at 0x11a856bd8>
+ <__main__.Word instance at 0x11a856a70>]",Alex,3_6,False,True,"[['how', 'about']]",howabout,howabout,1.0,0.0,False,-0.0
+14,14,"[<__main__.Word instance at 0x11a856b48>
+ <__main__.Word instance at 0x11a856d88>]",Alex,3_6,False,True,"[['how', 'bout']]",howbout,howbout,1.0,0.0,False,-0.0
+15,15,"[<__main__.Word instance at 0x11a856e18>
+ <__main__.Word instance at 0x11a856998>
+ <__main__.Word instance at 0x11a856ea8>]",Alex,3_6,False,False,"[['me'], ['let'], ['see']]",letmesee,seeletme,0.166666666667,-0.182321556794,False,-0.1823215567939546
+16,16,"[<__main__.Word instance at 0x11a856fc8>
+ <__main__.Word instance at 0x11a856680>
+ <__main__.Word instance at 0x11a856560>
+ <__main__.Word instance at 0x11a85b128>]",Alex,3_6,False,False,"[['how', 'bout'], ['Elmo'], ['sport']]",howboutElmosport,howboutsportElmo,0.166666666667,-0.182321556794,False,-0.1823215567939546
+17,17,"[<__main__.Word instance at 0x11a85b2d8>
+ <__main__.Word instance at 0x11a85b170>
+ <__main__.Word instance at 0x11a85b3b0>
+ <__main__.Word instance at 0x11a85b248>
+ <__main__.Word instance at 0x11a85b488>]",Alex,3_6,False,False,"[['sport'], ['how', 'bout'], ['Elmo'], ['instead']]",howboutElmosportinstead,howboutsportElmoinstead,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+18,18,"[<__main__.Word instance at 0x11a85b560>
+ <__main__.Word instance at 0x11a85b3f8>
+ <__main__.Word instance at 0x11a85b638>
+ <__main__.Word instance at 0x11a85b6c8>]",Alex,3_6,False,False,"[['blue'], ['the'], ['how', 'bout']]",howbouttheblue,thebluehowbout,0.166666666667,-0.182321556794,False,-0.1823215567939546
+19,19,"[<__main__.Word instance at 0x11a85b7a0>
+ <__main__.Word instance at 0x11a85b998>
+ <__main__.Word instance at 0x11a85b878>]",Alex,3_6,False,False,"[['how', 'bout'], ['the']]",howboutthe,thehowbout,0.5,-0.69314718056,False,-0.6931471805599453
+20,20,"[<__main__.Word instance at 0x11a85ba28>
+ <__main__.Word instance at 0x11a85bc68>
+ <__main__.Word instance at 0x11a85b950>]",Alex,3_6,False,False,"[['red'], ['the'], ['or']]",orthered,theredor,0.166666666667,-0.182321556794,False,-0.1823215567939546
+21,21,"[<__main__.Word instance at 0x11a85bbd8>
+ <__main__.Word instance at 0x11a85be18>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+22,22,"[<__main__.Word instance at 0x11a85bef0>
+ <__main__.Word instance at 0x11a85bd88>]",Alex,3_6,False,True,"[['one'], ['that']]",thatone,thatone,0.5,0.69314718056,False,0.6931471805599453
+23,23,"[<__main__.Word instance at 0x11a85be60>
+ <__main__.Word instance at 0x11a85bf38>
+ <__main__.Word instance at 0x11a85bcb0>
+ <__main__.Word instance at 0x11a85bb48>]",Alex,3_6,False,False,"[['one'], ['how', 'bout'], ['no']]",howboutnoone,onenohowbout,0.166666666667,-0.182321556794,False,-0.1823215567939546
+24,24,"[<__main__.Word instance at 0x11a863170>
+ <__main__.Word instance at 0x11a863050>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+25,25,"[<__main__.Word instance at 0x11a863320>
+ <__main__.Word instance at 0x11a8631b8>]",Alex,3_6,False,False,"[['orange'], ['one']]",orangeone,oneorange,0.5,-0.69314718056,False,-0.6931471805599453
+26,26,"[<__main__.Word instance at 0x11a863290>
+ <__main__.Word instance at 0x11a8634d0>
+ <__main__.Word instance at 0x11a863368>
+ <__main__.Word instance at 0x11a863680>]",Alex,3_6,False,False,"[['the'], ['tee'], ['go'], ['now']]",nowgothetee,theteegonow,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+27,27,"[<__main__.Word instance at 0x11a863758>
+ <__main__.Word instance at 0x11a8632d8>]",Alex,3_6,False,False,"[['it'], ['watch']]",watchit,itwatch,0.5,-0.69314718056,False,-0.6931471805599453
+28,28,"[<__main__.Word instance at 0x11a8637e8>
+ <__main__.Word instance at 0x11a863b00>
+ <__main__.Word instance at 0x11a8639e0>
+ <__main__.Word instance at 0x11a863bd8>
+ <__main__.Word instance at 0x11a863878>]",Alex,3_6,False,False,"[['how', 'bout'], ['this', 'one'], ['Mom']]",howboutthisoneMom,howboutMomthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+29,29,"[<__main__.Word instance at 0x11a863b48>
+ <__main__.Word instance at 0x11a863d88>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+30,30,"[<__main__.Word instance at 0x11a863e18>
+ <__main__.Word instance at 0x11a863638>
+ <__main__.Word instance at 0x11a863fc8>]",Alex,3_6,False,True,"[['this', 'one'], ['Ma']]",Mathisone,Mathisone,0.5,0.69314718056,False,0.6931471805599453
+31,31,"[<__main__.Word instance at 0x11a863cf8>
+ <__main__.Word instance at 0x11a863998>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+32,32,"[<__main__.Word instance at 0x11a85e050>
+ <__main__.Word instance at 0x11a85e128>
+ <__main__.Word instance at 0x11a85e200>
+ <__main__.Word instance at 0x11a85e2d8>
+ <__main__.Word instance at 0x11a85e170>]",Alex,3_6,False,False,"[['is'], ['Ma'], ['oh'], ['too'], ['big']]",ohMaistoobig,Mabigtooohis,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+33,33,[<__main__.Word instance at 0x11a85e248>],Alex,3_6,False,True,[['why']],why,why,1.0,0.0,False,-0.0
+34,34,"[<__main__.Word instance at 0x11a85e560>
+ <__main__.Word instance at 0x11a85e3f8>]",Alex,3_6,False,False,"[['this'], ['roll']]",rollthis,thisroll,0.5,-0.69314718056,False,-0.6931471805599453
+35,35,"[<__main__.Word instance at 0x11a85e320>
+ <__main__.Word instance at 0x11a85e710>
+ <__main__.Word instance at 0x11a85e908>]",Alex,3_6,False,True,"[['roll'], ['this', 'one']]",rollthisone,rollthisone,0.5,0.69314718056,False,0.6931471805599453
+36,36,"[<__main__.Word instance at 0x11a85e9e0>
+ <__main__.Word instance at 0x11a85e7a0>
+ <__main__.Word instance at 0x11a85eab8>
+ <__main__.Word instance at 0x11a85e4d0>
+ <__main__.Word instance at 0x11a85ecf8>
+ <__main__.Word instance at 0x11a85ebd8>
+ <__main__.Word instance at 0x11a85edd0>
+ <__main__.Word instance at 0x11a85eb00>]",Alex,3_6,False,False,"[['put'], ['back'], ['my'], ['all'], ['gonna'], ['in'], ['it'], ['we']]",weallgonnaputitinmyback,wegonnaputitbackinmyall,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+37,37,"[<__main__.Word instance at 0x11a85ed40>
+ <__main__.Word instance at 0x11a85efc8>]",Alex,3_6,False,False,"[[""it's""], ['sorry']]",it'ssorry,sorryit's,0.5,-0.69314718056,False,-0.6931471805599453
+38,38,"[<__main__.Word instance at 0x11a85eef0>
+ <__main__.Word instance at 0x11a85ee60>
+ <__main__.Word instance at 0x11a85f0e0>
+ <__main__.Word instance at 0x11a85f1b8>
+ <__main__.Word instance at 0x11a85f050>
+ <__main__.Word instance at 0x11a85f290>
+ <__main__.Word instance at 0x11a85f368>]",Alex,3_6,False,False,"[['I'], ['my'], ['Mommy'], ['back'], ['it'], ['sorry'], ['put']]",IsorryMommyputitmyback,putitbacksorryImyMommy,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+39,39,"[<__main__.Word instance at 0x11a85f440>
+ <__main__.Word instance at 0x11a85f2d8>
+ <__main__.Word instance at 0x11a85f518>
+ <__main__.Word instance at 0x11a85f3b0>]",Alex,3_6,False,False,"[['over'], ['Ma'], ['branches'], ['hit']]",Mahitoverbranches,Maoverbrancheshit,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+40,40,"[<__main__.Word instance at 0x11a85f488>
+ <__main__.Word instance at 0x11a85f6c8>
+ <__main__.Word instance at 0x11a85f560>
+ <__main__.Word instance at 0x11a85f7a0>]",Alex,3_6,False,False,"[['like'], ['this'], ['no'], ['mm']]",mmnolikethis,thisnolikemm,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+41,41,[<__main__.Word instance at 0x11a85f878>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+42,42,"[<__main__.Word instance at 0x11a85f998>
+ <__main__.Word instance at 0x11a85f7e8>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+43,43,"[<__main__.Word instance at 0x11a85f830>
+ <__main__.Word instance at 0x11a85fb00>
+ <__main__.Word instance at 0x11a85fbd8>
+ <__main__.Word instance at 0x11a85f8c0>]",Alex,3_6,False,False,"[['yeah'], ['like'], ['volleyball'], ['something']]",yeahlikevolleyballsomething,likesomethingvolleyballyeah,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+44,44,"[<__main__.Word instance at 0x11a85fb48>
+ <__main__.Word instance at 0x11a85fd88>
+ <__main__.Word instance at 0x11a85fc20>
+ <__main__.Word instance at 0x11a85fe18>
+ <__main__.Word instance at 0x11a85fb90>]",Alex,3_6,False,False,"[['this', 'one'], ['Ma'], ['how', 'bout']]",howboutthisoneMa,Mahowboutthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+45,45,[<__main__.Word instance at 0x11a85f710>],Alex,3_6,False,True,[['it']],it,it,1.0,0.0,False,-0.0
+46,46,"[<__main__.Word instance at 0x11a869098>
+ <__main__.Word instance at 0x11a869170>
+ <__main__.Word instance at 0x11a869248>
+ <__main__.Word instance at 0x11a8690e0>
+ <__main__.Word instance at 0x11a869320>]",Alex,3_6,False,False,"[['the'], ['in'], ['put'], ['yeah'], ['this']]",yeahputthisinthe,thisintheputyeah,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+47,47,"[<__main__.Word instance at 0x11a8693b0>
+ <__main__.Word instance at 0x11a869560>
+ <__main__.Word instance at 0x11a869440>]",Alex,3_6,False,True,"[['up'], ['sticks'], ['there']]",uptheresticks,uptheresticks,0.166666666667,1.79175946923,False,1.791759469228055
+48,48,[<__main__.Word instance at 0x11a869638>],Alex,3_6,False,True,[['oop']],oop,oop,1.0,0.0,False,-0.0
+49,49,"[<__main__.Word instance at 0x11a869290>
+ <__main__.Word instance at 0x11a869950>
+ <__main__.Word instance at 0x11a8697e8>]",Alex,3_6,False,True,"[[""that's""], ['a', 'birdie']]",that'sabirdie,that'sabirdie,0.5,0.69314718056,False,0.6931471805599453
+50,50,"[<__main__.Word instance at 0x11a869758>
+ <__main__.Word instance at 0x11a869b00>
+ <__main__.Word instance at 0x11a869998>]",Alex,3_6,False,False,"[['try'], ['me'], ['let']]",letmetry,trymelet,0.166666666667,-0.182321556794,False,-0.1823215567939546
+51,51,[<__main__.Word instance at 0x11a869518>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+52,52,"[<__main__.Word instance at 0x11a869cf8>
+ <__main__.Word instance at 0x11a869ef0>
+ <__main__.Word instance at 0x11a8698c0>]",Alex,3_6,False,False,"[['wanna'], ['here'], ['I']]",hereIwanna,Iwannahere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+53,53,"[<__main__.Word instance at 0x11a869d40>
+ <__main__.Word instance at 0x11a869e18>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+54,54,"[<__main__.Word instance at 0x11a869f38>
+ <__main__.Word instance at 0x11a869fc8>
+ <__main__.Word instance at 0x11a869cb0>
+ <__main__.Word instance at 0x11a869c20>]",Alex,3_6,False,False,"[['do'], ['oh'], ['you'], ['why']]",ohwhydoyou,youdowhyoh,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+55,55,"[<__main__.Word instance at 0x11a86d170>
+ <__main__.Word instance at 0x11a86d248>]",Alex,3_6,False,False,"[['climb'], ['this']]",climbthis,thisclimb,0.5,-0.69314718056,False,-0.6931471805599453
+56,56,"[<__main__.Word instance at 0x11a86d320>
+ <__main__.Word instance at 0x11a86d1b8>]",Alex,3_6,False,False,"[['the'], ['swing']]",theswing,swingthe,0.5,-0.69314718056,False,-0.6931471805599453
+57,57,"[<__main__.Word instance at 0x11a86d4d0>
+ <__main__.Word instance at 0x11a86d5f0>
+ <__main__.Word instance at 0x11a86d6c8>]",Alex,3_6,False,False,"[['ooh'], [""that's""], ['a']]",oohthat'sa,aoohthat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+58,58,"[<__main__.Word instance at 0x11a86d7a0>
+ <__main__.Word instance at 0x11a86d560>
+ <__main__.Word instance at 0x11a86d830>
+ <__main__.Word instance at 0x11a86d710>
+ <__main__.Word instance at 0x11a86da70>
+ <__main__.Word instance at 0x11a86d638>
+ <__main__.Word instance at 0x11a86db00>
+ <__main__.Word instance at 0x11a86d9e0>
+ <__main__.Word instance at 0x11a86dbd8>
+ <__main__.Word instance at 0x11a86d950>]",Alex,3_6,False,False,"[['ladder'], ['and'], ['that'], ['on'], ['this'], ['do'], ['then'], ['climb'], ['could'], ['we']]",wecoulddothatthenclimbonladderandthis,thisonthatwecoulddoclimbandladderthen,2.7557319224e-07,-2.75573230236e-07,False,-2.755732302357539e-07
+59,59,"[<__main__.Word instance at 0x11a86db48>
+ <__main__.Word instance at 0x11a86dd88>]",Alex,3_6,False,False,"[['that'], ['like']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+60,60,"[<__main__.Word instance at 0x11a86dcf8>
+ <__main__.Word instance at 0x11a86df38>
+ <__main__.Word instance at 0x11a86ddd0>]",Alex,3_6,False,False,"[['why'], ['you'], ['climb']]",whyyouclimb,youclimbwhy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+61,61,[<__main__.Word instance at 0x11a86df80>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+62,62,[<__main__.Word instance at 0x11a86dc20>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+63,63,"[<__main__.Word instance at 0x11a870128>
+ <__main__.Word instance at 0x11a870200>
+ <__main__.Word instance at 0x11a870098>]",Alex,3_6,False,False,"[['is'], ['here'], ['right']]",isrighthere,ishereright,0.166666666667,-0.182321556794,False,-0.1823215567939546
+64,64,"[<__main__.Word instance at 0x11a870170>
+ <__main__.Word instance at 0x11a8703b0>]",Alex,3_6,False,True,"[['there'], ['right']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+65,65,[<__main__.Word instance at 0x11a870440>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+66,66,[<__main__.Word instance at 0x11a870638>],Alex,3_6,False,True,[['look']],look,look,1.0,0.0,False,-0.0
+67,67,[<__main__.Word instance at 0x11a870710>],Alex,3_6,False,True,[['Ma']],Ma,Ma,1.0,0.0,False,-0.0
+68,68,"[<__main__.Word instance at 0x11a870680>
+ <__main__.Word instance at 0x11a870998>
+ <__main__.Word instance at 0x11a870830>]",Alex,3_6,False,False,"[['you'], ['I'], ['see']]",Iseeyou,youseeI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+69,69,"[<__main__.Word instance at 0x11a8705f0>
+ <__main__.Word instance at 0x11a870b48>
+ <__main__.Word instance at 0x11a8709e0>]",Alex,3_6,False,False,"[['another'], ['ball'], ['okay']]",okayanotherball,anotherballokay,0.166666666667,-0.182321556794,False,-0.1823215567939546
+70,70,"[<__main__.Word instance at 0x11a870ab8>
+ <__main__.Word instance at 0x11a870cf8>
+ <__main__.Word instance at 0x11a870b90>]",Alex,3_6,False,True,"[['how', 'about'], ['Ma']]",Mahowabout,Mahowabout,0.5,0.69314718056,False,0.6931471805599453
+71,71,"[<__main__.Word instance at 0x11a870c68>
+ <__main__.Word instance at 0x11a8708c0>]",Alex,3_6,False,False,"[['I'], ['try']]",Itry,tryI,0.5,-0.69314718056,False,-0.6931471805599453
+72,72,[<__main__.Word instance at 0x11a870fc8>],Alex,3_6,False,True,[['look']],look,look,1.0,0.0,False,-0.0
+73,73,"[<__main__.Word instance at 0x11a870ea8>
+ <__main__.Word instance at 0x11a870f80>
+ <__main__.Word instance at 0x11a870e18>
+ <__main__.Word instance at 0x11a874128>
+ <__main__.Word instance at 0x11a874200>]",Alex,3_6,False,False,"[['will'], ['you'], ['this', 'one'], ['try']]",youwilltrythisone,tryyouwillthisone,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+74,74,"[<__main__.Word instance at 0x11a874170>
+ <__main__.Word instance at 0x11a874488>
+ <__main__.Word instance at 0x11a874320>
+ <__main__.Word instance at 0x11a874518>
+ <__main__.Word instance at 0x11a8746c8>
+ <__main__.Word instance at 0x11a8745a8>]",Alex,3_6,False,False,"[['Mommy'], ['a'], ['this'], ['like'], ['you'], ['grab']]",Mommyyougrabalikethis,grablikeMommyayouthis,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+75,75,[<__main__.Word instance at 0x11a8747a0>],Alex,3_6,False,True,[['toss']],toss,toss,1.0,0.0,False,-0.0
+76,76,"[<__main__.Word instance at 0x11a874680>
+ <__main__.Word instance at 0x11a874bd8>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+77,77,"[<__main__.Word instance at 0x11a874c20>
+ <__main__.Word instance at 0x11a874ea8>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+78,78,"[<__main__.Word instance at 0x11a874f80>
+ <__main__.Word instance at 0x11a874ab8>
+ <__main__.Word instance at 0x11a874ef0>]",Alex,3_6,False,True,"[['Mommy'], ['I'], ['here']]",MommyhereI,MommyhereI,0.166666666667,1.79175946923,False,1.791759469228055
+79,79,"[<__main__.Word instance at 0x11a874a28>
+ <__main__.Word instance at 0x11a874b48>
+ <__main__.Word instance at 0x11a877098>
+ <__main__.Word instance at 0x11a877170>]",Alex,3_6,False,False,"[['oh'], [""it's""], ['over'], ['there']]",ohit'soverthere,it'soverthereoh,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+80,80,[<__main__.Word instance at 0x11a8770e0>],Alex,3_6,False,True,[['why']],why,why,1.0,0.0,False,-0.0
+81,81,"[<__main__.Word instance at 0x11a877488>
+ <__main__.Word instance at 0x11a877368>]",Alex,3_6,False,False,"[['oh'], ['Mommy']]",ohMommy,Mommyoh,0.5,-0.69314718056,False,-0.6931471805599453
+82,82,[<__main__.Word instance at 0x11a8771b8>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+83,83,"[<__main__.Word instance at 0x11a877290>
+ <__main__.Word instance at 0x11a8776c8>
+ <__main__.Word instance at 0x11a8778c0>
+ <__main__.Word instance at 0x11a8777a0>]",Alex,3_6,False,False,"[['here'], ['is'], ['oh'], ['it']]",ohhereitis,isithereoh,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+84,84,"[<__main__.Word instance at 0x11a877950>
+ <__main__.Word instance at 0x11a877c68>
+ <__main__.Word instance at 0x11a877b00>]",Alex,3_6,False,False,"[['I'], ['want'], ['the']]",Iwantthe,wanttheI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+85,85,"[<__main__.Word instance at 0x11a877a28>
+ <__main__.Word instance at 0x11a877e18>]",Alex,3_6,False,False,"[['I'], ['try']]",Itry,tryI,0.5,-0.69314718056,False,-0.6931471805599453
+86,86,[<__main__.Word instance at 0x11a877ef0>],Alex,3_6,False,True,[['try']],try,try,1.0,0.0,False,-0.0
+87,87,[<__main__.Word instance at 0x11a877fc8>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+88,88,[<__main__.Word instance at 0x11a877f38>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+89,89,"[<__main__.Word instance at 0x11a87a0e0>
+ <__main__.Word instance at 0x11a87a1b8>
+ <__main__.Word instance at 0x11a87a290>
+ <__main__.Word instance at 0x11a87a128>
+ <__main__.Word instance at 0x11a87a368>]",Alex,3_6,False,False,"[['get'], [""I'll""], ['a', 'banana'], ['ball']]",I'llgetabananaball,getballI'llabanana,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+90,90,[<__main__.Word instance at 0x11a87a440>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+91,91,"[<__main__.Word instance at 0x11a87a518>
+ <__main__.Word instance at 0x11a87a3b0>]",Alex,3_6,False,False,"[['the'], ['bubble']]",thebubble,bubblethe,0.5,-0.69314718056,False,-0.6931471805599453
+92,92,[<__main__.Word instance at 0x11a87a488>],Alex,3_6,False,True,[['smell']],smell,smell,1.0,0.0,False,-0.0
+93,93,[<__main__.Word instance at 0x11a87a560>],Alex,3_6,False,True,[['look']],look,look,1.0,0.0,False,-0.0
+94,94,"[<__main__.Word instance at 0x11a87a638>
+ <__main__.Word instance at 0x11a87a908>]",Alex,3_6,False,True,"[['delicious'], ['banana']]",deliciousbanana,deliciousbanana,0.5,0.69314718056,False,0.6931471805599453
+95,95,"[<__main__.Word instance at 0x11a87aab8>
+ <__main__.Word instance at 0x11a87a998>]",Alex,3_6,False,True,"[['gimme'], ['oh']]",ohgimme,ohgimme,0.5,0.69314718056,False,0.6931471805599453
+96,96,"[<__main__.Word instance at 0x11a87ab48>
+ <__main__.Word instance at 0x11a87ae60>]",Alex,3_6,False,False,"[['ball'], ['banana']]",bananaball,ballbanana,0.5,-0.69314718056,False,-0.6931471805599453
+97,97,[<__main__.Word instance at 0x11a87aef0>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+98,98,[<__main__.Word instance at 0x11a87af80>],Alex,3_6,False,True,[['try']],try,try,1.0,0.0,False,-0.0
+99,99,"[<__main__.Word instance at 0x11a87e0e0>
+ <__main__.Word instance at 0x11a87e320>
+ <__main__.Word instance at 0x11a87e1b8>
+ <__main__.Word instance at 0x11a87e3f8>]",Alex,3_6,False,False,"[['it'], ['kick'], ['I', ""don't""]]",Idon'tkickit,kickitIdon't,0.166666666667,-0.182321556794,False,-0.1823215567939546
+100,100,[<__main__.Word instance at 0x11a87e4d0>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+101,101,"[<__main__.Word instance at 0x11a87e560>
+ <__main__.Word instance at 0x11a87e710>]",Alex,3_6,False,True,"[['kick'], ['it']]",kickit,kickit,0.5,0.69314718056,False,0.6931471805599453
+102,102,"[<__main__.Word instance at 0x11a87e950>
+ <__main__.Word instance at 0x11a87e2d8>
+ <__main__.Word instance at 0x11a87e9e0>]",Alex,3_6,False,False,"[['this'], ['how', 'bout']]",howboutthis,thishowbout,0.5,-0.69314718056,False,-0.6931471805599453
+103,103,[<__main__.Word instance at 0x11a87eb48>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+104,104,"[<__main__.Word instance at 0x11a87ec20>
+ <__main__.Word instance at 0x11a87e440>
+ <__main__.Word instance at 0x11a87ecf8>
+ <__main__.Word instance at 0x11a87ea28>
+ <__main__.Word instance at 0x11a87ee60>
+ <__main__.Word instance at 0x11a87ed40>
+ <__main__.Word instance at 0x11a87ef38>]",Alex,3_6,False,False,"[['I'], ['yellow'], ['hit'], ['bat'], ['like'], ['to'], ['the']]",Iliketohittheyellowbat,battohittheyellowIlike,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+105,105,"[<__main__.Word instance at 0x11a881098>
+ <__main__.Word instance at 0x11a881290>
+ <__main__.Word instance at 0x11a881128>
+ <__main__.Word instance at 0x11a881368>
+ <__main__.Word instance at 0x11a881440>]",Alex,3_6,False,False,"[['the'], ['red'], ['how', 'bout'], ['bat']]",howbouttheredbat,batredthehowbout,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+106,106,"[<__main__.Word instance at 0x11a881518>
+ <__main__.Word instance at 0x11a8813b0>
+ <__main__.Word instance at 0x11a8815a8>
+ <__main__.Word instance at 0x11a881050>]",Alex,3_6,False,False,"[['a'], [""that's""], ['good'], ['idea']]",that'sagoodidea,agoodthat'sidea,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+107,107,"[<__main__.Word instance at 0x11a881638>
+ <__main__.Word instance at 0x11a8818c0>
+ <__main__.Word instance at 0x11a881248>
+ <__main__.Word instance at 0x11a881950>]",Alex,3_6,False,False,"[['get'], ['Mommy'], ['go'], ['it']]",gogetitMommy,Mommygetitgo,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+108,108,"[<__main__.Word instance at 0x11a881b00>
+ <__main__.Word instance at 0x11a8819e0>
+ <__main__.Word instance at 0x11a881d40>
+ <__main__.Word instance at 0x11a881bd8>
+ <__main__.Word instance at 0x11a881e18>]",Alex,3_6,False,False,"[['look', 'at'], ['yellow'], ['and'], ['Mom']]",Momlookatyellowand,andyellowMomlookat,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+109,109,"[<__main__.Word instance at 0x11a881ea8>
+ <__main__.Word instance at 0x11a881d88>]",Alex,3_6,False,True,"[['the'], ['yellow']]",theyellow,theyellow,0.5,0.69314718056,False,0.6931471805599453
+110,110,[<__main__.Word instance at 0x11a881cf8>],Alex,3_6,False,True,[['orange']],orange,orange,1.0,0.0,False,-0.0
+111,111,"[<__main__.Word instance at 0x11a8840e0>
+ <__main__.Word instance at 0x11a884170>
+ <__main__.Word instance at 0x11a884368>
+ <__main__.Word instance at 0x11a884200>]",Alex,3_6,False,False,"[['Mommy'], ['the', 'white'], ['one']]",thewhiteoneMommy,Mommyonethewhite,0.166666666667,-0.182321556794,False,-0.1823215567939546
+112,112,"[<__main__.Word instance at 0x11a884098>
+ <__main__.Word instance at 0x11a884518>
+ <__main__.Word instance at 0x11a8846c8>]",Alex,3_6,False,False,"[['these'], ['how', 'bout']]",howboutthese,thesehowbout,0.5,-0.69314718056,False,-0.6931471805599453
+113,113,"[<__main__.Word instance at 0x11a884908>
+ <__main__.Word instance at 0x11a8847a0>
+ <__main__.Word instance at 0x11a8849e0>
+ <__main__.Word instance at 0x11a884680>
+ <__main__.Word instance at 0x11a884a70>]",Alex,3_6,False,False,"[['a'], ['one'], ['Mommy'], ['good'], [""that's""]]",that'sagoodoneMommy,agoodonethat'sMommy,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+114,114,"[<__main__.Word instance at 0x11a884dd0>
+ <__main__.Word instance at 0x11a884cb0>
+ <__main__.Word instance at 0x11a884e60>]",Alex,3_6,False,False,"[['Mommy'], ['was'], ['it']]",itwasMommy,Mommywasit,0.166666666667,-0.182321556794,False,-0.1823215567939546
+115,115,"[<__main__.Word instance at 0x11a884ef0>
+ <__main__.Word instance at 0x11a884b00>
+ <__main__.Word instance at 0x11a884950>
+ <__main__.Word instance at 0x11a887098>
+ <__main__.Word instance at 0x11a8871b8>]",Alex,3_6,False,False,"[['Mommy'], ['me'], ['catch'], ['it'], ['to']]",Mommycatchittome,catchittomeMommy,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+116,116,"[<__main__.Word instance at 0x11a887128>
+ <__main__.Word instance at 0x11a887560>
+ <__main__.Word instance at 0x11a887440>
+ <__main__.Word instance at 0x11a887638>]",Alex,3_6,False,False,"[['house'], ['that'], ['blue'], ['Mommy']]",Mommythatbluehouse,Mommythathouseblue,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+117,117,[<__main__.Word instance at 0x11a8876c8>],Alex,3_6,False,True,[['house']],house,house,1.0,0.0,False,-0.0
+118,118,[<__main__.Word instance at 0x11a887758>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+119,119,"[<__main__.Word instance at 0x11a887950>
+ <__main__.Word instance at 0x11a887b90>
+ <__main__.Word instance at 0x11a8875a8>
+ <__main__.Word instance at 0x11a887cf8>
+ <__main__.Word instance at 0x11a887bd8>]",Alex,3_6,False,False,"[['house'], ['big'], ['blue'], ['how', 'bout']]",howboutbigbluehouse,bigbluehousehowbout,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+120,120,[<__main__.Word instance at 0x11a887dd0>],Alex,3_6,False,True,[['the']],the,the,1.0,0.0,False,-0.0
+121,121,"[<__main__.Word instance at 0x11a887e60>
+ <__main__.Word instance at 0x11a887ef0>
+ <__main__.Word instance at 0x11a887f80>]",Alex,3_6,False,True,"[['house'], ['blue'], ['the']]",thebluehouse,thebluehouse,0.166666666667,1.79175946923,False,1.791759469228055
+122,122,"[<__main__.Word instance at 0x11a88a128>
+ <__main__.Word instance at 0x11a88a1b8>
+ <__main__.Word instance at 0x11a88a560>]",Alex,3_6,False,True,"[['big'], ['blue'], ['house']]",bigbluehouse,bigbluehouse,0.166666666667,1.79175946923,False,1.791759469228055
+123,123,"[<__main__.Word instance at 0x11a88a758>
+ <__main__.Word instance at 0x11a88a638>
+ <__main__.Word instance at 0x11a88a7e8>]",Alex,3_6,False,False,"[['show'], ['you'], [""I'll""]]",I'llshowyou,youshowI'll,0.166666666667,-0.182321556794,False,-0.1823215567939546
+124,124,"[<__main__.Word instance at 0x11a88a908>
+ <__main__.Word instance at 0x11a88a5f0>
+ <__main__.Word instance at 0x11a88a9e0>]",Alex,3_6,False,False,"[['you'], [""I'll""], ['show']]",I'llshowyou,youshowI'll,0.166666666667,-0.182321556794,False,-0.1823215567939546
+125,125,[<__main__.Word instance at 0x11a88aa70>],Alex,3_6,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+126,126,"[<__main__.Word instance at 0x11a88ac68>
+ <__main__.Word instance at 0x11a88af38>
+ <__main__.Word instance at 0x11a88ae18>
+ <__main__.Word instance at 0x11a88afc8>]",Alex,3_6,False,True,"[['how', 'bout'], ['sesame'], ['street']]",howboutsesamestreet,howboutsesamestreet,0.166666666667,1.79175946923,False,1.791759469228055
+127,127,[<__main__.Word instance at 0x11a88a248>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+128,128,"[<__main__.Word instance at 0x11a88d248>
+ <__main__.Word instance at 0x11a88d2d8>
+ <__main__.Word instance at 0x11a88d638>]",Alex,3_6,False,False,"[['get'], [""I'll""], ['it']]",I'llgetit,getitI'll,0.166666666667,-0.182321556794,False,-0.1823215567939546
+129,129,"[<__main__.Word instance at 0x11a88d710>
+ <__main__.Word instance at 0x11a88d1b8>]",Alex,3_6,False,True,"[['give'], ['it']]",giveit,giveit,0.5,0.69314718056,False,0.6931471805599453
+130,130,"[<__main__.Word instance at 0x11a88d758>
+ <__main__.Word instance at 0x11a88d950>
+ <__main__.Word instance at 0x11a88d368>
+ <__main__.Word instance at 0x11a88da28>]",Alex,3_6,False,False,"[['it'], ['did'], ['find'], ['I']]",Ididfindit,finditdidI,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+131,131,"[<__main__.Word instance at 0x11a88dab8>
+ <__main__.Word instance at 0x11a88d680>
+ <__main__.Word instance at 0x11a88df38>]",Alex,3_6,False,False,"[['like'], ['Mommy'], ['this']]",Mommylikethis,thislikeMommy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+132,132,"[<__main__.Word instance at 0x11a88dfc8>
+ <__main__.Word instance at 0x11a88d998>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+133,133,"[<__main__.Word instance at 0x11a88db48>
+ <__main__.Word instance at 0x11a890200>]",Alex,3_6,False,False,"[['that'], ['like']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+134,134,"[<__main__.Word instance at 0x11a890320>
+ <__main__.Word instance at 0x11a8903b0>
+ <__main__.Word instance at 0x11a890290>
+ <__main__.Word instance at 0x11a8905a8>
+ <__main__.Word instance at 0x11a890440>
+ <__main__.Word instance at 0x11a890680>
+ <__main__.Word instance at 0x11a8901b8>]",Alex,3_6,False,False,"[['like'], ['try'], ['top'], ['the', 'tree'], ['of'], ['to']]",trytoliketopofthetree,trytoofthetreeliketop,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+135,135,"[<__main__.Word instance at 0x11a8905f0>
+ <__main__.Word instance at 0x11a8907e8>]",Alex,3_6,False,True,"[['try'], ['it']]",tryit,tryit,0.5,0.69314718056,False,0.6931471805599453
+136,136,"[<__main__.Word instance at 0x11a890878>
+ <__main__.Word instance at 0x11a890ab8>
+ <__main__.Word instance at 0x11a890560>
+ <__main__.Word instance at 0x11a890e18>]",Alex,3_6,False,False,"[['oh'], ['I', 'can'], ['try']]",ohIcantry,tryohIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+137,137,"[<__main__.Word instance at 0x11a890ef0>
+ <__main__.Word instance at 0x11a890c20>]",Alex,3_6,False,False,"[['try'], ['I']]",Itry,tryI,0.5,-0.69314718056,False,-0.6931471805599453
+138,138,"[<__main__.Word instance at 0x11a8906c8>
+ <__main__.Word instance at 0x11a890b48>
+ <__main__.Word instance at 0x11a8941b8>]",Alex,3_6,False,False,"[['try'], ['go'], ['I']]",Igotry,trygoI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+139,139,"[<__main__.Word instance at 0x11a894440>
+ <__main__.Word instance at 0x11a8945f0>]",Alex,3_6,False,True,"[['there'], ['right']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+140,140,"[<__main__.Word instance at 0x11a8946c8>
+ <__main__.Word instance at 0x11a8942d8>]",Alex,3_6,False,True,"[['right'], ['there']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+141,141,"[<__main__.Word instance at 0x11a894758>
+ <__main__.Word instance at 0x11a894a70>]",Alex,3_6,False,True,"[['there'], ['right']]",rightthere,rightthere,0.5,0.69314718056,False,0.6931471805599453
+142,142,"[<__main__.Word instance at 0x11a894c68>
+ <__main__.Word instance at 0x11a894b00>
+ <__main__.Word instance at 0x11a894d40>
+ <__main__.Word instance at 0x11a894a28>
+ <__main__.Word instance at 0x11a894dd0>
+ <__main__.Word instance at 0x11a894248>]",Alex,3_6,False,False,"[['yeah'], ['sticks'], ['and'], ['the', 'leaves'], ['in']]",yeahintheleavesandsticks,inandsticksyeahtheleaves,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+143,143,"[<__main__.Word instance at 0x11a894f38>
+ <__main__.Word instance at 0x11a897200>
+ <__main__.Word instance at 0x11a897170>]",Alex,3_6,False,True,"[['try'], ['one'], ['that']]",trythatone,trythatone,0.166666666667,1.79175946923,False,1.791759469228055
+144,144,"[<__main__.Word instance at 0x11a8970e0>
+ <__main__.Word instance at 0x11a897488>
+ <__main__.Word instance at 0x11a897368>]",Alex,3_6,False,True,"[['this', 'one'], ['try']]",trythisone,trythisone,0.5,0.69314718056,False,0.6931471805599453
+145,145,"[<__main__.Word instance at 0x11a897050>
+ <__main__.Word instance at 0x11a897680>
+ <__main__.Word instance at 0x11a8977e8>]",Alex,3_6,False,True,"[['try'], ['that'], ['one']]",trythatone,trythatone,0.166666666667,1.79175946923,False,1.791759469228055
+146,146,"[<__main__.Word instance at 0x11a8978c0>
+ <__main__.Word instance at 0x11a8979e0>]",Alex,3_6,False,False,"[['that'], ['like']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+147,147,"[<__main__.Word instance at 0x11a897a70>
+ <__main__.Word instance at 0x11a897638>
+ <__main__.Word instance at 0x11a897b48>
+ <__main__.Word instance at 0x11a8975f0>]",Alex,3_6,False,False,"[['high'], ['this', 'one'], ['Mom']]",thisoneMomhigh,thisonehighMom,0.166666666667,-0.182321556794,False,-0.1823215567939546
+148,148,"[<__main__.Word instance at 0x11a897830>
+ <__main__.Word instance at 0x11a897cf8>
+ <__main__.Word instance at 0x11a897440>]",Alex,3_6,False,True,"[['one'], ['that'], ['try']]",trythatone,trythatone,0.166666666667,1.79175946923,False,1.791759469228055
+149,149,"[<__main__.Word instance at 0x11a8977a0>
+ <__main__.Word instance at 0x11a897ef0>
+ <__main__.Word instance at 0x11a897e18>]",Alex,3_6,False,True,"[['try'], ['that'], ['one']]",trythatone,trythatone,0.166666666667,1.79175946923,False,1.791759469228055
+150,150,[<__main__.Word instance at 0x11a897d40>],Alex,3_6,False,True,[['try']],try,try,1.0,0.0,False,-0.0
+151,151,"[<__main__.Word instance at 0x11a89a050>
+ <__main__.Word instance at 0x11a89a128>
+ <__main__.Word instance at 0x11a89a200>
+ <__main__.Word instance at 0x11a89a098>]",Alex,3_6,False,False,"[['try'], ['that'], ['but'], ['one']]",buttrythatone,trythatonebut,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+152,152,[<__main__.Word instance at 0x11a89a170>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+153,153,[<__main__.Word instance at 0x11a89a248>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+154,154,"[<__main__.Word instance at 0x11a89a320>
+ <__main__.Word instance at 0x11a89a560>]",Alex,3_6,False,True,"[['one'], ['that']]",thatone,thatone,0.5,0.69314718056,False,0.6931471805599453
+155,155,"[<__main__.Word instance at 0x11a89a638>
+ <__main__.Word instance at 0x11a89a4d0>]",Alex,3_6,False,False,"[['on'], ['come']]",comeon,oncome,0.5,-0.69314718056,False,-0.6931471805599453
+156,156,"[<__main__.Word instance at 0x11a89a830>
+ <__main__.Word instance at 0x11a89a758>
+ <__main__.Word instance at 0x11a89a7e8>]",Alex,3_6,False,True,"[['try'], ['this', 'one']]",trythisone,trythisone,0.5,0.69314718056,False,0.6931471805599453
+157,157,"[<__main__.Word instance at 0x11a89a8c0>
+ <__main__.Word instance at 0x11a89a6c8>
+ <__main__.Word instance at 0x11a89a9e0>
+ <__main__.Word instance at 0x11a89ab00>]",Alex,3_6,False,True,"[['Mom'], ['this', 'one'], ['try']]",trythisoneMom,trythisoneMom,0.166666666667,1.79175946923,False,1.791759469228055
+158,158,"[<__main__.Word instance at 0x11a89ab48>
+ <__main__.Word instance at 0x11a89a7a0>
+ <__main__.Word instance at 0x11a89acf8>]",Alex,3_6,False,True,"[['try'], ['this', 'one']]",trythisone,trythisone,0.5,0.69314718056,False,0.6931471805599453
+159,159,"[<__main__.Word instance at 0x11a89ac68>
+ <__main__.Word instance at 0x11a89aef0>]",Alex,3_6,False,True,"[['turn', 'around']]",turnaround,turnaround,1.0,0.0,False,-0.0
+160,160,"[<__main__.Word instance at 0x11a89af80>
+ <__main__.Word instance at 0x11a89a710>]",Alex,3_6,False,True,"[['turn', 'around']]",turnaround,turnaround,1.0,0.0,False,-0.0
+161,161,[<__main__.Word instance at 0x11a89d290>],Alex,3_6,False,True,[['why']],why,why,1.0,0.0,False,-0.0
+162,162,[<__main__.Word instance at 0x11a89d440>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+163,163,"[<__main__.Word instance at 0x11a89d5f0>
+ <__main__.Word instance at 0x11a89d4d0>]",Alex,3_6,False,False,"[['yeah'], ['sideways']]",yeahsideways,sidewaysyeah,0.5,-0.69314718056,False,-0.6931471805599453
+164,164,"[<__main__.Word instance at 0x11a89d680>
+ <__main__.Word instance at 0x11a89d950>
+ <__main__.Word instance at 0x11a89d830>
+ <__main__.Word instance at 0x11a89da28>
+ <__main__.Word instance at 0x11a89d710>
+ <__main__.Word instance at 0x11a89dab8>]",Alex,3_6,False,False,"[['bend'], ['up'], ['bend'], ['up'], ['and'], ['and']]",upandbendupandbend,upupandandbendbend,0.00138888888889,-0.00138985428905,True,-0.011173300598125189
+165,165,"[<__main__.Word instance at 0x11a89dbd8>
+ <__main__.Word instance at 0x11a89d7e8>]",Alex,3_6,False,True,"[['straight'], ['and']]",straightand,straightand,0.5,0.69314718056,False,0.6931471805599453
+166,166,"[<__main__.Word instance at 0x11a89de60>
+ <__main__.Word instance at 0x11a89dcf8>
+ <__main__.Word instance at 0x11a89df38>
+ <__main__.Word instance at 0x11a89d908>
+ <__main__.Word instance at 0x11a89dfc8>]",Alex,3_6,False,False,"[['go'], [""let's""], ['on'], ['Mommy'], ['come']]",comeonMommylet'sgo,Mommygoonlet'scome,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+167,167,"[<__main__.Word instance at 0x11a8a0128>
+ <__main__.Word instance at 0x11a8a0368>]",Alex,3_6,False,True,"[[""I'm""], ['ready']]",I'mready,I'mready,0.5,0.69314718056,False,0.6931471805599453
+168,168,[<__main__.Word instance at 0x11a8a03f8>],Alex,3_6,False,True,[['go']],go,go,1.0,0.0,False,-0.0
+169,169,"[<__main__.Word instance at 0x11a8a05a8>
+ <__main__.Word instance at 0x11a8a0488>
+ <__main__.Word instance at 0x11a8a07e8>
+ <__main__.Word instance at 0x11a8a0680>
+ <__main__.Word instance at 0x11a8a08c0>]",Alex,3_6,False,False,"[['the'], ['look', 'at'], ['Mommy'], ['balls']]",lookattheballsMommy,Mommythelookatballs,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+170,170,"[<__main__.Word instance at 0x11a8a0998>
+ <__main__.Word instance at 0x11a8a0830>]",Alex,3_6,False,True,"[['try', 'again']]",tryagain,tryagain,1.0,0.0,False,-0.0
+171,171,"[<__main__.Word instance at 0x11a8a0bd8>
+ <__main__.Word instance at 0x11a8a0ab8>
+ <__main__.Word instance at 0x11a8a0ef0>]",Alex,3_6,False,True,"[['Mommy'], ['try', 'again']]",tryagainMommy,tryagainMommy,0.5,0.69314718056,False,0.6931471805599453
+172,172,[<__main__.Word instance at 0x11a8a0fc8>],Alex,3_6,False,True,[['turn']],turn,turn,1.0,0.0,False,-0.0
+173,173,[<__main__.Word instance at 0x11a8a0f38>],Alex,3_6,False,True,[['look']],look,look,1.0,0.0,False,-0.0
+174,174,[<__main__.Word instance at 0x11a8a0cb0>],Alex,3_6,False,True,[['try']],try,try,1.0,0.0,False,-0.0
+175,175,[<__main__.Word instance at 0x11a8a3170>],Alex,3_6,False,True,[['turn']],turn,turn,1.0,0.0,False,-0.0
+176,176,"[<__main__.Word instance at 0x11a8a3320>
+ <__main__.Word instance at 0x11a8a3098>]",Alex,3_6,False,True,"[['Mommy'], ['swing']]",Mommyswing,Mommyswing,0.5,0.69314718056,False,0.6931471805599453
+177,177,"[<__main__.Word instance at 0x11a8a33b0>
+ <__main__.Word instance at 0x11a8a35f0>]",Alex,3_6,False,False,"[['you'], ['thank']]",thankyou,youthank,0.5,-0.69314718056,False,-0.6931471805599453
+178,178,"[<__main__.Word instance at 0x11a8a37e8>
+ <__main__.Word instance at 0x11a8a3680>
+ <__main__.Word instance at 0x11a8a38c0>]",Alex,3_6,False,False,"[['watch'], ['Mommy'], ['whoa']]",whoaMommywatch,Mommywhoawatch,0.166666666667,-0.182321556794,False,-0.1823215567939546
+179,179,[<__main__.Word instance at 0x11a8a3ab8>],Alex,3_6,False,True,[['turn']],turn,turn,1.0,0.0,False,-0.0
+180,180,"[<__main__.Word instance at 0x11a8a3b90>
+ <__main__.Word instance at 0x11a8a37a0>]",Alex,3_6,False,True,"[['this'], ['Mommy']]",thisMommy,thisMommy,0.5,0.69314718056,False,0.6931471805599453
+181,181,"[<__main__.Word instance at 0x11a8a3c20>
+ <__main__.Word instance at 0x11a8a3e60>
+ <__main__.Word instance at 0x11a8a3a70>
+ <__main__.Word instance at 0x11a8a3ef0>]",Alex,3_6,False,False,"[['Mom'], ['how', 'bout'], ['this']]",howboutthisMom,thishowboutMom,0.166666666667,-0.182321556794,False,-0.1823215567939546
+182,182,"[<__main__.Word instance at 0x11a8a6368>
+ <__main__.Word instance at 0x11a8a6290>]",Alex,3_6,False,True,"[['I', 'dunno']]",Idunno,Idunno,1.0,0.0,False,-0.0
+183,183,"[<__main__.Word instance at 0x11a8a63f8>
+ <__main__.Word instance at 0x11a8a6488>
+ <__main__.Word instance at 0x11a8a6128>
+ <__main__.Word instance at 0x11a8a67a0>
+ <__main__.Word instance at 0x11a8a6680>]",Alex,3_6,False,False,"[['spinning'], ['like'], ['Mom'], ['this'], ['watch']]",spinningMomwatchlikethis,thiswatchspinninglikeMom,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+184,184,"[<__main__.Word instance at 0x11a8a6518>
+ <__main__.Word instance at 0x11a8a6950>
+ <__main__.Word instance at 0x11a8a67e8>]",Alex,3_6,False,False,"[['Mom'], ['like'], ['this']]",likethisMom,thislikeMom,0.166666666667,-0.182321556794,False,-0.1823215567939546
+185,185,"[<__main__.Word instance at 0x11a8a65a8>
+ <__main__.Word instance at 0x11a8a6dd0>
+ <__main__.Word instance at 0x11a8a6d40>
+ <__main__.Word instance at 0x11a8a6ea8>]",Alex,3_6,False,True,"[['this', 'one'], ['how', 'bout']]",howboutthisone,howboutthisone,0.5,0.69314718056,False,0.6931471805599453
+186,186,"[<__main__.Word instance at 0x11a8a6f80>
+ <__main__.Word instance at 0x11a8a6b48>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+187,187,"[<__main__.Word instance at 0x11a8a6d88>
+ <__main__.Word instance at 0x11a8aa050>
+ <__main__.Word instance at 0x11a8aa098>
+ <__main__.Word instance at 0x11a8aa290>
+ <__main__.Word instance at 0x11a8aa128>]",Alex,3_6,False,True,"[['but'], ['how', 'bout'], ['this', 'one']]",buthowboutthisone,buthowboutthisone,0.166666666667,1.79175946923,False,1.791759469228055
+188,188,[<__main__.Word instance at 0x11a8aa560>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+189,189,"[<__main__.Word instance at 0x11a8aa710>
+ <__main__.Word instance at 0x11a8aa680>
+ <__main__.Word instance at 0x11a8aa7e8>]",Alex,3_6,False,False,"[['yeah'], ['monkey'], ['bars']]",yeahmonkeybars,monkeybarsyeah,0.166666666667,-0.182321556794,False,-0.1823215567939546
+190,190,"[<__main__.Word instance at 0x11a8aa9e0>
+ <__main__.Word instance at 0x11a8aa878>
+ <__main__.Word instance at 0x11a8aaa70>
+ <__main__.Word instance at 0x11a8aadd0>
+ <__main__.Word instance at 0x11a8aacb0>
+ <__main__.Word instance at 0x11a8aae60>
+ <__main__.Word instance at 0x11a8aabd8>]",Alex,3_6,False,False,"[['to'], ['the'], ['go'], ['on'], ['like'], ['yeah'], [""I'd""]]",yeahI'dliketogoonthe,theontogolikeyeahI'd,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+191,191,[<__main__.Word instance at 0x11a8aa5f0>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+192,192,"[<__main__.Word instance at 0x11a8ad098>
+ <__main__.Word instance at 0x11a8ad320>
+ <__main__.Word instance at 0x11a8ad4d0>
+ <__main__.Word instance at 0x11a8ad128>]",Alex,3_6,False,False,"[['do'], ['it'], ['wanna'], ['again']]",wannadoitagain,doitagainwanna,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+193,193,"[<__main__.Word instance at 0x11a8ad1b8>
+ <__main__.Word instance at 0x11a8ad638>
+ <__main__.Word instance at 0x11a8ad440>
+ <__main__.Word instance at 0x11a8ad758>]",Alex,3_6,False,False,"[['again'], ['it'], ['do'], ['wanna']]",wannadoitagain,doitagainwanna,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+194,194,"[<__main__.Word instance at 0x11a8ad7e8>
+ <__main__.Word instance at 0x11a8adcb0>
+ <__main__.Word instance at 0x11a8ad878>
+ <__main__.Word instance at 0x11a8adf38>]",Alex,3_6,False,True,"[['how', 'bout'], ['elephant'], ['bars']]",howboutelephantbars,howboutelephantbars,0.166666666667,1.79175946923,False,1.791759469228055
+195,195,"[<__main__.Word instance at 0x11a8adea8>
+ <__main__.Word instance at 0x11a8add40>
+ <__main__.Word instance at 0x11a8ad3b0>]",Alex,3_6,False,False,"[['help'], ['okay'], ['me']]",okayhelpme,helpmeokay,0.166666666667,-0.182321556794,False,-0.1823215567939546
+196,196,"[<__main__.Word instance at 0x11a8b0098>
+ <__main__.Word instance at 0x11a8b0290>
+ <__main__.Word instance at 0x11a8b01b8>]",Alex,3_6,False,False,"[['elephants'], ['bars'], ['called']]",calledelephantsbars,barselephantscalled,0.166666666667,-0.182321556794,False,-0.1823215567939546
+197,197,"[<__main__.Word instance at 0x11a8b0320>
+ <__main__.Word instance at 0x11a8b0680>
+ <__main__.Word instance at 0x11a8b0638>
+ <__main__.Word instance at 0x11a8b0758>
+ <__main__.Word instance at 0x11a8b09e0>
+ <__main__.Word instance at 0x11a8b0998>]",Alex,3_6,False,False,"[['the', 'elephant'], ['Mommy'], ['bars'], ['wanna'], ['do']]",Mommywannadotheelephantbars,dobarsMommywannatheelephant,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+198,198,"[<__main__.Word instance at 0x11a8b05f0>
+ <__main__.Word instance at 0x11a8b0b90>
+ <__main__.Word instance at 0x11a8b0878>]",Alex,3_6,False,True,"[['elephant'], ['bars'], ['no']]",noelephantbars,noelephantbars,0.166666666667,1.79175946923,False,1.791759469228055
+199,199,"[<__main__.Word instance at 0x11a8b0950>
+ <__main__.Word instance at 0x11a8b0e60>]",Alex,3_6,False,False,"[['bars'], ['elephant']]",elephantbars,barselephant,0.5,-0.69314718056,False,-0.6931471805599453
+200,200,"[<__main__.Word instance at 0x11a8b0f38>
+ <__main__.Word instance at 0x11a8b0a70>
+ <__main__.Word instance at 0x11a8b04d0>]",Alex,3_6,False,False,"[['okay'], ['let'], ['go']]",okayletgo,letgookay,0.166666666667,-0.182321556794,False,-0.1823215567939546
+201,201,[<__main__.Word instance at 0x11a8b0ef0>],Alex,3_6,False,True,[['uhoh']],uhoh,uhoh,1.0,0.0,False,-0.0
+202,202,[<__main__.Word instance at 0x11a8b3050>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+203,203,[<__main__.Word instance at 0x11a8b3200>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+204,204,[<__main__.Word instance at 0x11a8b32d8>],Alex,3_6,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+205,205,[<__main__.Word instance at 0x11a8b33b0>],Alex,3_6,False,True,[['look']],look,look,1.0,0.0,False,-0.0
+206,206,"[<__main__.Word instance at 0x11a8b3488>
+ <__main__.Word instance at 0x11a8b3320>]",Alex,3_6,False,True,"[[""that's""], ['huge']]",that'shuge,that'shuge,0.5,0.69314718056,False,0.6931471805599453
+207,207,[<__main__.Word instance at 0x11a8b33f8>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+208,208,"[<__main__.Word instance at 0x11a8b3758>
+ <__main__.Word instance at 0x11a8b3680>
+ <__main__.Word instance at 0x11a8b3b48>
+ <__main__.Word instance at 0x11a8b3bd8>
+ <__main__.Word instance at 0x11a8b35a8>]",Alex,3_6,False,True,"[['my'], ['bag'], ['it'], ['in'], ['put']]",putitinmybag,putitinmybag,0.00833333333333,4.78749174278,False,4.787491742782046
+209,209,"[<__main__.Word instance at 0x11a8b3878>
+ <__main__.Word instance at 0x11a8b3d88>]",Alex,3_6,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+210,210,"[<__main__.Word instance at 0x11a8b3e60>
+ <__main__.Word instance at 0x11a8b3cf8>]",Alex,3_6,False,False,"[['that'], [""what's""]]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+211,211,"[<__main__.Word instance at 0x11a8b3ab8>
+ <__main__.Word instance at 0x11a8b3ea8>
+ <__main__.Word instance at 0x11a8b3f80>]",Alex,3_6,False,False,"[['that'], ['there'], [""what's""]]",what'sthatthere,thatwhat'sthere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+212,212,"[<__main__.Word instance at 0x11a8b3dd0>
+ <__main__.Word instance at 0x11a8b6050>
+ <__main__.Word instance at 0x11a8b6128>
+ <__main__.Word instance at 0x11a8b6200>]",Alex,3_6,False,False,"[['I'], ['microphone'], ['the'], ['like']]",Ilikethemicrophone,themicrophonelikeI,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+213,213,[<__main__.Word instance at 0x11a8b62d8>],Alex,3_6,False,True,[['Ma']],Ma,Ma,1.0,0.0,False,-0.0
+214,214,"[<__main__.Word instance at 0x11a8b6368>
+ <__main__.Word instance at 0x11a8b6248>]",Alex,3_6,False,True,"[['wants'], ['you']]",youwants,youwants,0.5,0.69314718056,False,0.6931471805599453
+215,215,"[<__main__.Word instance at 0x11a8b63f8>
+ <__main__.Word instance at 0x11a8b6638>
+ <__main__.Word instance at 0x11a8b6710>]",Alex,3_6,False,True,"[['the', 'monkey', 'bars']]",themonkeybars,themonkeybars,1.0,0.0,False,-0.0
+216,216,[<__main__.Word instance at 0x11a8b67a0>],Alex,3_6,False,True,"[[""let's""]]",let's,let's,1.0,0.0,False,-0.0
+217,217,"[<__main__.Word instance at 0x11a8b6830>
+ <__main__.Word instance at 0x11a8b6ab8>
+ <__main__.Word instance at 0x11a8b6518>]",Alex,3_6,False,False,"[['slide'], ['you', 'want']]",youwantslide,slideyouwant,0.5,-0.69314718056,False,-0.6931471805599453
+218,218,[<__main__.Word instance at 0x11a8b6c20>],Alex,3_6,False,True,[['mm']],mm,mm,1.0,0.0,False,-0.0
+219,219,"[<__main__.Word instance at 0x11a8b6950>
+ <__main__.Word instance at 0x11a8b6ea8>
+ <__main__.Word instance at 0x11a8b6b00>
+ <__main__.Word instance at 0x11a8b6ef0>
+ <__main__.Word instance at 0x11a8b6dd0>
+ <__main__.Word instance at 0x11a8b6a28>
+ <__main__.Word instance at 0x11a8b6c68>]",Alex,3_6,False,False,"[['it'], ['I', ""don't""], ['want'], ['want'], ['I', ""don't""]]",Idon'twantIdon'twantit,wantitIdon'twantIdon't,0.00833333333333,-0.00836824967052,True,-0.03390155167568134
+220,220,[<__main__.Word instance at 0x11a8ba050>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+221,221,"[<__main__.Word instance at 0x11a8ba3f8>
+ <__main__.Word instance at 0x11a8ba128>
+ <__main__.Word instance at 0x11a8ba518>
+ <__main__.Word instance at 0x11a8ba5f0>
+ <__main__.Word instance at 0x11a8ba200>
+ <__main__.Word instance at 0x11a8ba7e8>
+ <__main__.Word instance at 0x11a8ba560>
+ <__main__.Word instance at 0x11a8ba878>]",Alex,3_6,False,False,"[[""I'll""], ['could'], ['here'], ['just'], ['sit'], ['I'], ['right'], ['sit']]",IcouldsitI'lljustsitrighthere,couldIjusthereI'llsitrightsit,2.48015873016e-05,-2.4801894866e-05,True,-4.9604404881379266e-05
+222,222,"[<__main__.Word instance at 0x11a8ba950>
+ <__main__.Word instance at 0x11a8ba170>]",Alex,3_6,False,True,"[['wait'], [""let's""]]",let'swait,let'swait,0.5,0.69314718056,False,0.6931471805599453
+223,223,"[<__main__.Word instance at 0x11a8ba8c0>
+ <__main__.Word instance at 0x11a8bab00>
+ <__main__.Word instance at 0x11a8ba758>]",Alex,3_6,False,False,"[['do'], ['I', 'can']]",Icando,doIcan,0.5,-0.69314718056,False,-0.6931471805599453
+224,224,"[<__main__.Word instance at 0x11a8ba5a8>
+ <__main__.Word instance at 0x11a8bacb0>
+ <__main__.Word instance at 0x11a8ba488>]",Alex,3_6,False,False,"[['could'], ['do'], ['I']]",Icoulddo,doIcould,0.166666666667,-0.182321556794,False,-0.1823215567939546
+225,225,"[<__main__.Word instance at 0x11a8bab48>
+ <__main__.Word instance at 0x11a8bae18>
+ <__main__.Word instance at 0x11a8bad40>]",Alex,3_6,False,False,"[['&-um'], ['I'], ['bat']]",&-umIbat,bat&-umI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+226,226,"[<__main__.Word instance at 0x11a8baef0>
+ <__main__.Word instance at 0x11a8ba6c8>
+ <__main__.Word instance at 0x11a8bacf8>
+ <__main__.Word instance at 0x11a8bae60>]",Alex,3_6,False,False,"[['go'], ['turn'], ['you'], ['and']]",andyougoturn,yougoturnand,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+227,227,"[<__main__.Word instance at 0x11a8bd0e0>
+ <__main__.Word instance at 0x11a8bd1b8>
+ <__main__.Word instance at 0x11a8bd290>
+ <__main__.Word instance at 0x11a8bd128>
+ <__main__.Word instance at 0x11a8bd320>
+ <__main__.Word instance at 0x11a8bd050>]",Alex,3_6,False,False,"[['turn'], ['wait'], ['like'], ['this'], ['you'], ['eh']]",waitehyouturnlikethis,thiswaitturnyoulikeeh,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+228,228,[<__main__.Word instance at 0x11a8bd488>],Alex,3_6,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+229,229,"[<__main__.Word instance at 0x11a8bd440>
+ <__main__.Word instance at 0x11a8bd638>
+ <__main__.Word instance at 0x11a8bd560>]",Alex,3_6,False,True,"[['no'], ['no'], ['no']]",nonono,nonono,0.166666666667,1.79175946923,True,-0.0
+230,230,"[<__main__.Word instance at 0x11a8bd5f0>
+ <__main__.Word instance at 0x11a8bd830>]",Alex,3_6,False,False,"[['you'], ['would']]",wouldyou,youwould,0.5,-0.69314718056,False,-0.6931471805599453
+231,231,"[<__main__.Word instance at 0x11a8bd200>
+ <__main__.Word instance at 0x11a8bdb48>
+ <__main__.Word instance at 0x11a8bdbd8>]",Alex,3_6,False,False,"[['too'], ['fast'], ['no']]",notoofast,toofastno,0.166666666667,-0.182321556794,False,-0.1823215567939546
+232,232,"[<__main__.Word instance at 0x11a8bdcb0>
+ <__main__.Word instance at 0x11a8bda28>]",Alex,3_6,False,True,"[['try', 'again']]",tryagain,tryagain,1.0,0.0,False,-0.0
+233,233,[<__main__.Word instance at 0x11a8bdcf8>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+234,234,"[<__main__.Word instance at 0x11a8bd950>
+ <__main__.Word instance at 0x11a8bdf80>]",Alex,3_6,False,True,"[['oh', 'boy']]",ohboy,ohboy,1.0,0.0,False,-0.0
+235,235,"[<__main__.Word instance at 0x11a8bde60>
+ <__main__.Word instance at 0x11a8c0170>
+ <__main__.Word instance at 0x11a8c0050>
+ <__main__.Word instance at 0x11a8c0320>
+ <__main__.Word instance at 0x11a8c0200>
+ <__main__.Word instance at 0x11a8c0488>]",Alex,3_6,False,False,"[['I'], ['round'], ['turn'], ['now'], ['and', 'around']]",nowIturnroundandaround,andaroundturnInowround,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+236,236,"[<__main__.Word instance at 0x11a8c05a8>
+ <__main__.Word instance at 0x11a8c0368>
+ <__main__.Word instance at 0x11a8c07a0>
+ <__main__.Word instance at 0x11a8c0680>]",Alex,3_6,False,False,"[['turn'], ['round'], ['round'], ['little']]",littleturnroundround,turnroundroundlittle,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+237,237,"[<__main__.Word instance at 0x11a8c0128>
+ <__main__.Word instance at 0x11a8c08c0>
+ <__main__.Word instance at 0x11a8c0518>
+ <__main__.Word instance at 0x11a8c09e0>
+ <__main__.Word instance at 0x11a8c0710>]",Alex,3_6,False,False,"[['round'], ['and'], ['this'], ['turning'], ['round']]",thisturningroundandround,thisandturningroundround,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+238,238,"[<__main__.Word instance at 0x11a8c0b90>
+ <__main__.Word instance at 0x11a8c0440>
+ <__main__.Word instance at 0x11a8c0c68>
+ <__main__.Word instance at 0x11a8c0b00>]",Alex,3_6,False,False,"[['and'], ['round'], ['you'], ['turn']]",andyouturnround,youturnandround,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+239,239,"[<__main__.Word instance at 0x11a8c0bd8>
+ <__main__.Word instance at 0x11a8c0dd0>
+ <__main__.Word instance at 0x11a8c0cb0>]",Alex,3_6,False,False,"[['I'], ['you'], ['swing']]",Iswingyou,youIswing,0.166666666667,-0.182321556794,False,-0.1823215567939546
+240,240,[<__main__.Word instance at 0x11a8c0e60>],Alex,3_6,False,True,[['ready']],ready,ready,1.0,0.0,False,-0.0
+241,241,[<__main__.Word instance at 0x11a8c0f80>],Alex,3_6,False,True,[['set']],set,set,1.0,0.0,False,-0.0
+242,242,[<__main__.Word instance at 0x11a8c7098>],Alex,3_6,False,True,[['go']],go,go,1.0,0.0,False,-0.0
+243,243,[<__main__.Word instance at 0x11a8c7560>],Alex,3_6,False,True,[['wee']],wee,wee,1.0,0.0,False,-0.0
+244,244,"[<__main__.Word instance at 0x11a8c76c8>
+ <__main__.Word instance at 0x11a8c75f0>
+ <__main__.Word instance at 0x11a8c77a0>]",Alex,3_6,False,False,"[['there'], ['go'], ['you']]",thereyougo,yougothere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+245,245,[<__main__.Word instance at 0x11a8c7a70>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+246,246,"[<__main__.Word instance at 0x11a8c7b48>
+ <__main__.Word instance at 0x11a8c78c0>
+ <__main__.Word instance at 0x11a8c7908>
+ <__main__.Word instance at 0x11a8c7b90>
+ <__main__.Word instance at 0x11a8c7cf8>]",Alex,3_6,False,False,"[['on'], ['push'], ['you'], ['the'], ['swing']]",pushyouontheswing,youpushtheswingon,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+247,247,"[<__main__.Word instance at 0x11a8c7dd0>
+ <__main__.Word instance at 0x11a8c7680>]",Alex,3_6,False,False,"[['push'], ['Mom']]",Mompush,pushMom,0.5,-0.69314718056,False,-0.6931471805599453
+248,248,"[<__main__.Word instance at 0x11a8c7e60>
+ <__main__.Word instance at 0x11a8c7950>]",Alex,3_6,False,True,"[['the'], ['in']]",inthe,inthe,0.5,0.69314718056,False,0.6931471805599453
+249,249,"[<__main__.Word instance at 0x11a8c4290>
+ <__main__.Word instance at 0x11a8c4128>]",Alex,3_6,False,False,"[['oh'], ['look']]",ohlook,lookoh,0.5,-0.69314718056,False,-0.6931471805599453
+250,250,"[<__main__.Word instance at 0x11a8c4440>
+ <__main__.Word instance at 0x11a8c4320>
+ <__main__.Word instance at 0x11a8c45f0>
+ <__main__.Word instance at 0x11a8c44d0>]",Alex,3_6,False,False,"[['Ma'], ['Ma'], ['push'], ['Ma']]",MaMaMapush,MapushMaMa,0.0416666666667,-0.0425596144188,True,-0.2876820724517809
+251,251,"[<__main__.Word instance at 0x11a8c4758>
+ <__main__.Word instance at 0x11a8c4248>]",Alex,3_6,False,False,"[['push'], ['me']]",pushme,mepush,0.5,-0.69314718056,False,-0.6931471805599453
+252,252,[<__main__.Word instance at 0x11a8c4830>],Alex,3_6,False,True,[['push']],push,push,1.0,0.0,False,-0.0
+253,253,"[<__main__.Word instance at 0x11a8c49e0>
+ <__main__.Word instance at 0x11a8c4c20>
+ <__main__.Word instance at 0x11a8c4368>]",Alex,3_6,False,True,"[['me'], ['Ma'], ['push']]",Mapushme,Mapushme,0.166666666667,1.79175946923,False,1.791759469228055
+254,254,"[<__main__.Word instance at 0x11a8c4b90>
+ <__main__.Word instance at 0x11a8c4e60>]",Alex,3_6,False,False,"[['me'], ['push']]",pushme,mepush,0.5,-0.69314718056,False,-0.6931471805599453
+255,255,"[<__main__.Word instance at 0x11a8c4ef0>
+ <__main__.Word instance at 0x11a8c4908>
+ <__main__.Word instance at 0x11a8c4e18>]",Alex,3_6,False,True,"[['push'], ['and'], ['me']]",andpushme,andpushme,0.166666666667,1.79175946923,False,1.791759469228055
+256,256,"[<__main__.Word instance at 0x11a8ca200>
+ <__main__.Word instance at 0x11a8ca2d8>
+ <__main__.Word instance at 0x11a8ca170>]",Alex,3_6,False,True,"[['twenty'], ['&-um'], ['push']]",&-umtwentypush,&-umtwentypush,0.166666666667,1.79175946923,False,1.791759469228055
+257,257,"[<__main__.Word instance at 0x11a8ca098>
+ <__main__.Word instance at 0x11a8ca488>]",Alex,3_6,False,True,"[[""I'm""], ['ready']]",I'mready,I'mready,0.5,0.69314718056,False,0.6931471805599453
+258,258,"[<__main__.Word instance at 0x11a8ca560>
+ <__main__.Word instance at 0x11a8ca320>
+ <__main__.Word instance at 0x11a8ca758>
+ <__main__.Word instance at 0x11a8ca5a8>
+ <__main__.Word instance at 0x11a8ca5f0>
+ <__main__.Word instance at 0x11a8ca3f8>]",Alex,3_6,False,False,"[['do'], ['this'], ['&-um'], ['&-um'], ['&-um'], ['again']]",&-um&-umdothis&-umagain,thisagain&-umdo&-um&-um,0.00138888888889,-0.00138985428905,True,-0.00836824967051658
+259,259,[<__main__.Word instance at 0x11a8ca6c8>],Alex,3_6,False,True,[['ready']],ready,ready,1.0,0.0,False,-0.0
+260,260,"[<__main__.Word instance at 0x11a8ca4d0>
+ <__main__.Word instance at 0x11a8cab90>
+ <__main__.Word instance at 0x11a8caa70>
+ <__main__.Word instance at 0x11a8cac68>
+ <__main__.Word instance at 0x11a8ca518>
+ <__main__.Word instance at 0x11a8cab48>]",Alex,3_6,False,False,"[['wanna'], ['&-um'], ['catch'], ['the', 'trees'], ['I']]",&-umIwannacatchthetrees,catchthetreesIwanna&-um,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+261,261,"[<__main__.Word instance at 0x11a8cae60>
+ <__main__.Word instance at 0x11a8cad88>]",Alex,3_6,False,True,"[['sitting'], ['I']]",Isitting,Isitting,0.5,0.69314718056,False,0.6931471805599453
+262,262,"[<__main__.Word instance at 0x11a8cacb0>
+ <__main__.Word instance at 0x11a8cae18>
+ <__main__.Word instance at 0x11a8cd0e0>
+ <__main__.Word instance at 0x11a8cd170>
+ <__main__.Word instance at 0x11a8cd320>]",Alex,3_6,False,False,"[['the', 'trees'], ['touch'], ['I', ""can't""]]",Ican'ttouchthetrees,thetreestouchIcan't,0.166666666667,-0.182321556794,False,-0.1823215567939546
+263,263,"[<__main__.Word instance at 0x11a8cd560>
+ <__main__.Word instance at 0x11a8cd3f8>
+ <__main__.Word instance at 0x11a8cd6c8>
+ <__main__.Word instance at 0x11a8cd638>]",Alex,3_6,False,False,"[['then'], ['it'], ['up'], ['push']]",thenpushitup,uppushitthen,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+264,264,"[<__main__.Word instance at 0x11a8cd4d0>
+ <__main__.Word instance at 0x11a8cd830>
+ <__main__.Word instance at 0x11a8cd710>
+ <__main__.Word instance at 0x11a8cdb00>
+ <__main__.Word instance at 0x11a8cda28>]",Alex,3_6,False,True,"[['I', ""can't""], ['the', 'tree'], ['touch']]",Ican'ttouchthetree,Ican'ttouchthetree,0.166666666667,1.79175946923,False,1.791759469228055
+265,265,"[<__main__.Word instance at 0x11a8cd950>
+ <__main__.Word instance at 0x11a8cddd0>
+ <__main__.Word instance at 0x11a8cdea8>
+ <__main__.Word instance at 0x11a8cd5a8>]",Alex,3_6,False,False,"[['I'], ['wanna'], ['wanna'], ['wanna']]",wannawannaIwanna,Iwannawannawanna,0.0416666666667,-0.0425596144188,True,-0.2876820724517809
+266,266,"[<__main__.Word instance at 0x11a8cd8c0>
+ <__main__.Word instance at 0x11a8cde18>
+ <__main__.Word instance at 0x11a8cdef0>
+ <__main__.Word instance at 0x11a8d01b8>
+ <__main__.Word instance at 0x11a8d00e0>
+ <__main__.Word instance at 0x11a8d0290>
+ <__main__.Word instance at 0x11a8d0098>
+ <__main__.Word instance at 0x11a8d0440>
+ <__main__.Word instance at 0x11a8d0320>]",Alex,3_6,False,False,"[['want'], ['fall'], ['I'], ['to'], ['want'], ['catch'], ['then'], ['to'], ['some']]",Iwanttowanttocatchsomethenfall,catchsometofallthenIwanttowant,2.7557319224e-06,-2.75573571947e-06,True,-1.1022988442532865e-05
+267,267,"[<__main__.Word instance at 0x11a8d0638>
+ <__main__.Word instance at 0x11a8d0a70>
+ <__main__.Word instance at 0x11a8d0830>
+ <__main__.Word instance at 0x11a8d0bd8>]",Alex,3_6,False,False,"[['how'], ['will'], ['he'], ['&-uh']]",&-uhhowwillhe,he&-uhwillhow,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+268,268,[<__main__.Word instance at 0x11a8d0ea8>],Alex,3_6,False,True,[['go']],go,go,1.0,0.0,False,-0.0
+269,269,[<__main__.Word instance at 0x11a8d0f80>],Alex,3_6,False,True,[['ah']],ah,ah,1.0,0.0,False,-0.0
+270,270,"[<__main__.Word instance at 0x11a8d0cb0>
+ <__main__.Word instance at 0x11a8d0ef0>]",Alex,3_6,False,False,"[['ooh'], ['oh']]",ohooh,oohoh,0.5,-0.69314718056,False,-0.6931471805599453
+271,271,"[<__main__.Word instance at 0x11a8d3128>
+ <__main__.Word instance at 0x11a8d3488>]",Alex,3_6,False,False,"[['sorry'], ['Mommy']]",sorryMommy,Mommysorry,0.5,-0.69314718056,False,-0.6931471805599453
+272,272,[<__main__.Word instance at 0x11a8d3518>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+273,273,[<__main__.Word instance at 0x11a8d3950>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+274,274,"[<__main__.Word instance at 0x11a8d39e0>
+ <__main__.Word instance at 0x11a8d37e8>]",Alex,3_6,False,True,"[['to', 'push']]",topush,topush,1.0,0.0,False,-0.0
+275,275,[<__main__.Word instance at 0x11a8d3c20>],Alex,3_6,False,True,[['ready']],ready,ready,1.0,0.0,False,-0.0
+276,276,[<__main__.Word instance at 0x11a8d3bd8>],Alex,3_6,False,True,[['go']],go,go,1.0,0.0,False,-0.0
+277,277,[<__main__.Word instance at 0x11a8d3680>],Alex,3_6,False,True,[['ow']],ow,ow,1.0,0.0,False,-0.0
+278,278,"[<__main__.Word instance at 0x11a8d3fc8>
+ <__main__.Word instance at 0x11a8d3878>]",Alex,3_6,False,False,"[['oh'], ['ow']]",ohow,owoh,0.5,-0.69314718056,False,-0.6931471805599453
+279,279,"[<__main__.Word instance at 0x11a8d6290>
+ <__main__.Word instance at 0x11a8d6128>
+ <__main__.Word instance at 0x11a8d6320>]",Alex,3_6,False,False,"[['ow'], ['leg'], ['my']]",owmyleg,mylegow,0.166666666667,-0.182321556794,False,-0.1823215567939546
+280,280,[<__main__.Word instance at 0x11a8d63b0>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+281,281,[<__main__.Word instance at 0x11a8d6248>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+282,282,"[<__main__.Word instance at 0x11a8d67a0>
+ <__main__.Word instance at 0x11a8d6680>
+ <__main__.Word instance at 0x11a8d6950>
+ <__main__.Word instance at 0x11a8d6830>
+ <__main__.Word instance at 0x11a8d6b48>
+ <__main__.Word instance at 0x11a8d69e0>
+ <__main__.Word instance at 0x11a8d6bd8>
+ <__main__.Word instance at 0x11a8d6908>
+ <__main__.Word instance at 0x11a8d6ef0>
+ <__main__.Word instance at 0x11a8d6e18>]",Alex,3_6,False,False,"[['over'], [""I'm""], ['just'], ['swing'], ['sit'], ['you'], ['this', 'way'], ['and'], ['here']]",I'mjustsitoverherethiswayandyouswing,youjustheresitoverandI'mthiswayswing,2.7557319224e-06,-2.75573571947e-06,False,-2.7557357194686928e-06
+283,283,"[<__main__.Word instance at 0x11a8d6f80>
+ <__main__.Word instance at 0x11a8d9170>
+ <__main__.Word instance at 0x11a8d91b8>
+ <__main__.Word instance at 0x11a8d90e0>
+ <__main__.Word instance at 0x11a8d93b0>]",Alex,3_6,False,False,"[['this'], ['swing'], ['just'], ['Momma'], ['like']]",Mommajustswinglikethis,thisjustlikeswingMomma,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+284,284,"[<__main__.Word instance at 0x11a8d9440>
+ <__main__.Word instance at 0x11a8d9638>
+ <__main__.Word instance at 0x11a8d94d0>]",Alex,3_6,False,False,"[['backwards'], ['yeah'], ['a']]",yeahabackwards,ayeahbackwards,0.166666666667,-0.182321556794,False,-0.1823215567939546
+285,285,"[<__main__.Word instance at 0x11a8d9368>
+ <__main__.Word instance at 0x11a8d98c0>
+ <__main__.Word instance at 0x11a8d97a0>]",Alex,3_6,False,False,"[['if'], ['you'], ['high']]",ifyouhigh,youifhigh,0.166666666667,-0.182321556794,False,-0.1823215567939546
+286,286,"[<__main__.Word instance at 0x11a8d9878>
+ <__main__.Word instance at 0x11a8d9b90>
+ <__main__.Word instance at 0x11a8d9ab8>
+ <__main__.Word instance at 0x11a8d9d40>
+ <__main__.Word instance at 0x11a8d9c20>
+ <__main__.Word instance at 0x11a8d9f38>]",Alex,3_6,False,False,"[['let'], ['here'], ['do'], ['until'], ['break'], ['it']]",letdoithereuntilbreak,doitletbreakuntilhere,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+287,287,"[<__main__.Word instance at 0x11a8d9cf8>
+ <__main__.Word instance at 0x11a8dc050>
+ <__main__.Word instance at 0x11a8dc440>
+ <__main__.Word instance at 0x11a8dc368>]",Alex,3_6,False,False,"[['wind'], ['beat'], ['the'], ['I']]",Ibeatthewind,theIwindbeat,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+288,288,"[<__main__.Word instance at 0x11a8dc758>
+ <__main__.Word instance at 0x11a8dcd40>]",Alex,3_6,False,False,"[['you'], ['thank']]",thankyou,youthank,0.5,-0.69314718056,False,-0.6931471805599453
+289,289,[<__main__.Word instance at 0x11a8dce18>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+290,290,[<__main__.Word instance at 0x11a8df128>],Alex,3_6,False,True,[['oops']],oops,oops,1.0,0.0,False,-0.0
+291,291,"[<__main__.Word instance at 0x11a8df488>
+ <__main__.Word instance at 0x11a8df440>
+ <__main__.Word instance at 0x11a8df5a8>
+ <__main__.Word instance at 0x11a8df3f8>]",Alex,3_6,False,False,"[['off'], ['that'], ['I'], ['take']]",Itakethatoff,thatofftakeI,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+292,292,[<__main__.Word instance at 0x11a8df290>],Alex,3_6,False,True,[['wheel']],wheel,wheel,1.0,0.0,False,-0.0
+293,293,"[<__main__.Word instance at 0x11a8df518>
+ <__main__.Word instance at 0x11a8df950>
+ <__main__.Word instance at 0x11a8df7e8>
+ <__main__.Word instance at 0x11a8df9e0>
+ <__main__.Word instance at 0x11a8df1b8>
+ <__main__.Word instance at 0x11a8dfb90>]",Alex,3_6,False,True,"[['do'], ['do'], ['do'], ['do'], ['do'], ['do']]",dodododododo,dodododododo,0.00138888888889,6.57925121201,True,-0.0
+294,294,"[<__main__.Word instance at 0x11a8dfd88>
+ <__main__.Word instance at 0x11a8dfc68>]",Alex,3_6,False,True,"[['do'], ['do']]",dodo,dodo,0.5,0.69314718056,True,-0.0
+295,295,"[<__main__.Word instance at 0x11a8dfe18>
+ <__main__.Word instance at 0x11a8dfea8>
+ <__main__.Word instance at 0x11a8df320>
+ <__main__.Word instance at 0x11a8dff38>]",Alex,3_6,False,False,"[['this'], ['is'], ['you'], ['Mommy']]",youthisisMommy,thisisMommyyou,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+296,296,"[<__main__.Word instance at 0x11a8e2050>
+ <__main__.Word instance at 0x11a8e2098>
+ <__main__.Word instance at 0x11a8e2200>
+ <__main__.Word instance at 0x11a8e2320>]",Alex,3_6,False,False,"[['and'], ['this'], ['is'], ['mine']]",andthisismine,thisisandmine,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+297,297,[<__main__.Word instance at 0x11a8e25a8>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+298,298,[<__main__.Word instance at 0x11a8e27a0>],Alex,3_6,False,True,[['fat']],fat,fat,1.0,0.0,False,-0.0
+299,299,[<__main__.Word instance at 0x11a8e2908>],Alex,3_6,False,True,[['sure']],sure,sure,1.0,0.0,False,-0.0
+300,300,[<__main__.Word instance at 0x11a8e2998>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+301,301,[<__main__.Word instance at 0x11a8e2ab8>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+302,302,"[<__main__.Word instance at 0x11a8e2c68>
+ <__main__.Word instance at 0x11a8e2b90>]",Alex,3_6,False,True,"[['get'], ['up']]",getup,getup,0.5,0.69314718056,False,0.6931471805599453
+303,303,"[<__main__.Word instance at 0x11a8e2a28>
+ <__main__.Word instance at 0x11a8e2e18>]",Alex,3_6,False,True,"[['up'], ['get']]",getup,getup,0.5,0.69314718056,False,0.6931471805599453
+304,304,[<__main__.Word instance at 0x11a8e2ef0>],Alex,3_6,False,True,[['little']],little,little,1.0,0.0,False,-0.0
+305,305,"[<__main__.Word instance at 0x11a8e2b00>
+ <__main__.Word instance at 0x11a8e50e0>]",Alex,3_6,False,True,"[['am'], ['I']]",amI,amI,0.5,0.69314718056,False,0.6931471805599453
+306,306,[<__main__.Word instance at 0x11a8e51b8>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+307,307,[<__main__.Word instance at 0x11a8e5638>],Alex,3_6,False,True,[['this']],this,this,1.0,0.0,False,-0.0
+308,308,"[<__main__.Word instance at 0x11a8e5830>
+ <__main__.Word instance at 0x11a8e5710>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+309,309,"[<__main__.Word instance at 0x11a8e58c0>
+ <__main__.Word instance at 0x11a8e5cf8>]",Alex,3_6,False,False,"[[""there's""], ['one']]",there'sone,onethere's,0.5,-0.69314718056,False,-0.6931471805599453
+310,310,"[<__main__.Word instance at 0x11a8e5dd0>
+ <__main__.Word instance at 0x11a8e5290>
+ <__main__.Word instance at 0x11a8e5e60>]",Alex,3_6,False,True,"[['no'], ['this', 'one']]",nothisone,nothisone,0.5,0.69314718056,False,0.6931471805599453
+311,311,[<__main__.Word instance at 0x11a8e5ef0>],Alex,3_6,False,True,[['how']],how,how,1.0,0.0,False,-0.0
+312,312,[<__main__.Word instance at 0x11a8e5a70>],Alex,3_6,False,True,[['about']],about,about,1.0,0.0,False,-0.0
+313,313,"[<__main__.Word instance at 0x11a8e9128>
+ <__main__.Word instance at 0x11a8e9320>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+314,314,"[<__main__.Word instance at 0x11a8e9440>
+ <__main__.Word instance at 0x11a8e9050>]",Alex,3_6,False,True,"[['one', 'two']]",onetwo,onetwo,1.0,0.0,False,-0.0
+315,315,[<__main__.Word instance at 0x11a8e93b0>],Alex,3_6,False,True,[['ow']],ow,ow,1.0,0.0,False,-0.0
+316,316,[<__main__.Word instance at 0x11a8e92d8>],Alex,3_6,False,True,[['ow']],ow,ow,1.0,0.0,False,-0.0
+317,317,"[<__main__.Word instance at 0x11a8e9560>
+ <__main__.Word instance at 0x11a8e9908>
+ <__main__.Word instance at 0x11a8e9b00>]",Alex,3_6,False,False,"[[""I'm""], ['okay'], ['yup']]",yupI'mokay,I'mokayyup,0.166666666667,-0.182321556794,False,-0.1823215567939546
+318,318,"[<__main__.Word instance at 0x11a8e9b48>
+ <__main__.Word instance at 0x11a8e9ab8>
+ <__main__.Word instance at 0x11a8e9c20>
+ <__main__.Word instance at 0x11a8e9758>
+ <__main__.Word instance at 0x11a8e9dd0>]",Alex,3_6,False,False,"[[""that's""], ['but'], ['alright'], ['I', 'think']]",butIthinkthat'salright,butthat'salrightIthink,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+319,319,"[<__main__.Word instance at 0x11a8e9f80>
+ <__main__.Word instance at 0x11a8e9e60>
+ <__main__.Word instance at 0x11a8e9ef0>
+ <__main__.Word instance at 0x11a8e9fc8>]",Alex,3_6,False,True,"[['that'], ['Mommy'], ['is'], ['alright']]",Mommyisthatalright,Mommyisthatalright,0.0416666666667,3.17805383035,False,3.1780538303479458
+320,320,"[<__main__.Word instance at 0x11a8ed050>
+ <__main__.Word instance at 0x11a8ed248>
+ <__main__.Word instance at 0x11a8ed440>
+ <__main__.Word instance at 0x11a8ed368>]",Alex,3_6,False,True,"[[""that's""], ['I', 'think'], ['alright']]",Ithinkthat'salright,Ithinkthat'salright,0.166666666667,1.79175946923,False,1.791759469228055
+321,321,"[<__main__.Word instance at 0x11a8ed4d0>
+ <__main__.Word instance at 0x11a8ed6c8>
+ <__main__.Word instance at 0x11a8ed878>
+ <__main__.Word instance at 0x11a8ed758>]",Alex,3_6,False,False,"[[""that's""], ['I', 'think'], ['alright']]",Ithinkthat'salright,Ithinkalrightthat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+322,322,"[<__main__.Word instance at 0x11a8ed950>
+ <__main__.Word instance at 0x11a8edbd8>
+ <__main__.Word instance at 0x11a8edb48>
+ <__main__.Word instance at 0x11a8edd88>]",Alex,3_6,False,True,"[['alright'], [""that's""], ['I', 'think']]",Ithinkthat'salright,Ithinkthat'salright,0.166666666667,1.79175946923,False,1.791759469228055
+323,323,[<__main__.Word instance at 0x11a8ede60>],Alex,3_6,False,True,[['alright']],alright,alright,1.0,0.0,False,-0.0
+324,324,[<__main__.Word instance at 0x11a8edf38>],Alex,3_6,False,True,[['alright']],alright,alright,1.0,0.0,False,-0.0
+325,325,[<__main__.Word instance at 0x11a8edcb0>],Alex,3_6,False,True,[['lookit']],lookit,lookit,1.0,0.0,False,-0.0
+326,326,"[<__main__.Word instance at 0x11a8ed5f0>
+ <__main__.Word instance at 0x11a8f0050>
+ <__main__.Word instance at 0x11a8f00e0>]",Alex,3_6,False,False,"[[""that's""], ['too'], ['big']]",that'stoobig,toobigthat's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+327,327,"[<__main__.Word instance at 0x11a8f0170>
+ <__main__.Word instance at 0x11a8f04d0>
+ <__main__.Word instance at 0x11a8f0368>
+ <__main__.Word instance at 0x11a8f0560>]",Alex,3_6,False,False,"[['with'], ['the'], ['blue'], ['go']]",gowiththeblue,thebluewithgo,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+328,328,"[<__main__.Word instance at 0x11a8f07a0>
+ <__main__.Word instance at 0x11a8f0950>
+ <__main__.Word instance at 0x11a8f06c8>]",Alex,3_6,False,False,"[['where'], ['it'], ['go']]",whereitgo,itgowhere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+329,329,"[<__main__.Word instance at 0x11a8f09e0>
+ <__main__.Word instance at 0x11a8f0cf8>
+ <__main__.Word instance at 0x11a8f0bd8>]",Alex,3_6,False,False,"[['one'], ['orange'], ['the']]",theorangeone,oneorangethe,0.166666666667,-0.182321556794,False,-0.1823215567939546
+330,330,[<__main__.Word instance at 0x11a8f0d88>],Alex,3_6,False,True,[['where']],where,where,1.0,0.0,False,-0.0
+331,331,"[<__main__.Word instance at 0x11a8f0ef0>
+ <__main__.Word instance at 0x11a8f0f80>
+ <__main__.Word instance at 0x11a8f3098>
+ <__main__.Word instance at 0x11a8f32d8>
+ <__main__.Word instance at 0x11a8f31b8>
+ <__main__.Word instance at 0x11a8f3488>]",Alex,3_6,False,False,"[['over'], ['there'], ['the'], ['hit'], ['you'], ['right']]",youhitovertherightthere,youhittherightthereover,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+332,332,"[<__main__.Word instance at 0x11a8f3680>
+ <__main__.Word instance at 0x11a8f3878>]",Alex,3_6,False,False,"[['I'], ['that']]",Ithat,thatI,0.5,-0.69314718056,False,-0.6931471805599453
+333,333,"[<__main__.Word instance at 0x11a8f3950>
+ <__main__.Word instance at 0x11a8f3b00>
+ <__main__.Word instance at 0x11a8f3710>]",Alex,3_6,False,False,"[['you'], ['ready'], ['are']]",areyouready,youreadyare,0.166666666667,-0.182321556794,False,-0.1823215567939546
+334,334,"[<__main__.Word instance at 0x11a8f3b90>
+ <__main__.Word instance at 0x11a8f3e60>
+ <__main__.Word instance at 0x11a8f3d40>]",Alex,3_6,False,False,"[[""I'll""], ['hit'], ['again']]",I'llhitagain,againhitI'll,0.166666666667,-0.182321556794,False,-0.1823215567939546
+335,335,[<__main__.Word instance at 0x11a8f3998>],Alex,3_6,False,True,[['ball']],ball,ball,1.0,0.0,False,-0.0
+336,336,"[<__main__.Word instance at 0x11a8f6050>
+ <__main__.Word instance at 0x11a8f6248>
+ <__main__.Word instance at 0x11a8f60e0>
+ <__main__.Word instance at 0x11a8f62d8>
+ <__main__.Word instance at 0x11a8f64d0>]",Alex,3_6,False,False,"[['the'], ['right'], ['ball'], ['on'], ['there']]",rightthereontheball,ballthererightonthe,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+337,337,"[<__main__.Word instance at 0x11a8f66c8>
+ <__main__.Word instance at 0x11a8f6878>
+ <__main__.Word instance at 0x11a8f67a0>]",Alex,3_6,False,False,"[['it'], ['put'], ['I']]",Iputit,putitI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+338,338,[<__main__.Word instance at 0x11a8f63f8>],Alex,3_6,False,True,[['do']],do,do,1.0,0.0,False,-0.0
+339,339,"[<__main__.Word instance at 0x11a8f6710>
+ <__main__.Word instance at 0x11a8f6cb0>]",Alex,3_6,False,True,"[['it'], ['do']]",doit,doit,0.5,0.69314718056,False,0.6931471805599453
+340,340,"[<__main__.Word instance at 0x11a8f6dd0>
+ <__main__.Word instance at 0x11a8f6bd8>
+ <__main__.Word instance at 0x11a8f6fc8>
+ <__main__.Word instance at 0x11a8f6680>
+ <__main__.Word instance at 0x11a8f6f38>]",Alex,3_6,False,True,"[['this', 'one'], ['how', 'bout'], ['Ma']]",Mahowboutthisone,Mahowboutthisone,0.166666666667,1.79175946923,False,1.791759469228055
+341,341,"[<__main__.Word instance at 0x11a8f6d40>
+ <__main__.Word instance at 0x11a8f6ef0>
+ <__main__.Word instance at 0x11a8f6ab8>
+ <__main__.Word instance at 0x11a8f9098>]",Alex,3_6,False,False,"[['a'], ['this', 'one'], [""there's""]]",there'sathisone,athere'sthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+342,342,"[<__main__.Word instance at 0x11a8f9248>
+ <__main__.Word instance at 0x11a8f9320>
+ <__main__.Word instance at 0x11a8f93f8>]",Alex,3_6,False,False,"[['Mommy'], ['come'], ['on']]",comeonMommy,Mommycomeon,0.166666666667,-0.182321556794,False,-0.1823215567939546
+343,343,[<__main__.Word instance at 0x11a8f94d0>],Alex,3_6,False,True,[['down']],down,down,1.0,0.0,False,-0.0
+344,344,"[<__main__.Word instance at 0x11a8f95f0>
+ <__main__.Word instance at 0x11a8f9518>
+ <__main__.Word instance at 0x11a8f9638>
+ <__main__.Word instance at 0x11a8f91b8>
+ <__main__.Word instance at 0x11a8f97e8>]",Alex,3_6,False,False,"[['it'], ['what'], ['pull'], ['you'], ['way']]",whatwayyoupullit,youpullitwhatway,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+345,345,"[<__main__.Word instance at 0x11a8f90e0>
+ <__main__.Word instance at 0x11a8f9908>
+ <__main__.Word instance at 0x11a8f9440>]",Alex,3_6,False,False,"[['the'], ['where'], ['bat']]",wherethebat,batthewhere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+346,346,"[<__main__.Word instance at 0x11a8f9680>
+ <__main__.Word instance at 0x11a8f9bd8>]",Alex,3_6,False,True,"[['two'], ['point']]",twopoint,twopoint,0.5,0.69314718056,False,0.6931471805599453
+347,347,"[<__main__.Word instance at 0x11a8f9fc8>
+ <__main__.Word instance at 0x11a8f9ef0>
+ <__main__.Word instance at 0x11a8f95a8>]",Alex,3_6,False,False,"[['&-uh'], ['how', 'bout']]",&-uhhowbout,howbout&-uh,0.5,-0.69314718056,False,-0.6931471805599453
+348,348,"[<__main__.Word instance at 0x11a8fc200>
+ <__main__.Word instance at 0x11a8fc3f8>]",Alex,3_6,False,True,"[['one'], ['that']]",thatone,thatone,0.5,0.69314718056,False,0.6931471805599453
+349,349,"[<__main__.Word instance at 0x11a8fc488>
+ <__main__.Word instance at 0x11a8fc560>
+ <__main__.Word instance at 0x11a8fc050>
+ <__main__.Word instance at 0x11a8fc5f0>]",Alex,3_6,False,False,"[['waiting'], ['Mommy'], ['for'], ['I']]",IwaitingforMommy,MommyforIwaiting,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+350,350,"[<__main__.Word instance at 0x11a8fc7e8>
+ <__main__.Word instance at 0x11a8fc680>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+351,351,"[<__main__.Word instance at 0x11a8fc4d0>
+ <__main__.Word instance at 0x11a8fcab8>
+ <__main__.Word instance at 0x11a8fc950>]",Alex,3_6,False,False,"[['play'], ['let'], ['basketball']]",letplaybasketball,playbasketballlet,0.166666666667,-0.182321556794,False,-0.1823215567939546
+352,352,"[<__main__.Word instance at 0x11a8fc7a0>
+ <__main__.Word instance at 0x11a8fcd88>
+ <__main__.Word instance at 0x11a8fcb48>]",Alex,3_6,False,True,"[['three'], ['how', 'bout']]",howboutthree,howboutthree,0.5,0.69314718056,False,0.6931471805599453
+353,353,"[<__main__.Word instance at 0x11a8fca70>
+ <__main__.Word instance at 0x11a8fcef0>
+ <__main__.Word instance at 0x11a8fccb0>]",Alex,3_6,False,False,"[['three'], ['oh'], ['no']]",ohnothree,noohthree,0.166666666667,-0.182321556794,False,-0.1823215567939546
+354,354,[<__main__.Word instance at 0x11a8fca28>],Alex,3_6,False,True,[['what']],what,what,1.0,0.0,False,-0.0
+355,355,[<__main__.Word instance at 0x11a8ff368>],Alex,3_6,False,True,[['I']],I,I,1.0,0.0,False,-0.0
+356,356,"[<__main__.Word instance at 0x11a8ff440>
+ <__main__.Word instance at 0x11a8ff7e8>]",Alex,3_6,False,True,"[['what'], ['bout']]",whatbout,whatbout,0.5,0.69314718056,False,0.6931471805599453
+357,357,"[<__main__.Word instance at 0x11a8ffa70>
+ <__main__.Word instance at 0x11a8ff9e0>]",Alex,3_6,False,True,"[['is'], ['it']]",isit,isit,0.5,0.69314718056,False,0.6931471805599453
+358,358,"[<__main__.Word instance at 0x11a8ffa28>
+ <__main__.Word instance at 0x11a8ffb90>]",Alex,3_6,False,False,"[[""let's""], ['play']]",let'splay,playlet's,0.5,-0.69314718056,False,-0.6931471805599453
+359,359,"[<__main__.Word instance at 0x11a8ffd88>
+ <__main__.Word instance at 0x11a8ffc20>
+ <__main__.Word instance at 0x11a8ffcb0>
+ <__main__.Word instance at 0x11a8ff518>
+ <__main__.Word instance at 0x11a8fff80>
+ <__main__.Word instance at 0x11a8ffea8>]",Alex,3_6,False,False,"[['on'], ['Ma'], [""let's""], ['come'], ['play'], ['go']]",comeonMalet'sgoplay,Maplayonlet'sgocome,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+360,360,"[<__main__.Word instance at 0x11a8ff7a0>
+ <__main__.Word instance at 0x11a8fff38>
+ <__main__.Word instance at 0x11a902050>
+ <__main__.Word instance at 0x11a902248>
+ <__main__.Word instance at 0x11a902290>
+ <__main__.Word instance at 0x11a9020e0>]",Alex,3_6,False,False,"[['and'], ['it'], ['do'], ['go'], ['over'], [""let's""]]",let'sgooveranddoit,doitoverandlet'sgo,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+361,361,[<__main__.Word instance at 0x11a902170>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+362,362,"[<__main__.Word instance at 0x11a902638>
+ <__main__.Word instance at 0x11a9024d0>
+ <__main__.Word instance at 0x11a902878>
+ <__main__.Word instance at 0x11a902560>
+ <__main__.Word instance at 0x11a902908>
+ <__main__.Word instance at 0x11a902200>]",Alex,3_6,False,False,"[['get'], ['me'], ['a', 'couple'], ['you'], ['for']]",yougetacoupleforme,yougetmeforacouple,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+363,363,"[<__main__.Word instance at 0x11a9026c8>
+ <__main__.Word instance at 0x11a902ab8>
+ <__main__.Word instance at 0x11a9027e8>
+ <__main__.Word instance at 0x11a902cb0>
+ <__main__.Word instance at 0x11a902bd8>]",Alex,3_6,False,True,"[['is'], ['the'], ['garage'], ['it'], ['in']]",isitinthegarage,isitinthegarage,0.00833333333333,4.78749174278,False,4.787491742782046
+364,364,"[<__main__.Word instance at 0x11a902758>
+ <__main__.Word instance at 0x11a902e60>
+ <__main__.Word instance at 0x11a902a28>
+ <__main__.Word instance at 0x11a902f38>
+ <__main__.Word instance at 0x11a902128>
+ <__main__.Word instance at 0x11a902fc8>]",Alex,3_6,False,False,"[[""let's""], ['play'], ['go'], ['on'], ['come'], ['Mommy']]",comeonMommylet'sgoplay,Mommyplayonlet'sgocome,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+365,365,"[<__main__.Word instance at 0x11a902b48>
+ <__main__.Word instance at 0x11a905170>
+ <__main__.Word instance at 0x11a905248>
+ <__main__.Word instance at 0x11a905440>]",Alex,3_6,False,True,"[['is'], ['the'], ['garage'], ['in']]",isinthegarage,isinthegarage,0.0416666666667,3.17805383035,False,3.1780538303479458
+366,366,"[<__main__.Word instance at 0x11a905560>
+ <__main__.Word instance at 0x11a905680>]",Alex,3_6,False,True,"[['the', 'sunflower']]",thesunflower,thesunflower,1.0,0.0,False,-0.0
+367,367,"[<__main__.Word instance at 0x11a9057a0>
+ <__main__.Word instance at 0x11a9054d0>]",Alex,3_6,False,False,"[['knock'], [""let's""]]",let'sknock,knocklet's,0.5,-0.69314718056,False,-0.6931471805599453
+368,368,[<__main__.Word instance at 0x11a9057e8>],Alex,3_6,False,True,[['wait']],wait,wait,1.0,0.0,False,-0.0
+369,369,[<__main__.Word instance at 0x11a905a70>],Alex,3_6,False,True,[['wait']],wait,wait,1.0,0.0,False,-0.0
+370,370,"[<__main__.Word instance at 0x11a905638>
+ <__main__.Word instance at 0x11a905cf8>]",Alex,3_6,False,True,"[['poo'], [""it's""]]",it'spoo,it'spoo,0.5,0.69314718056,False,0.6931471805599453
+371,371,[<__main__.Word instance at 0x11a905e60>],Alex,3_6,False,True,[['Daddy']],Daddy,Daddy,1.0,0.0,False,-0.0
+372,372,"[<__main__.Word instance at 0x11a905c20>
+ <__main__.Word instance at 0x11a9059e0>
+ <__main__.Word instance at 0x11a905ab8>
+ <__main__.Word instance at 0x11a9081b8>
+ <__main__.Word instance at 0x11a908200>]",Alex,3_6,False,False,"[['birds'], ['we'], ['present'], ['go'], ['my']]",mypresentwegobirds,wegopresentbirdsmy,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+373,373,"[<__main__.Word instance at 0x11a9083f8>
+ <__main__.Word instance at 0x11a908680>
+ <__main__.Word instance at 0x11a908560>
+ <__main__.Word instance at 0x11a9086c8>
+ <__main__.Word instance at 0x11a908a70>]",Alex,3_6,False,False,"[['birds'], [""let's""], ['go'], ['&-uh'], ['the']]",&-uhlet'sgothebirds,thebirdslet'sgo&-uh,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+374,374,[<__main__.Word instance at 0x11a908b90>],Alex,3_6,False,True,[['wee']],wee,wee,1.0,0.0,False,-0.0
+375,375,[<__main__.Word instance at 0x11a908c68>],Alex,3_6,False,True,[['wee']],wee,wee,1.0,0.0,False,-0.0
+376,376,"[<__main__.Word instance at 0x11a908cf8>
+ <__main__.Word instance at 0x11a908758>
+ <__main__.Word instance at 0x11a908e60>
+ <__main__.Word instance at 0x11a908dd0>
+ <__main__.Word instance at 0x11a908f80>]",Alex,3_6,False,False,"[['in'], ['the'], ['ride'], ['swing'], ['let']]",letrideintheswing,rideintheswinglet,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+377,377,[<__main__.Word instance at 0x11a90b098>],Alex,3_6,False,True,[['whoa']],whoa,whoa,1.0,0.0,False,-0.0
+378,378,"[<__main__.Word instance at 0x11a90b2d8>
+ <__main__.Word instance at 0x11a90b3f8>
+ <__main__.Word instance at 0x11a90b128>]",Alex,3_6,False,False,"[['you', 'found'], ['me']]",youfoundme,meyoufound,0.5,-0.69314718056,False,-0.6931471805599453
+379,379,[<__main__.Word instance at 0x11a90b560>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+380,380,[<__main__.Word instance at 0x11a90b6c8>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+381,381,"[<__main__.Word instance at 0x11a90b710>
+ <__main__.Word instance at 0x11a90b248>
+ <__main__.Word instance at 0x11a90b908>]",Alex,3_6,False,False,"[['you'], ['I', 'love']]",Iloveyou,youIlove,0.5,-0.69314718056,False,-0.6931471805599453
+382,382,"[<__main__.Word instance at 0x11a90b9e0>
+ <__main__.Word instance at 0x11a90b1b8>]",Alex,3_6,False,True,"[['you', 'wanna']]",youwanna,youwanna,1.0,0.0,False,-0.0
+383,383,"[<__main__.Word instance at 0x11a90b950>
+ <__main__.Word instance at 0x11a90bc68>
+ <__main__.Word instance at 0x11a90bb48>
+ <__main__.Word instance at 0x11a90bcf8>]",Alex,3_6,False,False,"[['some'], ['you'], ['wait'], ['pick']]",waityoupicksome,pickyousomewait,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+384,384,"[<__main__.Word instance at 0x11a90bef0>
+ <__main__.Word instance at 0x11a90bd88>]",Alex,3_6,False,True,"[['some'], ['eat']]",eatsome,eatsome,0.5,0.69314718056,False,0.6931471805599453
+385,385,"[<__main__.Word instance at 0x11a90bf80>
+ <__main__.Word instance at 0x11a90f050>
+ <__main__.Word instance at 0x11a90f0e0>]",Alex,3_6,False,False,"[['bird'], ['come'], ['on']]",comeonbird,oncomebird,0.166666666667,-0.182321556794,False,-0.1823215567939546
+386,386,"[<__main__.Word instance at 0x11a90f170>
+ <__main__.Word instance at 0x11a90f488>]",Alex,3_6,False,False,"[['come'], ['on']]",comeon,oncome,0.5,-0.69314718056,False,-0.6931471805599453
+387,387,"[<__main__.Word instance at 0x11a90f638>
+ <__main__.Word instance at 0x11a90f3f8>
+ <__main__.Word instance at 0x11a90f6c8>
+ <__main__.Word instance at 0x11a90f5f0>
+ <__main__.Word instance at 0x11a90f950>
+ <__main__.Word instance at 0x11a90f8c0>
+ <__main__.Word instance at 0x11a90f9e0>]",Alex,3_6,False,False,"[['birds'], ['on'], ['come'], ['squirrels'], ['eat'], ['it'], ['and']]",eatitcomeonsquirrelsandbirds,onsquirrelscomeandeatitbirds,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+388,388,"[<__main__.Word instance at 0x11a90fbd8>
+ <__main__.Word instance at 0x11a90f998>
+ <__main__.Word instance at 0x11a90fcf8>
+ <__main__.Word instance at 0x11a90fd40>]",Alex,3_6,False,False,"[['Mommy'], ['save'], ['that'], ['one']]",savethatoneMommy,saveMommyonethat,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+389,389,[<__main__.Word instance at 0x11a90fb90>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+390,390,"[<__main__.Word instance at 0x11a90f878>
+ <__main__.Word instance at 0x11a90ff80>
+ <__main__.Word instance at 0x11a90fc68>]",Alex,3_6,False,False,"[[""I'm""], ['here'], ['right']]",I'mrighthere,righthereI'm,0.166666666667,-0.182321556794,False,-0.1823215567939546
+391,391,"[<__main__.Word instance at 0x11a9121b8>
+ <__main__.Word instance at 0x11a912050>]",Alex,3_6,False,False,"[['Dad'], ['hi']]",hiDad,Dadhi,0.5,-0.69314718056,False,-0.6931471805599453
+392,392,"[<__main__.Word instance at 0x11a912290>
+ <__main__.Word instance at 0x11a912200>]",Alex,3_6,False,True,"[['the', 'squirrels']]",thesquirrels,thesquirrels,1.0,0.0,False,-0.0
+393,393,[<__main__.Word instance at 0x11a912440>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+394,394,"[<__main__.Word instance at 0x11a912320>
+ <__main__.Word instance at 0x11a912710>
+ <__main__.Word instance at 0x11a9125f0>
+ <__main__.Word instance at 0x11a912908>
+ <__main__.Word instance at 0x11a9127a0>]",Alex,3_6,False,False,"[['you'], ['fix'], ['em'], ['please'], ['will']]",willyoufixemplease,youpleasefixemwill,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+395,395,[<__main__.Word instance at 0x11a9126c8>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+396,396,"[<__main__.Word instance at 0x11a912b00>
+ <__main__.Word instance at 0x11a912fc8>]",Alex,3_6,False,False,"[['come'], ['on']]",comeon,oncome,0.5,-0.69314718056,False,-0.6931471805599453
+397,397,"[<__main__.Word instance at 0x11a912f38>
+ <__main__.Word instance at 0x11a915098>
+ <__main__.Word instance at 0x11a915290>
+ <__main__.Word instance at 0x11a915170>]",Alex,3_6,False,False,"[[""let's""], ['some'], ['go'], ['have']]",let'sgohavesome,havesomegolet's,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+398,398,"[<__main__.Word instance at 0x11a915320>
+ <__main__.Word instance at 0x11a9154d0>
+ <__main__.Word instance at 0x11a9152d8>]",Alex,3_6,False,False,"[['you', 'wanna'], ['play']]",youwannaplay,playyouwanna,0.5,-0.69314718056,False,-0.6931471805599453
+399,399,[<__main__.Word instance at 0x11a915560>],Alex,3_6,False,True,[['Daddy']],Daddy,Daddy,1.0,0.0,False,-0.0
+400,400,"[<__main__.Word instance at 0x11a9157a0>
+ <__main__.Word instance at 0x11a915950>]",Alex,3_6,False,True,"[['try', 'again']]",tryagain,tryagain,1.0,0.0,False,-0.0
+401,401,"[<__main__.Word instance at 0x11a915b00>
+ <__main__.Word instance at 0x11a915998>]",Alex,3_6,False,True,"[['garage'], ['the']]",thegarage,thegarage,0.5,0.69314718056,False,0.6931471805599453
+402,402,[<__main__.Word instance at 0x11a915a28>],Alex,3_6,False,True,[['garage']],garage,garage,1.0,0.0,False,-0.0
+403,403,[<__main__.Word instance at 0x11a915ab8>],Alex,3_6,False,True,[['garage']],garage,garage,1.0,0.0,False,-0.0
+404,404,[<__main__.Word instance at 0x11a915c20>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+405,405,[<__main__.Word instance at 0x11a915ef0>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+406,406,"[<__main__.Word instance at 0x11a915710>
+ <__main__.Word instance at 0x11a918050>
+ <__main__.Word instance at 0x11a918200>
+ <__main__.Word instance at 0x11a9180e0>]",Alex,3_6,False,False,"[['with'], ['this'], ['wanna'], ['hit']]",wannahitwiththis,thiswithwannahit,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+407,407,"[<__main__.Word instance at 0x11a918440>
+ <__main__.Word instance at 0x11a918488>
+ <__main__.Word instance at 0x11a9183b0>
+ <__main__.Word instance at 0x11a918680>
+ <__main__.Word instance at 0x11a918518>]",Alex,3_6,False,False,"[['this'], ['with'], ['hit'], ['wanna'], ['I']]",Iwannahitwiththis,thiswithIwannahit,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+408,408,"[<__main__.Word instance at 0x11a918878>
+ <__main__.Word instance at 0x11a9181b8>]",Alex,3_6,False,False,"[['for'], ['hitting']]",forhitting,hittingfor,0.5,-0.69314718056,False,-0.6931471805599453
+409,409,"[<__main__.Word instance at 0x11a9187e8>
+ <__main__.Word instance at 0x11a918e18>
+ <__main__.Word instance at 0x11a918a70>]",Alex,3_6,False,False,"[['get'], [""I'll""], ['it']]",I'llgetit,getitI'll,0.166666666667,-0.182321556794,False,-0.1823215567939546
+410,410,[<__main__.Word instance at 0x11a918b90>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+411,411,[<__main__.Word instance at 0x11a918e60>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+412,412,"[<__main__.Word instance at 0x11a918c20>
+ <__main__.Word instance at 0x11a918b00>
+ <__main__.Word instance at 0x11a91b170>
+ <__main__.Word instance at 0x11a91b0e0>
+ <__main__.Word instance at 0x11a91b1b8>]",Alex,3_6,False,False,"[['use'], ['and'], ['use'], ['this'], ['this']]",usethisandusethis,thisthisanduseuse,0.00833333333333,-0.00836824967052,True,-0.03390155167568134
+413,413,"[<__main__.Word instance at 0x11a91b2d8>
+ <__main__.Word instance at 0x11a91b560>
+ <__main__.Word instance at 0x11a91b5f0>
+ <__main__.Word instance at 0x11a91b518>
+ <__main__.Word instance at 0x11a91b6c8>
+ <__main__.Word instance at 0x11a91b440>
+ <__main__.Word instance at 0x11a91b758>
+ <__main__.Word instance at 0x11a91b488>]",Alex,3_6,False,False,"[['you'], ['use'], ['this'], [""I'll""], ['use'], ['Mommy'], ['this'], ['and']]",I'llusethisandyouusethisMommy,thisthisI'lluseyouuseMommyand,2.48015873016e-05,-2.4801894866e-05,True,-9.921127048169414e-05
+414,414,[<__main__.Word instance at 0x11a91bb00>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+415,415,[<__main__.Word instance at 0x11a91bd40>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+416,416,"[<__main__.Word instance at 0x11a91be60>
+ <__main__.Word instance at 0x11a91b638>
+ <__main__.Word instance at 0x11a91bfc8>]",Alex,3_6,False,False,"[['I'], ['it'], ['see']]",Iseeit,seeitI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+417,417,"[<__main__.Word instance at 0x11a91b098>
+ <__main__.Word instance at 0x11a91e128>
+ <__main__.Word instance at 0x11a91e1b8>]",Alex,3_6,False,False,"[['I'], ['see'], ['the']]",Iseethe,seetheI,0.166666666667,-0.182321556794,False,-0.1823215567939546
+418,418,"[<__main__.Word instance at 0x11a91e248>
+ <__main__.Word instance at 0x11a91e560>]",Alex,3_6,False,False,"[['come'], ['Mommy']]",comeMommy,Mommycome,0.5,-0.69314718056,False,-0.6931471805599453
+419,419,"[<__main__.Word instance at 0x11a91e638>
+ <__main__.Word instance at 0x11a91e320>]",Alex,3_6,False,False,"[[""let's""], ['go']]",let'sgo,golet's,0.5,-0.69314718056,False,-0.6931471805599453
+420,420,"[<__main__.Word instance at 0x11a91e710>
+ <__main__.Word instance at 0x11a91e758>
+ <__main__.Word instance at 0x11a91e680>
+ <__main__.Word instance at 0x11a91e908>]",Alex,3_6,False,False,"[['see'], ['Mom'], ['him'], ['I']]",MomIseehim,seehimIMom,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+421,421,"[<__main__.Word instance at 0x11a91ea28>
+ <__main__.Word instance at 0x11a91e8c0>
+ <__main__.Word instance at 0x11a91eb00>]",Alex,3_6,False,False,"[[""don't"", 'scare'], ['him']]",don'tscarehim,himdon'tscare,0.5,-0.69314718056,False,-0.6931471805599453
+422,422,"[<__main__.Word instance at 0x11a91ebd8>
+ <__main__.Word instance at 0x11a91ed88>
+ <__main__.Word instance at 0x11a91e5f0>]",Alex,3_6,False,False,"[['on'], ['Mom'], ['come']]",Momcomeon,oncomeMom,0.166666666667,-0.182321556794,False,-0.1823215567939546
+423,423,"[<__main__.Word instance at 0x11a91eb48>
+ <__main__.Word instance at 0x11a91ef38>
+ <__main__.Word instance at 0x11a91ea70>]",Alex,3_6,False,True,"[['come'], ['Mommy'], ['on']]",Mommycomeon,Mommycomeon,0.166666666667,1.79175946923,False,1.791759469228055
+424,424,[<__main__.Word instance at 0x11a91edd0>],Alex,3_6,False,True,[['oops']],oops,oops,1.0,0.0,False,-0.0
+425,425,"[<__main__.Word instance at 0x11a91e830>
+ <__main__.Word instance at 0x11a91ecf8>]",Alex,3_6,False,True,"[['croquet'], [""that's""]]",that'scroquet,that'scroquet,0.5,0.69314718056,False,0.6931471805599453
+426,426,"[<__main__.Word instance at 0x11a9210e0>
+ <__main__.Word instance at 0x11a921248>
+ <__main__.Word instance at 0x11a9212d8>]",Alex,3_6,False,False,"[['like'], ['this'], ['no']]",nolikethis,thisnolike,0.166666666667,-0.182321556794,False,-0.1823215567939546
+427,427,"[<__main__.Word instance at 0x11a921560>
+ <__main__.Word instance at 0x11a921098>
+ <__main__.Word instance at 0x11a9215f0>
+ <__main__.Word instance at 0x11a921128>]",Alex,3_6,False,False,"[['Mommy'], ['this'], ['no'], ['like']]",noMommylikethis,thisnoMommylike,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+428,428,"[<__main__.Word instance at 0x11a9211b8>
+ <__main__.Word instance at 0x11a921830>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+429,429,[<__main__.Word instance at 0x11a921908>],Alex,3_6,False,True,[['way']],way,way,1.0,0.0,False,-0.0
+430,430,"[<__main__.Word instance at 0x11a921ab8>
+ <__main__.Word instance at 0x11a9219e0>]",Alex,3_6,False,True,"[['way'], ['wrong']]",wrongway,wrongway,0.5,0.69314718056,False,0.6931471805599453
+431,431,[<__main__.Word instance at 0x11a921488>],Alex,3_6,False,True,[['way']],way,way,1.0,0.0,False,-0.0
+432,432,"[<__main__.Word instance at 0x11a921680>
+ <__main__.Word instance at 0x11a921e60>]",Alex,3_6,False,False,"[['hey'], ['look']]",heylook,lookhey,0.5,-0.69314718056,False,-0.6931471805599453
+433,433,"[<__main__.Word instance at 0x11a921fc8>
+ <__main__.Word instance at 0x11a921950>
+ <__main__.Word instance at 0x11a921d88>
+ <__main__.Word instance at 0x11a921ea8>]",Alex,3_6,False,False,"[['cars'], ['I', 'can'], ['play']]",Icanplaycars,playcarsIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+434,434,"[<__main__.Word instance at 0x11a925098>
+ <__main__.Word instance at 0x11a9251b8>
+ <__main__.Word instance at 0x11a925050>
+ <__main__.Word instance at 0x11a925248>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['play']]",Icanplaythis,thisIcanplay,0.166666666667,-0.182321556794,False,-0.1823215567939546
+435,435,"[<__main__.Word instance at 0x11a9252d8>
+ <__main__.Word instance at 0x11a9255f0>]",Alex,3_6,False,True,"[['I', 'dunno']]",Idunno,Idunno,1.0,0.0,False,-0.0
+436,436,"[<__main__.Word instance at 0x11a9257a0>
+ <__main__.Word instance at 0x11a925680>
+ <__main__.Word instance at 0x11a925950>]",Alex,3_6,False,True,"[['this'], ['all'], ['dirty']]",thisalldirty,thisalldirty,0.166666666667,1.79175946923,False,1.791759469228055
+437,437,"[<__main__.Word instance at 0x11a925b48>
+ <__main__.Word instance at 0x11a9259e0>
+ <__main__.Word instance at 0x11a925cf8>
+ <__main__.Word instance at 0x11a925c20>]",Alex,3_6,False,False,"[['it'], ['Mommy'], ['can'], ['clean']]",Mommycancleanit,Mommycleanitcan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+438,438,[<__main__.Word instance at 0x11a925a70>],Alex,3_6,False,True,[['today']],today,today,1.0,0.0,False,-0.0
+439,439,"[<__main__.Word instance at 0x11a925fc8>
+ <__main__.Word instance at 0x11a925908>
+ <__main__.Word instance at 0x11a925e18>
+ <__main__.Word instance at 0x11a925b90>
+ <__main__.Word instance at 0x11a925f80>]",Alex,3_6,False,False,"[['Daddy'], ['ball'], ['wanna'], ['I'], ['play']]",DaddyIwannaplayball,ballIwannaplayDaddy,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+440,440,[<__main__.Word instance at 0x11a925f38>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+441,441,[<__main__.Word instance at 0x11a928050>],Alex,3_6,False,True,[['uhoh']],uhoh,uhoh,1.0,0.0,False,-0.0
+442,442,[<__main__.Word instance at 0x11a928320>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+443,443,"[<__main__.Word instance at 0x11a928518>
+ <__main__.Word instance at 0x11a928368>
+ <__main__.Word instance at 0x11a9285a8>
+ <__main__.Word instance at 0x11a928638>
+ <__main__.Word instance at 0x11a9281b8>]",Alex,3_6,False,False,"[['the'], ['go'], ['ants'], [""let's""], ['see']]",let'sgoseetheants,seethelet'sgoants,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+444,444,"[<__main__.Word instance at 0x11a928710>
+ <__main__.Word instance at 0x11a9288c0>]",Alex,3_6,False,False,"[['on'], ['come']]",comeon,oncome,0.5,-0.69314718056,False,-0.6931471805599453
+445,445,"[<__main__.Word instance at 0x11a928ab8>
+ <__main__.Word instance at 0x11a928998>
+ <__main__.Word instance at 0x11a928b90>
+ <__main__.Word instance at 0x11a9287e8>
+ <__main__.Word instance at 0x11a928e18>]",Alex,3_6,False,False,"[['come'], ['on'], ['show'], ['you'], [""I'll""]]",I'llshowyoucomeon,youshowcomeonI'll,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+446,446,"[<__main__.Word instance at 0x11a928a70>
+ <__main__.Word instance at 0x11a928ef0>
+ <__main__.Word instance at 0x11a928c20>]",Alex,3_6,False,False,"[['go'], ['see'], [""let's""]]",let'sgosee,seelet'sgo,0.166666666667,-0.182321556794,False,-0.1823215567939546
+447,447,"[<__main__.Word instance at 0x11a92b170>
+ <__main__.Word instance at 0x11a92b368>]",Alex,3_6,False,True,"[['Mommy'], ['Mommy']]",MommyMommy,MommyMommy,0.5,0.69314718056,True,-0.0
+448,448,[<__main__.Word instance at 0x11a92b440>],Alex,3_6,False,True,[['uhoh']],uhoh,uhoh,1.0,0.0,False,-0.0
+449,449,"[<__main__.Word instance at 0x11a92b638>
+ <__main__.Word instance at 0x11a92b4d0>
+ <__main__.Word instance at 0x11a92b758>]",Alex,3_6,False,False,"[['Mom'], ['go'], [""let's""]]",Momlet'sgo,golet'sMom,0.166666666667,-0.182321556794,False,-0.1823215567939546
+450,450,"[<__main__.Word instance at 0x11a92b7e8>
+ <__main__.Word instance at 0x11a92b6c8>
+ <__main__.Word instance at 0x11a92bb00>]",Alex,3_6,False,False,"[['this'], ['down'], ['like']]",downlikethis,thisdownlike,0.166666666667,-0.182321556794,False,-0.1823215567939546
+451,451,"[<__main__.Word instance at 0x11a92bcf8>
+ <__main__.Word instance at 0x11a92b878>
+ <__main__.Word instance at 0x11a92bd40>
+ <__main__.Word instance at 0x11a92ba70>
+ <__main__.Word instance at 0x11a92bef0>
+ <__main__.Word instance at 0x11a92bc68>]",Alex,3_6,False,False,"[['on'], ['Mommy'], [""there's""], ['it'], ['a'], ['bee']]",Mommythere'sabeeonit,abeethere'sMommyiton,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+452,452,"[<__main__.Word instance at 0x11a92be60>
+ <__main__.Word instance at 0x11a92b950>]",Alex,3_6,False,True,"[['Mom'], ['hey']]",heyMom,heyMom,0.5,0.69314718056,False,0.6931471805599453
+453,453,"[<__main__.Word instance at 0x11a92e050>
+ <__main__.Word instance at 0x11a92e200>
+ <__main__.Word instance at 0x11a92e128>
+ <__main__.Word instance at 0x11a92e3b0>
+ <__main__.Word instance at 0x11a92e2d8>
+ <__main__.Word instance at 0x11a92e560>]",Alex,3_6,False,False,"[['bee'], ['play', 'with'], ['you', 'wanna'], ['the']]",youwannaplaywiththebee,thebeeplaywithyouwanna,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+454,454,[<__main__.Word instance at 0x11a92e758>],Alex,3_6,False,True,[['tools']],tools,tools,1.0,0.0,False,-0.0
+455,455,[<__main__.Word instance at 0x11a92eb90>],Alex,3_6,False,True,[['tools']],tools,tools,1.0,0.0,False,-0.0
+456,456,"[<__main__.Word instance at 0x11a92ec20>
+ <__main__.Word instance at 0x11a92ef38>
+ <__main__.Word instance at 0x11a92ee18>
+ <__main__.Word instance at 0x11a92eef0>
+ <__main__.Word instance at 0x11a9311b8>]",Alex,3_6,False,True,"[['Mom'], ['gonna'], [""we're""], ['it'], ['do']]",we'regonnadoitMom,we'regonnadoitMom,0.00833333333333,4.78749174278,False,4.787491742782046
+457,457,[<__main__.Word instance at 0x11a931248>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+458,458,[<__main__.Word instance at 0x11a9312d8>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+459,459,"[<__main__.Word instance at 0x11a931170>
+ <__main__.Word instance at 0x11a9315f0>
+ <__main__.Word instance at 0x11a9314d0>
+ <__main__.Word instance at 0x11a931908>
+ <__main__.Word instance at 0x11a9317e8>
+ <__main__.Word instance at 0x11a931998>
+ <__main__.Word instance at 0x11a931758>]",Alex,3_6,False,False,"[['how', 'bout'], ['the'], ['big'], ['how', 'bout'], ['ones']]",howbouthowboutthebigones,thebighowboutoneshowbout,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+460,460,"[<__main__.Word instance at 0x11a931c68>
+ <__main__.Word instance at 0x11a931d40>
+ <__main__.Word instance at 0x11a931ab8>]",Alex,3_6,False,True,"[['big'], ['the'], ['ones']]",thebigones,thebigones,0.166666666667,1.79175946923,False,1.791759469228055
+461,461,"[<__main__.Word instance at 0x11a931bd8>
+ <__main__.Word instance at 0x11a931f38>
+ <__main__.Word instance at 0x11a931ef0>]",Alex,3_6,False,False,"[['use'], ['this'], ['Mommy']]",usethisMommy,thisuseMommy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+462,462,"[<__main__.Word instance at 0x11a934098>
+ <__main__.Word instance at 0x11a934170>
+ <__main__.Word instance at 0x11a934200>
+ <__main__.Word instance at 0x11a9340e0>
+ <__main__.Word instance at 0x11a9343f8>
+ <__main__.Word instance at 0x11a9342d8>]",Alex,3_6,False,False,"[['the'], ['on'], ['sit'], ['can'], ['we'], ['rocks']]",canwesitontherocks,wecansitontherocks,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+463,463,"[<__main__.Word instance at 0x11a934440>
+ <__main__.Word instance at 0x11a934638>
+ <__main__.Word instance at 0x11a9343b0>]",Alex,3_6,False,False,"[['Mommy'], ['on'], ['come']]",comeonMommy,Mommycomeon,0.166666666667,-0.182321556794,False,-0.1823215567939546
+464,464,"[<__main__.Word instance at 0x11a9346c8>
+ <__main__.Word instance at 0x11a934758>
+ <__main__.Word instance at 0x11a934a28>]",Alex,3_6,False,True,"[['on'], ['come'], ['Mommy']]",Mommycomeon,Mommycomeon,0.166666666667,1.79175946923,False,1.791759469228055
+465,465,"[<__main__.Word instance at 0x11a934c20>
+ <__main__.Word instance at 0x11a9349e0>
+ <__main__.Word instance at 0x11a934cb0>
+ <__main__.Word instance at 0x11a934bd8>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['use']]",youcanusethis,thisyoucanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+466,466,"[<__main__.Word instance at 0x11a934ef0>
+ <__main__.Word instance at 0x11a934fc8>
+ <__main__.Word instance at 0x11a934ea8>
+ <__main__.Word instance at 0x11a9344d0>
+ <__main__.Word instance at 0x11a93a290>]",Alex,3_6,False,False,"[['use'], ['this'], ['Mommy'], ['you', 'can']]",youcanusethisMommy,thisMommyuseyoucan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+467,467,"[<__main__.Word instance at 0x11a93a440>
+ <__main__.Word instance at 0x11a93a320>
+ <__main__.Word instance at 0x11a93a638>
+ <__main__.Word instance at 0x11a93a3f8>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['this']]",youcanusethis,thisuseyoucan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+468,468,"[<__main__.Word instance at 0x11a93a680>
+ <__main__.Word instance at 0x11a93a908>
+ <__main__.Word instance at 0x11a93a830>]",Alex,3_6,False,True,"[['this', 'one'], ['use']]",usethisone,usethisone,0.5,0.69314718056,False,0.6931471805599453
+469,469,"[<__main__.Word instance at 0x11a93a7e8>
+ <__main__.Word instance at 0x11a93ab48>
+ <__main__.Word instance at 0x11a93aa70>
+ <__main__.Word instance at 0x11a93ac20>
+ <__main__.Word instance at 0x11a93aa28>]",Alex,3_6,False,False,"[['you', 'can'], ['use'], ['this', 'one']]",youcanusethisone,useyoucanthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+470,470,"[<__main__.Word instance at 0x11a93ad88>
+ <__main__.Word instance at 0x11a93af80>]",Alex,3_6,False,False,"[['this'], ['use']]",usethis,thisuse,0.5,-0.69314718056,False,-0.6931471805599453
+471,471,"[<__main__.Word instance at 0x11a9370e0>
+ <__main__.Word instance at 0x11a9372d8>
+ <__main__.Word instance at 0x11a9373f8>
+ <__main__.Word instance at 0x11a937440>
+ <__main__.Word instance at 0x11a937320>
+ <__main__.Word instance at 0x11a937560>]",Alex,3_6,False,False,"[['the'], ['use'], ['the'], ['the'], ['I', 'can']]",Icanusethethethe,thethetheIcanuse,0.00833333333333,-0.00836824967052,True,-0.051293294387550585
+472,472,"[<__main__.Word instance at 0x11a937710>
+ <__main__.Word instance at 0x11a9375f0>]",Alex,3_6,False,True,"[['Mom'], ['hey']]",heyMom,heyMom,0.5,0.69314718056,False,0.6931471805599453
+473,473,"[<__main__.Word instance at 0x11a9378c0>
+ <__main__.Word instance at 0x11a937ab8>
+ <__main__.Word instance at 0x11a937368>
+ <__main__.Word instance at 0x11a937bd8>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+474,474,[<__main__.Word instance at 0x11a937cb0>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+475,475,"[<__main__.Word instance at 0x11a937ea8>
+ <__main__.Word instance at 0x11a937d40>]",Alex,3_6,False,False,"[['Mommy'], ['sorry']]",sorryMommy,Mommysorry,0.5,-0.69314718056,False,-0.6931471805599453
+476,476,"[<__main__.Word instance at 0x11a937908>
+ <__main__.Word instance at 0x11a937b90>
+ <__main__.Word instance at 0x11a93d248>
+ <__main__.Word instance at 0x11a93d128>
+ <__main__.Word instance at 0x11a93d2d8>
+ <__main__.Word instance at 0x11a93d710>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['Mommy'], ['this', 'one']]",youcanusethisoneMommy,Mommythisoneuseyoucan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+477,477,"[<__main__.Word instance at 0x11a93d908>
+ <__main__.Word instance at 0x11a93d7e8>
+ <__main__.Word instance at 0x11a93dbd8>
+ <__main__.Word instance at 0x11a93dab8>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+478,478,"[<__main__.Word instance at 0x11a93da28>
+ <__main__.Word instance at 0x11a93de18>
+ <__main__.Word instance at 0x11a93dcf8>
+ <__main__.Word instance at 0x11a93def0>]",Alex,3_6,False,False,"[['this'], ['use'], ['I', 'can']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+479,479,[<__main__.Word instance at 0x11a940050>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+480,480,"[<__main__.Word instance at 0x11a9400e0>
+ <__main__.Word instance at 0x11a9403f8>
+ <__main__.Word instance at 0x11a9405f0>
+ <__main__.Word instance at 0x11a940488>
+ <__main__.Word instance at 0x11a9407e8>
+ <__main__.Word instance at 0x11a940680>
+ <__main__.Word instance at 0x11a940830>]",Alex,3_6,False,False,"[['cut'], ['if'], ['just'], ['I'], ['the', 'top'], ['what']]",whatifIjustcutthetop,cutthetopIjustifwhat,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+481,481,"[<__main__.Word instance at 0x11a940a28>
+ <__main__.Word instance at 0x11a940950>]",Alex,3_6,False,False,"[['Mom'], ['look']]",Momlook,lookMom,0.5,-0.69314718056,False,-0.6931471805599453
+482,482,"[<__main__.Word instance at 0x11a940710>
+ <__main__.Word instance at 0x11a940c20>
+ <__main__.Word instance at 0x11a9405a8>]",Alex,3_6,False,True,"[['Mommy'], ['top'], ['go']]",Mommygotop,Mommygotop,0.166666666667,1.79175946923,False,1.791759469228055
+483,483,[<__main__.Word instance at 0x11a940170>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+484,484,"[<__main__.Word instance at 0x11a940b48>
+ <__main__.Word instance at 0x11a940f80>
+ <__main__.Word instance at 0x11a9408c0>
+ <__main__.Word instance at 0x11a940e60>
+ <__main__.Word instance at 0x11a940f38>
+ <__main__.Word instance at 0x11a940dd0>]",Alex,3_6,False,False,"[['some', 'sawing'], ['done'], ['yeah'], ['I'], ['need']]",yeahIneedsomesawingdone,Ineedsomesawingdoneyeah,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+485,485,"[<__main__.Word instance at 0x11a940758>
+ <__main__.Word instance at 0x11a943098>
+ <__main__.Word instance at 0x11a9430e0>
+ <__main__.Word instance at 0x11a9431b8>]",Alex,3_6,False,False,"[['and'], ['you'], ['this'], ['use']]",andyouusethis,thisandyouuse,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+486,486,[<__main__.Word instance at 0x11a9434d0>],Alex,3_6,False,True,[['trade']],trade,trade,1.0,0.0,False,-0.0
+487,487,"[<__main__.Word instance at 0x11a9435f0>
+ <__main__.Word instance at 0x11a9432d8>
+ <__main__.Word instance at 0x11a943680>
+ <__main__.Word instance at 0x11a943368>
+ <__main__.Word instance at 0x11a943908>]",Alex,3_6,False,False,"[['this', 'one'], ['out'], ['Mommy'], ['watch']]",Mommywatchoutthisone,Mommyoutthisonewatch,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+488,488,"[<__main__.Word instance at 0x11a943488>
+ <__main__.Word instance at 0x11a943b48>
+ <__main__.Word instance at 0x11a943878>
+ <__main__.Word instance at 0x11a9439e0>]",Alex,3_6,False,False,"[['out'], ['that'], ['for'], ['watch']]",watchoutforthat,thatforwatchout,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+489,489,"[<__main__.Word instance at 0x11a943c68>
+ <__main__.Word instance at 0x11a943a28>
+ <__main__.Word instance at 0x11a943f80>
+ <__main__.Word instance at 0x11a943ef0>
+ <__main__.Word instance at 0x11a943fc8>
+ <__main__.Word instance at 0x11a943e60>]",Alex,3_6,False,False,"[[""I'm""], ['Mom'], ['all', 'done'], ['with'], ['this']]",MomI'malldonewiththis,thiswithMomalldoneI'm,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+490,490,"[<__main__.Word instance at 0x11a9460e0>
+ <__main__.Word instance at 0x11a9461b8>]",Alex,3_6,False,False,"[['this'], ['use']]",usethis,thisuse,0.5,-0.69314718056,False,-0.6931471805599453
+491,491,"[<__main__.Word instance at 0x11a946248>
+ <__main__.Word instance at 0x11a946518>
+ <__main__.Word instance at 0x11a9463f8>
+ <__main__.Word instance at 0x11a9466c8>]",Alex,3_6,False,False,"[['this', 'one'], ['you', 'want']]",thisoneyouwant,youwantthisone,0.5,-0.69314718056,False,-0.6931471805599453
+492,492,[<__main__.Word instance at 0x11a9468c0>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+493,493,"[<__main__.Word instance at 0x11a946ab8>
+ <__main__.Word instance at 0x11a9469e0>
+ <__main__.Word instance at 0x11a946b00>]",Alex,3_6,False,False,"[['pliers'], ['wanna'], ['use']]",wannausepliers,useplierswanna,0.166666666667,-0.182321556794,False,-0.1823215567939546
+494,494,"[<__main__.Word instance at 0x11a946c20>
+ <__main__.Word instance at 0x11a946e18>
+ <__main__.Word instance at 0x11a946d40>
+ <__main__.Word instance at 0x11a946ef0>
+ <__main__.Word instance at 0x11a946680>
+ <__main__.Word instance at 0x11a946f80>]",Alex,3_6,False,False,"[['hammer'], ['this', 'one'], ['use'], ['I', 'can']]",Icanusethisonehammer,useIcanthisonehammer,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+495,495,[<__main__.Word instance at 0x11a946e60>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+496,496,"[<__main__.Word instance at 0x11a946b90>
+ <__main__.Word instance at 0x11a94a170>
+ <__main__.Word instance at 0x11a94a1b8>
+ <__main__.Word instance at 0x11a94a518>
+ <__main__.Word instance at 0x11a94a488>]",Alex,3_6,False,False,"[['Mommy'], ['with'], ['out'], ['this'], ['watch']]",Mommywatchoutwiththis,thisoutwithMommywatch,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+497,497,"[<__main__.Word instance at 0x11a94a638>
+ <__main__.Word instance at 0x11a94a440>]",Alex,3_6,False,True,"[['watch'], ['out']]",watchout,watchout,0.5,0.69314718056,False,0.6931471805599453
+498,498,"[<__main__.Word instance at 0x11a94a3b0>
+ <__main__.Word instance at 0x11a94a7a0>
+ <__main__.Word instance at 0x11a94a3f8>
+ <__main__.Word instance at 0x11a94a9e0>]",Alex,3_6,False,False,"[['for'], ['watch'], ['out'], ['this']]",watchoutforthis,thisoutforwatch,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+499,499,"[<__main__.Word instance at 0x11a94ab90>
+ <__main__.Word instance at 0x11a94aab8>
+ <__main__.Word instance at 0x11a94acf8>
+ <__main__.Word instance at 0x11a94ac20>
+ <__main__.Word instance at 0x11a94ad88>]",Alex,3_6,False,False,"[['this'], ['I'], ['and'], ['like'], ['please']]",andIlikethisplease,thispleaseandIlike,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+500,500,"[<__main__.Word instance at 0x11a94ad40>
+ <__main__.Word instance at 0x11a94afc8>
+ <__main__.Word instance at 0x11a94ac68>
+ <__main__.Word instance at 0x11a94af80>]",Alex,3_6,False,True,"[['look', 'at'], ['this', 'piece']]",lookatthispiece,lookatthispiece,0.5,0.69314718056,False,0.6931471805599453
+501,501,"[<__main__.Word instance at 0x11a94d200>
+ <__main__.Word instance at 0x11a94d098>
+ <__main__.Word instance at 0x11a94d488>]",Alex,3_6,False,False,"[['Mommy'], ['screws'], ['where']]",Mommywherescrews,Mommyscrewswhere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+502,502,[<__main__.Word instance at 0x11a94d5f0>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+503,503,"[<__main__.Word instance at 0x11a94d320>
+ <__main__.Word instance at 0x11a94d7e8>
+ <__main__.Word instance at 0x11a94d1b8>]",Alex,3_6,False,True,"[['this', 'one'], ['try']]",trythisone,trythisone,0.5,0.69314718056,False,0.6931471805599453
+504,504,"[<__main__.Word instance at 0x11a94d878>
+ <__main__.Word instance at 0x11a94da70>
+ <__main__.Word instance at 0x11a94d4d0>]",Alex,3_6,False,True,"[['try'], ['this', 'one']]",trythisone,trythisone,0.5,0.69314718056,False,0.6931471805599453
+505,505,"[<__main__.Word instance at 0x11a94d950>
+ <__main__.Word instance at 0x11a94dd88>
+ <__main__.Word instance at 0x11a94dc20>
+ <__main__.Word instance at 0x11a94df80>
+ <__main__.Word instance at 0x11a94d710>
+ <__main__.Word instance at 0x11a94ddd0>]",Alex,3_6,False,False,"[['this', 'one'], ['use'], ['and'], ['you', 'can']]",andyoucanusethisone,useyoucanandthisone,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+506,506,"[<__main__.Word instance at 0x11a94d908>
+ <__main__.Word instance at 0x11a94dd40>
+ <__main__.Word instance at 0x11a950050>
+ <__main__.Word instance at 0x11a9500e0>]",Alex,3_6,False,True,"[['and'], ['and'], ['this', 'one']]",andandthisone,andandthisone,0.166666666667,1.79175946923,True,1.0986122886681098
+507,507,"[<__main__.Word instance at 0x11a950248>
+ <__main__.Word instance at 0x11a950098>
+ <__main__.Word instance at 0x11a950320>]",Alex,3_6,False,False,"[['use'], ['you', 'can']]",youcanuse,useyoucan,0.5,-0.69314718056,False,-0.6931471805599453
+508,508,"[<__main__.Word instance at 0x11a9508c0>
+ <__main__.Word instance at 0x11a950bd8>
+ <__main__.Word instance at 0x11a9509e0>
+ <__main__.Word instance at 0x11a950c20>]",Alex,3_6,False,False,"[['use'], ['this'], ['I', 'can']]",Icanusethis,thisuseIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+509,509,"[<__main__.Word instance at 0x11a950dd0>
+ <__main__.Word instance at 0x11a950cb0>]",Alex,3_6,False,False,"[['you'], ['and']]",andyou,youand,0.5,-0.69314718056,False,-0.6931471805599453
+510,510,"[<__main__.Word instance at 0x11a950fc8>
+ <__main__.Word instance at 0x11a950f38>
+ <__main__.Word instance at 0x11a953098>
+ <__main__.Word instance at 0x11a953128>
+ <__main__.Word instance at 0x11a9532d8>
+ <__main__.Word instance at 0x11a953488>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['and'], ['use'], ['Mommy']]",andMommyyoucanusethis,thisandMommyyoucanuse,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+511,511,"[<__main__.Word instance at 0x11a953638>
+ <__main__.Word instance at 0x11a953518>
+ <__main__.Word instance at 0x11a953908>
+ <__main__.Word instance at 0x11a953830>]",Alex,3_6,False,False,"[['I', 'can'], ['this'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+512,512,"[<__main__.Word instance at 0x11a9535f0>
+ <__main__.Word instance at 0x11a953d40>]",Alex,3_6,False,False,"[['watch'], ['this']]",watchthis,thiswatch,0.5,-0.69314718056,False,-0.6931471805599453
+513,513,"[<__main__.Word instance at 0x11a953d88>
+ <__main__.Word instance at 0x11a953c20>
+ <__main__.Word instance at 0x11a953f80>]",Alex,3_6,False,False,"[['this'], ['yeah'], ['like']]",yeahlikethis,thislikeyeah,0.166666666667,-0.182321556794,False,-0.1823215567939546
+514,514,[<__main__.Word instance at 0x11a953b90>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+515,515,[<__main__.Word instance at 0x11a956050>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+516,516,"[<__main__.Word instance at 0x11a9562d8>
+ <__main__.Word instance at 0x11a9561b8>
+ <__main__.Word instance at 0x11a956368>
+ <__main__.Word instance at 0x11a956170>
+ <__main__.Word instance at 0x11a956560>
+ <__main__.Word instance at 0x11a956488>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['top'], ['on'], ['put']]",youcanputonthistop,thisontopputyoucan,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+517,517,"[<__main__.Word instance at 0x11a9565f0>
+ <__main__.Word instance at 0x11a956908>]",Alex,3_6,False,False,"[['that'], ['like']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+518,518,[<__main__.Word instance at 0x11a956a70>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+519,519,"[<__main__.Word instance at 0x11a956b00>
+ <__main__.Word instance at 0x11a956200>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+520,520,"[<__main__.Word instance at 0x11a956ab8>
+ <__main__.Word instance at 0x11a956d40>
+ <__main__.Word instance at 0x11a956cf8>]",Alex,3_6,False,False,"[['you', 'can'], ['close']]",youcanclose,closeyoucan,0.5,-0.69314718056,False,-0.6931471805599453
+521,521,"[<__main__.Word instance at 0x11a956950>
+ <__main__.Word instance at 0x11a956f38>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+522,522,"[<__main__.Word instance at 0x11a959170>
+ <__main__.Word instance at 0x11a9591b8>
+ <__main__.Word instance at 0x11a959098>
+ <__main__.Word instance at 0x11a9593f8>
+ <__main__.Word instance at 0x11a9592d8>]",Alex,3_6,False,False,"[['use'], ['I', 'can'], ['this'], ['you']]",youIcanusethis,thisyouuseIcan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+523,523,"[<__main__.Word instance at 0x11a959560>
+ <__main__.Word instance at 0x11a959680>
+ <__main__.Word instance at 0x11a959830>
+ <__main__.Word instance at 0x11a959710>]",Alex,3_6,False,False,"[['you', 'can'], ['use'], ['and']]",andyoucanuse,useyoucanand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+524,524,[<__main__.Word instance at 0x11a9597e8>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+525,525,"[<__main__.Word instance at 0x11a959cf8>
+ <__main__.Word instance at 0x11a959d88>
+ <__main__.Word instance at 0x11a959440>
+ <__main__.Word instance at 0x11a959ea8>
+ <__main__.Word instance at 0x11a959c20>]",Alex,3_6,False,False,"[['this', 'one'], ['use'], ['you', 'can']]",youcanusethisone,useyoucanthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+526,526,"[<__main__.Word instance at 0x11a959a70>
+ <__main__.Word instance at 0x11a95c098>
+ <__main__.Word instance at 0x11a95c1b8>
+ <__main__.Word instance at 0x11a95c908>
+ <__main__.Word instance at 0x11a95c878>]",Alex,3_6,False,False,"[['and'], ['use'], ['you', 'can'], ['this']]",andyoucanusethis,thisanduseyoucan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+527,527,"[<__main__.Word instance at 0x11a95c9e0>
+ <__main__.Word instance at 0x11a95cb48>
+ <__main__.Word instance at 0x11a95c998>]",Alex,3_6,False,False,"[['use'], ['I', 'can']]",Icanuse,useIcan,0.5,-0.69314718056,False,-0.6931471805599453
+528,528,"[<__main__.Word instance at 0x11a95c2d8>
+ <__main__.Word instance at 0x11a95cdd0>
+ <__main__.Word instance at 0x11a95ccb0>
+ <__main__.Word instance at 0x11a95cfc8>]",Alex,3_6,False,False,"[['this'], ['use'], ['I', 'can']]",Icanusethis,thisuseIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+529,529,"[<__main__.Word instance at 0x11a960098>
+ <__main__.Word instance at 0x11a960128>]",Alex,3_6,False,False,"[['Mom'], ['watch']]",Momwatch,watchMom,0.5,-0.69314718056,False,-0.6931471805599453
+530,530,[<__main__.Word instance at 0x11a9600e0>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+531,531,"[<__main__.Word instance at 0x11a9602d8>
+ <__main__.Word instance at 0x11a9607a0>
+ <__main__.Word instance at 0x11a960710>
+ <__main__.Word instance at 0x11a960bd8>]",Alex,3_6,False,False,"[['open'], ['close'], ['open'], ['close']]",closeopencloseopen,closecloseopenopen,0.0416666666667,-0.0425596144188,True,-0.1823215567939546
+532,532,"[<__main__.Word instance at 0x11a960cb0>
+ <__main__.Word instance at 0x11a960638>
+ <__main__.Word instance at 0x11a960d40>
+ <__main__.Word instance at 0x11a960c20>]",Alex,3_6,False,False,"[['close'], ['open'], ['open'], ['close']]",closeopencloseopen,closecloseopenopen,0.0416666666667,-0.0425596144188,True,-0.1823215567939546
+533,533,"[<__main__.Word instance at 0x11a960dd0>
+ <__main__.Word instance at 0x11a960f80>]",Alex,3_6,False,True,"[['close'], ['open']]",closeopen,closeopen,0.5,0.69314718056,False,0.6931471805599453
+534,534,"[<__main__.Word instance at 0x11a960e60>
+ <__main__.Word instance at 0x11a960ea8>
+ <__main__.Word instance at 0x11a9631b8>
+ <__main__.Word instance at 0x11a963248>
+ <__main__.Word instance at 0x11a9637a0>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['hey'], ['use']]",heyyoucanusethis,thisheyuseyoucan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+535,535,"[<__main__.Word instance at 0x11a963950>
+ <__main__.Word instance at 0x11a9637e8>]",Alex,3_6,False,False,"[['you'], ['thank']]",thankyou,youthank,0.5,-0.69314718056,False,-0.6931471805599453
+536,536,"[<__main__.Word instance at 0x11a963908>
+ <__main__.Word instance at 0x11a963a70>
+ <__main__.Word instance at 0x11a963098>
+ <__main__.Word instance at 0x11a963c68>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['this']]",youcanusethis,thisyoucanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+537,537,"[<__main__.Word instance at 0x11a963d88>
+ <__main__.Word instance at 0x11a963488>
+ <__main__.Word instance at 0x11a963dd0>
+ <__main__.Word instance at 0x11a963b48>
+ <__main__.Word instance at 0x11a963ea8>]",Alex,3_6,False,False,"[['Mommy'], ['this'], ['you', 'can'], ['use']]",youcanusethisMommy,thisyoucanMommyuse,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+538,538,"[<__main__.Word instance at 0x11a963f38>
+ <__main__.Word instance at 0x11a966098>
+ <__main__.Word instance at 0x11a966248>
+ <__main__.Word instance at 0x11a966128>
+ <__main__.Word instance at 0x11a966518>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['Mom'], ['use']]",Momyoucanusethis,thisMomuseyoucan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+539,539,"[<__main__.Word instance at 0x11a9666c8>
+ <__main__.Word instance at 0x11a9665a8>
+ <__main__.Word instance at 0x11a966d40>
+ <__main__.Word instance at 0x11a966950>
+ <__main__.Word instance at 0x11a966dd0>]",Alex,3_6,False,False,"[['you', 'can'], ['use'], ['this', 'piece']]",youcanusethispiece,useyoucanthispiece,0.166666666667,-0.182321556794,False,-0.1823215567939546
+540,540,"[<__main__.Word instance at 0x11a966fc8>
+ <__main__.Word instance at 0x11a966ea8>
+ <__main__.Word instance at 0x11a9691b8>
+ <__main__.Word instance at 0x11a969098>
+ <__main__.Word instance at 0x11a969368>]",Alex,3_6,False,False,"[['use'], ['Mommy'], ['you', 'can'], ['this']]",Mommyyoucanusethis,thisyoucanMommyuse,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+541,541,"[<__main__.Word instance at 0x11a969518>
+ <__main__.Word instance at 0x11a9693f8>
+ <__main__.Word instance at 0x11a9695a8>
+ <__main__.Word instance at 0x11a9692d8>]",Alex,3_6,False,False,"[['use'], ['this'], ['you', 'can']]",youcanusethis,thisuseyoucan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+542,542,"[<__main__.Word instance at 0x11a9698c0>
+ <__main__.Word instance at 0x11a969950>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+543,543,"[<__main__.Word instance at 0x11a969b00>
+ <__main__.Word instance at 0x11a9696c8>]",Alex,3_6,False,False,"[['use'], ['this']]",usethis,thisuse,0.5,-0.69314718056,False,-0.6931471805599453
+544,544,[<__main__.Word instance at 0x11a969ab8>],Alex,3_6,False,True,[['pinchers']],pinchers,pinchers,1.0,0.0,False,-0.0
+545,545,"[<__main__.Word instance at 0x11a969c68>
+ <__main__.Word instance at 0x11a969f38>
+ <__main__.Word instance at 0x11a969ea8>
+ <__main__.Word instance at 0x11a969fc8>
+ <__main__.Word instance at 0x11a969830>
+ <__main__.Word instance at 0x11a969f80>]",Alex,3_6,False,False,"[['pinchers'], ['the'], ['the'], ['pinchers'], ['pinchers'], ['pinchers']]",pincherspinchersthepinchersthepinchers,thethepincherspincherspincherspinchers,0.00138888888889,-0.00138985428905,True,-0.06899287148695143
+546,546,[<__main__.Word instance at 0x11a969cf8>],Alex,3_6,False,True,[['pinchers']],pinchers,pinchers,1.0,0.0,False,-0.0
+547,547,"[<__main__.Word instance at 0x11a96c2d8>
+ <__main__.Word instance at 0x11a96c200>
+ <__main__.Word instance at 0x11a96c3b0>]",Alex,3_6,False,False,"[['pinchers'], ['pinchers'], ['the']]",pinchersthepinchers,thepincherspinchers,0.166666666667,-0.182321556794,True,-0.4054651081081643
+548,548,"[<__main__.Word instance at 0x11a96c3f8>
+ <__main__.Word instance at 0x11a96c518>
+ <__main__.Word instance at 0x11a96c5a8>]",Alex,3_6,False,False,"[['you', 'can'], ['use']]",youcanuse,useyoucan,0.5,-0.69314718056,False,-0.6931471805599453
+549,549,[<__main__.Word instance at 0x11a96c8c0>],Alex,3_6,False,True,[['&-uh']],&-uh,&-uh,1.0,0.0,False,-0.0
+550,550,"[<__main__.Word instance at 0x11a96ca70>
+ <__main__.Word instance at 0x11a96c950>
+ <__main__.Word instance at 0x11a96cc20>]",Alex,3_6,False,False,"[['you', 'can'], ['use']]",youcanuse,useyoucan,0.5,-0.69314718056,False,-0.6931471805599453
+551,551,"[<__main__.Word instance at 0x11a96cfc8>
+ <__main__.Word instance at 0x11a96cf38>
+ <__main__.Word instance at 0x11a96cea8>]",Alex,3_6,False,False,"[['you'], ['tired'], ['are']]",areyoutired,youaretired,0.166666666667,-0.182321556794,False,-0.1823215567939546
+552,552,"[<__main__.Word instance at 0x11a96f3f8>
+ <__main__.Word instance at 0x11a96f050>
+ <__main__.Word instance at 0x11a96f908>
+ <__main__.Word instance at 0x11a96f7a0>]",Alex,3_6,False,False,"[['I', 'can'], ['this'], ['use']]",Icanusethis,thisuseIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+553,553,"[<__main__.Word instance at 0x11a96f710>
+ <__main__.Word instance at 0x11a96fc20>
+ <__main__.Word instance at 0x11a96f7e8>
+ <__main__.Word instance at 0x11a96fd40>
+ <__main__.Word instance at 0x11a96f5f0>
+ <__main__.Word instance at 0x11a96ff80>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['this', 'screwdriver'], ['and']]",andyoucanusethisscrewdriver,useandyoucanthisscrewdriver,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+554,554,"[<__main__.Word instance at 0x11a96fc68>
+ <__main__.Word instance at 0x11a96ffc8>
+ <__main__.Word instance at 0x11a982098>
+ <__main__.Word instance at 0x11a982128>
+ <__main__.Word instance at 0x11a982170>]",Alex,3_6,False,False,"[['this'], ['use'], ['hammer'], ['I', 'can']]",Icanusethishammer,thishammeruseIcan,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+555,555,"[<__main__.Word instance at 0x11a9825a8>
+ <__main__.Word instance at 0x11a982488>
+ <__main__.Word instance at 0x11a982518>
+ <__main__.Word instance at 0x11a982368>
+ <__main__.Word instance at 0x11a982680>]",Alex,3_6,False,True,"[['no'], ['this', 'one'], ['this', 'one']]",nothisonethisone,nothisonethisone,0.166666666667,1.79175946923,True,1.0986122886681098
+556,556,"[<__main__.Word instance at 0x11a982758>
+ <__main__.Word instance at 0x11a982638>
+ <__main__.Word instance at 0x11a982908>
+ <__main__.Word instance at 0x11a9827a0>
+ <__main__.Word instance at 0x11a9827e8>
+ <__main__.Word instance at 0x11a9823f8>
+ <__main__.Word instance at 0x11a982ab8>
+ <__main__.Word instance at 0x11a982950>]",Alex,3_6,False,False,"[['hit'], ['use'], ['to'], ['I', 'can'], ['this', 'one'], ['big']]",Icanusethisonetohitbig,hitthisoneIcantousebig,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+557,557,[<__main__.Word instance at 0x11a982830>],Alex,3_6,False,True,[['big']],big,big,1.0,0.0,False,-0.0
+558,558,"[<__main__.Word instance at 0x11a982b00>
+ <__main__.Word instance at 0x11a982ea8>
+ <__main__.Word instance at 0x11a982cf8>
+ <__main__.Word instance at 0x11a982b90>
+ <__main__.Word instance at 0x11a982f38>]",Alex,3_6,False,True,"[['this'], ['new'], ['hammer'], ['is'], ['my']]",thisismynewhammer,thisismynewhammer,0.00833333333333,4.78749174278,False,4.787491742782046
+559,559,[<__main__.Word instance at 0x11a982dd0>],Alex,3_6,False,True,[['see']],see,see,1.0,0.0,False,-0.0
+560,560,[<__main__.Word instance at 0x11a985098>],Alex,3_6,False,True,[['like']],like,like,1.0,0.0,False,-0.0
+561,561,"[<__main__.Word instance at 0x11a985488>
+ <__main__.Word instance at 0x11a9853b0>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+562,562,"[<__main__.Word instance at 0x11a985638>
+ <__main__.Word instance at 0x11a985710>]",Alex,3_6,False,False,"[['like'], ['that']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+563,563,"[<__main__.Word instance at 0x11a9857a0>
+ <__main__.Word instance at 0x11a985290>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+564,564,"[<__main__.Word instance at 0x11a9855a8>
+ <__main__.Word instance at 0x11a985998>]",Alex,3_6,False,False,"[['thank'], ['you']]",thankyou,youthank,0.5,-0.69314718056,False,-0.6931471805599453
+565,565,"[<__main__.Word instance at 0x11a985b90>
+ <__main__.Word instance at 0x11a985a28>
+ <__main__.Word instance at 0x11a985cb0>
+ <__main__.Word instance at 0x11a985dd0>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+566,566,"[<__main__.Word instance at 0x11a985f38>
+ <__main__.Word instance at 0x11a985c20>
+ <__main__.Word instance at 0x11a985d88>]",Alex,3_6,False,True,"[['Mommy'], ['look', 'at']]",Mommylookat,Mommylookat,0.5,0.69314718056,False,0.6931471805599453
+567,567,[<__main__.Word instance at 0x11a985ab8>],Alex,3_6,False,True,[['eleven']],eleven,eleven,1.0,0.0,False,-0.0
+568,568,"[<__main__.Word instance at 0x11a988098>
+ <__main__.Word instance at 0x11a988128>]",Alex,3_6,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+569,569,"[<__main__.Word instance at 0x11a9883f8>
+ <__main__.Word instance at 0x11a988368>
+ <__main__.Word instance at 0x11a9884d0>
+ <__main__.Word instance at 0x11a9881b8>]",Alex,3_6,False,False,"[['and'], ['use'], ['you', 'can']]",andyoucanuse,useandyoucan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+570,570,"[<__main__.Word instance at 0x11a988560>
+ <__main__.Word instance at 0x11a9888c0>
+ <__main__.Word instance at 0x11a988830>
+ <__main__.Word instance at 0x11a988710>
+ <__main__.Word instance at 0x11a988ab8>]",Alex,3_6,False,False,"[['you', 'can'], ['this', 'one'], ['use']]",youcanusethisone,useyoucanthisone,0.166666666667,-0.182321556794,False,-0.1823215567939546
+571,571,"[<__main__.Word instance at 0x11a988b48>
+ <__main__.Word instance at 0x11a9882d8>]",Alex,3_6,False,True,"[['level'], ['a']]",alevel,alevel,0.5,0.69314718056,False,0.6931471805599453
+572,572,"[<__main__.Word instance at 0x11a988b00>
+ <__main__.Word instance at 0x11a988dd0>
+ <__main__.Word instance at 0x11a988d40>
+ <__main__.Word instance at 0x11a988ef0>
+ <__main__.Word instance at 0x11a988e18>]",Alex,3_6,False,False,"[['this', 'one'], ['I', 'can'], ['use']]",Icanusethisone,usethisoneIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+573,573,"[<__main__.Word instance at 0x11a9885f0>
+ <__main__.Word instance at 0x11a988cf8>]",Alex,3_6,False,False,"[['that'], [""what's""]]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+574,574,"[<__main__.Word instance at 0x11a98b050>
+ <__main__.Word instance at 0x11a98b248>]",Alex,3_6,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+575,575,"[<__main__.Word instance at 0x11a98b560>
+ <__main__.Word instance at 0x11a98b440>]",Alex,3_6,False,False,"[[""what's""], ['this']]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+576,576,"[<__main__.Word instance at 0x11a98b4d0>
+ <__main__.Word instance at 0x11a98b7e8>]",Alex,3_6,False,False,"[[""what's""], ['that']]",what'sthat,thatwhat's,0.5,-0.69314718056,False,-0.6931471805599453
+577,577,"[<__main__.Word instance at 0x11a98b5f0>
+ <__main__.Word instance at 0x11a98b5a8>
+ <__main__.Word instance at 0x11a98b758>]",Alex,3_6,False,False,"[['Mommy'], [""what's""], ['this']]",Mommywhat'sthis,thiswhat'sMommy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+578,578,"[<__main__.Word instance at 0x11a98b638>
+ <__main__.Word instance at 0x11a98bab8>
+ <__main__.Word instance at 0x11a98b3b0>]",Alex,3_6,False,False,"[[""what's""], ['Mommy'], ['this']]",what'sthisMommy,thiswhat'sMommy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+579,579,[<__main__.Word instance at 0x11a98b8c0>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+580,580,[<__main__.Word instance at 0x11a98b9e0>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+581,581,"[<__main__.Word instance at 0x11a98b2d8>
+ <__main__.Word instance at 0x11a98bcf8>
+ <__main__.Word instance at 0x11a98b830>
+ <__main__.Word instance at 0x11a98bf38>
+ <__main__.Word instance at 0x11a98e050>
+ <__main__.Word instance at 0x11a98e200>
+ <__main__.Word instance at 0x11a98e0e0>]",Alex,3_6,False,False,"[['this'], ['steel'], ['use'], ['wrench'], ['you', 'can'], ['Mom']]",Momyoucanusethissteelwrench,thisMomwrenchuseyoucansteel,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+582,582,"[<__main__.Word instance at 0x11a98e560>
+ <__main__.Word instance at 0x11a98e830>
+ <__main__.Word instance at 0x11a98e7e8>
+ <__main__.Word instance at 0x11a98e908>]",Alex,3_6,False,False,"[['you', 'can'], ['use'], ['this']]",youcanusethis,thisyoucanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+583,583,"[<__main__.Word instance at 0x11a98ec20>
+ <__main__.Word instance at 0x11a98eb48>
+ <__main__.Word instance at 0x11a98ee18>]",Alex,3_6,False,False,"[['use'], ['I', 'can']]",Icanuse,useIcan,0.5,-0.69314718056,False,-0.6931471805599453
+584,584,"[<__main__.Word instance at 0x11a98ee60>
+ <__main__.Word instance at 0x11a98ea28>
+ <__main__.Word instance at 0x11a98eef0>
+ <__main__.Word instance at 0x11a98ef80>
+ <__main__.Word instance at 0x11a98ec68>]",Alex,3_6,False,False,"[['I', 'can'], ['this', 'screwdriver'], ['use']]",Icanusethisscrewdriver,usethisscrewdriverIcan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+585,585,"[<__main__.Word instance at 0x11a991098>
+ <__main__.Word instance at 0x11a991200>]",Alex,3_6,False,False,"[['or'], ['something']]",orsomething,somethingor,0.5,-0.69314718056,False,-0.6931471805599453
+586,586,[<__main__.Word instance at 0x11a9913f8>],Alex,3_6,False,True,"[[""that's""]]",that's,that's,1.0,0.0,False,-0.0
+587,587,"[<__main__.Word instance at 0x11a991518>
+ <__main__.Word instance at 0x11a991320>]",Alex,3_6,False,False,"[['hey'], ['Mom']]",heyMom,Momhey,0.5,-0.69314718056,False,-0.6931471805599453
+588,588,"[<__main__.Word instance at 0x11a991170>
+ <__main__.Word instance at 0x11a9917e8>
+ <__main__.Word instance at 0x11a991560>
+ <__main__.Word instance at 0x11a991878>
+ <__main__.Word instance at 0x11a991758>]",Alex,3_6,False,False,"[['this'], ['screwdri'], ['I', 'can'], ['use']]",Icanusethisscrewdri,thisIcanusescrewdri,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+589,589,[<__main__.Word instance at 0x11a991ab8>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+590,590,"[<__main__.Word instance at 0x11a991bd8>
+ <__main__.Word instance at 0x11a9910e0>
+ <__main__.Word instance at 0x11a991fc8>
+ <__main__.Word instance at 0x11a991d40>
+ <__main__.Word instance at 0x11a991c20>]",Alex,3_6,False,False,"[['can'], ['it'], ['off'], ['dry'], ['we']]",wecandryitoff,dryitoffcanwe,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+591,591,"[<__main__.Word instance at 0x11a995170>
+ <__main__.Word instance at 0x11a995368>
+ <__main__.Word instance at 0x11a9954d0>]",Alex,3_6,False,False,"[['there'], ['right'], ['hey']]",heyrightthere,righttherehey,0.166666666667,-0.182321556794,False,-0.1823215567939546
+592,592,"[<__main__.Word instance at 0x11a995560>
+ <__main__.Word instance at 0x11a995050>
+ <__main__.Word instance at 0x11a995998>]",Alex,3_6,False,True,"[['top'], ['this', 'one']]",thisonetop,thisonetop,0.5,0.69314718056,False,0.6931471805599453
+593,593,[<__main__.Word instance at 0x11a995c68>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+594,594,"[<__main__.Word instance at 0x11a995ea8>
+ <__main__.Word instance at 0x11a995dd0>
+ <__main__.Word instance at 0x11a995ef0>
+ <__main__.Word instance at 0x11a995758>
+ <__main__.Word instance at 0x11a995fc8>
+ <__main__.Word instance at 0x11a995a28>]",Alex,3_6,False,False,"[['use'], ['this', 'screwdriver'], ['Mommy'], ['gonna'], [""I'm""]]",MommyI'mgonnausethisscrewdriver,MommygonnauseI'mthisscrewdriver,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+595,595,[<__main__.Word instance at 0x11a995b48>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+596,596,[<__main__.Word instance at 0x11a998368>],Alex,3_6,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+597,597,"[<__main__.Word instance at 0x11a998680>
+ <__main__.Word instance at 0x11a998710>
+ <__main__.Word instance at 0x11a998248>
+ <__main__.Word instance at 0x11a9987a0>
+ <__main__.Word instance at 0x11a9985a8>
+ <__main__.Word instance at 0x11a998b00>
+ <__main__.Word instance at 0x11a9989e0>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['on', 'top'], ['and'], ['use']]",andyoucanusethisontop,thisandontopuseyoucan,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+598,598,"[<__main__.Word instance at 0x11a9980e0>
+ <__main__.Word instance at 0x11a998d40>
+ <__main__.Word instance at 0x11a998c20>
+ <__main__.Word instance at 0x11a998e18>
+ <__main__.Word instance at 0x11a998f80>
+ <__main__.Word instance at 0x11a998ea8>
+ <__main__.Word instance at 0x11a99b098>
+ <__main__.Word instance at 0x11a99b200>
+ <__main__.Word instance at 0x11a99b320>]",Alex,3_6,False,False,"[['of'], ['here'], ['on', 'top'], ['you', 'can'], ['use'], ['Mommy'], ['this']]",Mommyyoucanusethisontopofhere,thishereuseyoucanofontopMommy,0.000198412698413,-0.000198432384816,False,-0.0001984323848162081
+599,599,"[<__main__.Word instance at 0x11a99b4d0>
+ <__main__.Word instance at 0x11a99b440>
+ <__main__.Word instance at 0x11a99b710>]",Alex,3_6,False,True,"[['and'], ['this', ""one's""]]",andthisone's,andthisone's,0.5,0.69314718056,False,0.6931471805599453
+600,600,"[<__main__.Word instance at 0x11a99b908>
+ <__main__.Word instance at 0x11a99ba28>
+ <__main__.Word instance at 0x11a99b5f0>
+ <__main__.Word instance at 0x11a99bef0>
+ <__main__.Word instance at 0x11a99bbd8>
+ <__main__.Word instance at 0x11a99bf38>
+ <__main__.Word instance at 0x11a99e098>
+ <__main__.Word instance at 0x11a99e3b0>]",Alex,3_6,False,False,"[['the', 'top'], ['you', 'can'], ['it'], ['to'], ['in'], ['screw']]",youcanscrewitintothetop,inittoyoucanthetopscrew,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+601,601,"[<__main__.Word instance at 0x11a99e560>
+ <__main__.Word instance at 0x11a99e440>]",Alex,3_6,False,False,"[['like'], ['that']]",likethat,thatlike,0.5,-0.69314718056,False,-0.6931471805599453
+602,602,[<__main__.Word instance at 0x11a99e5f0>],Alex,3_6,False,True,[['top']],top,top,1.0,0.0,False,-0.0
+603,603,"[<__main__.Word instance at 0x11a99e680>
+ <__main__.Word instance at 0x11a99ebd8>
+ <__main__.Word instance at 0x11a99e7a0>
+ <__main__.Word instance at 0x11a99ec20>
+ <__main__.Word instance at 0x11a99eb48>
+ <__main__.Word instance at 0x11a99ee18>]",Alex,3_6,False,False,"[['the', 'top'], ['there'], ['of'], ['go'], ['to']]",gotothetopofthere,togothereofthetop,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+604,604,"[<__main__.Word instance at 0x11a99eab8>
+ <__main__.Word instance at 0x11a99e830>
+ <__main__.Word instance at 0x11a9a0290>
+ <__main__.Word instance at 0x11a9a00e0>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['this']]",youcanusethis,thisyoucanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+605,605,"[<__main__.Word instance at 0x11a9a0050>
+ <__main__.Word instance at 0x11a9a03b0>
+ <__main__.Word instance at 0x11a9a0488>]",Alex,3_6,False,False,"[['this'], ['is'], ['and']]",andthisis,thisisand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+606,606,"[<__main__.Word instance at 0x11a9a05f0>
+ <__main__.Word instance at 0x11a9a0ab8>
+ <__main__.Word instance at 0x11a9a09e0>]",Alex,3_6,False,False,"[['three'], ['one', 'two']]",onetwothree,threeonetwo,0.5,-0.69314718056,False,-0.6931471805599453
+607,607,[<__main__.Word instance at 0x11a9a0830>],Alex,3_6,False,True,[['these']],these,these,1.0,0.0,False,-0.0
+608,608,"[<__main__.Word instance at 0x11a9a0e18>
+ <__main__.Word instance at 0x11a9a0fc8>]",Alex,3_6,False,True,"[['you', 'want']]",youwant,youwant,1.0,0.0,False,-0.0
+609,609,"[<__main__.Word instance at 0x11a9a0d40>
+ <__main__.Word instance at 0x11a9a0f38>
+ <__main__.Word instance at 0x11a9a0e60>
+ <__main__.Word instance at 0x11a9a3098>]",Alex,3_6,False,False,"[['I', 'can'], ['this'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+610,610,[<__main__.Word instance at 0x11a9a3488>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+611,611,[<__main__.Word instance at 0x11a9a3680>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+612,612,"[<__main__.Word instance at 0x11a9a3758>
+ <__main__.Word instance at 0x11a9a3878>
+ <__main__.Word instance at 0x11a9a37a0>
+ <__main__.Word instance at 0x11a9a3998>
+ <__main__.Word instance at 0x11a9a35f0>
+ <__main__.Word instance at 0x11a9a3a28>
+ <__main__.Word instance at 0x11a9a3368>
+ <__main__.Word instance at 0x11a9a3d40>]",Alex,3_6,False,False,"[['use'], ['this'], ['this'], ['I', 'can'], ['use'], ['you', 'can']]",youcanusethisIcanusethis,thisthisuseyoucanIcanuse,0.00138888888889,-0.00138985428905,True,-0.005571045049455361
+613,613,"[<__main__.Word instance at 0x11a9a3d88>
+ <__main__.Word instance at 0x11a9a3ab8>
+ <__main__.Word instance at 0x11a9a3fc8>
+ <__main__.Word instance at 0x11a9a6170>]",Alex,3_6,False,False,"[['I', 'can'], ['use'], ['this']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+614,614,"[<__main__.Word instance at 0x11a9a6200>
+ <__main__.Word instance at 0x11a9a6680>
+ <__main__.Word instance at 0x11a9a65a8>
+ <__main__.Word instance at 0x11a9a65f0>
+ <__main__.Word instance at 0x11a9a6320>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['use'], ['this']]",Icanusethisthis,thisthisuseIcan,0.0416666666667,-0.0425596144188,True,-0.08701137698962981
+615,615,"[<__main__.Word instance at 0x11a9a66c8>
+ <__main__.Word instance at 0x11a9a6b00>
+ <__main__.Word instance at 0x11a9a6560>
+ <__main__.Word instance at 0x11a9a6b90>]",Alex,3_6,False,False,"[['did'], ['go'], ['it'], ['where']]",wherediditgo,itgodidwhere,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+616,616,"[<__main__.Word instance at 0x11a9a6dd0>
+ <__main__.Word instance at 0x11a9a6c68>]",Alex,3_6,False,False,"[['you'], ['thank']]",thankyou,youthank,0.5,-0.69314718056,False,-0.6931471805599453
+617,617,"[<__main__.Word instance at 0x11a9a6a28>
+ <__main__.Word instance at 0x11a9a6f80>
+ <__main__.Word instance at 0x11a9a6ef0>
+ <__main__.Word instance at 0x11a9a6d88>
+ <__main__.Word instance at 0x11a9a9170>]",Alex,3_6,False,False,"[['this'], ['use'], ['and'], ['you', 'can']]",andyoucanusethis,thisandyoucanuse,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+618,618,"[<__main__.Word instance at 0x11a9a9248>
+ <__main__.Word instance at 0x11a9a92d8>
+ <__main__.Word instance at 0x11a9a93b0>]",Alex,3_6,False,True,"[['this'], ['you', 'want']]",thisyouwant,thisyouwant,0.5,0.69314718056,False,0.6931471805599453
+619,619,"[<__main__.Word instance at 0x11a9a9680>
+ <__main__.Word instance at 0x11a9a95f0>]",Alex,3_6,False,False,"[['this'], [""what's""]]",what'sthis,thiswhat's,0.5,-0.69314718056,False,-0.6931471805599453
+620,620,"[<__main__.Word instance at 0x11a9a9a28>
+ <__main__.Word instance at 0x11a9a98c0>
+ <__main__.Word instance at 0x11a9a9ab8>]",Alex,3_6,False,False,"[['I', 'can'], ['use']]",Icanuse,useIcan,0.5,-0.69314718056,False,-0.6931471805599453
+621,621,"[<__main__.Word instance at 0x11a9a9b48>
+ <__main__.Word instance at 0x11a9a97a0>]",Alex,3_6,False,True,"[['Mom'], ['oh']]",ohMom,ohMom,0.5,0.69314718056,False,0.6931471805599453
+622,622,[<__main__.Word instance at 0x11a9a9908>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+623,623,"[<__main__.Word instance at 0x11a9a9e60>
+ <__main__.Word instance at 0x11a9a9fc8>
+ <__main__.Word instance at 0x11a9a9cf8>
+ <__main__.Word instance at 0x11a9a95a8>
+ <__main__.Word instance at 0x11a9ac128>
+ <__main__.Word instance at 0x11a9ac098>]",Alex,3_6,False,False,"[['use'], ['I', 'can'], ['or'], ['this'], ['something']]",Icanusethisorsomething,thisuseorsomethingIcan,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+624,624,"[<__main__.Word instance at 0x11a9ac2d8>
+ <__main__.Word instance at 0x11a9ac3b0>
+ <__main__.Word instance at 0x11a9ac050>
+ <__main__.Word instance at 0x11a9ac4d0>
+ <__main__.Word instance at 0x11a9ac290>
+ <__main__.Word instance at 0x11a9ac518>
+ <__main__.Word instance at 0x11a9ac5a8>
+ <__main__.Word instance at 0x11a9ac320>
+ <__main__.Word instance at 0x11a9ac680>]",Alex,3_6,False,False,"[['this'], ['use'], ['and'], ['use'], ['I', 'can'], ['this'], ['I', 'can']]",IcanusethisandIcanusethis,thisthisandIcanuseuseIcan,0.000198412698413,-0.000198432384816,True,-0.0015885626851378416
+625,625,"[<__main__.Word instance at 0x11a9ac878>
+ <__main__.Word instance at 0x11a9ac170>
+ <__main__.Word instance at 0x11a9ac9e0>]",Alex,3_6,False,True,"[[""that's""], ['a', 'wrench']]",that'sawrench,that'sawrench,0.5,0.69314718056,False,0.6931471805599453
+626,626,"[<__main__.Word instance at 0x11a9accf8>
+ <__main__.Word instance at 0x11a9ac998>
+ <__main__.Word instance at 0x11a9acef0>
+ <__main__.Word instance at 0x11a9accb0>
+ <__main__.Word instance at 0x11a9acf38>]",Alex,3_6,False,False,"[[""that's""], ['a', 'black'], ['wrench'], ['ooh']]",oohthat'sablackwrench,that'sablackoohwrench,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+627,627,"[<__main__.Word instance at 0x11a9b0050>
+ <__main__.Word instance at 0x11a9b0290>
+ <__main__.Word instance at 0x11a9b0170>
+ <__main__.Word instance at 0x11a9b03b0>]",Alex,3_6,False,False,"[['this'], ['I', 'can'], ['use']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+628,628,"[<__main__.Word instance at 0x11a9b0488>
+ <__main__.Word instance at 0x11a9b0680>
+ <__main__.Word instance at 0x11a9b05a8>]",Alex,3_6,False,False,"[['know'], ['I', ""don't""]]",Idon'tknow,knowIdon't,0.5,-0.69314718056,False,-0.6931471805599453
+629,629,[<__main__.Word instance at 0x11a9b0878>],Alex,3_6,False,True,[['grey']],grey,grey,1.0,0.0,False,-0.0
+630,630,[<__main__.Word instance at 0x11a9b0cb0>],Alex,3_6,False,True,[['brown']],brown,brown,1.0,0.0,False,-0.0
+631,631,[<__main__.Word instance at 0x11a9b0a70>],Alex,3_6,False,True,[['red']],red,red,1.0,0.0,False,-0.0
+632,632,[<__main__.Word instance at 0x11a9b0ea8>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+633,633,[<__main__.Word instance at 0x11a9b07e8>],Alex,3_6,False,True,[['sorry']],sorry,sorry,1.0,0.0,False,-0.0
+634,634,"[<__main__.Word instance at 0x11a9b3170>
+ <__main__.Word instance at 0x11a9b31b8>]",Alex,3_6,False,False,"[['okay'], [""that's""]]",that'sokay,okaythat's,0.5,-0.69314718056,False,-0.6931471805599453
+635,635,"[<__main__.Word instance at 0x11a9b34d0>
+ <__main__.Word instance at 0x11a9b3050>]",Alex,3_6,False,False,"[[""that's""], ['okay']]",that'sokay,okaythat's,0.5,-0.69314718056,False,-0.6931471805599453
+636,636,[<__main__.Word instance at 0x11a9b3560>],Alex,3_6,False,True,[['Mom']],Mom,Mom,1.0,0.0,False,-0.0
+637,637,"[<__main__.Word instance at 0x11a9b36c8>
+ <__main__.Word instance at 0x11a9b3908>
+ <__main__.Word instance at 0x11a9b3710>]",Alex,3_6,False,False,"[['red'], ['another'], [""there's""]]",there'sanotherred,anotherredthere's,0.166666666667,-0.182321556794,False,-0.1823215567939546
+638,638,"[<__main__.Word instance at 0x11a9b3758>
+ <__main__.Word instance at 0x11a9b3b48>
+ <__main__.Word instance at 0x11a9b3b00>]",Alex,3_6,False,False,"[['another'], [""there's""], ['wrench']]",there'sanotherwrench,anotherthere'swrench,0.166666666667,-0.182321556794,False,-0.1823215567939546
+639,639,"[<__main__.Word instance at 0x11a9b3368>
+ <__main__.Word instance at 0x11a9b3d40>
+ <__main__.Word instance at 0x11a9b3cb0>
+ <__main__.Word instance at 0x11a9b3dd0>]",Alex,3_6,False,False,"[['this'], ['use'], ['I', 'can']]",Icanusethis,thisIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+640,640,"[<__main__.Word instance at 0x11a9b3ea8>
+ <__main__.Word instance at 0x11a9b3d88>
+ <__main__.Word instance at 0x11a9b3f38>
+ <__main__.Word instance at 0x11a9b37e8>]",Alex,3_6,False,False,"[['and'], ['you', 'can'], ['use']]",andyoucanuse,useyoucanand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+641,641,"[<__main__.Word instance at 0x11a9b6200>
+ <__main__.Word instance at 0x11a9b6128>
+ <__main__.Word instance at 0x11a9b6560>
+ <__main__.Word instance at 0x11a9b64d0>
+ <__main__.Word instance at 0x11a9b65a8>]",Alex,3_6,False,False,"[['you', 'can'], ['use'], ['and'], ['this']]",andyoucanusethis,thisandyoucanuse,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+642,642,"[<__main__.Word instance at 0x11a9b6320>
+ <__main__.Word instance at 0x11a9b67a0>]",Alex,3_6,False,False,"[['this'], ['like']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+643,643,"[<__main__.Word instance at 0x11a9b6998>
+ <__main__.Word instance at 0x11a9b6830>
+ <__main__.Word instance at 0x11a9b6ab8>
+ <__main__.Word instance at 0x11a9b63b0>
+ <__main__.Word instance at 0x11a9b6c20>
+ <__main__.Word instance at 0x11a9b6b90>
+ <__main__.Word instance at 0x11a9b6d88>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['this'], ['and'], ['use'], ['Mommy']]",Mommyyoucanusethisandthis,thisthisandMommyyoucanuse,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+644,644,"[<__main__.Word instance at 0x11a9b6fc8>
+ <__main__.Word instance at 0x11a9b6d40>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+645,645,"[<__main__.Word instance at 0x11a9b90e0>
+ <__main__.Word instance at 0x11a9b9170>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+646,646,"[<__main__.Word instance at 0x11a9b9440>
+ <__main__.Word instance at 0x11a9b9560>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+647,647,"[<__main__.Word instance at 0x11a9b9710>
+ <__main__.Word instance at 0x11a9b97a0>
+ <__main__.Word instance at 0x11a9b9518>
+ <__main__.Word instance at 0x11a9b9878>]",Alex,3_6,False,False,"[['use'], ['that'], ['I', 'can']]",Icanusethat,thatIcanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+648,648,"[<__main__.Word instance at 0x11a9b9a70>
+ <__main__.Word instance at 0x11a9b9908>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+649,649,"[<__main__.Word instance at 0x11a9b92d8>
+ <__main__.Word instance at 0x11a9b9cb0>
+ <__main__.Word instance at 0x11a9b9b90>
+ <__main__.Word instance at 0x11a9b9ea8>
+ <__main__.Word instance at 0x11a9b9c68>
+ <__main__.Word instance at 0x11a9b9e18>]",Alex,3_6,False,False,"[['you', 'can'], ['this'], ['use'], ['this'], ['and']]",youcanusethisandthis,thisthisandyoucanuse,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+650,650,"[<__main__.Word instance at 0x11a9bc128>
+ <__main__.Word instance at 0x11a9bc3b0>
+ <__main__.Word instance at 0x11a9bc518>]",Alex,3_6,False,False,"[['no'], ['this'], ['like']]",nolikethis,thisnolike,0.166666666667,-0.182321556794,False,-0.1823215567939546
+651,651,[<__main__.Word instance at 0x11a9bc5a8>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+652,652,"[<__main__.Word instance at 0x11a9bc638>
+ <__main__.Word instance at 0x11a9bc368>
+ <__main__.Word instance at 0x11a9bc998>
+ <__main__.Word instance at 0x11a9bc8c0>
+ <__main__.Word instance at 0x11a9bca70>
+ <__main__.Word instance at 0x11a9bc830>
+ <__main__.Word instance at 0x11a9bcab8>
+ <__main__.Word instance at 0x11a9bc3f8>
+ <__main__.Word instance at 0x11a9bcb48>]",Alex,3_6,False,False,"[['and'], ['yellow'], ['and'], ['green'], ['how', 'bout'], ['orange'], ['red'], ['blue']]",howboutredandyelloworangegreenandblue,andyellowbluegreenandorangeredhowbout,2.48015873016e-05,-2.4801894866e-05,True,-4.9604404881379266e-05
+653,653,"[<__main__.Word instance at 0x11a9bcc20>
+ <__main__.Word instance at 0x11a9bca28>
+ <__main__.Word instance at 0x11a9bcd88>
+ <__main__.Word instance at 0x11a9bccb0>
+ <__main__.Word instance at 0x11a9bce60>
+ <__main__.Word instance at 0x11a9bc9e0>]",Alex,3_6,False,False,"[['black'], ['and'], ['pink'], ['and'], ['white'], ['and']]",andblackandpinkandwhite,blackwhiteandpinkandand,0.00138888888889,-0.00138985428905,True,-0.00836824967051658
+654,654,"[<__main__.Word instance at 0x11a9bcbd8>
+ <__main__.Word instance at 0x11a9bf170>
+ <__main__.Word instance at 0x11a9bf128>
+ <__main__.Word instance at 0x11a9bf1b8>
+ <__main__.Word instance at 0x11a9bf290>
+ <__main__.Word instance at 0x11a9bf6c8>
+ <__main__.Word instance at 0x11a9bf518>
+ <__main__.Word instance at 0x11a9bf7a0>
+ <__main__.Word instance at 0x11a9bf5f0>
+ <__main__.Word instance at 0x11a9bf830>
+ <__main__.Word instance at 0x11a9bf488>]",Alex,3_6,False,False,"[['and'], ['and'], ['red'], ['green'], ['orange'], ['like'], ['blue'], ['and'], ['I'], ['Mommy'], ['Mommy']]",MommyMommyIlikeredandorangeandgreenandblue,MommyandbluegreenandorangeandIlikeMommyred,2.50521083854e-08,-2.50521087016e-08,True,-3.0062534584101813e-07
+655,655,"[<__main__.Word instance at 0x11a9bf638>
+ <__main__.Word instance at 0x11a9bf950>]",Alex,3_6,False,True,"[['yellow'], ['and']]",andyellow,andyellow,0.5,0.69314718056,False,0.6931471805599453
+656,656,[<__main__.Word instance at 0x11a9bfab8>],Alex,3_6,False,True,[['and']],and,and,1.0,0.0,False,-0.0
+657,657,"[<__main__.Word instance at 0x11a9bfc20>
+ <__main__.Word instance at 0x11a9bfb00>
+ <__main__.Word instance at 0x11a9bfdd0>]",Alex,3_6,False,True,"[['and'], ['and'], ['pink']]",andpinkand,andpinkand,0.166666666667,1.79175946923,True,1.0986122886681098
+658,658,[<__main__.Word instance at 0x11a9bff80>],Alex,3_6,False,True,[['shakers']],shakers,shakers,1.0,0.0,False,-0.0
+659,659,[<__main__.Word instance at 0x11a9bf098>],Alex,3_6,False,True,[['like']],like,like,1.0,0.0,False,-0.0
+660,660,[<__main__.Word instance at 0x11a9c2050>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+661,661,[<__main__.Word instance at 0x11a9c2200>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+662,662,"[<__main__.Word instance at 0x11a9c23b0>
+ <__main__.Word instance at 0x11a9c2680>
+ <__main__.Word instance at 0x11a9c2560>]",Alex,3_6,False,True,"[['seeds'], ['apple'], ['I']]",Iappleseeds,Iappleseeds,0.166666666667,1.79175946923,False,1.791759469228055
+663,663,[<__main__.Word instance at 0x11a9c2710>],Alex,3_6,False,True,[['ooh']],ooh,ooh,1.0,0.0,False,-0.0
+664,664,[<__main__.Word instance at 0x11a9c28c0>],Alex,3_6,False,True,[['acorns']],acorns,acorns,1.0,0.0,False,-0.0
+665,665,[<__main__.Word instance at 0x11a9c2cf8>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+666,666,"[<__main__.Word instance at 0x11a9c2cb0>
+ <__main__.Word instance at 0x11a9c2fc8>
+ <__main__.Word instance at 0x11a9c2f38>
+ <__main__.Word instance at 0x11a9c2dd0>
+ <__main__.Word instance at 0x11a9c5098>
+ <__main__.Word instance at 0x11a9c5170>]",Alex,3_6,False,True,"[['shake'], ['shake'], ['low'], ['real'], ['fast'], ['real']]",shakerealfastshakereallow,shakerealfastshakereallow,0.00138888888889,6.57925121201,True,5.19295685089021
+667,667,[<__main__.Word instance at 0x11a9c5368>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+668,668,"[<__main__.Word instance at 0x11a9c55a8>
+ <__main__.Word instance at 0x11a9c56c8>]",Alex,3_6,False,False,"[['hey'], ['Ma']]",heyMa,Mahey,0.5,-0.69314718056,False,-0.6931471805599453
+669,669,"[<__main__.Word instance at 0x11a9c5878>
+ <__main__.Word instance at 0x11a9c5758>
+ <__main__.Word instance at 0x11a9c5ab8>
+ <__main__.Word instance at 0x11a9c5518>
+ <__main__.Word instance at 0x11a9c5b00>]",Alex,3_6,False,False,"[['the'], ['bus'], ['wheels'], ['on'], ['go']]",wheelsonthebusgo,theonbuswheelsgo,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+670,670,[<__main__.Word instance at 0x11a9c5e18>],Alex,3_6,False,True,[['shh']],shh,shh,1.0,0.0,False,-0.0
+671,671,"[<__main__.Word instance at 0x11a9c5f80>
+ <__main__.Word instance at 0x11a9c5ef0>
+ <__main__.Word instance at 0x11a9c5b90>
+ <__main__.Word instance at 0x11a9c8098>
+ <__main__.Word instance at 0x11a9c8320>
+ <__main__.Word instance at 0x11a9c8290>
+ <__main__.Word instance at 0x11a9c8518>]",Alex,3_6,False,False,"[['go'], ['the'], ['the'], ['shh'], ['and'], ['daddies'], ['mommies']]",themommiesandthedaddiesgoshh,thetheandgoshhmommiesdaddies,0.000198412698413,-0.000198432384816,True,-0.00039690415285879686
+672,672,"[<__main__.Word instance at 0x11a9c8560>
+ <__main__.Word instance at 0x11a9c8368>
+ <__main__.Word instance at 0x11a9c8638>
+ <__main__.Word instance at 0x11a9c8128>]",Alex,3_6,False,False,"[['all'], ['town'], ['the'], ['through']]",allthroughthetown,throughallthetown,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+673,673,"[<__main__.Word instance at 0x11a9c8908>
+ <__main__.Word instance at 0x11a9c8ab8>
+ <__main__.Word instance at 0x11a9c8a28>
+ <__main__.Word instance at 0x11a9c8cf8>
+ <__main__.Word instance at 0x11a9c8998>
+ <__main__.Word instance at 0x11a9c8d40>]",Alex,3_6,False,False,"[['on'], ['bus'], ['the'], ['doggies'], ['the'], ['go']]",thedoggiesonthebusgo,thetheongodoggiesbus,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+674,674,"[<__main__.Word instance at 0x11a9c8ef0>
+ <__main__.Word instance at 0x11a9c8878>
+ <__main__.Word instance at 0x11a9c8f80>
+ <__main__.Word instance at 0x11a9c84d0>
+ <__main__.Word instance at 0x11a9cb050>]",Alex,3_6,False,False,"[['bus'], ['to'], ['the'], ['doggies'], ['go']]",doggiesgotothebus,thetogodoggiesbus,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+675,675,[<__main__.Word instance at 0x11a9cb2d8>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+676,676,[<__main__.Word instance at 0x11a9cb440>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+677,677,"[<__main__.Word instance at 0x11a9cb488>
+ <__main__.Word instance at 0x11a9cb6c8>
+ <__main__.Word instance at 0x11a9cb200>]",Alex,3_6,False,False,"[['no'], ['doors'], ['the']]",nothedoors,thenodoors,0.166666666667,-0.182321556794,False,-0.1823215567939546
+678,678,"[<__main__.Word instance at 0x11a9cb8c0>
+ <__main__.Word instance at 0x11a9cba28>
+ <__main__.Word instance at 0x11a9cb5a8>
+ <__main__.Word instance at 0x11a9cbb00>
+ <__main__.Word instance at 0x11a9cbd88>
+ <__main__.Word instance at 0x11a9cbcf8>
+ <__main__.Word instance at 0x11a9cbe18>
+ <__main__.Word instance at 0x11a9cb7e8>
+ <__main__.Word instance at 0x11a9cbf38>]",Alex,3_6,False,False,"[['open'], ['bus'], ['on'], ['shut'], ['go'], ['the'], ['doors'], ['and'], ['the']]",thedoorsonthebusgoopenandshut,shutthetheonopenandgodoorsbus,2.7557319224e-06,-2.75573571947e-06,True,-5.511479032926645e-06
+679,679,"[<__main__.Word instance at 0x11a9cb830>
+ <__main__.Word instance at 0x11a9cbb90>
+ <__main__.Word instance at 0x11a9cbcb0>]",Alex,3_6,False,False,"[['and'], ['shut'], ['open']]",openandshut,shutopenand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+680,680,"[<__main__.Word instance at 0x11a9ce098>
+ <__main__.Word instance at 0x11a9ce0e0>
+ <__main__.Word instance at 0x11a9ce1b8>]",Alex,3_6,False,False,"[['and'], ['shut'], ['open']]",openandshut,shutopenand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+681,681,"[<__main__.Word instance at 0x11a9ce368>
+ <__main__.Word instance at 0x11a9ce200>
+ <__main__.Word instance at 0x11a9ce440>
+ <__main__.Word instance at 0x11a9ce3b0>
+ <__main__.Word instance at 0x11a9ce560>
+ <__main__.Word instance at 0x11a9ce6c8>
+ <__main__.Word instance at 0x11a9ce5f0>
+ <__main__.Word instance at 0x11a9ce758>
+ <__main__.Word instance at 0x11a9ce908>]",Alex,3_6,False,False,"[['bus'], ['the'], ['on'], ['open'], ['and'], ['doors'], ['go'], ['the'], ['shut']]",thedoorsonthebusgoopenandshut,shutthetheonopenandgobusdoors,2.7557319224e-06,-2.75573571947e-06,True,-5.511479032926645e-06
+682,682,"[<__main__.Word instance at 0x11a9ce830>
+ <__main__.Word instance at 0x11a9ce488>
+ <__main__.Word instance at 0x11a9ceab8>]",Alex,3_6,False,False,"[['through'], ['all'], ['the']]",allthroughthe,throughallthe,0.166666666667,-0.182321556794,False,-0.1823215567939546
+683,683,[<__main__.Word instance at 0x11a9ceb90>],Alex,3_6,False,True,[['beep']],beep,beep,1.0,0.0,False,-0.0
+684,684,[<__main__.Word instance at 0x11a9ceb48>],Alex,3_6,False,True,[['beep']],beep,beep,1.0,0.0,False,-0.0
+685,685,[<__main__.Word instance at 0x11a9cecf8>],Alex,3_6,False,True,[['beep']],beep,beep,1.0,0.0,False,-0.0
+686,686,"[<__main__.Word instance at 0x11a9ced40>
+ <__main__.Word instance at 0x11a9ce950>
+ <__main__.Word instance at 0x11a9cee18>
+ <__main__.Word instance at 0x11a9cea70>
+ <__main__.Word instance at 0x11a9cee60>
+ <__main__.Word instance at 0x11a9ceef0>]",Alex,3_6,False,False,"[['beep'], ['on'], ['bus'], ['the', 'horn'], ['the']]",thehornonthebusbeep,theonthehornbusbeep,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+687,687,"[<__main__.Word instance at 0x11a9d14d0>
+ <__main__.Word instance at 0x11a9d1488>
+ <__main__.Word instance at 0x11a9d1518>
+ <__main__.Word instance at 0x11a9d1758>
+ <__main__.Word instance at 0x11a9d10e0>
+ <__main__.Word instance at 0x11a9d17e8>
+ <__main__.Word instance at 0x11a9d13f8>
+ <__main__.Word instance at 0x11a9d1878>
+ <__main__.Word instance at 0x11a9d1320>
+ <__main__.Word instance at 0x11a9d1b90>]",Alex,3_6,False,False,"[['zebra'], ['I', 'can'], ['monkey'], ['and'], ['the', 'lion'], ['the'], ['press'], ['the']]",Icanpressthelionthezebraandthemonkey,monkeypressandthethethelionzebraIcan,2.48015873016e-05,-2.4801894866e-05,True,-4.9604404881379266e-05
+688,688,"[<__main__.Word instance at 0x11a9d1b00>
+ <__main__.Word instance at 0x11a9d1950>
+ <__main__.Word instance at 0x11a9d1bd8>
+ <__main__.Word instance at 0x11a9d1c20>
+ <__main__.Word instance at 0x11a9d1d40>
+ <__main__.Word instance at 0x11a9d19e0>
+ <__main__.Word instance at 0x11a9d1ab8>
+ <__main__.Word instance at 0x11a9d1ef0>]",Alex,3_6,False,False,"[['zebra'], ['monkey'], ['the', 'lion'], ['and'], ['the'], ['I', 'can']]",Icanthelionthemonkeyandzebra,monkeyandtheIcanzebrathelion,0.00138888888889,-0.00138985428905,False,-0.0013898542890543016
+689,689,"[<__main__.Word instance at 0x11a9d1c68>
+ <__main__.Word instance at 0x11a9d4050>
+ <__main__.Word instance at 0x11a9d40e0>
+ <__main__.Word instance at 0x11a9d41b8>]",Alex,3_6,False,False,"[['Mommy'], ['finish'], ['you', 'can']]",Mommyyoucanfinish,Mommyfinishyoucan,0.166666666667,-0.182321556794,False,-0.1823215567939546
+690,690,"[<__main__.Word instance at 0x11a9d4290>
+ <__main__.Word instance at 0x11a9d4518>]",Alex,3_6,False,False,"[['this'], ['use']]",usethis,thisuse,0.5,-0.69314718056,False,-0.6931471805599453
+691,691,[<__main__.Word instance at 0x11a9d4128>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+692,692,"[<__main__.Word instance at 0x11a9d4638>
+ <__main__.Word instance at 0x11a9d4830>
+ <__main__.Word instance at 0x11a9d43f8>
+ <__main__.Word instance at 0x11a9d49e0>
+ <__main__.Word instance at 0x11a9d4908>
+ <__main__.Word instance at 0x11a9d4dd0>]",Alex,3_6,False,False,"[['this'], ['use'], ['you', 'can'], ['like'], ['this']]",youcanusethislikethis,thisthislikeuseyoucan,0.00833333333333,-0.00836824967052,True,-0.01680711831638129
+693,693,"[<__main__.Word instance at 0x11a9d4f80>
+ <__main__.Word instance at 0x11a9d4ea8>]",Alex,3_6,False,False,"[['this'], ['and']]",andthis,thisand,0.5,-0.69314718056,False,-0.6931471805599453
+694,694,"[<__main__.Word instance at 0x11a9d4e60>
+ <__main__.Word instance at 0x11a9d7248>
+ <__main__.Word instance at 0x11a9d72d8>
+ <__main__.Word instance at 0x11a9d7050>]",Alex,3_6,False,False,"[['use'], ['you', 'can'], ['this']]",youcanusethis,thisyoucanuse,0.166666666667,-0.182321556794,False,-0.1823215567939546
+695,695,[<__main__.Word instance at 0x11a9d73b0>],Alex,3_6,False,True,[['Ma']],Ma,Ma,1.0,0.0,False,-0.0
+696,696,[<__main__.Word instance at 0x11a9d75f0>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+697,697,"[<__main__.Word instance at 0x11a9d7830>
+ <__main__.Word instance at 0x11a9d76c8>
+ <__main__.Word instance at 0x11a9d7a28>
+ <__main__.Word instance at 0x11a9d77e8>]",Alex,3_6,False,False,"[[""that's""], [""that's""], ['for'], ['for']]",that'sforthat'sfor,that'sforforthat's,0.0416666666667,-0.0425596144188,True,-0.1823215567939546
+698,698,"[<__main__.Word instance at 0x11a9d7ab8>
+ <__main__.Word instance at 0x11a9d7dd0>
+ <__main__.Word instance at 0x11a9d7c20>
+ <__main__.Word instance at 0x11a9d7e60>
+ <__main__.Word instance at 0x11a9d7908>]",Alex,3_6,False,False,"[['Depot'], [""that's""], ['Home'], ['Mama'], ['for']]",Mamathat'sforHomeDepot,that'sforMamaDepotHome,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+699,699,"[<__main__.Word instance at 0x11a9d7320>
+ <__main__.Word instance at 0x11a9d7ea8>
+ <__main__.Word instance at 0x11a9d7c68>
+ <__main__.Word instance at 0x11a9d7d40>]",Alex,3_6,False,True,"[['home'], [""that's""], ['depot'], ['for']]",that'sforhomedepot,that'sforhomedepot,0.0416666666667,3.17805383035,False,3.1780538303479458
+700,700,"[<__main__.Word instance at 0x11a9d7878>
+ <__main__.Word instance at 0x11a9da050>
+ <__main__.Word instance at 0x11a9da170>
+ <__main__.Word instance at 0x11a9da0e0>]",Alex,3_6,False,False,"[[""that's""], ['Home'], ['for'], ['Depot']]",that'sforHomeDepot,that'sforDepotHome,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+701,701,"[<__main__.Word instance at 0x11a9da098>
+ <__main__.Word instance at 0x11a9da368>
+ <__main__.Word instance at 0x11a9da200>]",Alex,3_6,False,False,"[['Depot'], ['Home'], [""that's""]]",that'sHomeDepot,that'sDepotHome,0.166666666667,-0.182321556794,False,-0.1823215567939546
+702,702,"[<__main__.Word instance at 0x11a9da5f0>
+ <__main__.Word instance at 0x11a9da488>
+ <__main__.Word instance at 0x11a9da6c8>
+ <__main__.Word instance at 0x11a9daa28>]",Alex,3_6,False,False,"[['it'], ['is'], ['Home'], ['Depot']]",itisHomeDepot,isitDepotHome,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+703,703,"[<__main__.Word instance at 0x11a9dab90>
+ <__main__.Word instance at 0x11a9dab00>
+ <__main__.Word instance at 0x11a9dac20>]",Alex,3_6,False,True,"[['away'], ['put'], ['these']]",puttheseaway,puttheseaway,0.166666666667,1.79175946923,False,1.791759469228055
+704,704,"[<__main__.Word instance at 0x11a9dad40>
+ <__main__.Word instance at 0x11a9dabd8>
+ <__main__.Word instance at 0x11a9dadd0>
+ <__main__.Word instance at 0x11a9da758>]",Alex,3_6,False,False,"[['uhoh'], ['is'], ['this'], ['stuck']]",uhohthisisstuck,thisisstuckuhoh,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+705,705,[<__main__.Word instance at 0x11a9dae60>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+706,706,"[<__main__.Word instance at 0x11a9daf38>
+ <__main__.Word instance at 0x11a9dd200>
+ <__main__.Word instance at 0x11a9dd368>]",Alex,3_6,False,True,"[['it'], ['there'], ['leave']]",leaveitthere,leaveitthere,0.166666666667,1.79175946923,False,1.791759469228055
+707,707,"[<__main__.Word instance at 0x11a9dd3f8>
+ <__main__.Word instance at 0x11a9dd098>
+ <__main__.Word instance at 0x11a9dd4d0>]",Alex,3_6,False,False,"[['this'], ['there'], ['and']]",andthisthere,thisandthere,0.166666666667,-0.182321556794,False,-0.1823215567939546
+708,708,[<__main__.Word instance at 0x11a9dd6c8>],Alex,3_6,False,True,[['there']],there,there,1.0,0.0,False,-0.0
+709,709,"[<__main__.Word instance at 0x11a9dd8c0>
+ <__main__.Word instance at 0x11a9dd758>
+ <__main__.Word instance at 0x11a9dd998>
+ <__main__.Word instance at 0x11a9dd830>]",Alex,3_6,False,True,"[['how', 'bout'], ['this', 'one']]",howboutthisone,howboutthisone,0.5,0.69314718056,False,0.6931471805599453
+710,710,"[<__main__.Word instance at 0x11a9ddb90>
+ <__main__.Word instance at 0x11a9ddab8>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+711,711,"[<__main__.Word instance at 0x11a9dda70>
+ <__main__.Word instance at 0x11a9ddd88>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+712,712,"[<__main__.Word instance at 0x11a9dde60>
+ <__main__.Word instance at 0x11a9ddcf8>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+713,713,"[<__main__.Word instance at 0x11a9dddd0>
+ <__main__.Word instance at 0x11a9dd9e0>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+714,714,[<__main__.Word instance at 0x11a9e0128>],Alex,3_6,False,True,[['these']],these,these,1.0,0.0,False,-0.0
+715,715,"[<__main__.Word instance at 0x11a9e0170>
+ <__main__.Word instance at 0x11a9e0560>
+ <__main__.Word instance at 0x11a9e03f8>]",Alex,3_6,False,True,"[['we'], ['all', 'done']]",wealldone,wealldone,0.5,0.69314718056,False,0.6931471805599453
+716,716,"[<__main__.Word instance at 0x11a9e06c8>
+ <__main__.Word instance at 0x11a9e05a8>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+717,717,"[<__main__.Word instance at 0x11a9e0248>
+ <__main__.Word instance at 0x11a9e0b90>]",Alex,3_6,False,True,"[['bars'], ['monkey']]",monkeybars,monkeybars,0.5,0.69314718056,False,0.6931471805599453
+718,718,"[<__main__.Word instance at 0x11a9e0cb0>
+ <__main__.Word instance at 0x11a9e0b00>]",Alex,3_6,False,True,"[['monkey'], ['bars']]",monkeybars,monkeybars,0.5,0.69314718056,False,0.6931471805599453
+719,719,"[<__main__.Word instance at 0x11a9e0758>
+ <__main__.Word instance at 0x11a9e0e18>
+ <__main__.Word instance at 0x11a9e0908>
+ <__main__.Word instance at 0x11a9e0d88>
+ <__main__.Word instance at 0x11a9e0bd8>]",Alex,3_6,False,False,"[['it'], ['the'], ['chair'], ['below'], ['put']]",putitbelowthechair,putitthechairbelow,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+720,720,"[<__main__.Word instance at 0x11a9e0488>
+ <__main__.Word instance at 0x11a9e0ea8>
+ <__main__.Word instance at 0x11a9e3050>
+ <__main__.Word instance at 0x11a9e3128>
+ <__main__.Word instance at 0x11a9e3290>
+ <__main__.Word instance at 0x11a9e34d0>]",Alex,3_6,False,False,"[['do'], ['monkey'], ['play'], ['bars'], ['you', 'wanna']]",doyouwannaplaymonkeybars,monkeybarsyouwannadoplay,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+721,721,"[<__main__.Word instance at 0x11a9e3680>
+ <__main__.Word instance at 0x11a9e3560>]",Alex,3_6,False,False,"[['like'], ['this']]",likethis,thislike,0.5,-0.69314718056,False,-0.6931471805599453
+722,722,[<__main__.Word instance at 0x11a9e3518>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+723,723,"[<__main__.Word instance at 0x11a9e35a8>
+ <__main__.Word instance at 0x11a9e3878>
+ <__main__.Word instance at 0x11a9e3638>]",Alex,3_6,False,False,"[['try', 'again'], ['yeah']]",yeahtryagain,tryagainyeah,0.5,-0.69314718056,False,-0.6931471805599453
+724,724,"[<__main__.Word instance at 0x11a9e3908>
+ <__main__.Word instance at 0x11a9e3cb0>
+ <__main__.Word instance at 0x11a9e3c20>
+ <__main__.Word instance at 0x11a9e3d88>
+ <__main__.Word instance at 0x11a9e3b90>
+ <__main__.Word instance at 0x11a9e3dd0>]",Alex,3_6,False,False,"[['on'], ['baby'], ['the'], ['goes'], ['the'], ['bus']]",thebabyonthebusgoes,babyonthethegoesbus,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+725,725,"[<__main__.Word instance at 0x11a9e3f80>
+ <__main__.Word instance at 0x11a9e3ea8>
+ <__main__.Word instance at 0x11a9e3f38>
+ <__main__.Word instance at 0x11a9e6248>
+ <__main__.Word instance at 0x11a9e6368>
+ <__main__.Word instance at 0x11a9e6170>]",Alex,3_6,False,False,"[['the'], ['bus'], ['baby'], ['on'], ['goes'], ['the']]",thebabyonthebusgoes,babyonthethebusgoes,0.00138888888889,-0.00138985428905,True,-0.002781642961876803
+726,726,"[<__main__.Word instance at 0x11a9e63f8>
+ <__main__.Word instance at 0x11a9e66c8>
+ <__main__.Word instance at 0x11a9e65a8>
+ <__main__.Word instance at 0x11a9e6830>]",Alex,3_6,False,False,"[['town'], ['all'], ['the'], ['through']]",allthroughthetown,throughallthetown,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+727,727,"[<__main__.Word instance at 0x11a9e6950>
+ <__main__.Word instance at 0x11a9e6710>
+ <__main__.Word instance at 0x11a9e69e0>
+ <__main__.Word instance at 0x11a9e60e0>]",Alex,3_6,False,False,"[['you', 'wanna'], ['try', 'again']]",youwannatryagain,tryagainyouwanna,0.5,-0.69314718056,False,-0.6931471805599453
+728,728,"[<__main__.Word instance at 0x11a9e6a70>
+ <__main__.Word instance at 0x11a9e6ef0>
+ <__main__.Word instance at 0x11a9e6e60>
+ <__main__.Word instance at 0x11a9e6f38>]",Alex,3_6,False,False,"[['how', 'bout'], ['Mom'], ['swing']]",Momhowboutswing,swingMomhowbout,0.166666666667,-0.182321556794,False,-0.1823215567939546
+729,729,"[<__main__.Word instance at 0x11a9e90e0>
+ <__main__.Word instance at 0x11a9e91b8>
+ <__main__.Word instance at 0x11a9e93b0>
+ <__main__.Word instance at 0x11a9e9248>]",Alex,3_6,False,True,"[['how', 'bout'], ['this', 'one']]",howboutthisone,howboutthisone,0.5,0.69314718056,False,0.6931471805599453
+730,730,"[<__main__.Word instance at 0x11a9e9050>
+ <__main__.Word instance at 0x11a9e9878>
+ <__main__.Word instance at 0x11a9e9710>
+ <__main__.Word instance at 0x11a9e9950>]",Alex,3_6,False,False,"[['the'], ['swing'], ['how', 'bout']]",howbouttheswing,swinghowboutthe,0.166666666667,-0.182321556794,False,-0.1823215567939546
+731,731,[<__main__.Word instance at 0x11a9e9ab8>],Alex,3_6,False,True,[['ow']],ow,ow,1.0,0.0,False,-0.0
+732,732,"[<__main__.Word instance at 0x11a9e9c68>
+ <__main__.Word instance at 0x11a9e9b48>
+ <__main__.Word instance at 0x11a9e9e18>]",Alex,3_6,False,False,"[['Mommy'], ['push'], ['me']]",Mommypushme,Mommymepush,0.166666666667,-0.182321556794,False,-0.1823215567939546
+733,733,"[<__main__.Word instance at 0x11a9e9fc8>
+ <__main__.Word instance at 0x11a9e9ea8>]",Alex,3_6,False,False,"[['push'], ['me']]",pushme,mepush,0.5,-0.69314718056,False,-0.6931471805599453
+734,734,"[<__main__.Word instance at 0x11a9ec128>
+ <__main__.Word instance at 0x11a9ec248>
+ <__main__.Word instance at 0x11a9ec290>
+ <__main__.Word instance at 0x11a9ec560>]",Alex,3_6,False,False,"[['the'], ['down'], ['up'], ['and']]",upanddownthe,updownandthe,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+735,735,"[<__main__.Word instance at 0x11a9ec638>
+ <__main__.Word instance at 0x11a9ec488>
+ <__main__.Word instance at 0x11a9eca70>
+ <__main__.Word instance at 0x11a9ec998>]",Alex,3_6,False,False,"[['you', 'wanna'], ['Mommy'], ['play']]",Mommyyouwannaplay,Mommyplayyouwanna,0.166666666667,-0.182321556794,False,-0.1823215567939546
+736,736,"[<__main__.Word instance at 0x11a9ec3f8>
+ <__main__.Word instance at 0x11a9ecbd8>
+ <__main__.Word instance at 0x11a9ec950>]",Alex,3_6,False,False,"[['bouncy'], ['ball'], ['a']]",abouncyball,aballbouncy,0.166666666667,-0.182321556794,False,-0.1823215567939546
+737,737,[<__main__.Word instance at 0x11a9eccb0>],Alex,3_6,False,True,[['Dora']],Dora,Dora,1.0,0.0,False,-0.0
+738,738,[<__main__.Word instance at 0x11a9ec878>],Alex,3_6,False,True,[['Mommy']],Mommy,Mommy,1.0,0.0,False,-0.0
+739,739,[<__main__.Word instance at 0x11a9ecdd0>],Alex,3_6,False,True,[['oh']],oh,oh,1.0,0.0,False,-0.0
+740,740,[<__main__.Word instance at 0x11a9f30e0>],Alex,3_6,False,True,"[[""don't""]]",don't,don't,1.0,0.0,False,-0.0
+741,741,"[<__main__.Word instance at 0x11a9f32d8>
+ <__main__.Word instance at 0x11a9f3488>
+ <__main__.Word instance at 0x11a9f33b0>]",Alex,3_6,False,False,"[['and'], ['up'], ['down']]",upanddown,updownand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+742,742,"[<__main__.Word instance at 0x11a9f3908>
+ <__main__.Word instance at 0x11a9f3b90>
+ <__main__.Word instance at 0x11a9f3638>]",Alex,3_6,False,False,"[['and'], ['up'], ['down']]",upanddown,updownand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+743,743,"[<__main__.Word instance at 0x11a9f3c20>
+ <__main__.Word instance at 0x11a9f3c68>
+ <__main__.Word instance at 0x11a9f3d40>]",Alex,3_6,False,False,"[['up'], ['and'], ['down']]",upanddown,updownand,0.166666666667,-0.182321556794,False,-0.1823215567939546
+744,744,"[<__main__.Word instance at 0x11a9f3e18>
+ <__main__.Word instance at 0x11a9f3f80>
+ <__main__.Word instance at 0x11a9f3a28>
+ <__main__.Word instance at 0x11a9f3e60>
+ <__main__.Word instance at 0x11a9f34d0>
+ <__main__.Word instance at 0x11a9f3d88>
+ <__main__.Word instance at 0x11a9ef290>
+ <__main__.Word instance at 0x11a9ef2d8>]",Alex,3_6,False,False,"[['the'], ['wheels'], ['up'], ['and'], ['down'], ['go'], ['on'], ['bus']]",wheelsonthebusgoupanddown,updownandtheonbuswheelsgo,2.48015873016e-05,-2.4801894866e-05,False,-2.48018948660112e-05
+745,745,"[<__main__.Word instance at 0x11a9ef3f8>
+ <__main__.Word instance at 0x11a9ef710>]",Alex,3_6,False,True,"[['this', 'one']]",thisone,thisone,1.0,0.0,False,-0.0
+746,746,[<__main__.Word instance at 0x11a9ef830>],Alex,3_6,False,True,[['yeah']],yeah,yeah,1.0,0.0,False,-0.0
+747,747,[<__main__.Word instance at 0x11a9ef908>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+748,748,[<__main__.Word instance at 0x11a9ef9e0>],Alex,3_6,False,True,[['hi']],hi,hi,1.0,0.0,False,-0.0
+749,749,"[<__main__.Word instance at 0x11a9efbd8>
+ <__main__.Word instance at 0x11a9ef0e0>
+ <__main__.Word instance at 0x11a9efc68>
+ <__main__.Word instance at 0x11a9efa28>
+ <__main__.Word instance at 0x11a9efcf8>]",Alex,3_6,False,False,"[['Daddy'], ['ball'], ['play'], ['you', 'wanna']]",Daddyyouwannaplayball,ballDaddyyouwannaplay,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+750,750,"[<__main__.Word instance at 0x11a9ef998>
+ <__main__.Word instance at 0x11a9effc8>
+ <__main__.Word instance at 0x11a9efe60>
+ <__main__.Word instance at 0x11a9f6098>]",Alex,3_6,False,False,"[['play'], ['you', 'wanna'], ['do']]",doyouwannaplay,doplayyouwanna,0.166666666667,-0.182321556794,False,-0.1823215567939546
+751,751,[<__main__.Word instance at 0x11a9f61b8>],Alex,3_6,False,True,[['okay']],okay,okay,1.0,0.0,False,-0.0
+752,752,"[<__main__.Word instance at 0x11a9f6560>
+ <__main__.Word instance at 0x11a9f6638>
+ <__main__.Word instance at 0x11a9f66c8>
+ <__main__.Word instance at 0x11a9f67a0>]",Alex,3_6,False,False,"[['Daddy'], ['can'], ['you'], ['hear']]",Daddycanhearyou,youcanhearDaddy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+753,753,"[<__main__.Word instance at 0x11a9f6830>
+ <__main__.Word instance at 0x11a9f6c68>]",Alex,3_6,False,True,"[[""you're"", 'silly']]",you'resilly,you'resilly,1.0,0.0,False,-0.0
+754,754,"[<__main__.Word instance at 0x11a9f6ea8>
+ <__main__.Word instance at 0x11a9f6dd0>
+ <__main__.Word instance at 0x11a9f69e0>
+ <__main__.Word instance at 0x11a9f6cb0>]",Alex,3_6,False,False,"[['you'], ['Daddy'], ['are'], ['there']]",Daddythereyouare,youarethereDaddy,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+755,755,"[<__main__.Word instance at 0x11a9f9128>
+ <__main__.Word instance at 0x11a9f92d8>
+ <__main__.Word instance at 0x11a9f9560>]",Alex,3_6,False,False,"[['me'], ['you', 'found']]",youfoundme,meyoufound,0.5,-0.69314718056,False,-0.6931471805599453
+756,756,"[<__main__.Word instance at 0x11a9f9488>
+ <__main__.Word instance at 0x11a9f96c8>
+ <__main__.Word instance at 0x11a9f9098>]",Alex,3_6,False,False,"[['me'], ['you', 'found']]",youfoundme,meyoufound,0.5,-0.69314718056,False,-0.6931471805599453
+757,757,"[<__main__.Word instance at 0x11a9f9758>
+ <__main__.Word instance at 0x11a9f9d88>
+ <__main__.Word instance at 0x11a9f9c20>]",Alex,3_6,False,False,"[['you', 'found'], ['me']]",youfoundme,meyoufound,0.5,-0.69314718056,False,-0.6931471805599453
+758,758,[<__main__.Word instance at 0x11a9f9d40>],Alex,3_6,False,True,[['Dad']],Dad,Dad,1.0,0.0,False,-0.0
+759,759,"[<__main__.Word instance at 0x11a9f9cb0>
+ <__main__.Word instance at 0x11a9f9fc8>]",Alex,3_6,False,False,"[['go'], ['around']]",goaround,aroundgo,0.5,-0.69314718056,False,-0.6931471805599453
+760,760,"[<__main__.Word instance at 0x11a9fc128>
+ <__main__.Word instance at 0x11a9fc170>
+ <__main__.Word instance at 0x11a9fc0e0>
+ <__main__.Word instance at 0x11a9fc290>]",Alex,3_6,False,False,"[['branches'], ['you', 'want'], ['do']]",branchesdoyouwant,dobranchesyouwant,0.166666666667,-0.182321556794,False,-0.1823215567939546
+761,761,[<__main__.Word instance at 0x11a9fc5a8>],Alex,3_6,False,True,[['no']],no,no,1.0,0.0,False,-0.0
+762,762,"[<__main__.Word instance at 0x11a9fc638>
+ <__main__.Word instance at 0x11a9fc7a0>]",Alex,3_6,False,True,"[['I', ""can't""]]",Ican't,Ican't,1.0,0.0,False,-0.0
+763,763,"[<__main__.Word instance at 0x11a9fc8c0>
+ <__main__.Word instance at 0x11a9fc368>
+ <__main__.Word instance at 0x11a9fc9e0>]",Alex,3_6,False,False,"[['reach'], ['I', ""can't""]]",Ican'treach,reachIcan't,0.5,-0.69314718056,False,-0.6931471805599453
+764,764,"[<__main__.Word instance at 0x11a9fcd40>
+ <__main__.Word instance at 0x11a9fc998>
+ <__main__.Word instance at 0x11a9fcd88>]",Alex,3_6,False,False,"[['too'], [""I'm""], ['tired']]",I'mtootired,tootiredI'm,0.166666666667,-0.182321556794,False,-0.1823215567939546
+765,765,"[<__main__.Word instance at 0x11a9fcf80>
+ <__main__.Word instance at 0x11a9fcc20>]",Alex,3_6,False,False,"[['branches'], ['Daddy']]",branchesDaddy,Daddybranches,0.5,-0.69314718056,False,-0.6931471805599453
+766,766,"[<__main__.Word instance at 0x11a9fcea8>
+ <__main__.Word instance at 0x11a9fcb48>
+ <__main__.Word instance at 0x11aa00050>
+ <__main__.Word instance at 0x11aa00128>]",Alex,3_6,False,False,"[['hit'], ['the'], ['all'], ['branches']]",hitallthebranches,allthehitbranches,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
+767,767,"[<__main__.Word instance at 0x11aa00290>
+ <__main__.Word instance at 0x11aa003f8>
+ <__main__.Word instance at 0x11aa00368>
+ <__main__.Word instance at 0x11aa005a8>
+ <__main__.Word instance at 0x11aa00518>]",Alex,3_6,False,False,"[['Dad'], ['the'], ['branches'], ['all'], ['hit']]",hitallthebranchesDad,allthehitDadbranches,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+768,768,[<__main__.Word instance at 0x11aa008c0>],Alex,3_6,False,True,[['Daddy']],Daddy,Daddy,1.0,0.0,False,-0.0
+769,769,"[<__main__.Word instance at 0x11aa00b90>
+ <__main__.Word instance at 0x11aa00a28>
+ <__main__.Word instance at 0x11aa00dd0>
+ <__main__.Word instance at 0x11aa00170>
+ <__main__.Word instance at 0x11aa00cb0>]",Alex,3_6,False,False,"[['the'], ['hit'], ['branches'], ['Daddy'], ['all']]",hitallthebranchesDaddy,allthehitDaddybranches,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+770,770,"[<__main__.Word instance at 0x11aa00fc8>
+ <__main__.Word instance at 0x11aa00ea8>
+ <__main__.Word instance at 0x11aa03488>
+ <__main__.Word instance at 0x11aa03320>
+ <__main__.Word instance at 0x11aa034d0>]",Alex,3_6,False,False,"[['the'], ['branches'], ['hit'], ['all'], ['Daddy']]",hitallthebranchesDaddy,allthehitbranchesDaddy,0.00833333333333,-0.00836824967052,False,-0.00836824967051658
+771,771,"[<__main__.Word instance at 0x11aa036c8>
+ <__main__.Word instance at 0x11aa03638>]",Alex,3_6,False,True,"[['branches'], ['hit']]",hitbranches,hitbranches,0.5,0.69314718056,False,0.6931471805599453
+772,772,"[<__main__.Word instance at 0x11aa03878>
+ <__main__.Word instance at 0x11aa03998>
+ <__main__.Word instance at 0x11aa035f0>
+ <__main__.Word instance at 0x11aa03a70>]",Alex,3_6,False,False,"[['all'], ['hit'], ['branches'], ['the']]",hitallthebranches,allthehitbranches,0.0416666666667,-0.0425596144188,False,-0.04255961441879589
