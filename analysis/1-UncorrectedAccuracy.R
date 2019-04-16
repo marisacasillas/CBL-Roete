@@ -48,10 +48,6 @@ sink()
 summary(model_cumu_uncorrected)
 ranef(model_cumu_uncorrected)
 
-# Check for severeness for non-convergence; not severe.
-relgrad <- with(model_cumu_uncorrected@optinfo$derivs,solve(Hessian,gradient))
-max(abs(relgrad))
-
 ## MAIN TEXT PLOTS
 
 # 1) Plot with x-axis: age, and y-axis: percentage of utterances with repetitions, collapsed over all children

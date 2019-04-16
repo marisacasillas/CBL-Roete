@@ -110,9 +110,9 @@ suppl.cumu.data <- subset(suppl.cumu.data, select = c(2:13))
 
 # Run models and generate plots
 #source("1-UncorrectedAccuracy.R")  #TODO: NEEDS FIXING
-#source("2-CorrectedAccuracy.R") #TODO: NEEDS FIXING
-#source("3-UnseenWords.R") #TODO: NEEDS FIXING
-#source("4-ChilduttAnalysis.R") #TODO: NEEDS FIXING
+#source("2-CorrectedAccuracy.R") #TODO: check numwords variable
+#source("3-UnseenWords.R") #TODO: check numwords variable
+source("4-ChilduttAnalysis.R")
 #source("5-SupplMaterials.R") #TODO: NEEDS FIXING
 
 # Print model output if requested in the global variables

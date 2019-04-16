@@ -33,12 +33,4 @@ plot.childuttlength <- ggplot(plot1.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
-png(paste(plot.path,
-          "plotchilduttlength.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.childuttlength+theme_apa()
-dev.off()
-plot.childuttlength+theme_apa()
-
 ggsave(paste0(plot.path, "plotchilduttlength.png"), plot = (plot.childuttlength+theme_apa()))

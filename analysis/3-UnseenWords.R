@@ -73,15 +73,7 @@ plot.local.unseen <- ggplot(plot1.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot 
-##TODO: FIX HERE: Error in dev.off() : 
-#QuartzBitmap_Output - unable to open file 'plots/plotlocalunseen.png'
-png(paste(plot.path,
-          "plotlocalunseen.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.local.unseen + theme_apa()
-dev.off()
-plot.local.unseen + theme_apa()
+ggsave(paste0(plot.path, "plotlocalunseen.png"), plot = plot.local.unseen + theme_apa())
 
 ## cumulative sample
 
@@ -105,14 +97,7 @@ plot.cumu.unseen <- ggplot(plot1.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot 
-
-png(paste(plot.path,
-          "plotcumuunseen.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.cumu.unseen + theme_apa()
-dev.off()
-plot.cumu.unseen + theme_apa()
+ggsave(paste0(plot.path, "plotcumuunseen.png"), plot = plot.cumu.unseen + theme_apa())
 
 ## combine local and cumulative sample in one plot
 
@@ -197,21 +182,9 @@ plot.cumu.unseen.noxtitle <- plot.cumu.unseen +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.8))
 
-# save plot
-png(paste(plot.path,
-          "plotbothunknown.png", sep=""),
-    width=1500,height=700,units="px",
-    bg = "transparent")
-grid.newpage()
-arrange_related_x_axes(plot.local.unseen.noxtitle,
-                       plot.cumu.unseen.noxtitle,
-                       nrow=1, ncol = 2, as.table=TRUE,
-                       sub="Age (years)")
-dev.off()
-
 plot.both.unseen <- arrange_related_x_axes(plot.local.unseen.noxtitle,
                                            plot.cumu.unseen.noxtitle,
                                            nrow=1, ncol = 2, as.table=TRUE,
                                            sub="Age (years)")
-
+# save plot
 ggsave(paste0(plot.path, "plotbothunknown.png"), plot = plot.both.unseen)

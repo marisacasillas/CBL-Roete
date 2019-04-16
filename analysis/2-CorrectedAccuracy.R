@@ -80,18 +80,7 @@ plot.local.reconstruction <- ggplot(plot1.local.data,
   basic.theme + theme(axis.text.x = element_text(size=22)) + 
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
-##TODO: FIX ERROR: 
-#Error in dev.off() : 
-#QuartzBitmap_Output - unable to open file 'plots/plotbothreconstruction.png'
-
-# Save plot
-png(paste(plot.path,
-          "plotlocalrecon.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.local.reconstruction+theme_apa()
-dev.off()
-plot.local.reconstruction+theme_apa()
+ggsave(paste0(plot.path, "plotlocalrecon.png"), plot = plot.local.reconstruction+theme_apa())
 
 ## Cumulative sample
 
@@ -104,7 +93,7 @@ plot1.cumu.data <- merge(plot1.cumu.data, plot1.cumu.data.temp, by = c("child","
 plot1.cumu.data$averagescore <- plot1.cumu.data$total_score/plot1.cumu.data$total_num_utterances
 
 # Generate plot
-plot.acc.reconstruction <- ggplot(plot1.cumu.data, 
+plot.cumu.reconstruction <- ggplot(plot1.cumu.data, 
                                   aes(x=age, y = averagescore, group = child, linetype = child, colour = child)) + 
   geom_line(size = 1.5) + basic.theme + theme(axis.text.x = element_text(size=22)) + 
   #scale_colour_manual(name = "Child:", values = groupcolours) + 
@@ -116,14 +105,7 @@ plot.acc.reconstruction <- ggplot(plot1.cumu.data,
   basic.theme + theme(axis.text.x = element_text(size=22)) + 
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
-#Save plot
-png(paste(plot.path,
-          "plotaccrecon.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.acc.reconstruction + theme_apa()
-dev.off()
-plot.acc.reconstruction + theme_apa()
+ggsave(paste0(plot.path, "plotcumurecon.png"), plot = plot.cumu.reconstruction + theme_apa())
 
 ## Combine local and cumulative sample
 
@@ -206,17 +188,6 @@ plot.acc.reconstruction.noxtitle <- plot.acc.reconstruction +
         axis.text.x = element_text(size=18),
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
-
-png(paste(plot.path,
-          "plotbothreconstruction.png", sep=""),
-    width=1500,height=700,units="px",
-    bg = "transparent")
-grid.newpage()
-arrange_related_x_axes(plot.local.reconstruction.noxtitle,
-                       plot.acc.reconstruction.noxtitle,
-                       nrow=1, ncol = 2, as.table=TRUE,
-                       sub="Age (years)")
-dev.off()
 
 plotboth_reconstructionscore <- arrange_related_x_axes(plot.local.reconstruction.noxtitle,
                                                        plot.acc.reconstruction.noxtitle,

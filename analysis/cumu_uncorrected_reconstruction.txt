@@ -1,0 +1,28 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: Y ~ age + (age | child)
+   Data: subset.cumu.data
+
+     AIC      BIC   logLik deviance df.resid 
+ 41367.9  41409.7 -20679.0  41357.9    31788 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.0376 -1.0501  0.5682  0.8585  1.4902 
+
+Random effects:
+ Groups Name        Variance Std.Dev. Corr 
+ child  (Intercept) 1.3997   1.1831        
+        age         0.1715   0.4142   -0.96
+Number of obs: 31793, groups:  child, 6
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   2.3985     0.4111   5.834  5.4e-09 ***
+age          -0.8211     0.1463  -5.612  2.0e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+    (Intr)
+age -0.944
