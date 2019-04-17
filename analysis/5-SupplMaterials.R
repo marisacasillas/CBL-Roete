@@ -69,6 +69,10 @@ sink()
 summary(model_cumu_uncorrected_suppl)
 ranef(model_cumu_uncorrected_suppl)
 
+# check for severity of non-convergence; not problematic
+relgrad <- with(model_cumu_uncorrected_suppl@optinfo$derivs,solve(Hessian,gradient))
+max(abs(relgrad))
+
 # recenter child age
 subset.suppl.cumu.data$recentered_age <- subset.suppl.cumu.data$age - 2.5
 
@@ -106,15 +110,8 @@ plot.local.suppl.recon_score <- ggplot(plot1.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 
-##TODO: FIX SAVING PLOTS
 # save plot
-png(paste(plot.path,
-          "plotsuppllocalrecon_score.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.local.suppl.recon_score+theme_apa()
-dev.off()
-plot.local.suppl.recon_score+theme_apa()
+ggsave(paste0(plot.path, "plotsuppllocalrecon_score.png"), plot = (plot.local.suppl.recon_score+theme_apa()))
 
 ## cumulative sample
 
@@ -139,13 +136,7 @@ plot1.cumu.suppl.recon_score <- ggplot(plot1.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 #Save plot
-png(paste(plot.path,
-          "plotsupplcumurecon_score.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.cumu.suppl.recon_score + theme_apa()
-dev.off()
-plot.cumu.suppl.recon_score + theme_apa()
+ggsave(paste0(plot.path, "plotsupplcumurecon_score.png"), plot = (plot.cumu.suppl.recon_score + theme_apa()))
 
 # 2) plot average percentage of correctly reconstructed utterances over age, per child
 
@@ -170,13 +161,8 @@ plot.suppl.local.reconstruction_perc <- ggplot(plot2.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot
-png(paste(plot.path,
-          "plotsuppllocalrecon_perc.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.suppl.local.reconstruction_perc+theme_apa()
-dev.off()
-plot.suppl.local.reconstruction_perc+theme_apa()
+ggsave(paste0(plot.path, "plotsuppllocalrecon_perc.png"), plot = (plot.suppl.local.reconstruction_perc+theme_apa()))
+
 
 ## cumulative sample
 
@@ -200,14 +186,7 @@ plot.suppl.cumulative.reconstruction_perc <- ggplot(plot2.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot
-png(paste(plot.path,
-          "plotsupplcumurecon_perc.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.suppl.cumulative.reconstruction_perc+theme_apa()
-dev.off()
-plot.suppl.cumulative.reconstruction_perc+theme_apa()
-
+ggsave(paste0(plot.path, "plotsupplcumurecon_perc.png"), plot = (plot.suppl.cumulative.reconstruction_perc+theme_apa()))
 
 ## Combine local and cumulative plot
 
@@ -238,7 +217,6 @@ grid_arrange_shared_legend <- function(..., ncol = length(list(...)), nrow = 1, 
   # return gtable invisibly
   invisible(combined)
 }
-
 
 # function to remove the x-axis of the right-hand side graph without distorted graph sizes, 
 # the x-axis is the same as the x-axis of the left-hand side graph
@@ -294,16 +272,6 @@ plot.cumu.suppl.recon_score.noxtitle <- plot.cumu.suppl.recon_score +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
 
-png(paste(plot.path,
-          "suppl_bothreconstruction_score.png", sep=""),
-    width=1500,height=700,units="px",
-    bg = "transparent")
-grid.newpage()
-arrange_related_x_axes(plot.local.suppl.recon_score.noxtitle,
-                       plot.cumu.suppl.recon_score.noxtitle,
-                       nrow=1, ncol = 2, as.table=TRUE,
-                       sub="Age (years)")
-dev.off()
 plot.both.reconscore.suppl <- arrange_related_x_axes(plot.local.suppl.recon_score.noxtitle,
                                                      plot.cumu.suppl.recon_score.noxtitle,
                                                      nrow=1, ncol = 2, as.table=TRUE,
@@ -326,17 +294,6 @@ plot.suppl.cumu.reconstruction_perc.noxtitle <- plot.suppl.cumu.reconstruction_p
         axis.text.x = element_text(size=18),
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
-
-png(paste(plot.path,
-          "suppl_bothreconperc.png", sep=""),
-    width=1500,height=700,units="px",
-    bg = "transparent")
-grid.newpage()
-arrange_related_x_axes(plot.suppl.local.reconstruction_perc.noxtitle,
-                       plot.suppl.cumu.reconstruction_perc.noxtitle,
-                       nrow=1, ncol = 2, as.table=TRUE,
-                       sub="Age (years)")
-dev.off()
 
 plot.both.reconperc.suppl <- arrange_related_x_axes(plot.suppl.local.reconstruction_perc.noxtitle,
                                                     plot.suppl.cumu.reconstruction_perc.noxtitle,

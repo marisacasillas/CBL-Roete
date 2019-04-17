@@ -55,11 +55,10 @@ ranef(model_cumu_uncorrected)
 ## Local sample
 
 # Collect data for plot
-
-## TODO: FIX HERE
-plot1.local.data <- aggregate(subset.local.data$repetition, by = c(list(age=subset.local.data$age)),FUN = sum)
+subset.local.data$num_repetition <- ifelse(subset.local.data$repetition == "True", 1,0)
+plot1.local.data <- aggregate(subset.local.data$num_repetition, by = c(list(age=subset.local.data$age)),FUN = sum)
 colnames(plot1.local.data)[2] <- "total_num_repetitions"
-plot1.local.data.temp <- aggregate(subset.local.data$repetition, by = c(list(age = subset.local.data$age)), FUN = function(x){NROW(x)})
+plot1.local.data.temp <- aggregate(subset.local.data$num_repetition, by = c(list(age = subset.local.data$age)), FUN = function(x){NROW(x)})
 colnames(plot1.local.data.temp)[2] <- "total_num_utterances"
 plot1.local.data<- merge(plot1.local.data, plot1.local.data.temp, by = c("age"))
 plot1.local.data$percentages <- (plot1.local.data$total_num_repetitions/plot1.local.data$total_num_utterances)*100
@@ -75,20 +74,15 @@ plot.local.repetitions_perc_collapsed <- ggplot(plot1.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
-png(paste(plot.path,
-          "plotlocalrep_perc_collapsed.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.local.repetitions_perc_collapsed+theme_apa()
-dev.off()
-plot.local.repetitions_perc_collapsed+theme_apa()
+ggsave(paste0(plot.path, "plotlocalrep_perc_collapsed.png"), plot = (plot.local.repetitions_perc_collapsed+theme_apa()))
 
 ## Cumulative sample
 
 # Collect data for plot
-plot1.cumu.data <- aggregate(subset.cumu.data$repetition, by = c(list(age=subset.cumu.data$age)),FUN = sum)
+subset.cumu.data$num_repetition <- ifelse(subset.cumu.data$repetition == "True", 1,0)
+plot1.cumu.data <- aggregate(subset.cumu.data$num_repetition, by = c(list(age=subset.cumu.data$age)),FUN = sum)
 colnames(plot1.cumu.data)[2] <- "total_num_repetitions"
-plot1.cumu.data.temp <- aggregate(subset.cumu.data$repetition, by = c(list(age = subset.cumu.data$age)), FUN = function(x){NROW(x)})
+plot1.cumu.data.temp <- aggregate(subset.cumu.data$num_repetition, by = c(list(age = subset.cumu.data$age)), FUN = function(x){NROW(x)})
 colnames(plot1.cumu.data.temp)[2] <- "total_num_utterances"
 plot1.cumu.data <- merge(plot1.cumu.data, plot1.cumu.data.temp, by = c("age"))
 plot1.cumu.data$percentages <- (plot1.cumu.data$total_num_repetitions/plot1.cumu.data$total_num_utterances)*100
@@ -106,20 +100,14 @@ plot.cumulative.repetitions_perc_collapsed <- ggplot(plot1.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
-png(paste(plot.path,
-          "plotcumulativerep_perc_collapsed.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.cumulative.repetitions_perc_collapsed+theme_apa()
-dev.off()
-plot.cumulative.repetitions_perc_collapsed+theme_apa()
+ggsave(paste0(plot.path, "plotcumulativerep_perc_collapsed.png"), plot = (plot.cumulative.repetitions_perc_collapsed+theme_apa()))
 
 ## Combine local and cumulative sample
 
 # Generate plot
 plot.both.repetitions_perc_collapsed <- ggplot() +
-  geom_line(data = plotdata_local, aes(x=age, y = percentages, color = "local"), lwd = 2) +
-  geom_line(data = plotdata_cumu, aes(x=age, y = percentages, color = "cumulative"), lwd = 2) + 
+  geom_line(data = plot1.local.data, aes(x=age, y = percentages, color = "local"), lwd = 2) +
+  geom_line(data = plot1.cumu.data, aes(x=age, y = percentages, color = "cumulative"), lwd = 2) + 
   geom_line(size = 1.5) + basic.theme + theme(axis.text.x = element_text(size=22)) +
   coord_cartesian(ylim=(c(0,50))) + 
   xlab("\nAge (years)") + 
@@ -130,15 +118,7 @@ plot.both.repetitions_perc_collapsed <- ggplot() +
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt"))) +
   guides(color=guide_legend(title="Sample"))
 
-# # Save plot
-# png(paste(plot.path,
-#           "plotbothrep_perc_collapsed.png", sep=""),
-#     width=900,height=500,units="px",
-#     bg = "transparent")
-# plot.both.repetitions_perc_collapsed+theme_apa()
-# dev.off()
-# plot.both.repetitions_perc_collapsed+theme_apa()
-
+# Save plot
 ggsave(paste0(plot.path, "plotbothrep_perc_collapsed.png"), plot = (plot.both.repetitions_perc_collapsed+theme_apa()))
 
 # 2) Plot with x-axis age, y-axis percentage of correctly reconstructed utterances, per child
@@ -166,13 +146,8 @@ plot.local.reconstruction_perc <- ggplot(plot2.local.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
-png(paste(plot.path,
-          "plotlocalrecon_perc.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.local.reconstruction_perc+theme_apa()
-dev.off()
-plot.local.reconstruction_perc+theme_apa()
+ggsave(paste0(plot.path, "plotlocalrecon_perc.png"), plot = (plot.local.reconstruction_perc+theme_apa()))
+
 
 ## Cumulative sample
 
@@ -196,13 +171,7 @@ plot.cumu.reconstruction_perc <- ggplot(plot2.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # Save plot
-png(paste(plot.path,
-          "plotcumurecon_perc.png", sep=""),
-    width=900,height=500,units="px",
-    bg = "transparent")
-plot.cumu.reconstruction_perc+theme_apa()
-dev.off()
-plot.cumu.reconstruction_perc+theme_apa()
+ggsave(paste0(plot.path, "plotcumurecon_perc.png"), plot = (plot.cumu.reconstruction_perc+theme_apa()))
 
 ## Combine local and cumulative sample
 
@@ -270,36 +239,24 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
   invisible(g) 
 } 
 
-# Generate combined plot
-plot.local.repetitions_perc.noxtitle <- plot.local.repetitions_perc +
+plot.local.reconstruction_perc.noxtitle <- plot.local.reconstruction_perc +
   xlab("\n") +
-  ylab("% Utterances containing\nrepetitions\n") +
+  ylab("Percentage correctly\nreconstructed utterances\n") +
   theme(axis.text.x = element_text(size=18),
         axis.text.y = element_text(size=18),
         legend.position="none")
 
-plot.cumu.repetitions_perc.noxtitle <- plot.cumu.repetitions_perc +
+plot.cumu.reconstruction_perc.noxtitle <- plot.cumu.reconstruction_perc +
   xlab("\n") +
   ylab("\n") +
   theme(legend.key.width = unit(2, "cm"),
         axis.text.x = element_text(size=18),
         axis.text.y = element_text(size=18),
-        legend.position=c(0.75,0.8))
+        legend.position=c(0.75,0.25))
 
-png(paste(plot.path,
-          "plotboth_repetitions_perc.png", sep=""),
-    width=1500,height=700,units="px",
-    bg = "transparent")
-grid.newpage()
-arrange_related_x_axes(plot.local.repetitions_perc.noxtitle,
-                       plot.cumu.repetitions_perc.noxtitle,
+plotbothreconstruction_perc <- arrange_related_x_axes(plot.local.reconstruction_perc.noxtitle,
+                       plot.cumu.reconstruction_perc.noxtitle,
                        nrow=1, ncol = 2, as.table=TRUE,
                        sub="Age (years)")
-dev.off()
 
-plotboth_repetitions_perc <- arrange_related_x_axes(plot.local.repetitions_perc.noxtitle,
-                                                    plot.cumu.repetitions_perc.noxtitle,
-                                                    nrow=1, ncol = 2, as.table=TRUE,
-                                                    sub="Age (years)")
-ggsave(paste0(plot.path, "plotboth_repetitions_perc.png"), plot = plotboth_repetitions_perc)
-
+ggsave(paste0(plot.path, "plotbothreconstruction_perc.png"), plot = plotbothreconstruction_perc)

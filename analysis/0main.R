@@ -109,11 +109,11 @@ suppl.cumu.data$age <- as.numeric(suppl.cumu.data$age)
 suppl.cumu.data <- subset(suppl.cumu.data, select = c(2:13))
 
 # Run models and generate plots
-#source("1-UncorrectedAccuracy.R")  #TODO: NEEDS FIXING
-#source("2-CorrectedAccuracy.R") #TODO: check numwords variable
-#source("3-UnseenWords.R") #TODO: check numwords variable
+source("1-UncorrectedAccuracy.R")  
+source("2-CorrectedAccuracy.R") #TODO: check numwords variable
+source("3-UnseenWords.R") #TODO: check numwords variable
 source("4-ChilduttAnalysis.R")
-#source("5-SupplMaterials.R") #TODO: NEEDS FIXING
+source("5-SupplMaterials.R")
 
 # Print model output if requested in the global variables
 if (print.model.output == "Y") {

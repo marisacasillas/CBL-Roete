@@ -174,14 +174,14 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
 } 
 
 # Generate combined plot
-plot.local.reconstruction.noxtitle <- plot.local.reconstruction +
+plot.local.reconstruction.noxtitle <- plot.cumu.reconstruction +
   xlab("\n") +
   ylab("Average reconstruction score\n") +
   theme(axis.text.x = element_text(size=18),
         axis.text.y = element_text(size=18),
         legend.position="none")
 
-plot.acc.reconstruction.noxtitle <- plot.acc.reconstruction +
+plot.cumu.reconstruction.noxtitle <- plot.cumu.reconstruction +
   xlab("\n") +
   ylab("\n") +
   theme(legend.key.width = unit(2, "cm"),
@@ -190,7 +190,7 @@ plot.acc.reconstruction.noxtitle <- plot.acc.reconstruction +
         legend.position=c(0.75,0.25))
 
 plotboth_reconstructionscore <- arrange_related_x_axes(plot.local.reconstruction.noxtitle,
-                                                       plot.acc.reconstruction.noxtitle,
+                                                       plot.cumu.reconstruction.noxtitle,
                                                        nrow=1, ncol = 2, as.table=TRUE,
                                                        sub="Age (years)")
 ggsave(paste0(plot.path, "plotbothreconstruction.png"), plot = plotboth_reconstructionscore)
