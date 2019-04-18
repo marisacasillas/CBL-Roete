@@ -12,19 +12,19 @@ subset.suppl.local.data$Y <- ifelse(subset.suppl.local.data$reconstructed == "Tr
 subset.suppl.local.data <- subset(subset.suppl.local.data, suppl.local.data$skipped == "False")
 
 # descriptive statistics
-means_by_child_recon_perc <- aggregate(subset.suppl.local.data$Y, by = c(list(child = subset.suppl.local.data$child)),FUN = mean)
-mean_of_means_by_child_recon_perc <- mean(means_by_child_recon_perc$x)*100
-min <- min(means_by_child_recon_perc$x)*100
-max <- max(means_by_child_recon_perc$x)*100
+local_means_by_child_recon_perc <- aggregate(subset.suppl.local.data$Y, by = c(list(child = subset.suppl.local.data$child)),FUN = mean)
+local_mean_of_means_by_child_recon_perc <- mean(local_means_by_child_recon_perc$x)*100
+local_min <- min(local_means_by_child_recon_perc$x)*100
+local_max <- max(local_means_by_child_recon_perc$x)*100
 
-means_by_child_recon_score <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child)),FUN = mean)
-mean_of_means_by_child_recon_score <- mean(means_by_child_recon_score$x)
-se_by_child_recon_score <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child)),FUN = std.error)
-mean_of_se_by_child_recon_score <- mean(se_by_child_recon_score$x)
+local_means_by_child_recon_score <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child)),FUN = mean)
+local_mean_of_means_by_child_recon_score <- mean(local_means_by_child_recon_score$x)
+local_se_by_child_recon_score <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child)),FUN = std.error)
+local_mean_of_se_by_child_recon_score <- mean(local_se_by_child_recon_score$x)
 
 # model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_local_uncorrected_suppl <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.suppl.local.data)
-sink("local_uncorrected_suppl.txt")
+sink(paste0(plot.path,"local_uncorrected_suppl.txt"))
 summary(model_local_uncorrected_suppl)
 sink()
 summary(model_local_uncorrected_suppl)
@@ -35,7 +35,7 @@ subset.suppl.local.data$recentered_age <- subset.suppl.local.data$age - 2.5
 
 # model with the corrected score as dependent variable, recentered age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_local_corrected_suppl <- lmer(correctedscore ~ recentered_age + (recentered_age|child), data = subset.suppl.local.data, control=lmerControl(optimizer = "nloptwrap", optCtrl=list(maxfun=1000000)))
-sink("local_corrected_suppl.txt")
+sink(paste0(plot.path,"local_corrected_suppl.txt"))
 summary(model_local_corrected_suppl)
 sink()
 summary(model_local_corrected_suppl)
@@ -51,19 +51,19 @@ subset.suppl.cumu.data$Y <- ifelse(subset.suppl.cumu.data$reconstructed == "True
 subset.suppl.cumu.data <- subset(subset.suppl.cumu.data, suppl.cumu.data$skipped == "False")
 
 # descriptive statistics
-means_by_child_recon_perc <- aggregate(subset.suppl.cumu.data$Y, by = c(list(child = subset.suppl.cumu.data$child)),FUN = mean)
-mean_of_means_by_child_recon_perc <- mean(means_by_child_recon_perc$x)*100
-min <- min(means_by_child_recon_perc$x)*100
-max <- max(means_by_child_recon_perc$x)*100
+cumu_means_by_child_recon_perc <- aggregate(subset.suppl.cumu.data$Y, by = c(list(child = subset.suppl.cumu.data$child)),FUN = mean)
+cumu_mean_of_means_by_child_recon_perc <- mean(cumu_means_by_child_recon_perc$x)*100
+cumu_min <- min(cumu_means_by_child_recon_perc$x)*100
+cumu_max <- max(cumu_means_by_child_recon_perc$x)*100
 
-means_by_child_recon_score <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child)),FUN = mean)
-mean_of_means_by_child_recon_score <- mean(means_by_child_recon_score$x)
-se_by_child_recon_score <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child)),FUN = std.error)
-mean_of_se_by_child_recon_score <- mean(se_by_child_recon_score$x)
+cumu_means_by_child_recon_score <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child)),FUN = mean)
+cumu_mean_of_means_by_child_recon_score <- mean(cumu_means_by_child_recon_score$x)
+cumu_se_by_child_recon_score <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child)),FUN = std.error)
+cumu_mean_of_se_by_child_recon_score <- mean(cumu_se_by_child_recon_score$x)
 
 # model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_uncorrected_suppl <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.suppl.cumu.data)
-sink("cumu_uncorrected_suppl.txt")
+sink(paste0(plot.path,"cumu_uncorrected_suppl.txt"))
 summary(model_cumu_uncorrected_suppl)
 sink()
 summary(model_cumu_uncorrected_suppl)
@@ -78,7 +78,7 @@ subset.suppl.cumu.data$recentered_age <- subset.suppl.cumu.data$age - 2.5
 
 # model with the corrected score as dependent variable, recentered age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_corrected_suppl <- lmer(correctedscore ~ recentered_age + (recentered_age|child), data = subset.suppl.cumu.data, control=lmerControl(optimizer = "nloptwrap", optCtrl=list(maxfun=1000000)))
-sink("cumu_corrected_suppl.txt")
+sink(paste0(plot.path,"cumu_corrected_suppl.txt"))
 summary(model_cumu_corrected_suppl)
 sink()
 summary(model_cumu_corrected_suppl)
@@ -87,15 +87,14 @@ ranef(model_cumu_corrected_suppl)
 # PLOTS
 
 # 1) plot average controlled score over age, per child
-
 ## local sample
 # collect data for plot
-plot1.local.data <- aggregate(subset.suppl.local.data$controlledscore, by = c(list(child = subset.suppl.local.data$child),list(age=subset.suppl.local.data$age)),FUN = sum)
+plot1.local.data <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child),list(age=subset.suppl.local.data$age)),FUN = sum)
 colnames(plot1.local.data)[3] <- "total_score"
-plot1.local.data.temp <- aggregate(subset.suppl.local.data$controlledscore, by = c(list(child = subset.suppl.local.data$child),list(age = subset.suppl.local.data$age)), FUN = function(x){NROW(x)})
+plot1.local.data.temp <- aggregate(subset.suppl.local.data$correctedscore, by = c(list(child = subset.suppl.local.data$child),list(age = subset.suppl.local.data$age)), FUN = function(x){NROW(x)})
 colnames(plot1.local.data.temp)[3] <- "total_num_utterances"
-plot1.data <- merge(plot1.local.data, plot1.local.data.temp, by = c("child","age"))
-plot1.data$averagescore <- plot1.local.data$total_score/plot1.local.data$total_num_utterances
+plot1.local.data <- merge(plot1.local.data, plot1.local.data.temp, by = c("child","age"))
+plot1.local.data$averagescore <- plot1.local.data$total_score/plot1.local.data$total_num_utterances
 
 # generate plot
 plot.local.suppl.recon_score <- ggplot(plot1.local.data, 
@@ -116,15 +115,15 @@ ggsave(paste0(plot.path, "plotsuppllocalrecon_score.png"), plot = (plot.local.su
 ## cumulative sample
 
 # collect data for plot
-plot1.cumu.data <- aggregate(subset.suppl.cumu.data$controlledscore, by = c(list(child = subset.suppl.cumu.data$child),list(age=subset.suppl.cumu.data$age)),FUN = sum)
+plot1.cumu.data <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child),list(age=subset.suppl.cumu.data$age)),FUN = sum)
 colnames(plot1.cumu.data)[3] <- "total_score"
-plot1.cumu.data.temp <- aggregate(subset.suppl.cumu.data$controlledscore, by = c(list(child = subset.suppl.cumu.data$child),list(age = subset.suppl.cumu.data$age)), FUN = function(x){NROW(x)})
+plot1.cumu.data.temp <- aggregate(subset.suppl.cumu.data$correctedscore, by = c(list(child = subset.suppl.cumu.data$child),list(age = subset.suppl.cumu.data$age)), FUN = function(x){NROW(x)})
 colnames(plot1.cumu.data.temp)[3] <- "total_num_utterances"
 plot1.cumu.data <- merge(plot1.cumu.data, plot1.cumu.data.temp, by = c("child","age"))
 plot1.cumu.data$averagescore <- plot1.cumu.data$total_score/plot1.cumu.data$total_num_utterances
 
 # generate plot
-plot1.cumu.suppl.recon_score <- ggplot(plot1.cumu.data, 
+plot.cumu.suppl.recon_score <- ggplot(plot1.cumu.data, 
                                       aes(x=age, y = averagescore, group = child, linetype = child, colour = child)) + 
   geom_line(size = 1.5) + basic.theme + theme(axis.text.x = element_text(size=22)) + 
   coord_cartesian(ylim=(c(-0.5,0.5))) + 
@@ -135,11 +134,10 @@ plot1.cumu.suppl.recon_score <- ggplot(plot1.cumu.data,
   basic.theme + theme(axis.text.x = element_text(size=22)) + 
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
-#Save plot
+# save plot
 ggsave(paste0(plot.path, "plotsupplcumurecon_score.png"), plot = (plot.cumu.suppl.recon_score + theme_apa()))
 
 # 2) plot average percentage of correctly reconstructed utterances over age, per child
-
 ## local sample
 # collect data for plot
 plot2.local.data <- aggregate(subset.suppl.local.data$Y, by = c(list(child = subset.suppl.local.data$child),list(age=subset.suppl.local.data$age)),FUN = sum)
@@ -163,7 +161,6 @@ plot.suppl.local.reconstruction_perc <- ggplot(plot2.local.data,
 # save plot
 ggsave(paste0(plot.path, "plotsuppllocalrecon_perc.png"), plot = (plot.suppl.local.reconstruction_perc+theme_apa()))
 
-
 ## cumulative sample
 
 # collect data for plot
@@ -175,7 +172,7 @@ plot2.cumu.data <- merge(plot2.cumu.data, plot2.cumu.data.temp, by = c("child","
 plot2.cumu.data$percentages <- (plot2.cumu.data$total_num_corr_reconstructions/plot2.cumu.data$total_num_utterances)*100
 
 # generate plot
-plot.suppl.cumulative.reconstruction_perc <- ggplot(plot2.cumu.data, 
+plot.suppl.cumu.reconstruction_perc <- ggplot(plot2.cumu.data, 
                                                     aes(x=age, y = percentages, group = child, linetype = child, colour = child)) + 
   geom_line(size = 1.5) + basic.theme + theme(axis.text.x = element_text(size=22)) + 
   coord_cartesian(ylim=(c(0,100))) + 
@@ -186,7 +183,7 @@ plot.suppl.cumulative.reconstruction_perc <- ggplot(plot2.cumu.data,
   theme(plot.title = element_text(size=30, face = "bold.italic", hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 
 # save plot
-ggsave(paste0(plot.path, "plotsupplcumurecon_perc.png"), plot = (plot.suppl.cumulative.reconstruction_perc+theme_apa()))
+ggsave(paste0(plot.path, "plotsupplcumurecon_perc.png"), plot = (plot.suppl.cumu.reconstruction_perc+theme_apa()))
 
 ## Combine local and cumulative plot
 
@@ -255,7 +252,6 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
 } 
 
 # arrange two graphs (local and cumulative sampled data) into one figure
-
 # 1) plot 1: average reconstruction score x age, per child
 plot.local.suppl.recon_score.noxtitle <- plot.local.suppl.recon_score +
   xlab("\n") +
@@ -272,12 +268,16 @@ plot.cumu.suppl.recon_score.noxtitle <- plot.cumu.suppl.recon_score +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
 
-plot.both.reconscore.suppl <- arrange_related_x_axes(plot.local.suppl.recon_score.noxtitle,
-                                                     plot.cumu.suppl.recon_score.noxtitle,
-                                                     nrow=1, ncol = 2, as.table=TRUE,
-                                                     sub="Age (years)")
-
-ggsave(paste0(plot.path, "suppl_bothreconstruction_score.png"), plot = plot.both.reconscore.suppl)
+png(paste(plot.path,
+          "suppl_bothreconstruction.png", sep=""),
+    width=1500,height=700,units="px",
+    bg = "transparent")
+grid.newpage()
+arrange_related_x_axes(plot.local.suppl.recon_score.noxtitle,
+                       plot.cumu.suppl.recon_score.noxtitle,
+                       nrow=1, ncol = 2, as.table=TRUE,
+                       sub="Age (years)")
+dev.off()
 
 # 2) plot 2: average reconstruction percentage x age, per child
 plot.suppl.local.reconstruction_perc.noxtitle <- plot.suppl.local.reconstruction_perc +
@@ -295,9 +295,13 @@ plot.suppl.cumu.reconstruction_perc.noxtitle <- plot.suppl.cumu.reconstruction_p
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
 
-plot.both.reconperc.suppl <- arrange_related_x_axes(plot.suppl.local.reconstruction_perc.noxtitle,
-                                                    plot.suppl.cumu.reconstruction_perc.noxtitle,
-                                                    nrow=1, ncol = 2, as.table=TRUE,
-                                                    sub="Age (years)")
-
-ggsave(paste0(plot.path, "suppl_bothreconperc.png"), plot = plot.both.reconperc.suppl)
+png(paste(plot.path,
+          "suppl_bothreconperc.png", sep=""),
+    width=1500,height=700,units="px",
+    bg = "transparent")
+grid.newpage()
+arrange_related_x_axes(plot.suppl.local.reconstruction_perc.noxtitle,
+                       plot.suppl.cumu.reconstruction_perc.noxtitle,
+                       nrow=1, ncol = 2, as.table=TRUE,
+                       sub="Age (years)")
+dev.off()
