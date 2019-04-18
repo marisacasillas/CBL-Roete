@@ -7,7 +7,7 @@
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is skipped, Y=0 if not skipped.
 subset.local.data <- subset(local.data,select=c(1,2,3,4,5,6,12))
 subset.local.data$utterance <- as.character(subset.local.data$utterance)
-subset.local.data$numwords <- (str_count(subset.local.data$utterance,"Word")-1) ##TODO: CHECK THIS! LOOKS WEIRD!
+subset.local.data$numwords <- (str_count(subset.local.data$utterance,"Word"))  #"-1"  SHOULD BE REMOVED NOW WE DON"T HAVE #-s anymore
 subset.local.data$Y <- ifelse(subset.local.data$skipped == "True", 1,0)
 
 # Descriptive statistics
@@ -19,7 +19,7 @@ local_mean_of_se_unseen <- mean(local_se_unseen_by_child$x)*100
 # Model with the binary skipped/not skipped as dependent variable, age and number of word in an utterance as independent 
 # variables (fixed effect), by-child random intercept and random slopes of age.
 model_local_unseenwords <- glmer(Y ~ age + (age|child) + numwords, family=binomial(link = 'logit'), data = subset.local.data)
-sink("local_unseenwords.txt")
+sink(paste0(plot.path,"local_unseenwords.txt"))
 summary(model_local_unseenwords)
 sink()
 summary(model_local_unseenwords)
@@ -29,7 +29,7 @@ ranef(model_local_unseenwords)
 # Yi,j,k for the i-th utterance of the j-th child at age k: Y = 1 if utterance is skipped, Y=0 if not skipped.
 subset.cumu.data <- subset(cumu.data,select=c(1,2,3,4,5,6,12))
 subset.cumu.data$utterance <- as.character(subset.cumu.data$utterance)
-subset.cumu.data$numwords <- (str_count(subset.cumu.data$utterance,"Word")-1) ##TODO: CHECK THIS! LOOKS WEIRD!
+subset.cumu.data$numwords <- (str_count(subset.cumu.data$utterance,"Word")) #-1) 
 subset.cumu.data$Y <- ifelse(subset.cumu.data$skipped == "True", 1,0)
 
 # Descriptive statistics
@@ -41,7 +41,7 @@ cumu_mean_of_se_unseen <- mean(cumu_se_unseen_by_child$x)*100
 # Model with the binary skipped/not skipped as dependent variable, age and number of word in an utterance as independent 
 # variables (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_unseenwords <- glmer(Y ~ age + (age|child) + numwords, family=binomial(link = 'logit'), data = subset.cumu.data)
-sink("cumu_unseenwords.txt")
+sink(paste0(plot.path,"cumu_unseenwords.txt"))
 summary(model_cumu_unseenwords)
 sink()
 summary(model_cumu_unseenwords)
