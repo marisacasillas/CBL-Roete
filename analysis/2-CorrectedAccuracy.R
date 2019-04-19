@@ -9,7 +9,7 @@
 # Y=0 if not. 
 subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12))
 subset.local.data$Y <- ifelse(subset.local.data$reconstructed == "True", 1,0)
-subset.local.data <- subset(subset.local.data, local.data$skipped == "False")
+subset.local.data <- subset(subset.local.data, subset.local.data$skipped == "False")
 
 # Descriptive statistics
 local_means_corrected_by_child <- aggregate(subset.local.data$correctedscore, by = c(list(child = subset.local.data$child)),FUN = mean)
@@ -22,7 +22,7 @@ subset.local.data$recentered_age <- subset.local.data$age - 2.5
 
 # Model with the corrected score as dependent variable, recentered age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_local_corrected <- lmer(correctedscore ~ recentered_age + (recentered_age|child), data = subset.local.data, control=lmerControl(optimizer = "nloptwrap", optCtrl=list(maxfun=1000000)))
-sink("local_corrected_reconstruction.txt")
+sink(paste0(plot.path,"local_corrected_reconstruction.txt"))
 summary(model_local_corrected)
 sink()
 summary(model_local_corrected)
@@ -35,7 +35,7 @@ ranef(model_local_corrected )
 # Y=0 if not.
 subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12))
 subset.cumu.data$Y <- ifelse(subset.cumu.data$reconstructed == "True", 1,0)
-subset.cumu.data <- subset(subset.cumu.data, cumu.data$skipped == "False")
+subset.cumu.data <- subset(subset.cumu.data, subset.cumu.data$skipped == "False")
 
 # Descriptive statistics
 cumu_means_corrected_by_child <- aggregate(subset.cumu.data$correctedscore, by = c(list(child = subset.cumu.data$child)),FUN = mean)
@@ -48,7 +48,7 @@ subset.cumu.data$recentered_age <- subset.cumu.data$age - 2.5
 
 # Model with the corrected score as dependent variable, recentered age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_corrected <- lmer(correctedscore ~ recentered_age + (recentered_age|child), data = subset.cumu.data, control=lmerControl(optimizer = "nloptwrap", optCtrl=list(maxfun=1000000)))
-sink("cumu_corrected_reconstruction.txt")
+sink(paste0(plot.path,"cumu_corrected_reconstruction.txt"))
 summary(model_cumu_corrected)
 sink()
 summary(model_cumu_corrected)
@@ -174,7 +174,7 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
 } 
 
 # Generate combined plot
-plot.local.reconstruction.noxtitle <- plot.cumu.reconstruction +
+plot.local.reconstruction.noxtitle <- plot.local.reconstruction +
   xlab("\n") +
   ylab("Average reconstruction score\n") +
   theme(axis.text.x = element_text(size=18),
@@ -189,8 +189,13 @@ plot.cumu.reconstruction.noxtitle <- plot.cumu.reconstruction +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
 
-plotboth_reconstructionscore <- arrange_related_x_axes(plot.local.reconstruction.noxtitle,
-                                                       plot.cumu.reconstruction.noxtitle,
-                                                       nrow=1, ncol = 2, as.table=TRUE,
-                                                       sub="Age (years)")
-ggsave(paste0(plot.path, "plotbothreconstruction.png"), plot = plotboth_reconstructionscore)
+png(paste(plot.path,
+          "plotbothreconstruction.png", sep=""),
+    width=1500,height=700,units="px",
+    bg = "transparent")
+grid.newpage()
+arrange_related_x_axes(plot.local.reconstruction.noxtitle,
+                       plot.cumu.reconstruction.noxtitle,
+                       nrow=1, ncol = 2, as.table=TRUE,
+                       sub="Age (years)")
+dev.off()

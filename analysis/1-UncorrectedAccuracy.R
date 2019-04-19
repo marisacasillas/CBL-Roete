@@ -9,17 +9,17 @@
 # Y=0 if not. 
 subset.local.data <- subset(local.data,select=c(1,3,4,5,6,10,11,12))
 subset.local.data$Y <- ifelse(subset.local.data$reconstructed == "True", 1,0)
-subset.local.data <- subset(subset.local.data, local.data$skipped == "False")
+subset.local.data <- subset(subset.local.data, subset.local.data$skipped == "False")
 
 # Descriptive statistics
 local_means_uncorrected_by_child <- aggregate(subset.local.data$Y, by = c(list(child = subset.local.data$child)),FUN = mean)
 local_mean_of_means_uncorrected <- mean(local_means_uncorrected_by_child$x)*100
-min <- min(local_means_uncorrected_by_child$x)*100
-max <- max(local_means_uncorrected_by_child$x)*100
+local_min <- min(local_means_uncorrected_by_child$x)*100
+local_max <- max(local_means_uncorrected_by_child$x)*100
 
 # Model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_local_uncorrected <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.local.data)
-sink("local_uncorrected_reconstruction.txt")
+sink(paste0(plot.path,"local_uncorrected_reconstruction.txt"))
 summary(model_local_uncorrected)
 sink()
 summary(model_local_uncorrected)
@@ -32,17 +32,18 @@ ranef(model_local_uncorrected)
 # Y=0 if not.
 subset.cumu.data <- subset(cumu.data,select=c(1,3,4,5,6,10,11,12))
 subset.cumu.data$Y <- ifelse(subset.cumu.data$reconstructed == "True", 1,0)
-subset.cumu.data <- subset(subset.cumu.data, cumu.data$skipped == "False")
+subset.cumu.data <- subset(subset.cumu.data, subset.cumu.data$skipped == "False")
 
 # Descriptive statistics
 cumu_means_uncorrected_by_child <- aggregate(subset.cumu.data$Y, by = c(list(child = subset.cumu.data$child)),FUN = mean)
 cumu_mean_of_means_uncorrected <- mean(cumu_means_uncorrected_by_child$x)*100
-min <- min(cumu_means_uncorrected_by_child$x)*100
-max <- max(cumu_means_uncorrected_by_child$x)*100
+cumu_min <- min(cumu_means_uncorrected_by_child$x)*100
+cumu_max <- max(cumu_means_uncorrected_by_child$x)*100
 
+#TODO: COME BACK TO THIS
 # Model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_uncorrected <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.cumu.data)
-sink("cumu_uncorrected_reconstruction.txt")
+sink(paste0(plot.path,"cumu_uncorrected_reconstruction.txt"))
 summary(model_cumu_uncorrected)
 sink()
 summary(model_cumu_uncorrected)
@@ -254,9 +255,13 @@ plot.cumu.reconstruction_perc.noxtitle <- plot.cumu.reconstruction_perc +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.25))
 
-plotbothreconstruction_perc <- arrange_related_x_axes(plot.local.reconstruction_perc.noxtitle,
+png(paste(plot.path,
+          "plotbothreconstruction_perc.png", sep=""),
+    width=1500,height=700,units="px",
+    bg = "transparent")
+grid.newpage()
+arrange_related_x_axes(plot.local.reconstruction_perc.noxtitle,
                        plot.cumu.reconstruction_perc.noxtitle,
                        nrow=1, ncol = 2, as.table=TRUE,
                        sub="Age (years)")
-
-ggsave(paste0(plot.path, "plotbothreconstruction_perc.png"), plot = plotbothreconstruction_perc)
+dev.off()

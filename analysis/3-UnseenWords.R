@@ -182,9 +182,14 @@ plot.cumu.unseen.noxtitle <- plot.cumu.unseen +
         axis.text.y = element_text(size=18),
         legend.position=c(0.75,0.8))
 
-plot.both.unseen <- arrange_related_x_axes(plot.local.unseen.noxtitle,
-                                           plot.cumu.unseen.noxtitle,
-                                           nrow=1, ncol = 2, as.table=TRUE,
-                                           sub="Age (years)")
-# save plot
-ggsave(paste0(plot.path, "plotbothunknown.png"), plot = plot.both.unseen)
+png(paste(plot.path,
+          "plotbothunknown.png", sep=""),
+    width=1500,height=700,units="px",
+    bg = "transparent")
+grid.newpage()
+arrange_related_x_axes(plot.local.unseen.noxtitle,
+                       plot.cumu.unseen.noxtitle,
+                       nrow=1, ncol = 2, as.table=TRUE,
+                       sub="Age (years)")
+dev.off()
+
