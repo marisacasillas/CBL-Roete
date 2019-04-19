@@ -40,7 +40,6 @@ cumu_mean_of_means_uncorrected <- mean(cumu_means_uncorrected_by_child$x)*100
 cumu_min <- min(cumu_means_uncorrected_by_child$x)*100
 cumu_max <- max(cumu_means_uncorrected_by_child$x)*100
 
-#TODO: COME BACK TO THIS
 # Model with the binary uncorrected score as dependent variable, age as independent variable (fixed effect), by-child random intercept and random slopes of age.
 model_cumu_uncorrected <- glmer(Y ~ age + (age|child), family=binomial(link = 'logit'), data = subset.cumu.data)
 sink(paste0(plot.path,"cumu_uncorrected_reconstruction.txt"))
@@ -110,7 +109,7 @@ plot.both.repetitions_perc_collapsed <- ggplot() +
   geom_line(data = plot1.local.data, aes(x=age, y = percentages, color = "local"), lwd = 2) +
   geom_line(data = plot1.cumu.data, aes(x=age, y = percentages, color = "cumulative"), lwd = 2) + 
   geom_line(size = 1.5) + basic.theme + theme(axis.text.x = element_text(size=22)) +
-  coord_cartesian(ylim=(c(0,50))) + 
+  coord_cartesian(ylim=(c(0,30))) + 
   xlab("\nAge (years)") + 
   ylab("Percentage of utterances\n containing repetitions\n") + 
   ggtitle("Chunk repetitions in child utterances") + 
