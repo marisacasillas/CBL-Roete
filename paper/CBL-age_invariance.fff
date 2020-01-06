@@ -1,0 +1,72 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/chunking_mechanism}
+
+}
+
+\caption{Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). "\#" denotes a start-of-sentence marker.}\label{fig:fig1}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/reconstruction_task}
+
+}
+
+\caption{Example of a reconstruction attempt of two child utterances by a toy model. The model is able to reconstruct the first utterance, but it cannot do so with the second utterance, which contains a word  ("there") that it has not previously seen.}\label{fig:fig2}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/plotbothreconstruction_perc}
+
+}
+
+\caption{Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig3}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/plotbothfactors}
+
+}
+
+\caption{Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).}\label{fig:fig4}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/plotbothreconstruction}
+
+}
+
+\caption{Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig5}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.3\linewidth]{images/plotbothunknown}
+
+}
+
+\caption{Number of utterances with previously unseen words across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig6}
+\end{figure*}
+\efloatseparator
+ 

@@ -1,0 +1,245 @@
+---
+title             : "Modeling the influence of language input statistics on children's speech production"
+shorttitle        : "Modeling input statistics in child speech productions"
+
+author: 
+  - name          : "Ingeborg Roete"
+    affiliation   : "1,2"
+  - name          : "Stefan L. Frank"
+    affiliation   : "2"
+  - name          : "Paula Fikkert"
+    affiliation   : "2"
+  - name          : "Marisa Casillas"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Wundtlaan 1, 6525 XD, Nijmegen, The Netherlands"
+    email         : "marisa.casillas@mpi.nl"
+    affiliation   : "1"
+
+affiliation:
+  - id            : "1"
+    institution   : "Max Planck Institute for Psycholinguistics"
+  - id            : "2"
+    institution   : "Radboud University"
+
+authornote: |
+
+abstract: |
+   We trained a computational model (the Chunk Based Learner; CBL) on a longitudinal corpus of child-caregiver interactions to test whether one proposed statistical learning mechanism---backward transitional probability (BTP)---is able to predict children's speech productions with stable accuracy throughout the first few years of development. We predicted that the model less accurately generates children's speech productions as they grow older because children gradually begin to generate speech using abstracted forms rather than specific "chunks" from their speech environment. To test this idea, we trained the model on both recently encountered and cumulative speech input from a longitudinal child language corpus. We then assessed whether the model could accurately reconstruct children's speech. Controlling for utterance length and the presence of duplicate chunks, we found no evidence that the CBL becomes less accurate in its ability to reconstruct children's speech with age. Our findings suggest that BTP is an age-invariant learning mechanism.
+
+  
+keywords          : "statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children"
+wordcount         : "6056"
+
+bibliography      : ["CBL-age_invariance.bib"]
+
+floatsintext      : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : yes
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+
+During the first few years of life children learn the basic building blocks of the language(s) around them. One way they do so is via statistical learning (SL), the process of extracting  regularities present in the language environment. Over the past few decades, SL has become a major topic in the field of first language acquisition, ranging in application from speech segmentation [@jusczyk1995infants; @saffran1996statistical] and phonotactic learning [@chambers2003infants] to producing irregulars [@arnon2011brush], discovering multi-word structures [@bannard2009modeling; @chang2006using; @frost2019], and much more (see @saffran2018infant for a recent review). By its nature, work in this domain is heavily concerned with at least two major topics: (1) the information available in children's language environments (the 'input') from which they can pick up on patterns, and (2) the precise mechanisms by which children convert these 'raw' environmental statistics into internalized knowledge about language. A third issue is whether and how children's SL behavior changes as they develop [@shufaniya2018statistical]. The current paper taps into each of these three issues: we train a computational model on a longitudinal corpus of child-caregiver interactions to test whether one proposed SL mechanism---backward transitional probability (BTP)---is able to predict children's speech productions with stable accuracy as they get older.
+
+## SL over development
+
+The ability to detect and store patterns in the environment begins in infancy [e.g., @johnson2009abstract; @kidd2018individual; @saffran1996statistical; @teinonen2009statistical], continues into adulthood [e.g., @conway2010implicit; @frost2016simultaneous; @saffran1999statistical], and crosses a range of modalities [@conway2005modality; @emberson2011timing; @monroy2017toddlers]. However, it is still a matter of debate whether SL is an age-invariant skill or not [@arciuli2011statistical; @raviv2018developmental; @shufaniya2018statistical; @saffran1997incidental]. Recent work that investigates SL abilities in 5--12-year-old children suggests that, while both visual and auditory SL improve with age for non-linguistic stimuli, performance stays the same across childhood for linguistic stimuli [@raviv2018developmental; @shufaniya2018statistical]. From this finding, the authors conclude that SL for language might be age-invariant. On the other hand, infant SL abilities do appear to shift within the first year, both for linguistic [@kidd2018individual] and non-linguistic [@johnson2009abstract] stimuli. For example, while 11-month-olds can detect and generalize over regularities in a sequence, 8-month-olds are only capable of detecting the regularities, and neither group succeeds yet at learning visual non-adjacent dependencies [@johnson2009abstract; see also @bulf2011visual and  @slone2015infants].
+
+These changes in SL behavior during infancy and early childhood may relate to changes in other fundamental cognitive skills. For example, SL-relevant brain regions, such as the pre-frontal cortex, continue maturing through childhood [@casey2000structural; @diamond2002normal; @rodriguez2009neurophysiological; @uylings2006development], which may change how children attend to the linguistic information around them as they get older. Similarly, infants' long-term memory continuously improves between ages 0;2 and 1;6 [@bauer2005developments; @wojcik2013remembering]. Therefore, the manner in which they store linguistic regularities in long-term memory may also shift during this period. Relatedly, working memory and speed of processing change continuously throughout early childhood [@gathercole2004structure; @kail1991developmental], implying that there could be a developmental change in the rate and scale at which children can process chunks of information from the unfolding speech signal.
+
+Continued exposure to linguistic input itself can also be an impetus for change in SL behavior---a view supported by multiple, theoretically distinct, approaches to early syntactic learning. For example, @yang2016price proposes that children gather detailed, exemplar-based statistical evidence until it is more cognitively efficient for them to make a categorical abstract generalization. He proposes that, at that point, the learner instantiates a rule to account for patterns in the data. Usage-based theories of early language development instead propose that children first learn small concrete linguistic sequences from their input that are made up of specific words or word combinations (e.g., 'dog' and 'I wanna'; or multi-word combinations, 'where's the ...'; @tomasello2006acquiring). Then, over time, children are proposed to form abstract schemas centered on lexical items (see also @bannard2009modeling and @chang2006using). This representational shift, from probabilistic and lexical to abstract and syntactic, is used to account for how children can eventually create utterances that they have never heard before. Crucially, the representational shift implies a change in the way children apply the original SL mechanism(s) to incoming linguistic information [see also @lany2008twelve].
+
+Change in SL behavior following further linguistic experience is also predicted in models that do not assume abstraction. In chunk-based models of language learning [@arnon2017; @christiansen2016now; @christiansen2017more; @clair2010learning; @misyak2012statistical], children use statistical dependencies in the language input (e.g., between words or syllables) to store chunks of co-occurring forms. Dependencies between the chunks themselves can also be tracked [see, e.g., @jost201610]; as the outcome of continued exposure and chunk storage. Fundamentally, however, the larger chunks in these models are designed to use the same underlying mechanisms [@misyak2012statistical], so there is no major representational shift similar to those proposed above, and the mechanisms for processing, storing, and deploying information stay the same.
+
+We investigated the possibility of developmental change in SL using computational modeling, which enables us to define and test the goodness-of-fit for any given learning mechanism on a dataset of natural speech. We chose to use a longitudinal child language dataset, in which the same children were tracked across the developmental period of interest for early speech production (0;11--4;0). By choosing data in this age range, we could test whether use of a learning mechanism changed for each child across the studied developmental time points. We tested for developmental change in the use of a single proposed statistical learning mechanism: backward transitional probability [@mccauley2011learning; @onnis2013language; @pelucchi2009learning].
+
+## BTP and the Chunk-Based Learner
+
+Our model is based on McCauley and Christiansen's [-@mccauley2011learning; -@mccauley2014acquiring] Chunk-Based Learner (CBL) model, which uses one measure---backward transitional probability---to detect statistical dependencies in the speech stream. BTP for a given pair of words is defined as the occurrence probability of the previous word (w$_{-1}$) given the current word (w$_0$). It can be estimated for each word in a sentence in order to reveal peaks and dips in transitional likelihood, which reflect places where words are likely (peaks) or unlikely (dips) to co-occur.
+
+``` {r fig1, echo=FALSE, fig.align = "center", fig.cap="Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). \"\\#\" denotes a start-of-sentence marker.", out.width = '95%'}
+knitr::include_graphics("images/chunking_mechanism.png")
+```
+
+The CBL model divides utterances into chunks, splitting the utterances whenever the BTP between two words drops below the running average BTP. In the example in [Figure 1](#fig1), the CBL might decide to split the sentence ("did you look at the doggy") into three chunks 'did you', 'look at', and 'the doggy', and store all three in its memory. As it sees more sentences, it would continue to add new chunks and track how often they co-occurred.
+
+The CBL was developed to model children's early speech production and comprehension without appealing to abstract grammatical categories. Specifically, it was designed as an implementation of the hypothesis that children detect and store multi-word chunks using BTP, and also use the stored chunks to parse speech and produce new utterances (see also @arnon2010more and @bannard2008stored). The model's ability to simulate learning can be measured by first training it on what children hear and then having the model reproduce what children say from the chunks that it learned.
+
+We chose to build on the CBL model because it has successfully accounted for production data in multiple corpora, including developmental datasets. For example: (a) it parsed text better than a shallow parser in three different languages (English, German and French) when using individual words rather than word classes, (b) it was able to recreate up to 60% of child utterance productions in 13 different languages, and (c) it closely replicated data from an artificial grammar learning study [@mccauley2011learning; @saffran2002constraints]. The model has also been able to replicate experimental data on children's multi-word utterance repetitions [@bannard2008stored], over-regularization of irregular plural nouns [@arnon2011brush], and L2-learner speech [@mccauley2017computational; see also @mccauley2014reappraising]. In sum, the CBL model appears to robustly predict the word-chunk patterns in children's speech when given information about what they hear in their input.
+
+## Testing for change with age
+Following McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning] we tested the CBL model's ability to learn language by checking how well it can reconstruct children's utterances from the chunks discovered in their caregivers' speech. As we are interested in developmental change over the first three years of speech production, we analyzed the model's reconstruction ability with two measures:
+
+* "Uncorrected": The binary (success/fail) reconstruction score originally used by McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning].
+* "Corrected": A length-and-repetition-controlled reconstruction score that accounts for the fact that longer utterances have more opportunities for error reconstruction, and for the fact that some child utterances contain repetitions of word(s), making multiple reconstructions match the original utterance.
+
+If BTP is an age-invariant mechanism, it should apply equally well to shorter utterances and  longer utterances; the latter of which are more often produced as children get older. We therefore tested for age invariance both with the original binary ("uncorrected") reconstruction score and a new ("corrected") score we proposed to account for utterance length and word repetitions. If we find age-invariance, even while controlling for utterance length and word repetitions, it would strongly suggest that the mechanism is stable over the first three years of speech production and not simply influenced by other factors, e.g., utterance length. If not, it would suggest that use of the mechanism, in fact, changes with age [@bannard2009modeling; @tomasello2003constructing; @yang2016price].
+
+## Predictions
+Taking the previous findings as a starting point, we investigated whether the CBL could account for child speech production with equal precision over the first four years of life. We predicted that:
+
+* The CBL would less accurately generate children's speech productions as they grew older; given the assumption that children gradually learn to abstract over the specific "chunks" they encounter [@bannard2009modeling; @tomasello2003constructing; @yang2016price] and, therefore, their speech should less often directly mirror their linguistic input at later ages. This finding would indicate that the immediate influence of children's language input statistics on their speech production decreases across development.
+* Children will be more likely to use words that are not documented in the caregiver speech as they get older. These words could originate from other sources, such as peer speech [@hoff2010context; @hoff1991older; @mannle1992twoyearolds], or non-recorded caregiver speech [@roy2009exploring]. 
+* Younger children's utterances would be reconstructed well on the basis of recently heard speech alone, whereas older children's utterances would be best constructed when considering a longer period of their historical input. Our reasoning was that older children's increased memory capacity [@bauer2005developments; @gathercole2004structure; @wojcik2013remembering] allows them to draw on older input more easily in producing speech. If so, the findings would suggest that memory plays a critical role in the use of the same learning mechanism with age.
+
+In sum, we expected to find that the CBL's ability to reconstruct children's speech decreases in-line with a concomitant increase in children's linguistic sophistication; an effect driven by children's use of more abstracted representations, words from other speech sources, and their increased ability to use historical input.
+
+# Methods
+
+## Model
+
+The CBL model [@mccauley2011learning] is an incremental, online computational model of language acquisition, that explores the possibility that infants and children parse their input into (multi-word) chunks during the process of acquiring language. 
+
+The model takes transcribed speech as input and divides the transcribed utterances into multi-word chunks. Each utterance begins with a start cue (denoted "\#"). The exact placement of a chunk boundary within an utterance is determined by two factors: (1) the backward transitional probability (BTP) between consecutive words in the utterance, and (2) the inventory of already-discovered chunks. All newly discovered chunks are saved into the inventory, alongside the BTPs associated with each chunk. The only information that the model tracks and stores are the discovered chunks, the BTPs between words, and the BTPs between discovered chunks.  For example, the model might parse the utterances "I see the doggy" and "did you look at the doggy?" into five different chunks, namely "I", "see", "the doggy", "did you", and "look at" based on the BTPs between these words compared to the average BTP found in the corpus so far.
+
+## Child utterance reconstruction task
+
+Once the model has been trained on adult utterances, and thereby has discovered chunks in the adults' speech, we can test whether it closely matches the linguistic structures produced by the children in the same caregiver-child corpus. Following @mccauley2011learning, we use a child utterance reconstruction task to test whether the chunk statistics present in the adults' utterances are also present in the child's utterances. The model reconstructs the child utterances from the chunks and their related BTPs from the adult's utterances at the same age point. This reconstruction is done in two steps (see [Figure 2](#fig2)). First, a child utterance is converted into an unordered bag-of-chunks containing chunks discovered in the adults' speech, in line with the bag-of-words approach proposed in @chang2008automatic. Whenever the model encounters a word in the child utterance that is not present in the adult-based chunk inventory, it stops processing that utterance.^[@mccauley2011learning handle these cases differently; we provide sentence reconstruction scores using their original method in the Supplementary Materials.] For instance, in the toy example in [Figure 2](#fig2), the child utterance "look at the doggy" would be decomposed and shuffled into the set of chunks "look at" and "the doggy", which were both discovered in the adults' speech (illustrated in the speech bubble). However, if the utterance were "look at the doggy there", and the model had no chunk for the word "there", then it would reject the utterance. After breaking the utterance into known chunks, the model tries to reconstruct it. During reconstruction, the model begins with the utterance start cue and then follows that initial cue with all the chunks from the bag-of-chunks, ordered by the highest transitional probability in relation to the previously selected one. So, the set of chunks "look at" and "the doggy" would be ordered depending on which chunk had the highest BTP with respect to the utterance start cue ("look at"), followed by the chunk with the highest BTP with respect to "look at" ("the doggy").
+
+``` {r fig2, echo=FALSE, fig.align = "center", fig.cap="Example of a reconstruction attempt of two child utterances by a toy model. The model is able to reconstruct the first utterance, but it cannot do so with the second utterance, which contains a word  (\"there\") that it has not previously seen.", out.width = '95%'}
+knitr::include_graphics("images/reconstruction_task.png")
+```
+
+## Materials and Procedure
+
+As input to the model we used transcripts of 1--2-hour recordings of at-home interaction between six North American children and their caregivers who were recorded approximately every two weeks between ages 1;0 and 4;0 (the Providence corpus; @demuth2006word). We pre-processed the transcripts, which were formatted using CHAT conventions [@childes], such that the input to the model only contained plain text orthographic transcriptions of what was said.^[All punctuation marks, grammatical notes, omitted word annotations, shortenings, and assimilations were removed from the utterances, such that only the text representing the spoken words of the utterance remained.] We split the transcripts into two separate files, one with all the caregivers' utterances and one with all the child's utterances. Our pre-processing also added a "\#" prefix to the start of each utterance.
+
+The transcripts were sampled at approximate 6-month intervals between ages 1;0 and 4;0. We used two different sampling methods: a local data sampling method and a cumulative data sampling method. With the local data sampling method we selected data within a two-month interval around each age point. For example, for age point 1;6 we selected transcripts in which the child was between 1;5.0 and 1;6.31 years of age. This method led to ~800--4000 caregiver utterances at each age point. By design, the local sampling method focuses the model's training solely on _recent_ linguistic input so that, when it tries to reconstruct children's utterances, the result is a test of how closely their current speech environment can account for what they say.
+
+In contrast, the cumulative sampling method focuses the model's training on all previously heard linguistic input so that, when it tries to reconstruct children's utterances, the result is a test of how closely their current \textit{and} previous speech environments can account for what they say. For the cumulative sample we selected data for each age point by taking all the available transcripts up to that age point. For example, for age 1;6 we selected all transcripts in which the child was 1;6 or younger. This method led to ~800--60,000 caregiver utterances across the different age points, with the number of caregiver utterances increasing (i.e., accumulating) with child age. As a consequence, the cumulative sample always contained more caregiver utterances than the local sample, except at age 1;0, the first sampled age point.
+
+While we used two different sampling methods for training the model on adult data, all child utterances used for the reconstruction task were retrieved using the local sampling method for that particular age point. In other words, we only reconstructed the child utterances local to each tested age, regardless of the training strategy.
+
+## Analysis
+
+We modeled two primary scores related to utterance reconstruction: the uncorrected (binary: success/fail) reconstruction score used by McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning] and the corrected reconstruction score we introduce in the current paper. The uncorrected reconstruction score (1: success, 0: fail) was computed for all child utterances that could be decomposed into previously seen chunks (see step 3a in [Figure 2](#fig2)). The corrected reconstruction score (defined below) was computed for the same set of utterances. We additionally included a third analysis: the likelihood that an utterance contains previously unseen words which, by our version of the CBL, cannot be reconstructed (see step 3b in Figure [Figure 2](#fig2)).
+
+We used mixed-effects regression to analyze the effect of child age on both of the reconstruction scores and whether utterances contained previously unseen words. All mixed-effects models included child age as a fixed effect and by-child random intercepts with random slopes of child age. The mixed-effects model of utterances with previously unseen words also included the number of words in the utterance, as explained below. By default, child age was modeled in years (1--4) so that the intercept reflects a developmental trajectory beginning at age 0. However, for the model of corrected reconstruction accuracy, we centered child age on zero in order to test whether the CBL's reconstruction score was above chance (i.e., contributing to accuracy significantly above what would be expected by chance) at the average age (2;6 years) in the dataset.
+
+All analyses were conducted using the `lme4` package [@lme4] and all figures were generated with the `ggplot2` package in `R` [@ggplot2; @R]. All code used to create the model and analyze its output is available at [https://osf.io/ca8ts/?view_only=daaa1bcc71654842b0d70efe785a26b9](). Before turning to the main results we briefly describe the corrected reconstruction score and the analysis of previously unseen words in more detail.
+<!--
+% for the final version: https://github.com/marisacasillas/CBL-Roete
+-->
+
+## Corrected reconstruction accuracy
+
+The corrected, length-and-repetition-controlled reconstruction score is a function of three factors: (a) whether the model successfully reconstructed the child utterance or not, (b) the number of chunks used to reconstruct the utterance, and (c) the number of duplicate chunks involved in the reconstruction. By taking the number of chunks into account, this reconstruction score compensates for the fact that successful reconstruction is less likely for longer utterances. When an utterance contains duplicate chunks, the exact ordering of those duplicate chunks does not influence the correctness of the reconstruction. For example, if the utterance "I wanna, I wanna" is decomposed into the two chunks "I wanna" and "I wanna", it does not matter which of the two "I wanna" chunks is placed first when calculating the reconstruction accuracy of the utterance. Thus, utterances containing duplicate chunks are more likely to be reconstructed by chance alone than utterances with the same number of chunks with no duplicates.
+
+An utterance that is decomposed into $N$ unique chunks can be reconstructed in $N!$ different orders. Hence, the probability of obtaining the correct order of $N$ unique chunks merely by chance equals $1/N!$. When we take into account that chunks can be repeated within an utterance, chance level equals $(n_1!n_2!\ldots n_k!)/N!$ where $N$ is the total number of chunks in the utterance, and $n_1,\ldots,n_k$ are the number of times a chunk is repeated for each of the $k$ unique chunks found in the utterance. 
+
+When probability of reconstruction was lower, we scored a correctly reconstructed utterance higher. We assigned a score of $-\log(chance)$ for each correct reconstruction and $\log(1-chance)$ for each incorrectly reconstructed utterance. In layman's terms, this means that successfully reconstructed utterances were scored positively, but were weighed relative to the number of chunks and the number of repetitions they had, such that reconstructions of long utterances were given higher scores than reconstructions of short utterances. Along the same lines, incorrectly reconstructed utterances were scored negatively and were also weighed relative to the number of chunks they had, such that incorrect reconstructions of long utterances were given higher (i.e., less negative) scores than incorrect reconstructions of short utterances.
+
+To illustrate the corrected scoring method, let's compare two three-chunk utterances, one of which contains a duplicate chunk: "I wanna I wanna see" (chunks: "I wanna", "I wanna", "see") and "I wanna see that" (chunks: "I wanna", "see", "that"). For the first utterance, chance level equals $(2!\times1!)/(3!)$: The numerator is determined by the number of times each unique chunk is used, so because "I wanna" occurs two times and "see" occurs once, that is $2!\times1!$. The denominator is determined by the factorial of total number of chunks (here: $3! = 3\times2\times1$). The resulting chance level is then $2/6$. For the second utterance, chance level equals $(1!\times1!\times1!)/(3!)$: The numerator is equal to $1!\times1!\times1!$ here because all chunks occur only once in the utterance. The denominator is the same as for the first utterance as the total number of chunks in the utterance is the same. Here, the resulting chance level is $1/6$. If the utterances are reconstructed correctly, the score is computed by $-\log(chance)$. So, the first utterance would get a positive score of $-\log(chance) = -\log(2/6) \approx 1.098$ and the second utterance would get a higher positive score of $-\log(chance) = -\log(1/6) \approx 1.791$ for increased reconstruction difficulty. If the utterances are reconstructed incorrectly, the score is computed by $\log(1-chance)$. Thus, the first utterance would get a negative score of $\log(1-chance) = \log(1-(2/6)) \approx -0.405$ and the second utterance would get a less negative score of $\log(1-chance) = \log(1-(1/6)) \approx -0.182$. 
+
+## Previously unseen words
+Our third analysis focused on whether or not each child utterance contained words that were not previously seen, that is, not present in the trained adult-speech chunk inventory. Each utterance was coded for unseen words with a binary value (1: at least one unseen word, 0: no unseen words). Because there is no straightforward way to establish a baseline probability for a word not being present in the adult chunk inventory, we could not incorporate a precise baseline for the probability of encountering unseen chunks into the scoring. Instead, we used the number of words in each utterance as an additional factor in the analysis on the assumption that longer utterances are, in general, more likely to contain unseen words. 
+
+# Results
+
+## Uncorrected reconstruction accuracy
+
+The uncorrected score of accurate utterance reconstruction [@mccauley2011learning; @mccauley2014acquiring] showed that model's average percentage of correctly reconstructed utterances across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 65.4\%, range across children = 59.9\%--70.3\%; cumulative: mean = 59.9\%, range across children = 53.1\%--68.2\%). This is similar to, or slightly higher than, results reported by @mccauley2011learning who found an average percentage of correctly reconstructed utterances of 59.8\% over 13 typologically different languages with a mean age range of 1;8--3;6 years. Additionally, @mccauley2019languagelearning reported an average reconstruction percentage of 55.3\% for 160 single-child corpora of 29 typologically different languages, including a performance of 58.5\% for 43 English single-child corpora with a mean age range of 1;11--3;10.
+
+In our statistical models of the uncorrected reconstruction accuracy, we first analyzed the CBL model's performance when it was trained on locally sampled caregiver speech. The number of correctly reconstructed utterances decreased with age ($b = -0.805, SE = 0.180, p < 0.001$); over time the BTP statistics present in the caregivers' speech were less reflected in the child's own speech ([Figure 3, left panel](#fig3)).
+
+We then tested the model's performance when it was trained with a cumulative sample of caregiver speech, rather than just a local sample. As before, the number of correctly reconstructed utterances decreased with child age ($b=-0.821, SE = 0.146, p < 0.001$; [Figure 3, right panel](#fig3)). These results indicate age-variance for the SL mechanism; its utility for modeling children's utterances changes with age.
+
+Importantly, however, the length of the child utterances varied quite a lot (range = 1--44 words long; mean = 2.8, median = 2), and some of them contained repetitions of chunks (e.g., "I wanna, I wanna"), both of which influence the baseline likelihood of accurate reconstruction. Utterances from older children tended to contain more words than utterances from younger children ([Figure 4, left panel](#fig4)). As a consequence, on average, utterances from older children are systematically less likely to be correctly reconstructed by chance, contributing to the decrease in the CBL's overall performance with age. Additionally, the percentage of child utterances that contained duplicate chunks decreased over time ([Figure 4, right panel](#fig4)). Utterances with duplicate chunks had a higher baseline probability of being accurately reconstructed by the model. So again, on average, utterances from older children were systematically more difficult, contributing to the age-related decrease in uncorrected reconstruction scores.
+
+``` {r fig3, echo=FALSE, fig.align = "center", fig.cap="Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%'}
+knitr::include_graphics("images/plotbothreconstruction_perc.png")
+```
+
+``` {r fig4, echo=FALSE, fig.align = "center", fig.cap="Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).", out.width = '95%'}
+knitr::include_graphics("images/plotbothfactors.png")
+```
+
+## Corrected reconstruction accuracy
+
+Next, we used our corrected reconstruction score to assess the model's reconstruction accuracy while controlling for utterance length and the use of duplicate chunks. The score weighs whether each utterance was accurately reconstructed against its chance level of reconstruction, depending on the total number of chunks and number of duplicate chunks it contains. The model's average reconstruction score across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 0.10, SE = 0.01; cumulative: mean = 0.06, SE = 0.01). Note again that one aim of this analysis was to test whether the corrected reconstruction score was above chance---here represented by a score of zero---so in the statistical models we centered child age on zero so that the estimation would reflect the difference from zero for the average age in our sample (2;6 years).
+
+Again, we first analyzed the model's performance when it was trained on locally sampled caregiver speech. We found a significant positive intercept ($b = 0.11, SE = 0.02, t = 5.064$) and no significant change across age ($b = 0.030, SE = 0.018, t = 1.681$); the BTP statistics from the caregivers' speech were consistently reflected in the child's own speech ([Figure 5, left panel](#fig5)).
+
+As before, we created a parallel set of analyses to test the model's performance when it was trained with a cumulative sample of caregiver speech. We again found a significant positive intercept ($b= 0.06, SE = 0.010, t = 6.238$) and that accuracy did not change significantly across age ($b=0.02, SE = 0.013, t = 1.590$; [Figure 5, right panel](#fig5)).
+
+In sum, contrary to the uncorrected reconstruction accuracy analysis, these corrected reconstruction score results indicate age-invariance for the SL mechanism. In addition, the model performed significantly above chance level in both the local and cumulative sampling contexts.
+
+``` {r fig5, echo=FALSE, fig.align = "center", fig.cap="Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%'}
+knitr::include_graphics("images/plotbothreconstruction.png")
+```
+
+``` {r fig6, echo=FALSE, fig.align = "center", fig.cap="Number of utterances with previously unseen words across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%'}
+knitr::include_graphics("images/plotbothunknown.png")
+```
+
+## Children's use of unseen words
+
+Finally, we modeled whether an utterance had a previously unseen word or not (1: at least one unseen word, 0: no unseen words). Using local sampling the number of child utterances that contained one or more previously unseen words increased with age ($b = 0.364, SE = 0.093, p < 0.001$; [Figure 6, left panel](#fig6)). Unsurprisingly, longer utterances were also significantly more likely to have previously unseen words in them ($b = 0.170, SE = 0.005, p < 0.001$). By taking a longer history of linguistic input into account (i.e., by using cumulative sampling), we expected to see a smaller increase in previously unseen words with age. We indeed found that utterances containing previously unseen words became _less likely_ with age ($b = -0.139, SE = 0.068, p < 0.05$; [Figure 6, right panel](#fig6)). Also, as before, previously unseen words were more likely to occur in longer utterances ($b = 0.105, SE = 0.006, p < 0.001$).
+
+
+# Discussion
+
+Our primary research question [as raised by, e.g., @arciuli2011statistical; @raviv2018developmental; @saffran1997incidental; @shufaniya2018statistical] was whether the CBL is able to predict children's speech productions with stable accuracy throughout development. We tested the model using both the original measure of accuracy as well as a new measure that takes into account utterance length and duplicate chunks in the utterance, which can make accurate reconstruction less likely (length) or more likely (duplicates). Using this corrected measure, we found that there was no significant change in the use of BTP with age. Notably, the CBL was able to construct utterances at above-chance levels despite these changes with age. Overall, our findings support the view that BTP is an age-invariant learning mechanism for speech production. In fact, the positive, but non-significant coefficients for the effect of age on corrected reconstruction accuracy indicate that, the CBL is, at least, not getting worse at reconstructing children's utterances with age.
+
+## Different words at different ages
+
+We also analyzed the number of utterances with previously unseen words in them, arguing that older children's increased memory capacity [@bauer2005developments; @gathercole2004structure; @wojcik2013remembering] would possibly allow them to draw upon older input more easily in producing speech. Indeed, we found an increase in the number of utterances containing previously unseen words with age in the local sample but a decrease when taking their longer linguistic history into account. The change in word usage we find here could be partly due to a change in linguistic input not captured in the transcripts. The corpus we used is relatively dense: multi-hour at-home recordings made approximately every two weeks for 2--3 years. However, this corpus still only contained a small fraction of what each child heard during the represented periods of time (i.e., 2 hours of ~200 waking hours in a fortnight). Non-recorded caregiver speech may contribute an increasing amount of lexical diversity. Consider, for example, that input from peers containing different lexical items could have increased as children became old enough to independently socialize with other children or attend daycare or preschool [@hoff2010context; @hoff1991older; @mannle1992twoyearolds], which may help to account for the increased presence of words not found in the caregiver's speech. This problem is difficult to address directly since, even with cutting-edge tools and significant supporting resources, it is still nearly impossible to collect and transcribe a child's complete language environment [@casillasURstep; @roy2009exploring]. This effect could instead be simulated in future work by feeding speech from other children or adults into the model to mimic speech from peers and other caregivers. That said, our results showed that the likelihood of previously unseen words actually decreased with age for the cumulative sample, suggesting that the "missing" words _are_ present in caregiver speech, just not always in the recently recorded input.
+
+Additionally, an improvement in memory capacity with age provides a potential explanation for the current findings. Throughout childhood, including the first few years, SL-relevant cortical regions continue maturing [@casey2000structural; @diamond2002normal; @rodriguez2009neurophysiological; @uylings2006development] with concurrent increases in long-term memory [@bauer2005developments; @wojcik2013remembering], working memory, and speed of processing [@gathercole2004structure; @kail1991developmental]. By ages three and four, the children in the current study may have been able to much more reliably draw upon information they were exposed to in the more distant past. If so, we would expect no significant increase in the use of previously unheard words as children get older with the cumulative sampling method---consistent with what we found here ([Figure 6, right panel](#fig6)). This pattern of results indicates that children's developing memory could play an important role in the way they use environmental input statistics over age.
+
+<!--## Input stability
+
+With local sampling, the model is trained solely on _recent_ linguistic input, testing how well current speech input can account for the child's language productions. In contrast, with the cumulative sampling method, the model is trained on _all_ available previous linguistic input, testing how current and previously heard speech input accounts for the produced speech. Comparing the results with the two sampling methods might inform us about the stability of caregivers' speech. For both reconstruction measures, the patterns of results between using local and cumulative sampling are similar (Figures [3](#fig3) and [5](#fig5)).
+
+Our implementation of the CBL model only attempts to reconstruct utterances that do not contain any words unseen in the caregivers' speech. The model's ability to reconstruct these utterances was not dependent on the sampling methods, which suggests that caregivers' speech is stable in structure, at least to a certain degree. However, we do find differences between local and cumulative sampling with regard to how the number of utterances containing unseen words changes with age ([Figure 6](#fig6)). This implies that the lexical content of the caregivers' speech does change. Over time, caregivers might use a similar overall structure in their linguistic communications towards their children, but they do adjust the lexical items included in their speech. 
+-->
+
+
+## Abstraction and complex utterances
+
+Our findings are not consistent with a representational shift toward abstraction during the early language learning process. For instance, if children schematized their constructions or switching to rule-based representations [@bannard2009modeling; @tomasello2003constructing; @yang2016price], we would expect a decrease in reconstruction accuracy over time, given that the CBL's reconstructions are limited to the immediate statistics of the child's language environment. In contrast, we saw that the model's ability to reconstruct child utterances from caregivers' speech was age-invariant when taking into account utterance length and chunk duplicates. These results do fall in line with SL theories proposing that the mechanisms for processing, storing, and deploying information stay the constant over age, even though SL behavior on the surface might seen to change over time [e.g., @misyak2012statistical].
+
+As the CBL model only employs a single, simple mechanism for creating and tracking linguistic units, it is impressive that it performs at above-chance levels when accounting for children's speech productions in the first few years. If the mechanism is truly age-invariant, it should be able to handle both young children's speech and adults' speech; here we see that it handles the developing linguistic inventory of children ages 1;0 to 4;0, during which time children's utterances come much more sophisticated and much closer to adult-like form.
+
+Going beyond the scope of this paper, a next step would be to explore how the CBL could be modified to augment its performance, particularly on more complex utterances. For example, the CBL model does not include the use of semantics when dividing the caregivers' speech into chunks or when reconstructing the child utterances. However, the meaning of what both caregivers and child are trying to convey plays a fundamental role in selecting words from the lexicon and in constructing utterances---they are interacting, and not just producing speech. The same set of words, ordered in different ways, can have entirely different meanings (e.g., "the dog bites the man" vs. "the man bites the dog"). Additionally, the CBL currently works on text-only transcriptions of conversations, but speech prosody could potentially critically change how children detect chunks. Prosodic structures within an utterance highlight syntactic structures and help to distinguish between pragmatic intentions, for example, distinguishing between questions, imperatives, and statements [e.g., @bernard2012prosodic; @speer2009prosody]. Ideally, the CBL model would also be tested on a (more) complete corpus of what children hear in the first few years to further investigate the origins of the "previously unseen" words in children's utterances; though we appreciate that densely sampled and transcribed collections of audio recordings are extremely costly to create [@casillasURstep; @roy2009exploring].
+<!--
+MC: I took this sentence out because it didn't seem necessary:
+Prior modeling studies have shown that incorporating multiple levels of information can aid in learning one particular level of language [e.g., @feldman2013role]. 
+-->
+
+# Conclusion
+In this study, we investigated whether the CBL model---a computational learner using one SL mechanism (BTP)---could account for children's speech production with equal accuracy across ages 1;0 to 4;0 given information about their speech input. The model's ability to reconstruct children's utterances remained stable with age when controlling for utterance length and duplicate chunks, both when taking into account recent and cumulative linguistic experience. These findings suggest that this particular mechanism for segmenting and tracking chunks of speech may be age-invariant [@raviv2018developmental; @shufaniya2018statistical]. A rich and growing literature on SL in development has demonstrated that similar mechanisms can account for much of children's early language behaviors; knowing whether the use of these mechanisms changes as children get older is a crucial piece of this puzzle. To explore this topic further, future work will have to address additional cues to linguistic structure and meaning, the density of data needed to get reliable input estimates, and the interaction of SL with other developing skills that also impact language learning.
+
+# Acknowledgements
+We owe big thanks to Rebecca L. A. Frost and the MPI for Psycholinguistics' First Language Development group for insightful comments on earlier versions of this paper. This work was supported by an IMPRS fellowship awarded to IR and a Veni Innovational Research grant to MC (275-89-033).
+
+\newpage
+
+# References
+```{r create_r-references}
+r_refs(file = "CBL-age_invariance.bib")
+```
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
