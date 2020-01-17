@@ -154,6 +154,8 @@ childutt.data$numwords <- str_count(childutt.data$utterance," ")
 
 **Below readers will find the full statistical model output for each of the six models reported in the main text (that is, one for local input and one for cumulative input for each of the three analyses: uncorrected likelihood of accurate reconstruction, corrected reconstruction accuracy, and likelihood of unseen words).**
 
+\pagebreak
+
 ```{r tab-uncorr_reconstr_acc-local-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 uncorr_reconstr_acc_local_MAIN.model <- filter(
   main.models, model == "uncorrected_accuracy_local_input") %>%
