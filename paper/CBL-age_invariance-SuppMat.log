@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.19)  6 JAN 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JAN 2020 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,12 +732,6 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4319.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
 Package hyperref Info: Hyper figures OFF on input line 4443.
 Package hyperref Info: Link nesting OFF on input line 4448.
 Package hyperref Info: Hyper index ON on input line 4451.
@@ -781,6 +775,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip69
+)
+Package hyperref Info: Option `unicode' set `true' on input line 31.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 31.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grffile.sty
@@ -890,30 +890,30 @@ Package csquotes Info: ... none found.
 (./CBL-age_invariance-SuppMat.aux)
 \openout1 = `CBL-age_invariance-SuppMat.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 106.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 116.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -987,7 +987,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 106.
+LaTeX Info: Redefining \microtypecontext on input line 116.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1002,7 +1002,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 116.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1010,14 +1010,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 (./CBL-age_invariance-SuppMat.out) (./CBL-age_invariance-SuppMat.out)
 \@outlinefile=\write5
 \openout5 = `CBL-age_invariance-SuppMat.out'.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 108.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 118.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1031,89 +1031,90 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 137.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 132.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 137.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 132.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 137
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 132
 .
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 137
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 132
 .
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 137.
+(Font)              <12> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 137.
+(Font)              <8> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 137.
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
+(Font)              <6> on input line 132.
+LaTeX Font Info:    Try loading font information for U+msa on input line 132.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
+LaTeX Font Info:    Try loading font information for U+msb on input line 132.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-) [3] <images/suppl_bothreconperc.png, id=43, 1505.625pt x 702.625pt>
+)
+Overfull \hbox (39.73103pt too wide) in paragraph at lines 169--183
+ [] 
+ []
+
+
+Overfull \hbox (39.73103pt too wide) in paragraph at lines 189--203
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[3] [4] [5] [6] [7] <images/suppl_bothreconperc.png, id=78, 1505.625pt x 702.62
+5pt>
 File: images/suppl_bothreconperc.png Graphic file (type png)
 <use images/suppl_bothreconperc.png>
-Package pdftex.def Info: images/suppl_bothreconperc.png used on input line 168.
+Package pdftex.def Info: images/suppl_bothreconperc.png used on input line 313.
 
 (pdftex.def)             Requested size: 446.26913pt x 208.25893pt.
-<images/suppl_bothreconscore.png, id=45, 1505.625pt x 702.625pt>
+<images/suppl_bothreconscore.png, id=80, 1505.625pt x 702.625pt>
 File: images/suppl_bothreconscore.png Graphic file (type png)
 <use images/suppl_bothreconscore.png>
-Package pdftex.def Info: images/suppl_bothreconscore.png used on input line 177
+Package pdftex.def Info: images/suppl_bothreconscore.png used on input line 322
 .
 (pdftex.def)             Requested size: 446.26913pt x 208.25893pt.
-[4] AED endfloat: Processing end Figures and Tables [5pdfTeX warning (ext4): de
-stination with the same identifier (name{ref-mccauley2011learning}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.216 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{ref-mccauley2014acquiring}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.216 \end{document}
-                     <./images/suppl_bothreconperc.png>] [6 <./images/suppl_bot
-hreconscore.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+[8 <./images/suppl_bothreconperc.png>] AED endfloat: Processing end Figures and
+ Tables [9 <./images/suppl_bothreconscore.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
 (./CBL-age_invariance-SuppMat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `CBL-age_invariance-SuppMat.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 8018E496B76B747690B622636694EE49;1019.
+(rerunfilecheck)             Checksum: 144B7ECD083492AA8FCAF678E1EB61F4;1516.
  ) 
 Here is how much of TeX's memory you used:
- 15392 strings out of 493089
- 227415 string characters out of 6134841
- 342333 words of memory out of 5000000
- 18552 multiletter control sequences out of 15000+600000
- 46591 words of font info for 69 fonts, out of 8000000 for 9000
+ 15427 strings out of 493089
+ 228134 string characters out of 6134842
+ 356362 words of memory out of 5000000
+ 18570 multiletter control sequences out of 15000+600000
+ 50938 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,10n,47p,813b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,10n,47p,813b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{smfig2} has been referenced but does not exist, r
 eplaced by a fixed one
 
@@ -1125,14 +1126,15 @@ l/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015
 /texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dis
 t/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
-lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on CBL-age_invariance-SuppMat.pdf (6 pages, 275499 bytes).
+lmbxi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on CBL-age_invariance-SuppMat.pdf (9 pages, 301546 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 6187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 6195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

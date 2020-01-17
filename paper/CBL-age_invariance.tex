@@ -21,15 +21,20 @@
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
+\usepackage{hyperref}
+\hypersetup{unicode=true,
             pdftitle={Modeling the influence of language input statistics on children's speech production},
             pdfauthor={Ingeborg Roete, Stefan L. Frank, Paula Fikkert, \& Marisa Casillas},
-            pdfkeywords={keywords},
+            pdfkeywords={statistical learning, language learning, abstraction, developmental
+trajectory, age-invariance, CHILDES, children},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
+% grffile has become a legacy package: https://ctan.org/pkg/grffile
+\IfFileExists{grffile.sty}{%
+\usepackage{grffile}
+}{}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -57,11 +62,23 @@
 \let\oldsubparagraph\subparagraph
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+
+  \title{Modeling the influence of language input statistics on children's speech
+production}
+    \author{Ingeborg Roete\textsuperscript{1,2}, Stefan L. Frank\textsuperscript{2},
+Paula Fikkert\textsuperscript{2}, \& Marisa Casillas\textsuperscript{1}}
+    \date{}
+  
 \shorttitle{Modeling input statistics in child speech productions}
 \affiliation{
 \vspace{0.5cm}
 \textsuperscript{1} Max Planck Institute for Psycholinguistics\\\textsuperscript{2} Radboud University}
-\keywords{keywords\newline\indent Word count: X}
+\keywords{statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children\newline\indent Word count: 6056}
 \usepackage{csquotes}
 \usepackage{upgreek}
 \captionsetup{font=singlespacing,justification=justified}
@@ -85,12 +102,6 @@
 \usepackage{lineno}
 
 \linenumbers
-
-\title{Modeling the influence of language input statistics on children's speech
-production}
-\author{Ingeborg Roete\textsuperscript{1,2}, Stefan L. Frank\textsuperscript{2},
-Paula Fikkert\textsuperscript{2}, \& Marisa Casillas\textsuperscript{1}}
-\date{}
 
 \authornote{
 
@@ -119,20 +130,6 @@ an age-invariant learning mechanism.
 
 }
 
-\usepackage{amsthm}
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{lemma}{Lemma}[section]
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
-\newtheorem{corollary}{Corollary}[section]
-\newtheorem{proposition}{Proposition}[section]
-\theoremstyle{definition}
-\newtheorem{example}{Example}[section]
-\theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[section]
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -146,7 +143,7 @@ Saffran, Aslin, \& Newport, 1996) and phonotactic learning (Chambers,
 Onishi, \& Fisher, 2003) to producing irregulars (Arnon \& Clark, 2011),
 discovering multi-word structures (Bannard, Lieven, \& Tomasello, 2009;
 Chang, Lieven, \& Tomasello, 2006; Frost, Monaghan, \& Christiansen,
-2019), and much more (see J. R. Saffran \& Kirkham (2018) for a recent
+2019), and much more (see J. R. Saffran and Kirkham (2018) for a recent
 review). By its nature, work in this domain is heavily concerned with at
 least two major topics: (1) the information available in children's
 language environments (the \enquote{input}) from which they can pick up
@@ -185,8 +182,7 @@ linguistic (Kidd et al., 2018) and non-linguistic (S. P. Johnson et al.,
 generalize over regularities in a sequence, 8-month-olds are only
 capable of detecting the regularities, and neither group succeeds yet at
 learning visual non-adjacent dependencies (see also Bulf, Johnson, \&
-Valenza, 2011, and Slone and Johnson (2015); S. P. Johnson et al.,
-2009).
+Valenza, 2011, and @slone2015infants; S. P. Johnson et al., 2009).
 
 These changes in SL behavior during infancy and early childhood may
 relate to changes in other fundamental cognitive skills. For example,
@@ -288,7 +284,7 @@ comprehension without appealing to abstract grammatical categories.
 Specifically, it was designed as an implementation of the hypothesis
 that children detect and store multi-word chunks using BTP, and also use
 the stored chunks to parse speech and produce new utterances (see also
-Arnon \& Snider (2010) and Bannard \& Matthews (2008)). The model's
+Arnon and Snider (2010) and Bannard and Matthews (2008)). The model's
 ability to simulate learning can be measured by first training it on
 what children hear and then having the model reproduce what children say
 from the chunks that it learned.
@@ -415,36 +411,39 @@ task}\label{child-utterance-reconstruction-task}
 Once the model has been trained on adult utterances, and thereby has
 discovered chunks in the adults' speech, we can test whether it closely
 matches the linguistic structures produced by the children in the same
-caregiver-child corpus. Following McCauley \& Christiansen (2011), we
+caregiver-child corpus. Following McCauley and Christiansen (2011), we
 use a child utterance reconstruction task to test whether the chunk
 statistics present in the adults' utterances are also present in the
 child's utterances. The model reconstructs the child utterances from the
 chunks and their related BTPs from the adult's utterances at the same
-age point. This reconstruction is done in two steps (see
-\protect\hyperlink{fig2}{Figure 2}). First, a child utterance is
-converted into an unordered bag-of-chunks containing chunks discovered
-in the adults' speech, in line with the bag-of-words approach proposed
-in Chang, Lieven, \& Tomasello (2008). Whenever the model encounters a
-word in the child utterance that is not present in the adult-based chunk
-inventory, it stops processing that utterance.\footnote{McCauley \&
-  Christiansen (2011) handle these cases differently; we provide
-  sentence reconstruction scores using their original method in the
-  Supplementary Materials.} For instance, in the toy example in
-\protect\hyperlink{fig2}{Figure 2}, the child utterance \enquote{look at
-the doggy} would be decomposed and shuffled into the set of chunks
-\enquote{look at} and \enquote{the doggy}, which were both discovered in
-the adults' speech (illustrated in the speech bubble). However, if the
-utterance were \enquote{look at the doggy there}, and the model had no
-chunk for the word \enquote{there}, then it would reject the utterance.
-After breaking the utterance into known chunks, the model tries to
-reconstruct it. During reconstruction, the model begins with the
-utterance start cue and then follows that initial cue with all the
-chunks from the bag-of-chunks, ordered by the highest transitional
-probability in relation to the previously selected one. So, the set of
-chunks \enquote{look at} and \enquote{the doggy} would be ordered
-depending on which chunk had the highest BTP with respect to the
-utterance start cue (\enquote{look at}), followed by the chunk with the
-highest BTP with respect to \enquote{look at} (\enquote{the doggy}).
+age point. This reconstruction \textbf{process, which is slightly
+different from McCauley and Christiansen's (2011) process,} is done in
+two steps (see \protect\hyperlink{fig2}{Figure 2}). First, a child
+utterance is converted into an unordered bag-of-chunks containing chunks
+discovered in the adults' speech, in line with the bag-of-words approach
+proposed in Chang, Lieven, and Tomasello (2008). Whenever the model
+encounters a word in the child utterance that is not present in the
+adult-based chunk inventory, it stops processing that
+utterance.\footnote{McCauley and Christiansen (2011) handle these cases
+  differently\textbf{. Our CBL implementation is identical to theirs up
+  to this point. Therefore we also} provide sentence reconstruction
+  scores using their original method in the Supplementary Materials.}
+For instance, in the toy example in \protect\hyperlink{fig2}{Figure 2},
+the child utterance \enquote{look at the doggy} would be decomposed and
+shuffled into the set of chunks \enquote{look at} and \enquote{the
+doggy}, which were both discovered in the adults' speech (illustrated in
+the speech bubble). However, if the utterance were \enquote{look at the
+doggy there}, and the model had no chunk for the word \enquote{there},
+then it would reject the utterance. After breaking the utterance into
+known chunks, the model tries to reconstruct it. During reconstruction,
+the model begins with the utterance start cue and then follows that
+initial cue with all the chunks from the bag-of-chunks, ordered by the
+highest transitional probability in relation to the previously selected
+one. So, the set of chunks \enquote{look at} and \enquote{the doggy}
+would be ordered depending on which chunk had the highest BTP with
+respect to the utterance start cue (\enquote{look at}), followed by the
+chunk with the highest BTP with respect to \enquote{look at}
+(\enquote{the doggy}).
 
 \begin{figure}
 
@@ -460,7 +459,7 @@ highest BTP with respect to \enquote{look at} (\enquote{the doggy}).
 As input to the model we used transcripts of 1--2-hour recordings of
 at-home interaction between six North American children and their
 caregivers who were recorded approximately every two weeks between ages
-1;0 and 4;0 (the Providence corpus; Demuth, Culbertson, \& Alter
+1;0 and 4;0 (the Providence corpus; Demuth, Culbertson, and Alter
 (2006)). We pre-processed the transcripts, which were formatted using
 CHAT conventions (MacWhinney, 2000), such that the input to the model
 only contained plain text orthographic transcriptions of what was
@@ -561,7 +560,11 @@ wanna}, it does not matter which of the two \enquote{I wanna} chunks is
 placed first when calculating the reconstruction accuracy of the
 utterance. Thus, utterances containing duplicate chunks are more likely
 to be reconstructed by chance alone than utterances with the same number
-of chunks with no duplicates.
+of chunks with no duplicates. \textbf{Note that here we detecting
+duplicate \emph{chunks} in the utterance rather than duplicate
+\emph{words}. At this post-training stage, the model is only able to
+parse the utterance into chunks; that is the relevant unit over which
+duplication may affect reconstruction accuracy.}
 
 An utterance that is decomposed into \(N\) unique chunks can be
 reconstructed in \(N!\) different orders. Hence, the probability of
@@ -639,16 +642,18 @@ correctly reconstructed utterances across children and age points was
 similar for the locally and cumulatively sampled speech (local: mean =
 65.4\%, range across children = 59.9\%--70.3\%; cumulative: mean =
 59.9\%, range across children = 53.1\%--68.2\%). This is similar to, or
-slightly higher than, results reported by McCauley \& Christiansen
+slightly higher than, results reported by McCauley and Christiansen
 (2011) who found an average percentage of correctly reconstructed
 utterances of 59.8\% over 13 typologically different languages with a
-mean age range of 1;8--3;6 years. Additionally, McCauley \& Christiansen
-(2019) reported an average reconstruction percentage of 55.3\% for 160
-single-child corpora of 29 typologically different languages, including
-a performance of 58.5\% for 43 English single-child corpora with a mean
-age range of 1;11--3;10.
+mean age range of 1;8--3;6 years. Additionally, McCauley and
+Christiansen (2019) reported an average reconstruction percentage of
+55.3\% for 160 single-child corpora of 29 typologically different
+languages, including a performance of 58.5\% for 43 English single-child
+corpora with a mean age range of 1;11--3;10.
 
-In our statistical models of the uncorrected reconstruction accuracy, we
+In our statistical models of the uncorrected reconstruction
+accuracy\footnote{\textbf{accuracy \textasciitilde{} age +
+  (age\textbar{}child), family = binomial(link = \enquote{logit}).}}, we
 first analyzed the CBL model's performance when it was trained on
 locally sampled caregiver speech. The number of correctly reconstructed
 utterances decreased with age (\(b = -0.805, SE = 0.180, p < 0.001\));
@@ -714,7 +719,8 @@ speech (local: mean = 0.10, SE = 0.01; cumulative: mean = 0.06, SE =
 corrected reconstruction score was above chance---here represented by a
 score of zero---so in the statistical models we centered child age on
 zero so that the estimation would reflect the difference from zero for
-the average age in our sample (2;6 years).
+the average age in our sample (2;6 years).\footnote{\textbf{accuracy
+  \textasciitilde{} age + (age\textbar{}child).}}
 
 Again, we first analyzed the model's performance when it was trained on
 locally sampled caregiver speech. We found a significant positive
@@ -757,17 +763,18 @@ chance level in both the local and cumulative sampling contexts.
 words}\label{childrens-use-of-unseen-words}
 
 Finally, we modeled whether an utterance had a previously unseen word or
-not (1: at least one unseen word, 0: no unseen words). Using local
-sampling the number of child utterances that contained one or more
-previously unseen words increased with age
-(\(b = 0.364, SE = 0.093, p < 0.001\); \protect\hyperlink{fig6}{Figure
-6, left panel}). Unsurprisingly, longer utterances were also
-significantly more likely to have previously unseen words in them
-(\(b = 0.170, SE = 0.005, p < 0.001\)). By taking a longer history of
-linguistic input into account (i.e., by using cumulative sampling), we
-expected to see a smaller increase in previously unseen words with age.
-We indeed found that utterances containing previously unseen words
-became \emph{less likely} with age
+not (1: at least one unseen word, 0: no unseen words).\footnote{\textbf{has\_unseen\_words
+  \textasciitilde{} age + (age\textbar{}child) + num\_words\_in\_utt,
+  family = binomial(link = \enquote{logit})}} Using local sampling the
+number of child utterances that contained one or more previously unseen
+words increased with age (\(b = 0.364, SE = 0.093, p < 0.001\);
+\protect\hyperlink{fig6}{Figure 6, left panel}). Unsurprisingly, longer
+utterances were also significantly more likely to have previously unseen
+words in them (\(b = 0.170, SE = 0.005, p < 0.001\)). By taking a longer
+history of linguistic input into account (i.e., by using cumulative
+sampling), we expected to see a smaller increase in previously unseen
+words with age. We indeed found that utterances containing previously
+unseen words became \emph{less likely} with age
 (\(b = -0.139, SE = 0.068, p < 0.05\); \protect\hyperlink{fig6}{Figure
 6, right panel}). Also, as before, previously unseen words were more
 likely to occur in longer utterances
@@ -920,6 +927,8 @@ Psycholinguistics' First Language Development group for insightful
 comments on earlier versions of this paper. This work was supported by
 an IMPRS fellowship awarded to IR and a Veni Innovational Research grant
 to MC (275-89-033).
+
+\newpage
 
 \section{References}\label{references}
 
@@ -1257,336 +1266,7 @@ development into word learning. \emph{Frontiers in Psychology},
 Yang, C. (2016). \emph{The price of linguistic productivity: How
 children learn to break the rules of language} (1st ed.). MIT Press.
 
-\hypertarget{ref-arciuli2011statistical}{}
-Arciuli, J., \& Simpson, I. C. (2011). Statistical learning in typically
-developing children: The role of age and speed of stimulus presentation.
-\emph{Developmental Science}, \emph{14}(3), 464--473.
-
-\hypertarget{ref-arnon2011brush}{}
-Arnon, I., \& Clark, E. V. (2011). Why brush your teeth is better than
-teeth--Children's word production is facilitated in familiar
-sentence-frames. \emph{Language Learning and Development}, \emph{7}(2),
-107--129.
-
-\hypertarget{ref-arnon2010more}{}
-Arnon, I., \& Snider, N. (2010). More than words: Frequency effects for
-multi-word phrases. \emph{Journal of Memory and Language}, \emph{62}(1),
-67--82.
-
-\hypertarget{ref-arnon2017}{}
-Arnon, I., McCauley, S. M., \& Christiansen, M. H. (2017). Digging up
-the building blocks of language: Age-of-acquisition effects for
-multiword phrases. \emph{Journal of Memory and Language}, \emph{92},
-265--280.
-
-\hypertarget{ref-bannard2008stored}{}
-Bannard, C., \& Matthews, D. (2008). Stored word sequences in language
-learning: The effect of familiarity on children's repetition of
-four-word combinations. \emph{Psychological Science}, \emph{19}(3),
-241--248.
-
-\hypertarget{ref-bannard2009modeling}{}
-Bannard, C., Lieven, E., \& Tomasello, M. (2009). Modeling children's
-early grammatical knowledge. \emph{Proceedings of the National Academy
-of Sciences}, \emph{106}(41), 17284--17289.
-
-\hypertarget{ref-lme4}{}
-Bates, D., Mächler, M., Bolker, B., \& Walker, S. (2015). Fitting linear
-mixed-effects models using lme4. \emph{Journal of Statistical Software},
-\emph{67}(1), 1--48.
-
-\hypertarget{ref-bauer2005developments}{}
-Bauer, P. J. (2005). Developments in declarative memory: Decreasing
-susceptibility to storage failure over the second year of life.
-\emph{Psychological Science}, \emph{16}(1), 41--47.
-
-\hypertarget{ref-bernard2012prosodic}{}
-Bernard, C., \& Gervain, J. (2012). Prosodic cues to word order: What
-level of representation? \emph{Frontiers in Psychology}, \emph{3}, 451.
-
-\hypertarget{ref-bulf2011visual}{}
-Bulf, H., Johnson, S. P., \& Valenza, E. (2011). Visual statistical
-learning in the newborn infant. \emph{Cognition}, \emph{121}(1),
-127--132.
-
-\hypertarget{ref-casey2000structural}{}
-Casey, B. J., Giedd, J. N., \& Thomas, K. M. (2000). Structural and
-functional brain development and its relation to cognitive development.
-\emph{Biological Psychology}, \emph{54}(1-3), 241--257.
-
-\hypertarget{ref-casillasURstep}{}
-Casillas, M., \& Cristia, A. (under review). A step-by-step guide to
-collecting and analyzing long-format speech environment (LFSE)
-recordings.
-
-\hypertarget{ref-chambers2003infants}{}
-Chambers, K. E., Onishi, K. H., \& Fisher, C. (2003). Infants learn
-phonotactic regularities from brief auditory experience.
-\emph{Cognition}, \emph{87}(2), B69--B77.
-
-\hypertarget{ref-chang2006using}{}
-Chang, F., Lieven, E., \& Tomasello, M. (2006). Using child utterances
-to evaluate syntax acquisition algorithms. \emph{Proceedings of the 28th
-Annual Meeting of the Cognitive Science Society}, 154--159.
-
-\hypertarget{ref-chang2008automatic}{}
-Chang, F., Lieven, E., \& Tomasello, M. (2008). Automatic evaluation of
-syntactic learners in typologically-different languages. \emph{Cognitive
-Systems Research}, \emph{9}(3), 198--213.
-
-\hypertarget{ref-christiansen2017more}{}
-Christiansen, M. H., \& Arnon, I. (2017). More than words: The role of
-multiword sequences in language learning and use. \emph{Topics in
-Cognitive Science}, \emph{9}(3), 542--551.
-
-\hypertarget{ref-christiansen2016now}{}
-Christiansen, M. H., \& Chater, N. (2016). The now-or-never bottleneck:
-A fundamental constraint on language. \emph{Behavioral and Brain
-Sciences}, \emph{39}, e62.
-
-\hypertarget{ref-conway2005modality}{}
-Conway, C. M., \& Christiansen, M. H. (2005). Modality-constrained
-statistical learning of tactile, visual, and auditory sequences.
-\emph{Journal of Experimental Psychology: Learning, Memory, and
-Cognition}, \emph{31}(1), 24--39.
-
-\hypertarget{ref-conway2010implicit}{}
-Conway, C. M., Bauernschmidt, A., Huang, S. S., \& Pisoni, D. B. (2010).
-Implicit statistical learning in language processing: Word
-predictability is the key. \emph{Cognition}, \emph{114}(3), 356--371.
-
-\hypertarget{ref-demuth2006word}{}
-Demuth, K., Culbertson, J., \& Alter, J. (2006). Word-minimality,
-epenthesis and coda licensing in the early acquisition of English.
-\emph{Language and Speech}, \emph{49}(2), 137--173.
-doi:\href{https://doi.org/doi:10.1177/00238309060490020201}{doi:10.1177/00238309060490020201}
-
-\hypertarget{ref-diamond2002normal}{}
-Diamond, A. (2002). Normal development of prefrontal cortex from birth
-to young adulthood: Cognitive functions, anatomy, and biochemistry. In
-D. Stuss \& R. Knights (Eds.), \emph{Principles of frontal lobe
-function} (pp. 466--503). New York: Oxford University Press.
-
-\hypertarget{ref-emberson2011timing}{}
-Emberson, L. L., Conway, C. M., \& Christiansen, M. H. (2011). Timing is
-everything: Changes in presentation rate have opposite effects on
-auditory and visual implicit statistical learning. \emph{The Quarterly
-Journal of Experimental Psychology}, \emph{64}(5), 1021--1040.
-
-\hypertarget{ref-frost2016simultaneous}{}
-Frost, R. L. A., \& Monaghan, P. (2016). Simultaneous segmentation and
-generalisation of non-adjacent dependencies from continuous speech.
-\emph{Cognition}, \emph{147}, 70--74.
-
-\hypertarget{ref-frost2019}{}
-Frost, R. L. A., Monaghan, P., \& Christiansen, M. H. (2019). Mark my
-words: High frequency words impact early stages of language learning.
-\emph{Journal of Experimental Psychology: Learning, Memory, \&
-Cognition}, Advance online publication.
-
-\hypertarget{ref-gathercole2004structure}{}
-Gathercole, S. E., Pickering, S. J., Ambridge, B., \& Wearing, H.
-(2004). The structure of working memory from 4 to 15 years of age.
-\emph{Developmental Psychology}, \emph{40}(2), 177--190.
-
-\hypertarget{ref-hoff2010context}{}
-Hoff, E. (2010). Context effects on young children's language use: The
-influence of conversational setting and partner. \emph{First Language},
-\emph{30}(3-4), 461--472.
-
-\hypertarget{ref-hoff1991older}{}
-Hoff-Ginsberg, E., \& Krueger, W. M. (1991). Older siblings as
-conversational partners. \emph{Merrill-Palmer Quarterly}, \emph{37}(3),
-465--481.
-
-\hypertarget{ref-johnson2009abstract}{}
-Johnson, S. P., Fernandes, K. J., Frank, M. C., Kirkham, N., Marcus, G.,
-Rabagliati, H., \& Slemmer, J. A. (2009). Abstract rule learning for
-visual sequences in 8-and 11-month-olds. \emph{Infancy}, \emph{14}(1),
-2--18.
-
-\hypertarget{ref-jost201610}{}
-Jost, E., \& Christiansen, M. H. (2016). Statistical learning as a
-domain-general mechanism of entrenchment. In H.-J. Schmid (Ed.),
-\emph{Entrenchment and the psychology of language learning: How we
-reorganize and adapt linguistic knowledge} (pp. 227--244). Washington
-D.C.: Mouton de Gruyter.
-
-\hypertarget{ref-jusczyk1995infants}{}
-Jusczyk, P. W., \& Aslin, R. N. (1995). Infants' detection of the sound
-patterns of words in fluent speech. \emph{Cognitive Psychology},
-\emph{29}(1), 1--23.
-
-\hypertarget{ref-kail1991developmental}{}
-Kail, R. (1991). Developmental change in speed of processing during
-childhood and adolescence. \emph{Psychological Bulletin}, \emph{109}(3),
-490--501.
-
-\hypertarget{ref-kidd2018individual}{}
-Kidd, E., Junge, C., Spokes, T., Morrison, L., \& Cutler, A. (2018).
-Individual differences in snfant speech segmentation: Achieving the
-lexical shift. \emph{Infancy}, \emph{23}(6), 770--794.
-
-\hypertarget{ref-lany2008twelve}{}
-Lany, J., \& Gómez, R. L. (2008). Twelve-month-old infants benefit from
-prior experience in statistical learning. \emph{Psychological Science},
-\emph{19}(12), 1247--1252.
-
-\hypertarget{ref-childes}{}
-MacWhinney, B. (2000). \emph{The CHILDES project: Tools for analyzing
-talk} (3rd ed.). Psychology Press.
-
-\hypertarget{ref-mannle1992twoyearolds}{}
-Mannle, S., Barton, M., \& Tomasello, M. (1992). Two-year-olds'
-conversations with their mothers and preschool-aged siblings.
-\emph{First Language}, \emph{12}(34), 57--71.
-
-\hypertarget{ref-mccauley2011learning}{}
-McCauley, S. M., \& Christiansen, M. H. (2011). Learning simple
-statistics for language comprehension and production: The CAPPUCCINO
-model. \emph{Proceedings of the 33rd Annual Meeting of the Cognitive
-Science Society}, 1619--1624.
-
-\hypertarget{ref-mccauley2014acquiring}{}
-McCauley, S. M., \& Christiansen, M. H. (2014a). Acquiring formulaic
-language: A computational model. \emph{The Mental Lexicon}, \emph{9}(3),
-419--436.
-
-\hypertarget{ref-mccauley2014reappraising}{}
-McCauley, S. M., \& Christiansen, M. H. (2014b). Reappraising lexical
-specificity in children's early syntactic combinations.
-\emph{Proceedings of the 36th Annual Meeting of the Cognitive Science
-Society}, 1000--1005.
-
-\hypertarget{ref-mccauley2017computational}{}
-McCauley, S. M., \& Christiansen, M. H. (2017). Computational
-investigations of multiword chunks in language learning. \emph{Topics in
-Cognitive Science}, \emph{9}(3), 637--652.
-
-\hypertarget{ref-mccauley2019languagelearning}{}
-McCauley, S. M., \& Christiansen, M. H. (2019). Language learning as
-language use: A cross-linguistic model of child language development.
-\emph{Pyschological Review}, \emph{126}(1), 1--51.
-
-\hypertarget{ref-misyak2012statistical}{}
-Misyak, J. B., Goldstein, M. H., \& Christiansen, M. H. (2012).
-Statistical-sequential learning in development. \emph{Statistical
-Learning and Language Acquisition}, 13--54.
-
-\hypertarget{ref-monroy2017toddlers}{}
-Monroy, C. D., Gerson, S. A., \& Hunnius, S. (2017). Toddlers' action
-prediction: Statistical learning of continuous action sequences.
-\emph{Journal of Experimental Child Psychology}, \emph{157}, 14--28.
-
-\hypertarget{ref-onnis2013language}{}
-Onnis, L., \& Thiessen, E. (2013). Language experience changes
-subsequent learning. \emph{Cognition}, \emph{126}(2), 268--284.
-
-\hypertarget{ref-pelucchi2009learning}{}
-Pelucchi, B., Hay, J. F., \& Saffran, J. R. (2009). Learning in reverse:
-Eight-month-old infants track backward transitional probabilities.
-\emph{Cognition}, \emph{113}(2), 244--247.
-
-\hypertarget{ref-R}{}
-R Core Team. (2014). \emph{R: A language and environment for statistical
-computing}. Vienna, Austria: R Foundation for Statistical Computing.
-Retrieved from \url{http://www.R-project.org/}
-
-\hypertarget{ref-raviv2018developmental}{}
-Raviv, L., \& Arnon, I. (2018). The developmental trajectory of
-children's auditory and visual statistical learning abilities:
-Modality-based differences in the effect of age. \emph{Developmental
-Science}, \emph{21}(4), e12593.
-
-\hypertarget{ref-rodriguez2009neurophysiological}{}
-Rodríguez-Fornells, A., Cunillera, T., Mestres-Missé, A., \&
-Diego-Balaguer, R. de. (2009). Neurophysiological mechanisms involved in
-language learning in adults. \emph{Philosophical Transactions of the
-Royal Society of London B: Biological Sciences}, \emph{364}(1536),
-3711--3735.
-
-\hypertarget{ref-roy2009exploring}{}
-Roy, B. C., Frank, M. C., \& Roy, D. (2009). Exploring word learning in
-a high-density longitudinal corpus. \emph{Proceedings of the 31st Annual
-Meeting of the Cognitive Science Society}, 2106--2111.
-
-\hypertarget{ref-saffran2002constraints}{}
-Saffran, J. R. (2002). Constraints on statistical language learning.
-\emph{Journal of Memory and Language}, \emph{47}(1), 172--196.
-
-\hypertarget{ref-saffran2018infant}{}
-Saffran, J. R., \& Kirkham, N. Z. (2018). Infant statistical learning.
-\emph{Annual Review of Psychology}, \emph{69}, 181--203.
-
-\hypertarget{ref-saffran1996statistical}{}
-Saffran, J. R., Aslin, R. N., \& Newport, E. L. (1996). Statistical
-learning by 8-month-old infants. \emph{Science}, \emph{274}(5294),
-1926--1928.
-
-\hypertarget{ref-saffran1999statistical}{}
-Saffran, J. R., Johnson, E. K., Aslin, R. N., \& Newport, E. L. (1999).
-Statistical learning of tone sequences by human infants and adults.
-\emph{Cognition}, \emph{70}(1), 27--52.
-
-\hypertarget{ref-saffran1997incidental}{}
-Saffran, J. R., Newport, E. L., Aslin, R. N., Tunick, R. A., \&
-Barrueco, S. (1997). Incidental language learning: Listening (and
-learning) out of the corner of your ear. \emph{Psychological Science},
-\emph{8}(2), 101--105.
-
-\hypertarget{ref-shufaniya2018statistical}{}
-Shufaniya, A., \& Arnon, I. (2018). Statistical learning is not
-age-invariant during childhood: Performance improves with age across
-modality. \emph{Cognitive Science}, \emph{42}(8), 3100--3115.
-
-\hypertarget{ref-slone2015infants}{}
-Slone, L. K., \& Johnson, S. P. (2015). Infants' statistical learning:
-2-and 5-month-olds' segmentation of continuous visual sequences.
-\emph{Journal of Experimental Child Psychology}, \emph{133}, 47--56.
-
-\hypertarget{ref-speer2009prosody}{}
-Speer, S. R., \& Ito, K. (2009). Prosody in first language
-acquisition--Acquiring intonation as a tool to organize information in
-conversation. \emph{Language and Linguistics Compass}, \emph{3}(1),
-90--110.
-
-\hypertarget{ref-clair2010learning}{}
-StClair, M. C., Monaghan, P., \& Christiansen, M. H. (2010). Learning
-grammatical categories from distributional cues: Flexible frames for
-language acquisition. \emph{Cognition}, \emph{116}(3), 341--360.
-
-\hypertarget{ref-teinonen2009statistical}{}
-Teinonen, T., Fellman, V., Näätänen, R., Alku, P., \& Huotilainen, M.
-(2009). Statistical language learning in neonates revealed by
-event-related brain potentials. \emph{BMC Neuroscience}, \emph{10}, 21.
-
-\hypertarget{ref-tomasello2003constructing}{}
-Tomasello, M. (2005). \emph{Constructing a language: A usage-based
-theory of language acquisition} (1st ed.). Harvard University Press.
-
-\hypertarget{ref-tomasello2006acquiring}{}
-Tomasello, M. (2008). Acquiring linguistic constructions. In Damon W, R.
-Lerner, D. Kuhn, \& R. Siegler (Eds.), \emph{Child and adolescent
-development} (pp. 263--297). New York: Wiley.
-
-\hypertarget{ref-uylings2006development}{}
-Uylings, H. B. M. (2006). Development of the human cortex and the
-concept of ``critical'' or ``sensitive'' periods. \emph{Language
-Learning}, \emph{56}(1), 59--90.
-
-\hypertarget{ref-ggplot2}{}
-Wickham, H. (2009). \emph{Ggplot2: Elegant graphics for data analysis}
-(2nd ed.). Springer Publishing Company, Incorporated.
-
-\hypertarget{ref-wojcik2013remembering}{}
-Wojcik, E. H. (2013). Remembering new words: Integrating early memory
-development into word learning. \emph{Frontiers in Psychology},
-\emph{4}, 151.
-
-\hypertarget{ref-yang2016price}{}
-Yang, C. (2016). \emph{The price of linguistic productivity: How
-children learn to break the rules of language} (1st ed.). MIT Press.
-
 \endgroup
+
 
 \end{document}

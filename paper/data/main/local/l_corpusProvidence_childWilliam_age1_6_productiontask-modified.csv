@@ -1,0 +1,529 @@
+,num,utterance,child,age,skipped,reconstructed,bow,gold,prediction,chance,repetition,correctedscore
+0,0,[<__main__.Word instance at 0x10c865560>],William,1_6,False,True,[['book']],book,book,1.0,False,-0.0
+1,1,[<__main__.Word instance at 0x10c8657a0>],William,1_6,False,True,[['lion']],lion,lion,1.0,False,-0.0
+2,2,[<__main__.Word instance at 0x10c865a28>],William,1_6,True,,,uhoh,,,NaN,NaN
+3,3,"[<__main__.Word instance at 0x10c8658c0>
+ <__main__.Word instance at 0x10c865518>
+ <__main__.Word instance at 0x1196096c8>]",William,1_6,False,False,"[['the'], ['book'], ['oh']]",ohthebook,theohbook,0.166666666667,False,-0.1823215567939546
+4,4,[<__main__.Word instance at 0x1196098c0>],William,1_6,True,,,peacock,,,NaN,NaN
+5,5,"[<__main__.Word instance at 0x119609b00>
+ <__main__.Word instance at 0x119609c20>
+ <__main__.Word instance at 0x119609d40>]",William,1_6,False,True,"[['mm'], ['mm'], ['mm']]",mmmmmm,mmmmmm,1.0,True,-0.0
+6,6,[<__main__.Word instance at 0x119609f80>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+7,7,[<__main__.Word instance at 0x10c6ce9e0>],William,1_6,True,,,eye,,,NaN,NaN
+8,8,[<__main__.Word instance at 0x10c6cebd8>],William,1_6,False,True,[['nose']],nose,nose,1.0,False,-0.0
+9,9,[<__main__.Word instance at 0x10c6cca28>],William,1_6,False,True,[['nose']],nose,nose,1.0,False,-0.0
+10,10,[<__main__.Word instance at 0x10c6cc878>],William,1_6,True,,,&-uh,,,NaN,NaN
+11,11,"[<__main__.Word instance at 0x10c6ccb00>
+ <__main__.Word instance at 0x10c6cc4d0>]",William,1_6,False,True,"[['all', 'done']]",alldone,alldone,1.0,False,-0.0
+12,12,[<__main__.Word instance at 0x10c6ccc20>],William,1_6,False,True,[['elbow']],elbow,elbow,1.0,False,-0.0
+13,13,[<__main__.Word instance at 0x11960f1b8>],William,1_6,False,True,[['elbow']],elbow,elbow,1.0,False,-0.0
+14,14,[<__main__.Word instance at 0x11960f290>],William,1_6,False,True,[['arm']],arm,arm,1.0,False,-0.0
+15,15,[<__main__.Word instance at 0x11960f3b0>],William,1_6,False,True,[['arm']],arm,arm,1.0,False,-0.0
+16,16,[<__main__.Word instance at 0x11960f5a8>],William,1_6,False,True,[['arm']],arm,arm,1.0,False,-0.0
+17,17,"[<__main__.Word instance at 0x11960f710>
+ <__main__.Word instance at 0x11960f7e8>]",William,1_6,False,True,"[['book'], ['book']]",bookbook,bookbook,1.0,True,-0.0
+18,18,[<__main__.Word instance at 0x11960f8c0>],William,1_6,True,,,toe,,,NaN,NaN
+19,19,[<__main__.Word instance at 0x11960f998>],William,1_6,True,,,eye,,,NaN,NaN
+20,20,[<__main__.Word instance at 0x11960f830>],William,1_6,True,,,eye,,,NaN,NaN
+21,21,[<__main__.Word instance at 0x11960f9e0>],William,1_6,False,True,[['feet']],feet,feet,1.0,False,-0.0
+22,22,[<__main__.Word instance at 0x11960fab8>],William,1_6,False,True,[['where']],where,where,1.0,False,-0.0
+23,23,[<__main__.Word instance at 0x11960fb90>],William,1_6,True,,,ew,,,NaN,NaN
+24,24,[<__main__.Word instance at 0x11960fd88>],William,1_6,True,,,ew,,,NaN,NaN
+25,25,[<__main__.Word instance at 0x11960fef0>],William,1_6,True,,,ew,,,NaN,NaN
+26,26,"[<__main__.Word instance at 0x11960fe60>
+ <__main__.Word instance at 0x11960f908>
+ <__main__.Word instance at 0x119613098>]",William,1_6,True,,,ewewew,,,NaN,NaN
+27,27,[<__main__.Word instance at 0x119613320>],William,1_6,True,,,ooh,,,NaN,NaN
+28,28,[<__main__.Word instance at 0x1196133f8>],William,1_6,True,,,ooh,,,NaN,NaN
+29,29,[<__main__.Word instance at 0x119613368>],William,1_6,True,,,ooh,,,NaN,NaN
+30,30,[<__main__.Word instance at 0x119613560>],William,1_6,True,,,ooh,,,NaN,NaN
+31,31,"[<__main__.Word instance at 0x119613680>
+ <__main__.Word instance at 0x1196138c0>]",William,1_6,True,,,eeooh,,,NaN,NaN
+32,32,[<__main__.Word instance at 0x119613710>],William,1_6,True,,,ee,,,NaN,NaN
+33,33,"[<__main__.Word instance at 0x119613908>
+ <__main__.Word instance at 0x119613b48>
+ <__main__.Word instance at 0x1196139e0>
+ <__main__.Word instance at 0x119613c20>]",William,1_6,True,,,eeaheeah,,,NaN,NaN
+34,34,"[<__main__.Word instance at 0x119613cf8>
+ <__main__.Word instance at 0x119613b90>]",William,1_6,True,,,eeah,,,NaN,NaN
+35,35,[<__main__.Word instance at 0x119613c68>],William,1_6,True,,,towel,,,NaN,NaN
+36,36,[<__main__.Word instance at 0x119613d40>],William,1_6,False,True,[['ball']],ball,ball,1.0,False,-0.0
+37,37,[<__main__.Word instance at 0x119613e18>],William,1_6,True,,,hat,,,NaN,NaN
+38,38,[<__main__.Word instance at 0x1196131b8>],William,1_6,True,,,keys,,,NaN,NaN
+39,39,[<__main__.Word instance at 0x1196135f0>],William,1_6,True,,,bubbles,,,NaN,NaN
+40,40,[<__main__.Word instance at 0x119616170>],William,1_6,True,,,ha,,,NaN,NaN
+41,41,[<__main__.Word instance at 0x119616368>],William,1_6,False,True,[['bus']],bus,bus,1.0,False,-0.0
+42,42,[<__main__.Word instance at 0x119616488>],William,1_6,True,,,toes,,,NaN,NaN
+43,43,[<__main__.Word instance at 0x119616200>],William,1_6,True,,,uhoh,,,NaN,NaN
+44,44,[<__main__.Word instance at 0x1196165a8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+45,45,[<__main__.Word instance at 0x119616320>],William,1_6,True,,,town,,,NaN,NaN
+46,46,[<__main__.Word instance at 0x1196164d0>],William,1_6,False,True,[['swish']],swish,swish,1.0,False,-0.0
+47,47,"[<__main__.Word instance at 0x1196167e8>
+ <__main__.Word instance at 0x119616a28>
+ <__main__.Word instance at 0x1196168c0>]",William,1_6,False,True,"[['swish'], ['swish'], ['swish']]",swishswishswish,swishswishswish,1.0,True,-0.0
+48,48,[<__main__.Word instance at 0x119616998>],William,1_6,False,True,[['swish']],swish,swish,1.0,False,-0.0
+49,49,[<__main__.Word instance at 0x119616560>],William,1_6,True,,,town,,,NaN,NaN
+50,50,[<__main__.Word instance at 0x119616c20>],William,1_6,False,True,[['okay']],okay,okay,1.0,False,-0.0
+51,51,[<__main__.Word instance at 0x119616dd0>],William,1_6,True,,,town,,,NaN,NaN
+52,52,"[<__main__.Word instance at 0x119616ea8>
+ <__main__.Word instance at 0x119616710>]",William,1_6,False,True,"[['no'], ['no']]",nono,nono,1.0,True,-0.0
+53,53,[<__main__.Word instance at 0x11961a1b8>],William,1_6,True,,,buses,,,NaN,NaN
+54,54,[<__main__.Word instance at 0x11961a320>],William,1_6,True,,,town,,,NaN,NaN
+55,55,[<__main__.Word instance at 0x11961a488>],William,1_6,True,,,yay,,,NaN,NaN
+56,56,[<__main__.Word instance at 0x11961a248>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+57,57,[<__main__.Word instance at 0x11961a5f0>],William,1_6,False,True,[['fish']],fish,fish,1.0,False,-0.0
+58,58,[<__main__.Word instance at 0x11961a7a0>],William,1_6,False,True,[['cow']],cow,cow,1.0,False,-0.0
+59,59,[<__main__.Word instance at 0x11961a3b0>],William,1_6,True,,,daddy,,,NaN,NaN
+60,60,[<__main__.Word instance at 0x11961aa28>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+61,61,[<__main__.Word instance at 0x11961af38>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+62,62,[<__main__.Word instance at 0x11961afc8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+63,63,"[<__main__.Word instance at 0x11961a950>
+ <__main__.Word instance at 0x11961aef0>]",William,1_6,False,True,"[['a'], ['car']]",acar,acar,0.5,False,0.6931471805599453
+64,64,[<__main__.Word instance at 0x11961aea8>],William,1_6,True,,,uhoh,,,NaN,NaN
+65,65,[<__main__.Word instance at 0x11961d170>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+66,66,[<__main__.Word instance at 0x11961d368>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+67,67,[<__main__.Word instance at 0x11961d2d8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+68,68,[<__main__.Word instance at 0x11961d3b0>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+69,69,[<__main__.Word instance at 0x11961d488>],William,1_6,True,,,boom,,,NaN,NaN
+70,70,[<__main__.Word instance at 0x11961d638>],William,1_6,True,,,boom,,,NaN,NaN
+71,71,[<__main__.Word instance at 0x11961d908>],William,1_6,False,True,[['hello']],hello,hello,1.0,False,-0.0
+72,72,[<__main__.Word instance at 0x11961d998>],William,1_6,False,True,[['hello']],hello,hello,1.0,False,-0.0
+73,73,[<__main__.Word instance at 0x11961d758>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+74,74,[<__main__.Word instance at 0x11961d7e8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+75,75,[<__main__.Word instance at 0x11961dc20>],William,1_6,True,,,uhhuh,,,NaN,NaN
+76,76,[<__main__.Word instance at 0x11961dab8>],William,1_6,False,True,[['hello']],hello,hello,1.0,False,-0.0
+77,77,[<__main__.Word instance at 0x119620200>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+78,78,[<__main__.Word instance at 0x1196203b0>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+79,79,[<__main__.Word instance at 0x1196206c8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+80,80,[<__main__.Word instance at 0x1196207a0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+81,81,[<__main__.Word instance at 0x1196207e8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+82,82,[<__main__.Word instance at 0x1196209e0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+83,83,[<__main__.Word instance at 0x119620830>],William,1_6,True,,,bye,,,NaN,NaN
+84,84,[<__main__.Word instance at 0x1196205f0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+85,85,[<__main__.Word instance at 0x119620758>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+86,86,[<__main__.Word instance at 0x119620d88>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+87,87,[<__main__.Word instance at 0x119620b00>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+88,88,[<__main__.Word instance at 0x119620bd8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+89,89,[<__main__.Word instance at 0x1196231b8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+90,90,[<__main__.Word instance at 0x119623128>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+91,91,[<__main__.Word instance at 0x1196232d8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+92,92,[<__main__.Word instance at 0x119623290>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+93,93,[<__main__.Word instance at 0x1196239e0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+94,94,[<__main__.Word instance at 0x1196235f0>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+95,95,[<__main__.Word instance at 0x119623c20>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+96,96,[<__main__.Word instance at 0x1196238c0>],William,1_6,True,,,toe,,,NaN,NaN
+97,97,[<__main__.Word instance at 0x119623ea8>],William,1_6,True,,,mommy,,,NaN,NaN
+98,98,[<__main__.Word instance at 0x1196237e8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+99,99,[<__main__.Word instance at 0x119626098>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+100,100,[<__main__.Word instance at 0x1196264d0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+101,101,[<__main__.Word instance at 0x119626560>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+102,102,[<__main__.Word instance at 0x119626638>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+103,103,[<__main__.Word instance at 0x1196265a8>],William,1_6,False,True,[['hello']],hello,hello,1.0,False,-0.0
+104,104,[<__main__.Word instance at 0x119626680>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+105,105,[<__main__.Word instance at 0x119626248>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+106,106,[<__main__.Word instance at 0x1196267e8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+107,107,[<__main__.Word instance at 0x119626758>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+108,108,[<__main__.Word instance at 0x119626bd8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+109,109,[<__main__.Word instance at 0x119626b48>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+110,110,[<__main__.Word instance at 0x119626c68>],William,1_6,True,,,&,,,NaN,NaN
+111,111,[<__main__.Word instance at 0x119626d88>],William,1_6,True,,,Sarah,,,NaN,NaN
+112,112,[<__main__.Word instance at 0x119626c20>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+113,113,[<__main__.Word instance at 0x11962a0e0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+114,114,[<__main__.Word instance at 0x11962a2d8>],William,1_6,True,,,Sarah,,,NaN,NaN
+115,115,[<__main__.Word instance at 0x11962a290>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+116,116,[<__main__.Word instance at 0x11962a6c8>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+117,117,[<__main__.Word instance at 0x11962a9e0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+118,118,[<__main__.Word instance at 0x11962a8c0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+119,119,[<__main__.Word instance at 0x11962a758>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+120,120,"[<__main__.Word instance at 0x11962a908>
+ <__main__.Word instance at 0x11962ae60>]",William,1_6,True,,,ySarah,,,NaN,NaN
+121,121,"[<__main__.Word instance at 0x11962aef0>
+ <__main__.Word instance at 0x11962ac68>]",William,1_6,False,True,"[['no'], ['no']]",nono,nono,1.0,True,-0.0
+122,122,[<__main__.Word instance at 0x11962a830>],William,1_6,True,,,Sarah,,,NaN,NaN
+123,123,[<__main__.Word instance at 0x11962d1b8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+124,124,[<__main__.Word instance at 0x11962d320>],William,1_6,True,,,Sarah,,,NaN,NaN
+125,125,[<__main__.Word instance at 0x11962d4d0>],William,1_6,True,,,Sarah,,,NaN,NaN
+126,126,[<__main__.Word instance at 0x11962d560>],William,1_6,True,,,Sarah,,,NaN,NaN
+127,127,[<__main__.Word instance at 0x11962d050>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+128,128,[<__main__.Word instance at 0x11962db48>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+129,129,[<__main__.Word instance at 0x11962d8c0>],William,1_6,True,,,Sarah,,,NaN,NaN
+130,130,[<__main__.Word instance at 0x11962db90>],William,1_6,True,,,bye,,,NaN,NaN
+131,131,[<__main__.Word instance at 0x11962de60>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+132,132,"[<__main__.Word instance at 0x119630170>
+ <__main__.Word instance at 0x119630050>]",William,1_6,False,True,"[['do'], ['it']]",doit,doit,0.5,False,0.6931471805599453
+133,133,[<__main__.Word instance at 0x119630200>],William,1_6,True,,,Sarah,,,NaN,NaN
+134,134,[<__main__.Word instance at 0x119630128>],William,1_6,True,,,Sarah,,,NaN,NaN
+135,135,[<__main__.Word instance at 0x119630518>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+136,136,[<__main__.Word instance at 0x119630758>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+137,137,[<__main__.Word instance at 0x119630b90>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+138,138,"[<__main__.Word instance at 0x119630d40>
+ <__main__.Word instance at 0x119630950>
+ <__main__.Word instance at 0x119630dd0>
+ <__main__.Word instance at 0x119630ab8>]",William,1_6,True,,,alrightisSarahwhat,,,NaN,NaN
+139,139,[<__main__.Word instance at 0x119630e60>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+140,140,[<__main__.Word instance at 0x119630ea8>],William,1_6,True,,,Sarah,,,NaN,NaN
+141,141,[<__main__.Word instance at 0x1196330e0>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+142,142,[<__main__.Word instance at 0x119633368>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+143,143,[<__main__.Word instance at 0x1196333f8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+144,144,"[<__main__.Word instance at 0x119633320>
+ <__main__.Word instance at 0x119633050>]",William,1_6,True,,,Sarahwhat,,,NaN,NaN
+145,145,[<__main__.Word instance at 0x1196335f0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+146,146,[<__main__.Word instance at 0x1196337a0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+147,147,[<__main__.Word instance at 0x119633a70>],William,1_6,True,,,&-uh,,,NaN,NaN
+148,148,[<__main__.Word instance at 0x119633b00>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+149,149,[<__main__.Word instance at 0x119633a28>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+150,150,[<__main__.Word instance at 0x119633b90>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+151,151,[<__main__.Word instance at 0x119633e18>],William,1_6,True,,,Sarah,,,NaN,NaN
+152,152,[<__main__.Word instance at 0x119633ef0>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+153,153,[<__main__.Word instance at 0x119633cf8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+154,154,[<__main__.Word instance at 0x119633f80>],William,1_6,False,True,[['button']],button,button,1.0,False,-0.0
+155,155,[<__main__.Word instance at 0x119633fc8>],William,1_6,True,,,Sarah,,,NaN,NaN
+156,156,[<__main__.Word instance at 0x119636170>],William,1_6,False,True,[['what']],what,what,1.0,False,-0.0
+157,157,[<__main__.Word instance at 0x1196361b8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+158,158,[<__main__.Word instance at 0x1196366c8>],William,1_6,False,True,[['book']],book,book,1.0,False,-0.0
+159,159,[<__main__.Word instance at 0x119636878>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+160,160,[<__main__.Word instance at 0x119636a28>],William,1_6,False,True,[['ah']],ah,ah,1.0,False,-0.0
+161,161,[<__main__.Word instance at 0x119636e18>],William,1_6,True,,,y,,,NaN,NaN
+162,162,[<__main__.Word instance at 0x119636ef0>],William,1_6,True,,,moon,,,NaN,NaN
+163,163,[<__main__.Word instance at 0x119636fc8>],William,1_6,True,,,moon,,,NaN,NaN
+164,164,[<__main__.Word instance at 0x119636cb0>],William,1_6,True,,,wild,,,NaN,NaN
+165,165,[<__main__.Word instance at 0x11963b098>],William,1_6,False,True,[['all']],all,all,1.0,False,-0.0
+166,166,[<__main__.Word instance at 0x11963b128>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+167,167,[<__main__.Word instance at 0x11963b440>],William,1_6,False,True,[['book']],book,book,1.0,False,-0.0
+168,168,[<__main__.Word instance at 0x11963b518>],William,1_6,False,True,[['book']],book,book,1.0,False,-0.0
+169,169,"[<__main__.Word instance at 0x11963b5f0>
+ <__main__.Word instance at 0x11963b488>]",William,1_6,True,,,moonmoon,,,NaN,NaN
+170,170,[<__main__.Word instance at 0x11963b560>],William,1_6,False,True,[['doggy']],doggy,doggy,1.0,False,-0.0
+171,171,[<__main__.Word instance at 0x11963b638>],William,1_6,True,,,moo,,,NaN,NaN
+172,172,[<__main__.Word instance at 0x11963b7e8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+173,173,[<__main__.Word instance at 0x11963b998>],William,1_6,True,,,toes,,,NaN,NaN
+174,174,[<__main__.Word instance at 0x11963bb48>],William,1_6,True,,,toes,,,NaN,NaN
+175,175,[<__main__.Word instance at 0x11963bc20>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+176,176,"[<__main__.Word instance at 0x11963be18>
+ <__main__.Word instance at 0x11963bcf8>]",William,1_6,True,,,heehee,,,NaN,NaN
+177,177,[<__main__.Word instance at 0x11963e200>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+178,178,[<__main__.Word instance at 0x11963e2d8>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+179,179,[<__main__.Word instance at 0x11963e248>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+180,180,[<__main__.Word instance at 0x11963e3f8>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+181,181,"[<__main__.Word instance at 0x11963e518>
+ <__main__.Word instance at 0x11963e710>]",William,1_6,False,True,"[['kitty'], ['kitty']]",kittykitty,kittykitty,1.0,True,-0.0
+182,182,[<__main__.Word instance at 0x11963e758>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+183,183,[<__main__.Word instance at 0x11963e7a0>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+184,184,[<__main__.Word instance at 0x11963e5a8>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+185,185,[<__main__.Word instance at 0x11963e908>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+186,186,[<__main__.Word instance at 0x11963eb48>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+187,187,"[<__main__.Word instance at 0x11963e6c8>
+ <__main__.Word instance at 0x11963eea8>
+ <__main__.Word instance at 0x11963ed88>
+ <__main__.Word instance at 0x11963ef38>]",William,1_6,False,False,"[['kitty'], ['kitty'], ['kitty'], ['doggie']]",kittydoggiekittykitty,doggiekittykittykitty,0.25,True,-0.2876820724517809
+188,188,"[<__main__.Word instance at 0x1196413b0>
+ <__main__.Word instance at 0x119641290>]",William,1_6,False,True,"[['kitty'], ['kitty']]",kittykitty,kittykitty,1.0,True,-0.0
+189,189,[<__main__.Word instance at 0x119641200>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+190,190,[<__main__.Word instance at 0x1196415a8>],William,1_6,False,True,[['oh']],oh,oh,1.0,False,-0.0
+191,191,[<__main__.Word instance at 0x119641758>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+192,192,[<__main__.Word instance at 0x119641710>],William,1_6,True,,,uhoh,,,NaN,NaN
+193,193,[<__main__.Word instance at 0x119641638>],William,1_6,True,,,Sarah,,,NaN,NaN
+194,194,[<__main__.Word instance at 0x119641b00>],William,1_6,True,,,Sarah,,,NaN,NaN
+195,195,[<__main__.Word instance at 0x1196414d0>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+196,196,[<__main__.Word instance at 0x119641d88>],William,1_6,False,True,[['kitty']],kitty,kitty,1.0,False,-0.0
+197,197,"[<__main__.Word instance at 0x119641c20>
+ <__main__.Word instance at 0x119641878>]",William,1_6,False,True,"[['no'], ['no']]",nono,nono,1.0,True,-0.0
+198,198,[<__main__.Word instance at 0x119644098>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+199,199,[<__main__.Word instance at 0x119644128>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+200,200,[<__main__.Word instance at 0x119644560>],William,1_6,True,,,acumma,,,NaN,NaN
+201,201,[<__main__.Word instance at 0x119644518>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+202,202,[<__main__.Word instance at 0x119644488>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+203,203,"[<__main__.Word instance at 0x1196443b0>
+ <__main__.Word instance at 0x119644a70>]",William,1_6,False,True,"[['off'], ['off']]",offoff,offoff,1.0,True,-0.0
+204,204,[<__main__.Word instance at 0x119644c20>],William,1_6,True,,,mommy,,,NaN,NaN
+205,205,"[<__main__.Word instance at 0x119644cb0>
+ <__main__.Word instance at 0x119644950>]",William,1_6,False,False,"[['light'], ['see']]",seelight,lightsee,0.5,False,-0.6931471805599453
+206,206,[<__main__.Word instance at 0x119644e60>],William,1_6,False,True,[['light']],light,light,1.0,False,-0.0
+207,207,"[<__main__.Word instance at 0x119644ef0>
+ <__main__.Word instance at 0x119644ab8>]",William,1_6,False,True,"[['the', 'light']]",thelight,thelight,1.0,False,-0.0
+208,208,[<__main__.Word instance at 0x1196474d0>],William,1_6,False,True,[['light']],light,light,1.0,False,-0.0
+209,209,"[<__main__.Word instance at 0x119647638>
+ <__main__.Word instance at 0x1196470e0>
+ <__main__.Word instance at 0x1196476c8>]",William,1_6,False,True,"[['the', 'light'], ['light']]",lightthelight,lightthelight,0.5,False,0.6931471805599453
+210,210,[<__main__.Word instance at 0x119647998>],William,1_6,False,True,[['light']],light,light,1.0,False,-0.0
+211,211,[<__main__.Word instance at 0x119647878>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+212,212,[<__main__.Word instance at 0x119647758>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+213,213,[<__main__.Word instance at 0x119647bd8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+214,214,[<__main__.Word instance at 0x119647cb0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+215,215,[<__main__.Word instance at 0x119647f80>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+216,216,[<__main__.Word instance at 0x11964a098>],William,1_6,True,,,uhoh,,,NaN,NaN
+217,217,[<__main__.Word instance at 0x11964a3f8>],William,1_6,False,True,[['byebye']],byebye,byebye,1.0,False,-0.0
+218,218,[<__main__.Word instance at 0x11964a488>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+219,219,[<__main__.Word instance at 0x11964a680>],William,1_6,False,True,[['ah']],ah,ah,1.0,False,-0.0
+220,220,[<__main__.Word instance at 0x11964a638>],William,1_6,False,True,[['bus']],bus,bus,1.0,False,-0.0
+221,221,[<__main__.Word instance at 0x11964a8c0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+222,222,[<__main__.Word instance at 0x11964a998>],William,1_6,False,True,[['baby']],baby,baby,1.0,False,-0.0
+223,223,[<__main__.Word instance at 0x11964ac20>],William,1_6,False,True,[['touch']],touch,touch,1.0,False,-0.0
+224,224,[<__main__.Word instance at 0x11964ab00>],William,1_6,False,True,[['touch']],touch,touch,1.0,False,-0.0
+225,225,[<__main__.Word instance at 0x11964e050>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+226,226,[<__main__.Word instance at 0x11964e320>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+227,227,[<__main__.Word instance at 0x11964e560>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+228,228,[<__main__.Word instance at 0x11964e638>],William,1_6,False,True,[['raisin']],raisin,raisin,1.0,False,-0.0
+229,229,[<__main__.Word instance at 0x11964e7a0>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+230,230,[<__main__.Word instance at 0x11964e710>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+231,231,[<__main__.Word instance at 0x11964e878>],William,1_6,False,True,[['blue']],blue,blue,1.0,False,-0.0
+232,232,[<__main__.Word instance at 0x11964e830>],William,1_6,False,True,[['blue']],blue,blue,1.0,False,-0.0
+233,233,[<__main__.Word instance at 0x11964eab8>],William,1_6,False,True,[['yellow']],yellow,yellow,1.0,False,-0.0
+234,234,"[<__main__.Word instance at 0x11964edd0>
+ <__main__.Word instance at 0x11964ef80>]",William,1_6,False,True,"[['cookie'], ['cookie']]",cookiecookie,cookiecookie,1.0,True,-0.0
+235,235,[<__main__.Word instance at 0x11964ecb0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+236,236,[<__main__.Word instance at 0x1196513f8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+237,237,[<__main__.Word instance at 0x1196513b0>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+238,238,[<__main__.Word instance at 0x119651518>],William,1_6,True,,,doggies,,,NaN,NaN
+239,239,[<__main__.Word instance at 0x119651830>],William,1_6,True,,,cookies,,,NaN,NaN
+240,240,"[<__main__.Word instance at 0x119651950>
+ <__main__.Word instance at 0x119651440>]",William,1_6,False,True,"[['cookie'], ['see']]",seecookie,seecookie,0.5,False,0.6931471805599453
+241,241,"[<__main__.Word instance at 0x1196519e0>
+ <__main__.Word instance at 0x119651dd0>]",William,1_6,False,True,"[['cookie'], ['cookie']]",cookiecookie,cookiecookie,1.0,True,-0.0
+242,242,[<__main__.Word instance at 0x119651e18>],William,1_6,True,,,mama,,,NaN,NaN
+243,243,[<__main__.Word instance at 0x119651f38>],William,1_6,False,True,[['baby']],baby,baby,1.0,False,-0.0
+244,244,[<__main__.Word instance at 0x119651758>],William,1_6,False,True,[['feet']],feet,feet,1.0,False,-0.0
+245,245,[<__main__.Word instance at 0x119654128>],William,1_6,False,True,[['feet']],feet,feet,1.0,False,-0.0
+246,246,[<__main__.Word instance at 0x1196540e0>],William,1_6,True,,,uhoh,,,NaN,NaN
+247,247,[<__main__.Word instance at 0x119654200>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+248,248,[<__main__.Word instance at 0x1196543b0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+249,249,[<__main__.Word instance at 0x119654560>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+250,250,[<__main__.Word instance at 0x119654830>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+251,251,[<__main__.Word instance at 0x119654a70>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+252,252,[<__main__.Word instance at 0x119654ef0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+253,253,"[<__main__.Word instance at 0x119654fc8>
+ <__main__.Word instance at 0x119654cb0>]",William,1_6,True,,,uhohuhoh,,,NaN,NaN
+254,254,[<__main__.Word instance at 0x1196570e0>],William,1_6,True,,,mama,,,NaN,NaN
+255,255,[<__main__.Word instance at 0x119657170>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+256,256,[<__main__.Word instance at 0x119657320>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+257,257,[<__main__.Word instance at 0x1196574d0>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+258,258,[<__main__.Word instance at 0x119657908>],William,1_6,True,,,mommy,,,NaN,NaN
+259,259,[<__main__.Word instance at 0x1196579e0>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+260,260,[<__main__.Word instance at 0x119657c68>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+261,261,[<__main__.Word instance at 0x119657bd8>],William,1_6,True,,,mommy,,,NaN,NaN
+262,262,[<__main__.Word instance at 0x119657ea8>],William,1_6,True,,,Yaya,,,NaN,NaN
+263,263,[<__main__.Word instance at 0x119657758>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+264,264,[<__main__.Word instance at 0x11965a3b0>],William,1_6,True,,,Yaya,,,NaN,NaN
+265,265,"[<__main__.Word instance at 0x11965a488>
+ <__main__.Word instance at 0x11965a1b8>]",William,1_6,False,False,"[['baby'], ['Dada']]",babyDada,Dadababy,0.5,False,-0.6931471805599453
+266,266,[<__main__.Word instance at 0x11965a368>],William,1_6,False,True,[['baby']],baby,baby,1.0,False,-0.0
+267,267,"[<__main__.Word instance at 0x11965a758>
+ <__main__.Word instance at 0x11965a0e0>]",William,1_6,False,False,"[['hi'], ['Dada']]",hiDada,Dadahi,0.5,False,-0.6931471805599453
+268,268,[<__main__.Word instance at 0x11965a4d0>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+269,269,[<__main__.Word instance at 0x11965a638>],William,1_6,True,,,James,,,NaN,NaN
+270,270,[<__main__.Word instance at 0x11965aa70>],William,1_6,True,,,James,,,NaN,NaN
+271,271,[<__main__.Word instance at 0x11965a9e0>],William,1_6,True,,,James,,,NaN,NaN
+272,272,[<__main__.Word instance at 0x11965acf8>],William,1_6,True,,,Sarah,,,NaN,NaN
+273,273,"[<__main__.Word instance at 0x11965add0>
+ <__main__.Word instance at 0x11965a908>]",William,1_6,True,,,SarahSarah,,,NaN,NaN
+274,274,[<__main__.Word instance at 0x11965d0e0>],William,1_6,False,True,[['baby']],baby,baby,1.0,False,-0.0
+275,275,[<__main__.Word instance at 0x11965d560>],William,1_6,True,,,Katie,,,NaN,NaN
+276,276,[<__main__.Word instance at 0x11965d680>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+277,277,"[<__main__.Word instance at 0x11965d758>
+ <__main__.Word instance at 0x11965d170>]",William,1_6,False,True,"[['up'], ['up']]",upup,upup,1.0,True,-0.0
+278,278,[<__main__.Word instance at 0x11965d6c8>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+279,279,[<__main__.Word instance at 0x11965d440>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+280,280,[<__main__.Word instance at 0x11965d7a0>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+281,281,[<__main__.Word instance at 0x11965d248>],William,1_6,True,,,Katie,,,NaN,NaN
+282,282,[<__main__.Word instance at 0x11965db00>],William,1_6,True,,,Yaya,,,NaN,NaN
+283,283,[<__main__.Word instance at 0x11965dbd8>],William,1_6,True,,,Katie,,,NaN,NaN
+284,284,[<__main__.Word instance at 0x11965d878>],William,1_6,True,,,Katie,,,NaN,NaN
+285,285,"[<__main__.Word instance at 0x11965dd88>
+ <__main__.Word instance at 0x11965d8c0>]",William,1_6,False,True,"[['Uncle', 'Dean']]",UncleDean,UncleDean,1.0,False,-0.0
+286,286,"[<__main__.Word instance at 0x1196600e0>
+ <__main__.Word instance at 0x1196605a8>]",William,1_6,False,True,"[['Uncle', 'Dean']]",UncleDean,UncleDean,1.0,False,-0.0
+287,287,"[<__main__.Word instance at 0x1196607a0>
+ <__main__.Word instance at 0x119660680>]",William,1_6,False,True,"[['Uncle', 'Dean']]",UncleDean,UncleDean,1.0,False,-0.0
+288,288,[<__main__.Word instance at 0x1196604d0>],William,1_6,True,,,Yaya,,,NaN,NaN
+289,289,[<__main__.Word instance at 0x1196607e8>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+290,290,[<__main__.Word instance at 0x1196608c0>],William,1_6,False,True,[['see']],see,see,1.0,False,-0.0
+291,291,[<__main__.Word instance at 0x119660bd8>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+292,292,"[<__main__.Word instance at 0x119660c68>
+ <__main__.Word instance at 0x119660998>]",William,1_6,False,False,"[['see'], ['Dada']]",seeDada,Dadasee,0.5,False,-0.6931471805599453
+293,293,[<__main__.Word instance at 0x119660488>],William,1_6,False,True,[['see']],see,see,1.0,False,-0.0
+294,294,"[<__main__.Word instance at 0x119663248>
+ <__main__.Word instance at 0x119663098>]",William,1_6,False,False,"[['Dada'], ['see']]",seeDada,Dadasee,0.5,False,-0.6931471805599453
+295,295,"[<__main__.Word instance at 0x119663128>
+ <__main__.Word instance at 0x119663440>]",William,1_6,False,False,"[['see'], ['Dada']]",seeDada,Dadasee,0.5,False,-0.6931471805599453
+296,296,"[<__main__.Word instance at 0x1196633b0>
+ <__main__.Word instance at 0x119663680>]",William,1_6,False,False,"[['Dada'], ['see']]",seeDada,Dadasee,0.5,False,-0.6931471805599453
+297,297,[<__main__.Word instance at 0x119663a70>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+298,298,[<__main__.Word instance at 0x119663b48>],William,1_6,False,True,[['see']],see,see,1.0,False,-0.0
+299,299,[<__main__.Word instance at 0x119663c20>],William,1_6,True,,,potty,,,NaN,NaN
+300,300,[<__main__.Word instance at 0x119663cf8>],William,1_6,True,,,potty,,,NaN,NaN
+301,301,"[<__main__.Word instance at 0x119663d88>
+ <__main__.Word instance at 0x119663c68>]",William,1_6,False,True,"[['Uncle', 'Dean']]",UncleDean,UncleDean,1.0,False,-0.0
+302,302,[<__main__.Word instance at 0x119663e18>],William,1_6,False,True,[['William']],William,William,1.0,False,-0.0
+303,303,[<__main__.Word instance at 0x119663fc8>],William,1_6,True,,,Mama,,,NaN,NaN
+304,304,[<__main__.Word instance at 0x119667098>],William,1_6,False,True,[['Grandpa']],Grandpa,Grandpa,1.0,False,-0.0
+305,305,[<__main__.Word instance at 0x119667320>],William,1_6,False,True,[['Grandpa']],Grandpa,Grandpa,1.0,False,-0.0
+306,306,[<__main__.Word instance at 0x119667440>],William,1_6,False,True,[['hello']],hello,hello,1.0,False,-0.0
+307,307,"[<__main__.Word instance at 0x119667200>
+ <__main__.Word instance at 0x119667638>
+ <__main__.Word instance at 0x119667518>]",William,1_6,False,False,"[['how'], ['you'], ['are']]",howareyou,areyouhow,0.166666666667,False,-0.1823215567939546
+308,308,[<__main__.Word instance at 0x119667830>],William,1_6,False,True,[['byebye']],byebye,byebye,1.0,False,-0.0
+309,309,"[<__main__.Word instance at 0x119667c68>
+ <__main__.Word instance at 0x119667ef0>
+ <__main__.Word instance at 0x119667dd0>
+ <__main__.Word instance at 0x119667998>]",William,1_6,True,,,haveagoodday,,,NaN,NaN
+310,310,"[<__main__.Word instance at 0x119667c20>
+ <__main__.Word instance at 0x119667e18>
+ <__main__.Word instance at 0x11966a098>]",William,1_6,True,,,haveaday,,,NaN,NaN
+311,311,[<__main__.Word instance at 0x11966a0e0>],William,1_6,False,True,[['byebye']],byebye,byebye,1.0,False,-0.0
+312,312,[<__main__.Word instance at 0x11966a200>],William,1_6,True,,,town,,,NaN,NaN
+313,313,"[<__main__.Word instance at 0x11966a5f0>
+ <__main__.Word instance at 0x11966a638>]",William,1_6,False,True,"[['swish'], ['swish']]",swishswish,swishswish,1.0,True,-0.0
+314,314,[<__main__.Word instance at 0x11966a758>],William,1_6,True,,,town,,,NaN,NaN
+315,315,"[<__main__.Word instance at 0x11966a2d8>
+ <__main__.Word instance at 0x11966a9e0>]",William,1_6,True,,,bumpbump,,,NaN,NaN
+316,316,[<__main__.Word instance at 0x11966aab8>],William,1_6,True,,,town,,,NaN,NaN
+317,317,"[<__main__.Word instance at 0x11966ab90>
+ <__main__.Word instance at 0x11966aa28>]",William,1_6,False,True,"[['no'], ['no']]",nono,nono,1.0,True,-0.0
+318,318,[<__main__.Word instance at 0x11966a488>],William,1_6,True,,,bump,,,NaN,NaN
+319,319,[<__main__.Word instance at 0x11966abd8>],William,1_6,True,,,town,,,NaN,NaN
+320,320,[<__main__.Word instance at 0x11966ad88>],William,1_6,False,True,[['Mommy']],Mommy,Mommy,1.0,False,-0.0
+321,321,[<__main__.Word instance at 0x11966a998>],William,1_6,False,True,[['swish']],swish,swish,1.0,False,-0.0
+322,322,"[<__main__.Word instance at 0x11966ab00>
+ <__main__.Word instance at 0x11966aea8>
+ <__main__.Word instance at 0x11966d0e0>
+ <__main__.Word instance at 0x11966d1b8>]",William,1_6,False,True,"[['swish'], ['swish'], ['swish'], ['swish']]",swishswishswishswish,swishswishswishswish,1.0,True,-0.0
+323,323,"[<__main__.Word instance at 0x11966d128>
+ <__main__.Word instance at 0x11966d440>]",William,1_6,False,True,"[['swish'], ['swish']]",swishswish,swishswish,1.0,True,-0.0
+324,324,[<__main__.Word instance at 0x11966d518>],William,1_6,False,True,[['swish']],swish,swish,1.0,False,-0.0
+325,325,[<__main__.Word instance at 0x11966d488>],William,1_6,False,True,[['green']],green,green,1.0,False,-0.0
+326,326,[<__main__.Word instance at 0x11966d050>],William,1_6,False,True,[['swish']],swish,swish,1.0,False,-0.0
+327,327,"[<__main__.Word instance at 0x11966d560>
+ <__main__.Word instance at 0x11966d908>]",William,1_6,False,True,"[['all', 'gone']]",allgone,allgone,1.0,False,-0.0
+328,328,"[<__main__.Word instance at 0x11966dab8>
+ <__main__.Word instance at 0x11966d998>]",William,1_6,False,True,"[['all', 'gone']]",allgone,allgone,1.0,False,-0.0
+329,329,"[<__main__.Word instance at 0x11966d830>
+ <__main__.Word instance at 0x11966dc68>]",William,1_6,False,True,"[['all', 'gone']]",allgone,allgone,1.0,False,-0.0
+330,330,"[<__main__.Word instance at 0x11966dcf8>
+ <__main__.Word instance at 0x11966dbd8>]",William,1_6,False,True,"[['outside'], ['outside']]",outsideoutside,outsideoutside,1.0,True,-0.0
+331,331,[<__main__.Word instance at 0x11966d950>],William,1_6,True,,,swing,,,NaN,NaN
+332,332,"[<__main__.Word instance at 0x11966dea8>
+ <__main__.Word instance at 0x11966da70>]",William,1_6,True,,,hiYaya,,,NaN,NaN
+333,333,[<__main__.Word instance at 0x119671098>],William,1_6,True,,,Yaya,,,NaN,NaN
+334,334,[<__main__.Word instance at 0x119671128>],William,1_6,True,,,Mama,,,NaN,NaN
+335,335,[<__main__.Word instance at 0x1196712d8>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+336,336,[<__main__.Word instance at 0x119671488>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+337,337,[<__main__.Word instance at 0x1196713b0>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+338,338,[<__main__.Word instance at 0x119671878>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+339,339,"[<__main__.Word instance at 0x119671680>
+ <__main__.Word instance at 0x1196717e8>]",William,1_6,False,False,"[['hi'], ['Dada']]",hiDada,Dadahi,0.5,False,-0.6931471805599453
+340,340,[<__main__.Word instance at 0x119671998>],William,1_6,False,True,[['book']],book,book,1.0,False,-0.0
+341,341,"[<__main__.Word instance at 0x119671950>
+ <__main__.Word instance at 0x119671d40>]",William,1_6,False,True,"[['tick', 'tock']]",ticktock,ticktock,1.0,False,-0.0
+342,342,"[<__main__.Word instance at 0x119671cb0>
+ <__main__.Word instance at 0x119671e18>
+ <__main__.Word instance at 0x119671f38>]",William,1_6,False,True,"[['tock'], ['tock'], ['tock']]",tocktocktock,tocktocktock,1.0,True,-0.0
+343,343,"[<__main__.Word instance at 0x1196741b8>
+ <__main__.Word instance at 0x119674170>
+ <__main__.Word instance at 0x1196742d8>]",William,1_6,False,False,"[['I'], [""don't""], ['know']]",Idon'tknow,don'tknowI,0.166666666667,False,-0.1823215567939546
+344,344,"[<__main__.Word instance at 0x1196745f0>
+ <__main__.Word instance at 0x119674878>
+ <__main__.Word instance at 0x119674758>]",William,1_6,False,False,"[[""don't""], ['know'], ['I']]",Idon'tknow,don'tIknow,0.166666666667,False,-0.1823215567939546
+345,345,"[<__main__.Word instance at 0x119674908>
+ <__main__.Word instance at 0x119674b00>]",William,1_6,False,True,"[['know'], [""don't""]]",don'tknow,don'tknow,0.5,False,0.6931471805599453
+346,346,[<__main__.Word instance at 0x119674cb0>],William,1_6,True,,,clock,,,NaN,NaN
+347,347,[<__main__.Word instance at 0x119674ea8>],William,1_6,True,,,Mama,,,NaN,NaN
+348,348,[<__main__.Word instance at 0x119674f80>],William,1_6,True,,,Mama,,,NaN,NaN
+349,349,"[<__main__.Word instance at 0x119674e60>
+ <__main__.Word instance at 0x119674ef0>]",William,1_6,True,,,MamaMama,,,NaN,NaN
+350,350,[<__main__.Word instance at 0x119677248>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+351,351,[<__main__.Word instance at 0x119677320>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+352,352,[<__main__.Word instance at 0x119677290>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+353,353,[<__main__.Word instance at 0x119677200>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+354,354,[<__main__.Word instance at 0x119677560>],William,1_6,True,,,horsie,,,NaN,NaN
+355,355,[<__main__.Word instance at 0x119677518>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+356,356,[<__main__.Word instance at 0x119677998>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+357,357,[<__main__.Word instance at 0x119677b48>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+358,358,[<__main__.Word instance at 0x119677d40>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+359,359,[<__main__.Word instance at 0x119677e18>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+360,360,[<__main__.Word instance at 0x119677f38>],William,1_6,False,True,[['brush']],brush,brush,1.0,False,-0.0
+361,361,[<__main__.Word instance at 0x119677cf8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+362,362,"[<__main__.Word instance at 0x119677e60>
+ <__main__.Word instance at 0x11967a098>
+ <__main__.Word instance at 0x11967a290>]",William,1_6,False,True,"[['ooh', 'woo'], ['woo']]",oohwoowoo,oohwoowoo,0.5,False,0.6931471805599453
+363,363,[<__main__.Word instance at 0x11967a320>],William,1_6,False,True,[['car']],car,car,1.0,False,-0.0
+364,364,"[<__main__.Word instance at 0x11967a3b0>
+ <__main__.Word instance at 0x11967a5a8>
+ <__main__.Word instance at 0x11967a248>]",William,1_6,False,True,"[['ooh', 'woo'], ['woo']]",oohwoowoo,oohwoowoo,0.5,False,0.6931471805599453
+365,365,"[<__main__.Word instance at 0x11967a638>
+ <__main__.Word instance at 0x11967a830>
+ <__main__.Word instance at 0x11967a4d0>
+ <__main__.Word instance at 0x11967a9e0>]",William,1_6,False,True,"[['ooh', 'woo'], ['woo'], ['woo']]",oohwoowoowoo,oohwoowoowoo,0.333333333333,True,1.0986122886681098
+366,366,"[<__main__.Word instance at 0x11967abd8>
+ <__main__.Word instance at 0x11967aab8>]",William,1_6,False,True,"[['ooh', 'woo']]",oohwoo,oohwoo,1.0,False,-0.0
+367,367,[<__main__.Word instance at 0x11967ac68>],William,1_6,True,,,uhoh,,,NaN,NaN
+368,368,[<__main__.Word instance at 0x11967ab90>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+369,369,[<__main__.Word instance at 0x11967ad88>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+370,370,[<__main__.Word instance at 0x11967d170>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+371,371,[<__main__.Word instance at 0x11967d200>],William,1_6,False,True,[['off']],off,off,1.0,False,-0.0
+372,372,[<__main__.Word instance at 0x11967d3f8>],William,1_6,True,,,hot,,,NaN,NaN
+373,373,"[<__main__.Word instance at 0x11967d440>
+ <__main__.Word instance at 0x11967d5f0>]",William,1_6,False,True,"[['all', 'gone']]",allgone,allgone,1.0,False,-0.0
+374,374,"[<__main__.Word instance at 0x11967d878>
+ <__main__.Word instance at 0x11967d8c0>]",William,1_6,False,True,"[['all', 'gone']]",allgone,allgone,1.0,False,-0.0
+375,375,[<__main__.Word instance at 0x11967db00>],William,1_6,False,True,[['Dada']],Dada,Dada,1.0,False,-0.0
+376,376,[<__main__.Word instance at 0x11967db90>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+377,377,[<__main__.Word instance at 0x11967dc68>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+378,378,[<__main__.Word instance at 0x11967de60>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+379,379,[<__main__.Word instance at 0x11967def0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+380,380,[<__main__.Word instance at 0x11967dfc8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+381,381,"[<__main__.Word instance at 0x119680248>
+ <__main__.Word instance at 0x1196800e0>]",William,1_6,False,True,"[['cookie'], ['cookie']]",cookiecookie,cookiecookie,1.0,True,-0.0
+382,382,[<__main__.Word instance at 0x1196804d0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+383,383,[<__main__.Word instance at 0x1196806c8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+384,384,[<__main__.Word instance at 0x119680710>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+385,385,[<__main__.Word instance at 0x1196803b0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+386,386,[<__main__.Word instance at 0x119680200>],William,1_6,True,,,uhoh,,,NaN,NaN
+387,387,[<__main__.Word instance at 0x119680950>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+388,388,[<__main__.Word instance at 0x119680cb0>],William,1_6,False,True,[['hi']],hi,hi,1.0,False,-0.0
+389,389,[<__main__.Word instance at 0x119680e18>],William,1_6,True,,,Mama,,,NaN,NaN
+390,390,[<__main__.Word instance at 0x1196805f0>],William,1_6,False,True,[['byebye']],byebye,byebye,1.0,False,-0.0
+391,391,[<__main__.Word instance at 0x119683050>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+392,392,[<__main__.Word instance at 0x1196831b8>],William,1_6,True,,,Mama,,,NaN,NaN
+393,393,[<__main__.Word instance at 0x119683368>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+394,394,[<__main__.Word instance at 0x119683518>],William,1_6,True,,,Mama,,,NaN,NaN
+395,395,[<__main__.Word instance at 0x119683710>],William,1_6,True,,,&,,,NaN,NaN
+396,396,[<__main__.Word instance at 0x1196838c0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+397,397,[<__main__.Word instance at 0x119683998>],William,1_6,False,True,[['doggie']],doggie,doggie,1.0,False,-0.0
+398,398,[<__main__.Word instance at 0x119683a70>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+399,399,"[<__main__.Word instance at 0x119683b90>
+ <__main__.Word instance at 0x119683b00>]",William,1_6,False,True,"[['see'], ['cookie']]",seecookie,seecookie,0.5,False,0.6931471805599453
+400,400,[<__main__.Word instance at 0x119683ab8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+401,401,"[<__main__.Word instance at 0x119683a28>
+ <__main__.Word instance at 0x119683e18>]",William,1_6,False,True,"[['cookie'], ['see']]",seecookie,seecookie,0.5,False,0.6931471805599453
+402,402,[<__main__.Word instance at 0x119683cf8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+403,403,[<__main__.Word instance at 0x1196839e0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+404,404,[<__main__.Word instance at 0x119683c20>],William,1_6,False,True,[['donkey']],donkey,donkey,1.0,False,-0.0
+405,405,[<__main__.Word instance at 0x1196871b8>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+406,406,[<__main__.Word instance at 0x119687248>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+407,407,[<__main__.Word instance at 0x1196873b0>],William,1_6,False,True,[['cookie']],cookie,cookie,1.0,False,-0.0
+408,408,[<__main__.Word instance at 0x1196874d0>],William,1_6,True,,,horsie,,,NaN,NaN
+409,409,[<__main__.Word instance at 0x1196877a0>],William,1_6,True,,,horsie,,,NaN,NaN
+410,410,[<__main__.Word instance at 0x1196876c8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+411,411,[<__main__.Word instance at 0x1196878c0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+412,412,[<__main__.Word instance at 0x119687950>],William,1_6,False,True,[['button']],button,button,1.0,False,-0.0
+413,413,[<__main__.Word instance at 0x119687b90>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+414,414,"[<__main__.Word instance at 0x119687c68>
+ <__main__.Word instance at 0x1196875f0>]",William,1_6,False,True,"[['no'], ['clap']]",clapno,clapno,0.5,False,0.6931471805599453
+415,415,[<__main__.Word instance at 0x119687bd8>],William,1_6,True,,,tadah,,,NaN,NaN
+416,416,[<__main__.Word instance at 0x119687a70>],William,1_6,True,,,tadah,,,NaN,NaN
+417,417,[<__main__.Word instance at 0x119687e60>],William,1_6,False,True,[['raisin']],raisin,raisin,1.0,False,-0.0
+418,418,"[<__main__.Word instance at 0x119687ef0>
+ <__main__.Word instance at 0x11968a098>]",William,1_6,False,True,"[['clap'], ['clap']]",clapclap,clapclap,1.0,True,-0.0
+419,419,[<__main__.Word instance at 0x11968a440>],William,1_6,False,True,[['clap']],clap,clap,1.0,False,-0.0
+420,420,[<__main__.Word instance at 0x11968a4d0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+421,421,[<__main__.Word instance at 0x11968a5f0>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+422,422,[<__main__.Word instance at 0x11968a290>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
+423,423,[<__main__.Word instance at 0x11968a830>],William,1_6,True,,,again,,,NaN,NaN
+424,424,[<__main__.Word instance at 0x11968a950>],William,1_6,False,True,[['knee']],knee,knee,1.0,False,-0.0
+425,425,[<__main__.Word instance at 0x11968aa28>],William,1_6,False,True,[['knee']],knee,knee,1.0,False,-0.0
+426,426,[<__main__.Word instance at 0x11968a998>],William,1_6,True,,,toes,,,NaN,NaN
+427,427,"[<__main__.Word instance at 0x11968ab48>
+ <__main__.Word instance at 0x11968afc8>]",William,1_6,False,True,"[['up'], ['up']]",upup,upup,1.0,True,-0.0
+428,428,[<__main__.Word instance at 0x11968aef0>],William,1_6,False,True,[['up']],up,up,1.0,False,-0.0
+429,429,[<__main__.Word instance at 0x11968d1b8>],William,1_6,False,True,[['no']],no,no,1.0,False,-0.0
