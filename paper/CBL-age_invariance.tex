@@ -256,13 +256,21 @@ Learner}\label{btp-and-the-chunk-based-learner}
 
 Our model is based on McCauley and Christiansen's (2011, 2014a)
 Chunk-Based Learner (CBL) model, which uses one measure---backward
-transitional probability---to detect statistical dependencies in the
-speech stream. BTP for a given pair of words is defined as the
-occurrence probability of the previous word (w\(_{-1}\)) given the
-current word (w\(_0\)). It can be estimated for each word in a sentence
-in order to reveal peaks and dips in transitional likelihood, which
-reflect places where words are likely (peaks) or unlikely (dips) to
-co-occur.
+transitional probability \textbf{(BTP; Perruchet \& Desaulty,
+2008)}---to detect statistical dependencies in the speech stream.
+\textbf{Backward transitional probability is one of multiple approaches
+for dividing streams of continuous speech into meaningful units; other
+approaches include, for example, forward transitional probability and
+memory-based chunking (R. N. Aslin, Saffran, \& Newport, 1998;
+Cleeremans \& Elman, 1993; French, Addyman, \& Mareschal, 2011; see
+Frost \& Monaghan, in press for an review; Mareschal \& French, 2017;
+Onnis \& Thiessen, 2013; Pelucchi et al., 2009; Perruchet \& Desaulty,
+2008; Perruchet \& Vinter, 1998; J. R. Saffran et al., 1996).} BTP for a
+given pair of words is defined as the occurrence probability of the
+previous word (w\(_{-1}\)) given the current word (w\(_0\)). It can be
+estimated for each word in a sentence in order to reveal peaks and dips
+in transitional likelihood, which reflect places where words are likely
+(peaks) or unlikely (dips) to co-occur.
 
 \begin{figure}
 
@@ -405,14 +413,14 @@ within an utterance is determined by two factors: (1) the backward
 transitional probability (BTP) between consecutive words in the
 utterance, and (2) the inventory of already-discovered chunks. All newly
 discovered chunks are saved into the inventory, alongside the BTPs
-associated with each chunk. The only information that the model tracks
-and stores are the discovered chunks, the BTPs between words, and the
-BTPs between discovered chunks. For example, the model might parse the
-utterances \enquote{I see the doggy} and \enquote{did you look at the
-doggy?} into five different chunks, namely \enquote{I}, \enquote{see},
-\enquote{the doggy}, \enquote{did you}, and \enquote{look at} based on
-the BTPs between these words compared to the average BTP found in the
-corpus so far.
+associated with each chunk. \textbf{The model tracks and stores:} the
+discovered chunks, the BTPs between words, and the BTPs between
+discovered chunks. For example, the model might parse the utterances
+\enquote{I see the doggy} and \enquote{did you look at the doggy?} into
+five different chunks, namely \enquote{I}, \enquote{see}, \enquote{the
+doggy}, \enquote{did you}, and \enquote{look at} based on the BTPs
+between these words compared to the average BTP found in the corpus so
+far.
 
 \subsection{Child utterance reconstruction
 task}\label{child-utterance-reconstruction-task}
@@ -931,18 +939,43 @@ densely sampled and transcribed collections of audio recordings are
 extremely costly to create (Casillas \& Cristia, under review; B. C. Roy
 et al., 2009).
 
+\textbf{In principle, the \enquote{next steps} proposed above---indeed
+the whole idea of analyzing chunking performance across developmental
+time---are not limited to the CBL, or even BTP, but rather form a
+general call for dealing with richer data, regardless of the core
+underlying mechanism (R. N. Aslin et al., 1998; Cleeremans \& Elman,
+1993; French et al., 2011; Mareschal \& French, 2017; Onnis \& Thiessen,
+2013; Pelucchi et al., 2009; Perruchet \& Desaulty, 2008; Perruchet \&
+Vinter, 1998; J. R. Saffran et al., 1996). In the current study, we
+decided to use the CBL because it had previously been successful in
+reconstructing children's utterances within our target age range
+(McCauley \& Christiansen, 2011, 2014a, 2019) and had not yet been
+tested for age-invariance. However, given the required memory and
+comparison (executive function) components of this model, as well as its
+requirement of discrete (not gradable) chunks, other
+approaches---particularly those inspired by maturational neurocognitive
+development (Cleeremans \& Elman, 1993; e.g., Mareschal \& French, 2017;
+Perruchet \& Vinter, 1998)---would be welcome comparisons to the present
+findings. Notably, while the CBL here performed above chance on average,
+there is still room to improve in modeling what the children said based
+on what they heard in the recordings.}
+
 \section{Conclusion}\label{conclusion}
 
 In this study, we investigated whether the CBL model---a computational
 learner using one SL mechanism (BTP)---could account for children's
 speech production with equal accuracy across ages 1;0 to 4;0 given
-information about their speech input. The model's ability to reconstruct
-children's utterances remained stable with age when controlling for
-utterance length and duplicate chunks, both when taking into account
-recent and cumulative linguistic experience. These findings suggest that
-this particular mechanism for segmenting and tracking chunks of speech
-may be age-invariant (Raviv \& Arnon, 2018; Shufaniya \& Arnon, 2018). A
-rich and growing literature on SL in development has demonstrated that
+information about their speech input. \textbf{This work extended
+previous CBL studies by testing the robustness of utterance
+reconstruction across an age range featuring substantial grammatical
+development and while also introducing a new controlled accuracy measure
+for reconstruction.} The model's ability to reconstruct children's
+utterances remained stable with age when controlling for utterance
+length and duplicate chunks, both when taking into account recent and
+cumulative linguistic experience. These findings suggest that this
+particular mechanism for segmenting and tracking chunks of speech may be
+age-invariant (Raviv \& Arnon, 2018; Shufaniya \& Arnon, 2018). A rich
+and growing literature on SL in development has demonstrated that
 similar mechanisms can account for much of children's early language
 behaviors; knowing whether the use of these mechanisms changes as
 children get older is a crucial piece of this puzzle. To explore this
@@ -982,6 +1015,11 @@ Arnon, I., McCauley, S. M., \& Christiansen, M. H. (2017). Digging up
 the building blocks of language: Age-of-acquisition effects for
 multiword phrases. \emph{Journal of Memory and Language}, \emph{92},
 265--280.
+
+\hypertarget{ref-aslin1998computation}{}
+Aslin, R. N., Saffran, J. R., \& Newport, E. L. (1998). Computation of
+conditional probability statistics by 8-month-old infants.
+\emph{Psychological Science}, \emph{9}(4), 321--324.
 
 \hypertarget{ref-bannard2008stored}{}
 Bannard, C., \& Matthews, D. (2008). Stored word sequences in language
@@ -1048,6 +1086,10 @@ Christiansen, M. H., \& Chater, N. (2016). The now-or-never bottleneck:
 A fundamental constraint on language. \emph{Behavioral and Brain
 Sciences}, \emph{39}, e62.
 
+\hypertarget{ref-cleeremans1993mechanisms}{}
+Cleeremans, A., \& Elman, J. (1993). \emph{Mechanisms of implicit
+learning: Connectionist models of sequence processing}. MIT press.
+
 \hypertarget{ref-conway2005modality}{}
 Conway, C. M., \& Christiansen, M. H. (2005). Modality-constrained
 statistical learning of tactile, visual, and auditory sequences.
@@ -1077,10 +1119,19 @@ everything: Changes in presentation rate have opposite effects on
 auditory and visual implicit statistical learning. \emph{The Quarterly
 Journal of Experimental Psychology}, \emph{64}(5), 1021--1040.
 
+\hypertarget{ref-french2011tracx}{}
+French, R. M., Addyman, C., \& Mareschal, D. (2011). TRACX: A
+recognition-based connectionist framework for sequence segmentation and
+chunk extraction. \emph{Psychological Review}, \emph{118}(4), 614.
+
 \hypertarget{ref-frost2016simultaneous}{}
 Frost, R. L. A., \& Monaghan, P. (2016). Simultaneous segmentation and
 generalisation of non-adjacent dependencies from continuous speech.
 \emph{Cognition}, \emph{147}, 70--74.
+
+\hypertarget{ref-frostInPressinsights}{}
+Frost, R. L. A., \& Monaghan, P. (in press). Insights from studying
+statistical learning. In (pp. XX--XX).
 
 \hypertarget{ref-frost2019}{}
 Frost, R. L. A., Monaghan, P., \& Christiansen, M. H. (2019). Mark my
@@ -1145,6 +1196,12 @@ Mannle, S., Barton, M., \& Tomasello, M. (1992). Two-year-olds'
 conversations with their mothers and preschool-aged siblings.
 \emph{First Language}, \emph{12}(34), 57--71.
 
+\hypertarget{ref-mareschal2017tracx2}{}
+Mareschal, D., \& French, R. M. (2017). TRACX2: A connectionist
+autoencoder using graded chunks to model infant visual statistical
+learning. \emph{Philosophical Transactions of the Royal Society B:
+Biological Sciences}, \emph{372}(1711), 20160057.
+
 \hypertarget{ref-mccauley2011learning}{}
 McCauley, S. M., \& Christiansen, M. H. (2011). Learning simple
 statistics for language comprehension and production: The CAPPUCCINO
@@ -1195,6 +1252,11 @@ Eight-month-old infants track backward transitional probabilities.
 Perruchet, P., \& Desaulty, S. (2008). A role for backward transitional
 probabilities in word segmentation? \emph{Memory \& Cognition},
 \emph{36}(7), 1299--1305.
+
+\hypertarget{ref-perruchet1998parser}{}
+Perruchet, P., \& Vinter, A. (1998). PARSER: A model for word
+segmentation. \emph{Journal of Memory and Language}, \emph{39}(2),
+246--263.
 
 \hypertarget{ref-R}{}
 R Core Team. (2014). \emph{R: A language and environment for statistical
