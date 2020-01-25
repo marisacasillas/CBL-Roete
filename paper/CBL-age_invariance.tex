@@ -622,7 +622,16 @@ incorrectly reconstructed utterances were scored negatively and were
 also weighed relative to the number of chunks they had, such that
 incorrect reconstructions of long utterances were given higher (i.e.,
 less negative) scores than incorrect reconstructions of short
-utterances.
+utterances. \protect\hyperlink{fig4}{Figure~\ref{fig:score}} shows how the 
+reconstruction score depends on utterance length and on whether a chunk is 
+repeated.
+
+\begin{figure}
+{\centering \includegraphics[width=0.95\linewidth]{images/score.eps}}
+\caption{Reconstruction score for correct (left) and incorrect (right) reconstructions, 
+as a function of utterance length. Chunks occur only once (blue curve) or when one chunk 
+occurs twice (orange curve).} \label{fig:score}
+\end{figure}
 
 To illustrate the corrected scoring method, let's compare two
 three-chunk utterances, one of which contains a duplicate chunk:
