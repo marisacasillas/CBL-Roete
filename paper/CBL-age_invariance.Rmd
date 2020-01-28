@@ -67,7 +67,13 @@ rawdata.cumulative.path <- "data/main/cumulative/"
 childuttdata.path <- "data/main/childutt/"
 suppl.rawdata.local.path <- "data/suppl/local/"
 suppl.rawdata.cumulative.path <- "data/suppl/cumulative/"
+model.inputdata.local.path <- "model_input/localsampledcorpus/"
+model.inputdata.cumulative.path <- "model_input/cumulativesampledcorpus/"
 plot.path <- "plots/"
+
+child.names <- "(Alex)|(Naima)|(Ethan)|(Lily)|(Violet)|(William)"
+caregiver.files <- "caregivers_[A-Z]"
+child.files <- "child[A-Z]"
 
 basic.theme <- theme(
   panel.background = element_rect(
@@ -212,7 +218,7 @@ During the first few years of life children learn the basic building blocks of t
 
 ## SL over development
 
-The ability to detect and store patterns in the environment begins in infancy [e.g., @johnson2009abstract; @kidd2018individual; @saffran1996statistical; @teinonen2009statistical], continues into adulthood [e.g., @conway2010implicit; @frost2016simultaneous; @saffran1999statistical], and crosses a range of modalities [@conway2005modality; @emberson2011timing; @monroy2017toddlers]. However, it is still a matter of debate whether SL is an age-invariant skill or not [@arciuli2011statistical; @raviv2018developmental; @shufaniya2018statistical; @saffran1997incidental]. Recent work that investigates SL abilities in 5--12-year-old children suggests that, while both visual and auditory SL improve with age for non-linguistic stimuli, performance stays the same across childhood for linguistic stimuli [@raviv2018developmental; @shufaniya2018statistical]. From this finding, the authors conclude that SL for language might be age-invariant. On the other hand, infant SL abilities do appear to shift within the first year, both for linguistic [@kidd2018individual] and non-linguistic [@johnson2009abstract] stimuli. For example, while 11-month-olds can detect and generalize over regularities in a sequence, 8-month-olds are only capable of detecting the regularities, and neither group succeeds yet at learning visual non-adjacent dependencies [@johnson2009abstract; see also @bulf2011visual and  @slone2015infants].
+The ability to detect and store patterns in the environment begins in infancy [e.g., @johnson2009abstract; @kidd2018individual; @saffran1996statistical; @teinonen2009statistical], continues into adulthood [e.g., @conway2010implicit; @frost2016simultaneous; @saffran1999statistical], and crosses a range of modalities [@conway2005modality; @emberson2011timing; @monroy2017toddlers]. However, it is still a matter of debate whether SL is an age-invariant skill or not [@arciuli2011statistical; @raviv2018developmental; @shufaniya2018statistical; @saffran1997incidental]. Recent work that investigates SL abilities in 5--12-year-old children suggests that, while both visual and auditory SL improve with age for non-linguistic stimuli, performance stays the same across childhood for linguistic stimuli [@raviv2018developmental; @shufaniya2018statistical]. From this finding, the authors conclude that SL for language might be age-invariant. On the other hand, infant SL abilities do appear to shift within the first year, both for linguistic [@kidd2018individual] and non-linguistic [@johnson2009abstract] stimuli. For example, while 11-month-olds can detect and generalize over regularities in a sequence, 8-month-olds are only capable of detecting the regularities, and neither group succeeds yet at learning visual non-adjacent dependencies (@johnson2009abstract; see also @bulf2011visual and  @slone2015infants).
 
 These changes in SL **ability** during infancy and early childhood may relate to changes in other fundamental cognitive skills. For example, SL-relevant brain regions, such as the pre-frontal cortex, continue maturing through childhood [@casey2000structural; @diamond2002normal; @rodriguez2009neurophysiological; @uylings2006development], which may change how children attend to the linguistic information around them as they get older. Similarly, infants' long-term memory continuously improves between ages 0;2 and 1;6 [@bauer2005developments; @wojcik2013remembering]. Therefore, the manner in which they store linguistic regularities in long-term memory may also shift during this period. Relatedly, working memory and speed of processing change continuously throughout early childhood [@gathercole2004structure; @kail1991developmental], implying that there could be a developmental change in the rate and scale at which children can process chunks of information from the unfolding speech signal.
 
@@ -224,9 +230,9 @@ We investigated the possibility of developmental change in SL using computationa
 
 ## BTP and the Chunk-Based Learner
 
-Our model is based on McCauley and Christiansen's [-@mccauley2011learning; -@mccauley2014acquiring] Chunk-Based Learner (CBL) model, which uses one measure---backward transitional probability **[BTP; @perruchet2008role]**---to detect statistical dependencies in the speech stream. **Backward transitional probability is one of multiple approaches for dividing streams of continuous speech into meaningful units; other approaches include, for example, forward transitional probability and memory-based chunking [@mareschal2017tracx2; @onnis2013language; @french2011tracx; @pelucchi2009learning; @perruchet2008role; @aslin1998computation; @perruchet1998parser; @saffran1996statistical; @cleeremans1993mechanisms; see @frostInPressinsights for an review].** BTP for a given pair of words is defined as the occurrence probability of the previous word (w$_{-1}$) given the current word (w$_0$). It can be estimated for each word in a sentence in order to reveal peaks and dips in transitional likelihood, which reflect places where words are likely (peaks) or unlikely (dips) to co-occur.
+Our model is based on McCauley and Christiansen's [-@mccauley2011learning; -@mccauley2014acquiring] Chunk-Based Learner (CBL) model, which uses one measure---backward transitional probability **[BTP; @perruchet2008role]**---to detect statistical dependencies in the speech stream. **Backward transitional probability is one of multiple approaches for dividing streams of continuous speech into meaningful units; other approaches include, for example, forward transitional probability and memory-based chunking [@mareschal2017tracx2; @onnis2013language; @french2011tracx; @pelucchi2009learning; @perruchet2008role; @aslin1998computation; @perruchet1998parser; @saffran1996statistical; @cleeremans1993mechanisms<!--; see @frostInPressinsights for a review-->].** BTP for a given pair of words is defined as the occurrence probability of the previous word (w$_{-1}$) given the current word (w$_0$). It can be estimated for each word in a sentence in order to reveal peaks and dips in transitional likelihood, which reflect places where words are likely (peaks) or unlikely (dips) to co-occur.
 
-``` {r fig1, echo=FALSE, fig.align = "center", fig.cap="Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). \"\\#\" denotes a start-of-sentence marker.", out.width = '95%'}
+``` {r fig1, echo=FALSE, fig.align = "center", fig.cap="Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). \"\\#\" denotes a start-of-utterance marker.", out.width = '95%'}
 knitr::include_graphics("images/chunking_mechanism.png")
 ```
 
@@ -242,7 +248,7 @@ Following McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiri
 * "Uncorrected": The binary (success/fail) reconstruction score originally used by McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning].
 * "Corrected": A length-and-repetition-controlled reconstruction score that accounts for the fact that longer utterances have more opportunities for error reconstruction, and for the fact that some child utterances contain repetitions of **chunks**(s), making multiple reconstructions match the original utterance.
 
-If BTP is an age-invariant mechanism, it should apply equally well to shorter utterances and longer utterances; the latter of which are more often produced as children get older. We therefore tested for age invariance both with the original binary ("uncorrected") reconstruction score and a new ("corrected") score we proposed to account for utterance length and word repetitions. If we find age-invariance, even while controlling for utterance length and word repetitions, it would strongly suggest that the mechanism is stable over the first three years of speech production and not simply influenced by other factors, e.g., utterance length. If not, it would suggest that use of the mechanism, in fact, changes with age [@bannard2009modeling; @tomasello2003constructing; @yang2016price].
+**If BTP is an age-invariant mechanism, it should apply equally well across age. However, because children's utterances get longer as they get older, we would expect age invariance to only hold when we correct for utterance length.** We therefore tested for age invariance both with the original binary ("uncorrected") reconstruction score and a new ("corrected") score we proposed to account for utterance length and word repetitions. If we find age-invariance, even while controlling for utterance length and word repetitions, it would strongly suggest that the mechanism is stable over the first three years of speech production and not simply influenced by other factors, e.g., utterance length. If not, it would suggest that use of the mechanism, in fact, changes with age [@bannard2009modeling; @tomasello2003constructing; @yang2016price].
 
 ## Predictions
 **With these** previous findings as a starting point, we investigated whether the CBL could account for child speech production with equal precision over the first four years of life. **Taking for granted that children _eventually_ develop abstract representations [as in, e.g., @yang2016price; @tomasello2006acquiring], w**e predicted that:
@@ -281,11 +287,11 @@ While we used two different sampling methods for training the model on adult dat
 
 ## Analysis
 
-We modeled two primary scores related to utterance reconstruction: the uncorrected (binary: success/fail) reconstruction score used by McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning] and the corrected reconstruction score we introduce in the current paper. The uncorrected reconstruction score (1: success, 0: fail) was computed for all child utterances that could be decomposed into previously seen chunks (see step 3a in [Figure 2](#fig2)). The corrected reconstruction score (defined below) was computed for the same set of utterances. We additionally included a third analysis: the likelihood that an utterance contains previously unseen words which, by our version of the CBL, cannot be reconstructed (see step 3b in Figure [Figure 2](#fig2)).
+We modeled two primary scores related to utterance reconstruction: the uncorrected (binary: success/fail) reconstruction score used by McCauley and colleagues [-@mccauley2011learning; -@mccauley2014acquiring; -@mccauley2019languagelearning] and the corrected reconstruction score we introduce in the current paper. The uncorrected reconstruction score (1: success, 0: fail) was computed for all child utterances that could be decomposed into previously seen chunks (see step 3a in [Figure 2](#fig2)). The corrected reconstruction score (defined below) was computed for the same set of utterances. We additionally included a third analysis: the likelihood that **a word encountered during the reconstruction task was not seen during training; utterances with unseen words**, by our version of the CBL, cannot be reconstructed (see step 3b in Figure [Figure 2](#fig2)).
 
-We used mixed-effects regression to analyze the effect of child age on both of the reconstruction scores and whether utterances contained previously unseen words. All mixed-effects models included child age as a fixed effect and by-child random intercepts with random slopes of child age. The mixed-effects model of utterances with previously unseen words also included the number of words in the utterance, as explained below. By default, child age was modeled in years (1--4) so that the intercept reflects a developmental trajectory beginning at age 0. **However, for the model of corrected reconstruction accuracy, we wanted to know if the CBL's accuracy score would exceed chance performance on average, i.e., at the average age in our longitudinal dataset (age 2;6). To test this, we centered age on zero in the statistical (ages 1;0, 1;6, 2;0, 2;6, 3;0, 3;6, and 4;0 are re-coded as -1;5, -1, -0.5, 0, 0.5, 1, and 1.5) such that the default model output from the lme4 statistical package [@lme4] would reflect the estimated difference from chance at the middle point of our age range (i.e., age 2;6).**
+We used mixed-effects regression to analyze the effect of child age on both of the reconstruction scores and also whether **a word encountered during the reconstruction task was not encountered during training. All mixed-effects models therefore included child age as a fixed effect and by-child random intercepts with random slopes of child age. By default, child age was modeled in years (1--4) so that the intercept reflects a developmental trajectory beginning at age 0. However, for the model of corrected reconstruction accuracy we had the additional advantage of being able to test whether the CBL performance significantly exceeded the baseline chance of correct reconstruction. We tested this difference at the average age in our longitudinal dataset (2;6) by centering age on zero in the statistical model (ages 1;0--4;0 are re-coded as -1.5--1.5) such that the default would reflect the estimated difference from chance at the middle point of our age range.**
 
-All analyses were conducted using the `lme4` package [@lme4] and all figures were generated with the `ggplot2` package in `R` [@ggplot2; @R]. All code used to create the model and analyze its output is available at [https://osf.io/ca8ts/?view_only=daaa1bcc71654842b0d70efe785a26b9](). Before turning to the main results we briefly describe the corrected reconstruction score and the analysis of previously unseen words in more detail.
+All analyses were conducted using the `lme4` package [@lme4] and all figures were generated with the `ggplot2` package in `R` [@ggplot2; @R]. All code used to create the model and analyze its output is available at [https://osf.io/ca8ts/](). **Full tables of statistical model output are available in the Supplementary Materials.** Before turning to the main results we briefly describe the corrected reconstruction score and the analysis of previously unseen words in more detail.
 <!--
 % for the final version: https://github.com/marisacasillas/CBL-Roete
 -->
@@ -294,15 +300,15 @@ All analyses were conducted using the `lme4` package [@lme4] and all figures wer
 
 The corrected, length-and-repetition-controlled reconstruction score is a function of three factors: (a) whether the model successfully reconstructed the child utterance or not, (b) the number of chunks used to reconstruct the utterance, and (c) the number of duplicate chunks involved in the reconstruction. By taking the number of chunks into account, this reconstruction score compensates for the fact that successful reconstruction is less likely for longer utterances. When an utterance contains duplicate chunks, the exact ordering of those duplicate chunks does not influence the correctness of the reconstruction. For example, if the utterance "I wanna, I wanna" is decomposed into the two chunks "I wanna" and "I wanna", it does not matter which of the two "I wanna" chunks is placed first when calculating the reconstruction accuracy of the utterance. Thus, utterances containing duplicate chunks are more likely to be reconstructed by chance alone than utterances with the same number of chunks with no duplicates. **Note that here we detecting duplicate _chunks_ in the utterance rather than duplicate _words_. At this post-training stage, the model is only able to parse the utterance into chunks; that is the relevant unit over which duplication may affect reconstruction accuracy.**
 
-An utterance that is decomposed into $N$ unique chunks can be reconstructed in $N!$ different orders. Hence, the probability of obtaining the correct order of $N$ unique chunks merely by chance equals $1/N!$. When we take into account that chunks can be repeated within an utterance, chance level equals $(n_1!n_2!\ldots n_k!)/N!$ where $N$ is the total number of chunks in the utterance, and $n_1,\ldots,n_k$ are the number of times a chunk is repeated for each of the $k$ unique chunks found in the utterance. 
+An utterance that is decomposed into $N$ unique chunks can be reconstructed in $N!$ different orders. Hence, the **baseline chance of obtaining the correct order of $N$ unique chunks equals** $1/N!$. When we take into account that chunks can be repeated within an utterance, chance equals $(n_1!n_2!\ldots n_k!)/N!$, where $N$ is the total number of chunks in the utterance, and $n_1,\ldots,n_k$ are the number of times a chunk is repeated for each of the $k$ unique chunks found in the utterance. 
 
-When probability of reconstruction was lower, we scored a correctly reconstructed utterance higher. We assigned a score of $-\log(chance)$ for each correct reconstruction and $\log(1-chance)$ for each incorrectly reconstructed utterance. In layman's terms, this means that successfully reconstructed utterances were scored positively, but were weighed relative to the number of chunks and the number of repetitions they had, such that reconstructions of long utterances were given higher scores than reconstructions of short utterances. Along the same lines, incorrectly reconstructed utterances were scored negatively and were also weighed relative to the number of chunks they had, such that incorrect reconstructions of long utterances were given higher (i.e., less negative) scores than incorrect reconstructions of short utterances. [Figure 3](#score) shows how the reconstruction score depends on utterance length and on whether a chunk is repeated.
+<!--INSERT FIG HERE and CHANGE FIG REFS THROUGHOUT
+Reconstruction score for correct (left) and incorrect (right) reconstructions, 
+< as a function of utterance length. Chunks occur only once (blue curve) or when one chunk 
+< occurs twice (orange curve).}
+-->
 
-``` {r score, echo=FALSE, fig.align = "center", fig.cap="Reconstruction score for correct (left) and incorrect (right) reconstructions, 
-as a function of utterance length. Chunks occur only once (blue curve) or when one chunk 
-occurs twice (orange curve).", out.width = '95%'}
-knitr::include_graphics("images/score.eps")
-```
+When probability of reconstruction was lower, we scored a correctly reconstructed utterance higher. We assigned a score of $-\log(chance)$ for each correct reconstruction and $\log(1-chance)$ for each incorrectly reconstructed utterance. In layman's terms, this means that successfully reconstructed utterances were scored positively, but were weighed relative to the number of chunks and the number of repetitions they had, such that reconstructions of long utterances were given higher scores than reconstructions of short utterances. Along the same lines, incorrectly reconstructed utterances were scored negatively and were also weighed relative to the number of chunks they had, such that incorrect reconstructions of long utterances were given higher (i.e., less negative) scores than incorrect reconstructions of short utterances.
 
 To illustrate the corrected scoring method, let's compare two three-chunk utterances, one of which contains a duplicate chunk: "I wanna I wanna see" (chunks: "I wanna", "I wanna", "see") and "I wanna see that" (chunks: "I wanna", "see", "that"). For the first utterance, chance level equals $(2!\times1!)/(3!)$: The numerator is determined by the number of times each unique chunk is used, so because "I wanna" occurs two times and "see" occurs once, that is $2!\times1!$. The denominator is determined by the factorial of total number of chunks (here: $3! = 3\times2\times1$). The resulting chance level is then $2/6$. For the second utterance, chance level equals $(1!\times1!\times1!)/(3!)$: The numerator is equal to $1!\times1!\times1!$ here because all chunks occur only once in the utterance. The denominator is the same as for the first utterance as the total number of chunks in the utterance is the same. Here, the resulting chance level is $1/6$. If the utterances are reconstructed correctly, the score is computed by $-\log(chance)$. So, the first utterance would get a positive score of $-\log(chance) = -\log(2/6) \approx 1.098$ and the second utterance would get a higher positive score of $-\log(chance) = -\log(1/6) \approx 1.791$ for increased reconstruction difficulty. If the utterances are reconstructed incorrectly, the score is computed by $\log(1-chance)$. Thus, the first utterance would get a negative score of $\log(1-chance) = \log(1-(2/6)) \approx -0.405$ and the second utterance would get a less negative score of $\log(1-chance) = \log(1-(1/6)) \approx -0.182$. 
 
@@ -868,12 +874,154 @@ knitr::include_graphics("images/plotbothunknown.png")
 ``` {r unseen-words}
 #---- MODELS AND DESCRIPTIVE DATA ----
 
+# Extract all words used in the local input
+local.CBL.input.filenames <- list.files(
+  path = model.inputdata.local.path,
+  pattern = caregiver.files)
+local.input.words <- tibble()
+for (file in local.CBL.input.filenames) {
+  child <- str_extract(file, child.names)
+  age <- as.numeric(str_replace(str_replace(str_extract(
+    file, "\\d_\\d"), "_", "."), "6", "5"))
+  utterances <- unique(str_replace_all(paste(read_lines(
+    paste0(model.inputdata.local.path, file)),
+    collapse = ""), "#", ""))
+  words <- as_tibble(table(
+    unlist(str_split(utterances, " ")),
+    dnn = "word")) %>%
+    filter(word != "") %>%
+    mutate(
+      child = child,
+      age = age
+    )
+  local.input.words <- bind_rows(
+    local.input.words, words)
+}
+local.input.words$seen_local <- 1
+
+
+# Extract all words used in the cumulative input
+cumulative.CBL.input.filenames <- list.files(
+  path = model.inputdata.cumulative.path,
+  pattern = caregiver.files)
+cumulative.input.words <- tibble()
+for (file in cumulative.CBL.input.filenames) {
+  child <- str_extract(file, child.names)
+  age <- as.numeric(str_replace(str_replace(str_extract(
+    file, "\\d_\\d"), "_", "."), "6", "5"))
+  utterances <- unique(str_replace_all(paste(read_lines(
+    paste0(model.inputdata.cumulative.path, file)),
+    collapse = ""), "#", ""))
+  words <- as_tibble(table(
+    unlist(str_split(utterances, " ")),
+    dnn = "word")) %>%
+    filter(word != "") %>%
+    mutate(
+      child = child,
+      age = age
+    )
+  cumulative.input.words <- bind_rows(
+    cumulative.input.words, words)
+}
+cumulative.input.words$seen_cumulative <- 1
+
+# Extract all words used in the child speech
+child.utt.filenames <- list.files(
+  path = model.inputdata.local.path,
+  pattern = child.files)
+child.output.words <- tibble()
+for (file in child.utt.filenames) {
+  child <- str_extract(file, child.names)
+  age <- as.numeric(str_replace(str_replace(str_extract(
+    file, "\\d_\\d"), "_", "."), "6", "5"))
+  utterances <- unique(str_replace_all(paste(read_lines(
+    paste0(model.inputdata.local.path, file)),
+    collapse = ""), "#", ""))
+  words <- as_tibble(table(
+    unlist(str_split(utterances, " ")),
+    dnn = "word")) %>%
+    filter(word != "") %>%
+    mutate(
+      child = child,
+      age = age
+    )
+  child.output.words <- bind_rows(
+    child.output.words, words)
+}
+child.output.words <- select(child.output.words, -n)
+
+# Merge seen words into produced words
+child.output.words.seen <- child.output.words %>%
+  left_join(local.input.words) %>%
+  rename(n_local = n) %>%
+  left_join(cumulative.input.words) %>%
+  rename(n_cumulative = n) %>%
+  replace_na(list(seen_local = 0, seen_cumulative = 0))
+
+# prev_seen = 0 or 1 depending on if they were in the training for that age+kid 
+# model it as prev_seen ~ age + (age|child)
+
+# Model with the binary seen/not seen as dependent variable,
+# and age (fixed effect), and by-child random intercept and
+# random slopes of age.
+model_local_unseenwords <- glmer(
+  seen_local ~ age + (age|child),
+  family=binomial(link = 'logit'),
+  data = child.output.words.seen)
+# sink(paste0(plot.path,"local_unseenwords.txt"))
+# summary(model_local_unseenwords)
+# sink()
+# summary(model_local_unseenwords)
+# ranef(model_local_unseenwords)
+
+# Model with the binary skipped/not skipped as dependent variable,
+# age and number of word in an utterance as independent 
+# variables (fixed effect), by-child random intercept and random slopes of age.
+model_cumu_unseenwords <- glmer(
+  seen_cumulative ~ age + (age|child),
+  family=binomial(link = 'logit'),
+  data = child.output.words.seen)
+# sink(paste0(plot.path,"cumu_unseenwords.txt"))
+# summary(model_cumu_unseenwords)
+# sink()
+# summary(model_cumu_unseenwords)
+# ranef(model_cumu_unseenwords)
+
+child.output.words.seen.l <- child.output.words %>%
+  left_join(local.input.words) %>%
+  mutate(sample = "local") %>%
+  rename(seen = seen_local)
+child.output.words.seen.c <- child.output.words %>%
+  left_join(cumulative.input.words) %>%
+  mutate(sample = "cumulative") %>%
+  rename(seen = seen_cumulative)
+child.output.words.seen.plottable <- bind_rows(
+  child.output.words.seen.l, child.output.words.seen.c) %>%
+  replace_na(list(seen = 0)) %>%
+  group_by(child, age, sample) %>%
+  summarize(prev_seen = mean(seen))
+child.output.words.seen.plottable$sample <- factor(
+  child.output.words.seen.plottable$sample,
+  levels = c("local", "cumulative"))
+
+seen.over.age.by.sample <- ggplot(
+  aes(x = age, y = prev_seen, color = child),
+  data = child.output.words.seen.plottable) +
+  geom_line() +
+  facet_grid(~ sample) +
+  xlab("Age (years)") +
+  ylab("Prop. words previously seen")
+#  guides(color = guide_legend(title = "Child"))
+
+
+
+
 ## Local input
 # Yi,j,k for the i-th utterance of the j-th child at age k:
 # Y = 1 if utterance is skipped, Y = 0 if not skipped.
 subset.local.data <- subset(local.data,
   select=c(1,2,3,4,5,6,12))
-subset.local.data$utterance <- as.character(  subset.local.data$utterance)
+subset.local.data$utterance <- as.character(subset.local.data$utterance)
 subset.local.data$numwords <- str_count(subset.local.data$utterance,"Word")
 subset.local.data$expnumwords <- exp(subset.local.data$numwords)
 subset.local.data$expnumwords.5k <- rescale(
@@ -890,20 +1038,6 @@ local_se_unseen_by_child <- aggregate(
   by = c(list(child = subset.local.data$child)),
   FUN = std.error)
 local_mean_of_se_unseen <- mean(local_se_unseen_by_child$x)*100
-# Model with the binary skipped/not skipped as dependent variable,
-# age and number of word in an utterance as independent 
-# variables (fixed effect), by-child random intercept and random slopes of age.
-model_local_unseenwords <- glmer(
-  Y ~ age + expnumwords.5k + (age|child),
-  family=binomial(link = 'logit'),
-  control=glmerControl(optimizer = "Nelder_Mead",
-    optCtrl=list(maxfun=1000000)),
-  data = subset.local.data)
-# sink(paste0(plot.path,"local_unseenwords.txt"))
-# summary(model_local_unseenwords)
-# sink()
-# summary(model_local_unseenwords)
-# ranef(model_local_unseenwords)
 
 ## Cumulative input
 # Yi,j,k for the i-th utterance of the j-th child at age k:
@@ -927,18 +1061,8 @@ cumu_se_unseen_by_child <- aggregate(
   by = c(list(child = subset.cumu.data$child)),
   FUN = std.error)
 cumu_mean_of_se_unseen <- mean(cumu_se_unseen_by_child$x)*100
-# Model with the binary skipped/not skipped as dependent variable,
-# age and number of word in an utterance as independent 
-# variables (fixed effect), by-child random intercept and random slopes of age.
-model_cumu_unseenwords <- glmer(
-  Y ~ age + expnumwords.5k + (age|child),
-  family=binomial(link = 'logit'),
-  data = subset.cumu.data)
-# sink(paste0(plot.path,"cumu_unseenwords.txt"))
-# summary(model_cumu_unseenwords)
-# sink()
-# summary(model_cumu_unseenwords)
-# ranef(model_cumu_unseenwords)
+
+
 
 
 #---- PLOTS ----
