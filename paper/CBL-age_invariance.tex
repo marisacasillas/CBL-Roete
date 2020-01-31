@@ -78,7 +78,7 @@ Paula Fikkert\textsuperscript{2}, \& Marisa Casillas\textsuperscript{1}}
 \affiliation{
 \vspace{0.5cm}
 \textsuperscript{1} Max Planck Institute for Psycholinguistics\\\textsuperscript{2} Radboud University}
-\keywords{statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children\newline\indent Word count: 6056}
+\keywords{statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children\newline\indent Word count: 7022, excluding references}
 \usepackage{csquotes}
 \usepackage{upgreek}
 \captionsetup{font=singlespacing,justification=justified}
@@ -124,8 +124,8 @@ longitudinal child language corpus. We then assessed whether the model
 could accurately reconstruct children's speech. Controlling for
 utterance length and the presence of duplicate chunks, we found no
 evidence that the CBL becomes less accurate in its ability to
-reconstruct children's speech with age. Our findings suggest that BTP is
-an age-invariant learning mechanism.
+reconstruct children's speech with age. Our findings suggest that BTP
+may be an age-invariant learning mechanism.
 
 
 }
@@ -153,9 +153,9 @@ about language. A third issue is whether and how children's SL behavior
 changes as they develop (Shufaniya \& Arnon, 2018). The current paper
 taps into each of these three issues: we train a computational model on
 a longitudinal corpus of child-caregiver interactions to test whether
-one proposed SL mechanism---backward transitional probability (BTP)---is
-able to predict children's speech productions with stable accuracy as
-they get older.
+one proposed SL mechanism---backward transitional probability (BTP;
+Perruchet \& Desaulty, 2008)---is able to predict children's speech
+productions with stable accuracy as they get older.
 
 \subsection{SL over development}\label{sl-over-development}
 
@@ -272,12 +272,7 @@ dips in transitional likelihood, which reflect places where words are
 likely (peaks) or unlikely (dips) to co-occur.
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.75\linewidth]{images/chunking_mechanism} 
-
-}
-
-\caption{Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). "\#" denotes a start-of-utterance marker.}\label{fig:fig1}
+\includegraphics[width=0.75\linewidth]{images/chunking_mechanism} \caption{Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). "\#" denotes a start-of-utterance marker.}\label{fig:fig1}
 \end{figure}
 
 The CBL model divides utterances into chunks, splitting the utterances
@@ -287,7 +282,7 @@ decide to split the sentence (\enquote{did you look at the doggy}) into
 three chunks \enquote{did you}, \enquote{look at}, and \enquote{the
 doggy}, and store all three in its memory. As it sees more sentences, it
 would continue to add new chunks and track how often they co-occurred.
-\textbf{Once stored in memory, chunks are not forgotten.}
+\textbf{Once stored in memory, the chunks are not forgotten.}
 
 The CBL was developed to model children's early speech production and
 comprehension without appealing to abstract grammatical categories.
@@ -337,16 +332,16 @@ reconstruction ability with two measures:
   \enquote{Corrected}: A length-and-repetition-controlled reconstruction
   score that accounts for the fact that longer utterances have more
   opportunities for error reconstruction, and for the fact that some
-  child utterances contain repetitions of \textbf{chunks}(s), making
+  child utterances contain repetitions of \textbf{chunks}, making
   multiple reconstructions match the original utterance.
 \end{itemize}
 
 \textbf{If BTP is an age-invariant mechanism, it should apply equally
 well across age. However, because children's utterances get longer as
 they get older, we would expect age invariance to only hold when we
-correct for utterance length.} We therefore tested for age invariance
-both with the original binary (\enquote{uncorrected}) reconstruction
-score and a new (\enquote{corrected}) score we proposed to account for
+correct for utterance length.} We therefore test for age invariance both
+with the original binary (\enquote{uncorrected}) reconstruction score
+and a new (\enquote{corrected}) score we propose to account for
 utterance length and word repetitions. If we find age-invariance, even
 while controlling for utterance length and word repetitions, it would
 strongly suggest that the mechanism is stable over the first three years
@@ -361,7 +356,7 @@ fact, changes with age (Bannard et al., 2009; Tomasello, 2005; Yang,
 investigated whether the CBL could account for child speech production
 with equal precision over the first four years of life. \textbf{Taking
 for granted that children \emph{eventually} develop abstract
-representations (Tomasello, 2008; as in, e.g., Yang, 2016), w}e
+representations (as in, e.g., Tomasello, 2008; Yang, 2016), w}e
 predicted that:
 
 \begin{itemize}
@@ -452,31 +447,26 @@ the child utterance \enquote{look at the puppy} would be \textbf{broken
 down into a} set of \textbf{known} chunks which were discovered in the
 adults' speech \textbf{(e.g., \enquote{look at} and \enquote{the puppy},
 as in the step 2 speech bubble). I}f the utterance were \enquote{look at
-the \textbf{puppy} there}, and the model had \textbf{not already added
-a} chunk for the word \enquote{there} \textbf{during training, then the
+the \textbf{poodle}}, and the model had \textbf{not already added a}
+chunk for the word \enquote{poodle} \textbf{during training, then the
 word is unknown to the model and the utterance cannot be reconstructed;
 therefore the utterance would be rejected from further processing.}
 \textbf{However, in the case that the utterance \emph{can} be broken
 down into known chunks, the model then} tries to reconstruct \textbf{the
 utterance by shuffling the chunks detected and reordering them based on
 their known transitional probailities:} the model begins with the
-utterance start cue and then follows that initial cue \textbf{with the
-chunk that has the highest transitional probability following the start
-cue, which is followed by the remaining chunk that has the highest
-transitional probability following the previous chunk, and again and
-again, until the set of chunks for that utterance is exhausted.}. So,
-the set of chunks \enquote{look at} and \enquote{the puppy} would be
-ordered depending on which chunk had the highest BTP with respect to the
-utterance start cue (\enquote{look at}), followed by the chunk with the
-highest BTP with respect to \enquote{look at} (\enquote{the puppy}).
+utterance start cue and then follows that start cue \textbf{with the
+chunk that has the highest transitional probability following it, then
+adds the next remaining chunk that has the highest transitional
+probability following the previous chunk, and again and again, until the
+set of chunks for that utterance is exhausted.} So, the set of chunks
+\enquote{look at} and \enquote{the puppy} would be ordered depending on
+which chunk had the highest BTP with respect to the utterance start cue
+(\enquote{look at}), followed by the chunk with the highest BTP with
+respect to \enquote{look at} (\enquote{the puppy}).
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.99\linewidth]{images/reconstruction_task} 
-
-}
-
-\caption{Example of reconstruction attempts for three child utterances. The model tries to reconstruct the first two utterances using transitional probabilities of the chunks it finds, but it cannot do so with the third utterance, which contains a word  ("poodle") that had not been previously seen during training.}\label{fig:fig2}
+\includegraphics[width=0.99\linewidth]{images/reconstruction_task} \caption{Example of reconstruction attempts for three child utterances. The model tries to reconstruct the first two utterances using transitional probabilities of the chunks it finds, but it cannot do so with the third utterance, which contains a word  ("poodle") that had not been previously seen during training.}\label{fig:fig2}
 \end{figure}
 
 \subsection{Materials and Procedure}\label{materials-and-procedure}
@@ -519,7 +509,7 @@ speech for each child at each age point.}
 In contrast, the cumulative sampling method focuses the model's training
 on all previously heard linguistic input so that, when it tries to
 reconstruct children's utterances, the result is a test of how closely
-their current \textit{and} previous speech environments can account for
+their current \emph{and} previous speech environments can account for
 what they say. For the cumulative sample we selected data for each age
 point by taking all the available transcripts up to that age point. For
 example, for age 1;6 we selected all transcripts in which the child was
@@ -555,17 +545,18 @@ cannot be reconstructed (see step 3 in Figure
 We used mixed-effects regression to analyze the effect of child age on
 both of the reconstruction scores and also whether \textbf{a word
 encountered during the reconstruction task was not encountered during
-training. All mixed-effects models therefore included child age as a
-fixed effect and by-child random intercepts with random slopes of child
-age. By default, child age was modeled in years (1--4) so that the
-intercept reflects a developmental trajectory beginning at age 0.
-However, for the model of corrected reconstruction accuracy we had the
-additional advantage of being able to test whether the CBL performance
+training. All mixed-effects models included child age as a fixed effect
+and by-child random intercepts with random slopes of child age. By
+default, child age was modeled in years (1--4) so that the intercept
+reflects a developmental trajectory beginning at age 0. However, for the
+model of corrected reconstruction accuracy we had the additional
+advantage of being able to test whether the CBL performance
 significantly exceeded the baseline chance of correct reconstruction. We
 tested this difference at the average age in our longitudinal dataset
 (2;6) by centering age on zero in the statistical model (ages 1;0--4;0
-are re-coded as -1.5--1.5) such that the default would reflect the
-estimated difference from chance at the middle point of our age range.}
+are re-coded as -1.5--1.5) such that the default model output would
+reflect the estimated difference from chance at the middle point of our
+age range.}
 
 All analyses were conducted using the \texttt{lme4} package (Bates,
 Mächler, Bolker, \& Walker, 2015) and all figures were generated with
@@ -595,7 +586,7 @@ wanna}, it does not matter which of the two \enquote{I wanna} chunks is
 placed first when calculating the reconstruction accuracy of the
 utterance. Thus, utterances containing duplicate chunks are more likely
 to be reconstructed by chance alone than utterances with the same number
-of chunks with no duplicates. \textbf{Note that here we detecting
+of chunks with no duplicates. \textbf{Note that here we are detecting
 duplicate \emph{chunks} in the utterance rather than duplicate
 \emph{words}. At this post-training stage, the model is only able to
 parse the utterance into chunks; that is the relevant unit over which
@@ -608,19 +599,14 @@ chance of obtaining the correct order of \(N\) unique chunks equals}
 an utterance, chance equals \((n_1!n_2!\ldots n_k!)/N!\), where \(N\) is
 the total number of chunks in the utterance, and \(n_1,\ldots,n_k\) are
 the number of times a chunk is repeated for each of the \(k\) unique
-chunks found in the utterance.
+chunks found in the utterance (\protect\hyperlink{fig3}{Figure 3}).
 
 \begin{verbatim}
 ## Warning: Removed 1 rows containing missing values (geom_point).
 \end{verbatim}
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig3-1} 
-
-}
-
-\caption{Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 words). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).}\label{fig:fig3}
+\includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig3-1} \caption{Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 chunks). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).}\label{fig:fig3}
 \end{figure}
 
 When probability of reconstruction was lower, we scored a correctly
@@ -634,8 +620,8 @@ scores than reconstructions of short utterances. Along the same lines,
 incorrectly reconstructed utterances were scored negatively and were
 also weighed relative to the number of chunks they had, such that
 incorrect reconstructions of long utterances were given higher (i.e.,
-less negative) scores than incorrect reconstructions of short utterances
-(\protect\hyperlink{fig3}{Figure 3}).
+less negative) scores than incorrect reconstructions of short
+utterances.
 
 To illustrate the corrected scoring method, let's compare two
 three-chunk utterances, one of which contains a duplicate chunk:
@@ -729,21 +715,11 @@ children were systematically more difficult, contributing to the
 age-related decrease in uncorrected reconstruction scores.
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig4-1} 
-
-}
-
-\caption{Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig4}
+\includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig4-1} \caption{Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig4}
 \end{figure}
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig5-1} 
-
-}
-
-\caption{Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).}\label{fig:fig5}
+\includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig5-1} \caption{Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).}\label{fig:fig5}
 \end{figure}
 
 \subsection{Corrected reconstruction
@@ -762,7 +738,7 @@ corrected reconstruction score was above chance---here represented by a
 score of zero---so in the statistical models we centered child age on
 zero so that the estimation would reflect the difference from zero for
 the average age in our sample (2;6).\footnote{\textbf{accuracy
-  \textasciitilde{} age + (age\textbar{}child).}}
+  \textasciitilde{} centered.age + (centered.age\textbar{}child).}}
 
 Again, we first analyzed the model's performance when it was trained on
 locally sampled caregiver speech. We found a significant positive
@@ -784,21 +760,11 @@ the SL mechanism. In addition, the model performed significantly above
 chance level in both the local and cumulative sampling contexts.
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig6-1} 
-
-}
-
-\caption{Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig6}
+\includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig6-1} \caption{Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.}\label{fig:fig6}
 \end{figure}
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig7-1} 
-
-}
-
-\caption{Proportion of words in the local child utterances seen in the training data across age using local (left) and cumulative (right) sampling.}\label{fig:fig7}
+\includegraphics[width=0.95\linewidth]{CBL-age_invariance_files/figure-latex/fig7-1} \caption{Proportion of words in the local child utterances seen in the training data across age using local (left) and cumulative (right) sampling.}\label{fig:fig7}
 \end{figure}
 
 \subsection{Children's use of unseen
@@ -810,22 +776,23 @@ therefore also modeled whether child age and sampling type influenced
 the likelihood that a word in the child's speech had already been seen.
 For this analysis we compared the words used by each child at each age
 point to the words that \emph{that} child had heard during training
-(local or cumulative), marking each word as seen during training (1) or
-not (0). For each sampling type, we then modeled the likelihood that a
-word was previously seen given a fixed effect of child age and random
-effect child with random slopes of child age.}\footnote{\textbf{prev\_seen
+(local or cumulative), marking each word as having been seen during
+training (1) or not (0). For each sampling type, we then modeled the
+likelihood that a word was previously seen given a fixed effect of child
+age and random effect child with random slopes of child age.}\footnote{\textbf{prev\_seen
   \textasciitilde{} age + (age\textbar{}child) family = binomial(link =
   \enquote{logit})}} \textbf{With local sampling, words in the
 children's utterances were significantly less likely to have been
 previously seen as children got older
 (\(b = -0.549, SE = 0.11, p < 0.001\); \protect\hyperlink{fig7}{Figure
 7, left panel}). With cumulative sampling, this effect was neutralized;
-increasing age was associated with a small and non-significant in the
-likelihood of previously seen words
-(\(b = -0.022, SE = 0.121, p = 0.857\)).} By taking a longer history of
-linguistic input into account (i.e., by using cumulative sampling),
-\textbf{words that were not seen in the local sampling were indeed seen
-during cumulative sampling.}
+increasing age was associated with a small and non-significant decrease
+in the likelihood of previously seen words
+(\(b = -0.022, SE = 0.121, p = 0.857\); \protect\hyperlink{fig7}{Figure
+7, right panel}).} By taking a longer history of linguistic input into
+account (i.e., by using cumulative sampling), \textbf{words that were
+not seen in the local sampling were indeed seen during cumulative
+sampling.}
 
 \section{Discussion}\label{discussion}
 
@@ -840,14 +807,14 @@ the utterance, which can make accurate reconstruction less likely
 found that there was no significant change in the use of BTP with age.
 Notably, the CBL was able to construct utterances at above-chance levels
 despite these changes with age. Overall, \textbf{and against our
-predictions in the Introduction, the current} findings support the view
-that BTP is an age-invariant learning mechanism for speech production.
-In fact, the positive, but non-significant coefficients for the effect
-of age on corrected reconstruction accuracy indicate that, the CBL is,
-at least, not getting worse at reconstructing children's utterances with
-age. \textbf{Also, the divergence in findings between the corrected and
-uncorrected accuracy scores illustrates how effects of length and
-chunk/word duplication can critically shift baseline performance during
+predictions, the current} findings support the view that BTP is an
+age-invariant learning mechanism for speech production. In fact, the
+positive, but non-significant coefficients for the effect of age on
+corrected reconstruction accuracy indicate that, the CBL is, at least,
+not getting worse at reconstructing children's utterances with age.
+\textbf{Also, the divergence in findings between the corrected and
+uncorrected accuracy scores illustrates how effects of length and chunk
+duplication can critically shift baseline performance during
 reconstruction; these features of natural speech should be controlled
 for in future work.}
 
@@ -876,14 +843,14 @@ or preschool (Hoff, 2010; Hoff-Ginsberg \& Krueger, 1991; Mannle et al.,
 found in the caregiver's speech. This problem is difficult to address
 directly since, even with cutting-edge tools and significant supporting
 resources, it is still nearly impossible to collect and transcribe a
-child's complete language environment (Casillas \& Cristia, under
-review; B. C. Roy et al., 2009). This effect could instead be simulated
-in future work by feeding speech from other children or adults into the
-model to mimic speech from peers and other caregivers. That said, our
-results showed that the likelihood of previously unseen words actually
-decreased with age for the cumulative sample, suggesting that the
-\enquote{missing} words \emph{are} present in caregiver speech, just not
-always in the recently recorded input.
+child's complete language environment (Casillas \& Cristia, 2019; B. C.
+Roy et al., 2009). This effect could instead be simulated in future work
+by feeding speech from other children or adults into the model to mimic
+speech from peers and other caregivers. That said, our results showed
+that the likelihood of previously unseen words actually decreased with
+age for the cumulative sample, suggesting that the \enquote{missing}
+words \emph{are} present in caregiver speech, just not always in the
+recently recorded input.
 
 Additionally, an improvement in memory capacity with age provides a
 potential explanation for the current findings. Throughout childhood,
@@ -925,8 +892,8 @@ above-chance levels when accounting for children's speech productions in
 the first few years. If the mechanism is truly age-invariant, it should
 be able to handle both young children's speech and adults' speech; here
 we see that it handles the developing linguistic inventory of children
-ages 1;0 to 4;0, during which time children's utterances come much more
-sophisticated and much closer to adult-like form.
+ages 1;0 to 4;0, during which time children's utterances become much
+more sophisticated and much closer to adult-like form.
 
 Going beyond the scope of this paper, a next step would be to explore
 how the CBL could be modified to augment its performance, particularly
@@ -949,12 +916,12 @@ tested on a (more) complete corpus of what children hear in the first
 few years to further investigate the origins of the \enquote{previously
 unseen} words in children's utterances; though we appreciate that
 densely sampled and transcribed collections of audio recordings are
-extremely costly to create (Casillas \& Cristia, under review; B. C. Roy
-et al., 2009).
+extremely costly to create (Casillas \& Cristia, 2019; B. C. Roy et al.,
+2009).
 
 \textbf{In principle, the \enquote{next steps} proposed above---indeed
 the whole idea of analyzing chunking performance across developmental
-time---are not limited to the CBL, or even BTP, but rather form a
+time---are not limited to the CBL, or even BTP. Rather we make here a
 general call for dealing with richer data, regardless of the core
 underlying mechanism (Aslin et al., 1998; Cleeremans \& Elman, 1993;
 French et al., 2011; Mareschal \& French, 2017; Onnis \& Thiessen, 2013;
@@ -1069,10 +1036,11 @@ Casey, B. J., Giedd, J. N., \& Thomas, K. M. (2000). Structural and
 functional brain development and its relation to cognitive development.
 \emph{Biological Psychology}, \emph{54}(1-3), 241--257.
 
-\hypertarget{ref-casillasURstep}{}
-Casillas, M., \& Cristia, A. (under review). A step-by-step guide to
-collecting and analyzing long-format speech environment (LFSE)
-recordings.
+\hypertarget{ref-casillas2019step}{}
+Casillas, M., \& Cristia, A. (2019). A step-by-step guide to collecting
+and analyzing long-format speech environment (LFSE) recordings.
+\emph{Collabra}, \emph{5}(1), 24.
+doi:\href{https://doi.org/doi:10.1525/collabra.209}{doi:10.1525/collabra.209}
 
 \hypertarget{ref-chambers2003infants}{}
 Chambers, K. E., Onishi, K. H., \& Fisher, C. (2003). Infants learn
