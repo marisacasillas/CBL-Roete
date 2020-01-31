@@ -42,10 +42,10 @@ draft             : no
 
 documentclass     : "apa6"
 classoption       : "man"
-output            : papaja::apa6_pdf
+output            : papaja::apa6_word # apa6_pdf or apa6_word
 ---
 
-```{r setup, include = FALSE}
+```{r setup, message=FALSE}
 library("papaja")
 library(tidyverse)
 library(lme4)
@@ -57,7 +57,7 @@ library(lattice)
 library(plotrix)
 ```
 
-```{r globals-and-helpers}
+```{r globals-and-helpers, message=FALSE}
 # Seed for random number generation
 set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
@@ -84,15 +84,15 @@ basic.theme <- theme(
     fill = "transparent",colour = NA),
   legend.background = element_rect(
     fill="transparent"),
-  legend.text = element_text(size=24),
-  legend.title = element_text(size=30),
+  legend.text = element_text(size=10),
+  legend.title = element_text(size=10),
   legend.key.height = unit(2, "lines"),
   legend.key = element_rect(colour = NA, fill = NA),
-  axis.text.x = element_text(size=30, angle=45, hjust=1),
-  axis.title.x = element_text(size=30),
-  axis.text.y = element_text(size=28),
-  axis.title.y = element_text(size=32),
-  strip.text = element_text(size=30),
+  axis.text.x = element_text(size=10, angle=45, hjust=1),
+  axis.title.x = element_text(size=10),
+  axis.text.y = element_text(size=10),
+  axis.title.y = element_text(size=10),
+  strip.text = element_text(size=10),
   panel.spacing = unit(2, "lines"))
 
 # Function to combine two plot that share a legend
@@ -149,7 +149,7 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
     if (!is.null(main)) 
       g <- packGrob(g, textGrob(main), side="top") 
     if (!is.null(sub)) 
-      g <- packGrob(g, textGrob(sub, gp=gpar(fontsize=30),
+      g <- packGrob(g, textGrob(sub, gp=gpar(fontsize=10),
         vjust=-1, hjust=0), side="bottom") 
   } else { 
     g <- fg 
@@ -160,7 +160,7 @@ arrange_related_x_axes <- function(..., nrow=NULL, ncol=NULL, as.table=FALSE,
 
 ```
 
-```{r prep-data}
+```{r prep-data, message=FALSE}
 # Local input
 filenames <- list.files(path = rawdata.local.path,
   pattern="*productiontask-modified.csv")
@@ -232,7 +232,7 @@ We investigated the possibility of developmental change in SL using computationa
 
 Our model is based on McCauley and Christiansen's [-@mccauley2011learning; -@mccauley2014acquiring] Chunk-Based Learner (CBL) model, which uses one measure---backward transitional probability **[BTP; @perruchet2008role]**---to detect statistical dependencies in the speech stream. **Backward transitional probability is one of multiple approaches for dividing streams of continuous speech into meaningful units; other approaches include, for example, forward transitional probability and memory-based chunking [@mareschal2017tracx2; @onnis2013language; @french2011tracx; @pelucchi2009learning; @perruchet2008role; @aslin1998computation; @perruchet1998parser; @saffran1996statistical; @cleeremans1993mechanisms<!--; see @frostInPressinsights for a review-->].** BTP for a given pair of words is defined as the occurrence probability of the previous word (w$_{-1}$) given the current word (w$_0$). It can be estimated for each word in a sentence in order to reveal peaks and dips in transitional likelihood, which reflect places where words are likely (peaks) or unlikely (dips) to co-occur.
 
-``` {r fig1, echo=FALSE, fig.align = "center", fig.cap="Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). \"\\#\" denotes a start-of-utterance marker.", out.width = '95%'}
+``` {r fig1, echo=FALSE, fig.cap="Example of a sentence with BTP between consecutive words. Chunks are split at points of low BTP (indicated by the vertical lines). \"\\#\" denotes a start-of-utterance marker.", out.width = '75%', message=FALSE}
 knitr::include_graphics("images/chunking_mechanism.png")
 ```
 
@@ -271,7 +271,7 @@ The model takes transcribed speech as input and divides the transcribed utteranc
 
 Once the model has been trained on adult utterances, and thereby has discovered chunks in the adults' speech, we can test whether it closely matches the linguistic structures produced by the children in the same caregiver-child corpus. Following @mccauley2011learning, we use a child utterance reconstruction task to test whether the chunk statistics present in the adults' utterances are also present in the child's utterances. The model reconstructs the child utterances from the chunks and their related BTPs from the adult's utterances at the same age point. This reconstruction **process, which is slightly different from McCauley and Christiansen's (2011) process,** is done in two steps (see [Figure 2](#fig2)). First, a child utterance is converted into an unordered bag-of-chunks containing **the set of largest possible** chunks **that had already been seen** in the adults' speech, in line with the bag-of-words approach proposed in @chang2008automatic. Whenever the model encounters a word in the child utterance that is not present in the adult-based chunk inventory, it stops processing that utterance.^[@mccauley2011learning handle these cases differently**. Our CBL implementation is identical to theirs up to this point. Therefore we also** provide sentence reconstruction scores using their original method in the Supplementary Materials.] For instance, in the toy example in [Figure 2](#fig2), the child utterance "look at the puppy" would be **broken down into a** set of **known** chunks which were discovered in the adults' speech **(e.g.,  "look at" and "the puppy", as in the step 2 speech bubble). I**f the utterance were "look at the **puppy** there", and the model had **not already added a** chunk for the word "there" **during training, then the word is unknown to the model and the utterance cannot be reconstructed; therefore the utterance would be rejected from further processing.** **However, in the case that the utterance _can_ be broken down into known chunks, the model then** tries to reconstruct **the utterance by shuffling the chunks detected and reordering them based on their known transitional probailities:** the model begins with the utterance start cue and then follows that initial cue **with the chunk that has the highest transitional probability following the start cue, which is followed by the remaining chunk that has the highest transitional probability following the previous chunk, and again and again, until the set of chunks for that utterance is exhausted.**. So, the set of chunks "look at" and "the puppy" would be ordered depending on which chunk had the highest BTP with respect to the utterance start cue ("look at"), followed by the chunk with the highest BTP with respect to "look at" ("the puppy").
 
-``` {r fig2, echo=FALSE, fig.align = "center", fig.cap="Example of reconstruction attempts for three child utterances. The model tries to reconstruct the first two utterances using transitional probabilities of the chunks it finds, but it cannot do so with the third utterance, which contains a word  (\"poodle\") that had not been previously seen during training.", out.width = '95%'}
+``` {r fig2, echo=FALSE, fig.cap="Example of reconstruction attempts for three child utterances. The model tries to reconstruct the first two utterances using transitional probabilities of the chunks it finds, but it cannot do so with the third utterance, which contains a word  (\"poodle\") that had not been previously seen during training.", out.width = '99%', message=FALSE}
 knitr::include_graphics("images/reconstruction_task.png")
 ```
 
@@ -302,8 +302,7 @@ The corrected, length-and-repetition-controlled reconstruction score is a functi
 
 An utterance that is decomposed into $N$ unique chunks can be reconstructed in $N!$ different orders. Hence, the **baseline chance of obtaining the correct order of $N$ unique chunks equals** $1/N!$. When we take into account that chunks can be repeated within an utterance, chance equals $(n_1!n_2!\ldots n_k!)/N!$, where $N$ is the total number of chunks in the utterance, and $n_1,\ldots,n_k$ are the number of times a chunk is repeated for each of the $k$ unique chunks found in the utterance. 
 
-
-``` {r fig3, echo=FALSE, fig.align = "center", fig.cap="Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 words). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).", out.width = '95%'}
+``` {r fig3, echo=FALSE, fig.cap="Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 words). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).", out.width = '95%', fig.height=3, message=FALSE}
 N <- rep(2:6, 4)
 Reconstruction <- c(
   rep("Correct reconstruction",10),
@@ -347,7 +346,7 @@ Our third analysis focused on **the likelihood that words used in the child utte
 
 # Results
 
-``` {r uncorr_reconstr_acc}
+``` {r uncorr_reconstr_acc, message=FALSE}
 #---- MODELS AND DESCRIPTIVE DATA ----
 
 # Local input
@@ -445,12 +444,12 @@ plot.local.repetitions_perc_collapsed <- ggplot(
   plot1.local.data,
   aes(x=age, y = percentages)) + 
   geom_line(size = 1.5) + basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
+  theme(axis.text.x = element_text(size=10)) + 
   coord_cartesian(ylim=(c(0,100))) + 
   xlab("\nAge (years)") + 
   ylab("Percentage of utterances\n containing repetitions\n") + 
-  basic.theme + theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  basic.theme + theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotlocalrep_perc_collapsed.png"),
@@ -483,8 +482,8 @@ plot.cumulative.repetitions_perc_collapsed <- ggplot(
   ylab("Percentage of utterances\n containing repetitions\n") + 
   #ggtitle("Cumulative sampling") + 
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotcumulativerep_perc_collapsed.png"),
@@ -493,18 +492,18 @@ plot.cumulative.repetitions_perc_collapsed <- ggplot(
 # Both input types
 plot.both.repetitions_perc_collapsed <- ggplot() +
   geom_line(data = plot1.local.data,
-    aes(x=age, y = percentages, color = "local"), lwd = 2) +
+    aes(x=age, y = percentages, color = "Local")) +
   geom_line(data = plot1.cumu.data,
-    aes(x=age, y = percentages, color = "cumulative"), lwd = 2) + 
-  geom_line(size = 1.5) +
+    aes(x=age, y = percentages, color = "Cumulative")) + 
+#  geom_line(size = 1.5) +
   coord_cartesian(ylim=(c(0,30))) + 
   xlab("\nAge (years)") + 
   ylab("Percentage of utterances\n containing repetitions\n") + 
   ggtitle("Chunk repetitions in child utterances") + 
   guides(color = guide_legend(reverse = TRUE)) +
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) +
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) +
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt"))) +
   guides(color=guide_legend(title="Sample"))
 # ggsave(paste0(
@@ -542,8 +541,8 @@ plot.local.reconstruction_perc <- ggplot(
   ylab("Percentage correctly\n reconstructed utterances\n") + 
   ggtitle("Local sampling") + 
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotlocalrecon_perc.png"),
@@ -578,27 +577,34 @@ plot.cumu.reconstruction_perc <- ggplot(
   ylab("Percentage correctly\n reconstructed utterances\n") + 
   ggtitle("Cumulative sampling") + 
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotcumurecon_perc.png"),
 #   plot = (plot.cumu.reconstruction_perc+theme_apa()))
 
-## Both input types
-plot.local.reconstruction_perc.noxtitle <- plot.local.reconstruction_perc +
-  xlab("\n") +
-  ylab("Percentage correctly\nreconstructed utterances\n") +
-  theme(axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18),
-        legend.position="none")
-plot.cumu.reconstruction_perc.noxtitle <- plot.cumu.reconstruction_perc +
-  xlab("\n") +
-  ylab("\n") +
-  theme(legend.key.width = unit(2, "cm"),
-        axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18),
-        legend.position=c(0.75,0.25))
+plot2.local.data$Sample <- "Local"
+plot2.cumu.data$Sample <- "Cumulative"
+plot2.data <- bind_rows(plot2.local.data, plot2.cumu.data)
+plot2.data$Sample <- as.factor(plot2.data$Sample)
+plot2.data$Sample <- factor(plot2.data$Sample,
+  levels = c("Local", "Cumulative"))
+plot2.data$Child <- plot2.data$child
+
+plot2.bysample <- ggplot(
+  aes(x=age, y = percentages, group = Child,
+    linetype = Child, colour = Child),
+  data = plot2.data) +
+  geom_line() +
+  facet_grid(~ Sample) +
+  xlab("Age (years)") +
+  ylab("% correctly\n reconstructed utterances\n") +
+  basic.theme +
+  theme(
+    legend.key.size = unit(0.5, "cm"),
+    legend.key.height = unit(0.2, "cm"))
+
 # png(paste(plot.path,
 #   "plotbothreconstruction_perc.png", sep=""),
 #   width=1500,height=700,units="px",
@@ -609,7 +615,6 @@ plot.cumu.reconstruction_perc.noxtitle <- plot.cumu.reconstruction_perc +
 #                        nrow=1, ncol = 2, as.table=TRUE,
 #                        sub="Age (years)")
 # dev.off()
-
 ```
 
 ## Uncorrected reconstruction accuracy
@@ -622,15 +627,83 @@ We then tested the model's performance when it was trained with a cumulative sam
 
 Importantly, however, the length of the child utterances varied quite a lot (range = 1--44 words long; mean = 2.8, median = 2), and some of them contained repetitions of chunks (e.g., "I wanna, I wanna"), both of which influence the baseline likelihood of accurate reconstruction. Utterances from older children tended to contain more words than utterances from younger children ([Figure 5, left panel](#fig5)). As a consequence, on average, utterances from older children are systematically less likely to be correctly reconstructed by chance, contributing to the decrease in the CBL's overall performance with age. Additionally, the percentage of child utterances that contained duplicate chunks decreased over time ([Figure 5, right panel](#fig5)). Utterances with duplicate chunks had a higher baseline probability of being accurately reconstructed by the model. So again, on average, utterances from older children were systematically more difficult, contributing to the age-related decrease in uncorrected reconstruction scores.
 
-``` {r fig4, echo=FALSE, fig.align = "center", fig.cap="Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%'}
-knitr::include_graphics("images/plotbothreconstruction_perc.png")
+``` {r fig4, echo=FALSE, fig.cap="Percentage of correctly reconstructed utterances across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%', fig.height=3, message=FALSE}
+plot2.bysample
 ```
 
-``` {r fig5, echo=FALSE, fig.align = "center", fig.cap="Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).", out.width = '95%'}
-knitr::include_graphics("images/plotbothfactors.png")
+``` {r chiutt_descriptives, message=FALSE}
+# Basic descriptive data on child utterances
+min <- min(childutt.data$numwords)
+max <- max(childutt.data$numwords)
+mean <- mean(childutt.data$numwords)
+median <- median(childutt.data$numwords)
+
+#---- PLOTS ----
+
+# Utterance length in words
+plot1.data <- aggregate(
+  childutt.data$numwords,
+  by = c(list(age=childutt.data$age)),
+  FUN=sum)
+colnames(plot1.data)[2] <- "total_uttlength"
+plot1.data.temp <- aggregate(
+  childutt.data$numwords,
+  by = c(list(age=childutt.data$age)),
+  FUN = function(x){NROW(x)})
+colnames(plot1.data.temp)[2] <- "total_num_utterances"
+plot1.data <- merge(
+  plot1.data,plot1.data.temp, by = c("age"))
+plot1.data$averagelength <- (plot1.data$total_uttlength/
+    plot1.data$total_num_utterances)
+plot.childuttlength <- ggplot(
+  plot1.data,
+  aes(x=age, y = averagelength)) + 
+  geom_line() +
+  xlab("\nAge (years)") + 
+  ylab("Average number of words \n in child utterance\n") + 
+  ggtitle("Child utterance length ") + 
+  basic.theme +
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
+    hjust = 0.5, margin=margin(b = 10, unit = "pt")))
+# ggsave(paste0(
+#   plot.path, "plotchilduttlength.png"),
+#   plot = (plot.childuttlength+theme_apa()))
+
+# Percent of utterances containing repetitions x age
+# (both local and cumulative as seperate lines in graph)
+plot.childuttlength.noxtitle <- plot.childuttlength +
+  xlab("\n") +
+  ylab("Average number of words\nin child utterance\n") +
+  theme(axis.text.x = element_text(size=10),
+        axis.text.y = element_text(size=10))
+plot.both.repetitions_perc_collapsed.noxtitle <- 
+  plot.both.repetitions_perc_collapsed +
+  xlab("\n") +
+  ylab("\n\nPercentage of utterances\ncontaining repetitions\n") +
+  theme(axis.text.x = element_text(size=10),
+        axis.text.y = element_text(size=10),
+        legend.position=c(0.75,0.9),
+    legend.key.size = unit(0.5, "cm"),
+    legend.key.height = unit(0.2, "cm"))
+# png(paste(plot.path,
+#   "plotbothfactors.png", sep=""),
+#   width=1500,height=500,units="px",
+#   bg = "transparent")
+# grid.newpage()
+# arrange_related_x_axes(plot.childuttlength.noxtitle,
+#                        plot.both.repetitions_perc_collapsed.noxtitle,
+#                        nrow=1, ncol = 2, as.table=TRUE,
+#                        sub="Age (years)")
+# dev.off()
 ```
 
-``` {r corr_reconstr_acc}
+``` {r fig5, echo=FALSE, fig.cap="Children's utterances increased in length (number of words) with age (left) while simultaneously decreasing in the number of duplicate chunks used (right).", out.width = '95%', fig.height=3, message=FALSE}
+grid.arrange(plot.childuttlength.noxtitle,
+  plot.both.repetitions_perc_collapsed.noxtitle, nrow=1, ncol=2)
+```
+
+``` {r corr_reconstr_acc, message=FALSE}
 #---- MODELS AND DESCRIPTIVE DATA ----
 
 # Local input
@@ -747,8 +820,8 @@ plot.local.reconstruction <- ggplot(
   ggtitle("Local sampling") + 
   geom_hline(yintercept=0) +
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotlocalrecon.png"),
@@ -784,27 +857,53 @@ plot.cumu.reconstruction <- ggplot(
   ggtitle("Cumulative sampling") + 
   geom_hline(yintercept=0) +
   basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
+  theme(axis.text.x = element_text(size=10)) + 
+  theme(plot.title = element_text(size=10, face = "bold.italic",
     hjust = 0.5, margin=margin(b = 30, unit = "pt")))
 # ggsave(paste0(
 #   plot.path, "plotcumurecon.png"),
 #   plot = plot.cumu.reconstruction + theme_apa())
 
-## Both input types
-plot.local.reconstruction.noxtitle <- plot.local.reconstruction +
-  xlab("\n") +
-  ylab("Average reconstruction score\n") +
-  theme(axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18),
-        legend.position="none")
-plot.cumu.reconstruction.noxtitle <- plot.cumu.reconstruction +
-  xlab("\n") +
-  ylab("\n") +
-  theme(legend.key.width = unit(2, "cm"),
-        axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18),
-        legend.position=c(0.75,0.25))
+
+plot1.local.data$Sample <- "Local"
+plot1.cumu.data$Sample <- "Cumulative"
+corrreconstruction.data <- bind_rows(plot1.local.data, plot1.cumu.data)
+corrreconstruction.data$Sample <- as.factor(corrreconstruction.data$Sample)
+corrreconstruction.data$Sample <- factor(corrreconstruction.data$Sample,
+  levels = c("Local", "Cumulative"))
+corrreconstruction.data$Child <- corrreconstruction.data$child
+
+
+corrreconstruction.bysample <- ggplot(
+  aes(x=age, y = averagescore, group = Child,
+    linetype = Child, colour = Child),
+  data = corrreconstruction.data) +
+  geom_hline(yintercept=0) +
+  geom_line() +
+  coord_cartesian(ylim=(c(-0.5,0.5))) + 
+  facet_grid(~ Sample) +
+  xlab("Age (years)") +
+  ylab("Average reconstruction \nscore\n") +
+  basic.theme +
+  theme(
+    legend.key.size = unit(0.5, "cm"),
+    legend.key.height = unit(0.2, "cm"))
+
+
+# ## Both input types
+# plot.local.reconstruction.noxtitle <- plot.local.reconstruction +
+#   xlab("\n") +
+#   ylab("Average reconstruction score\n") +
+#   theme(axis.text.x = element_text(size=10),
+#         axis.text.y = element_text(size=10),
+#         legend.position="none")
+# plot.cumu.reconstruction.noxtitle <- plot.cumu.reconstruction +
+#   xlab("\n") +
+#   ylab("\n") +
+#   theme(legend.key.width = unit(2, "cm"),
+#         axis.text.x = element_text(size=10),
+#         axis.text.y = element_text(size=10),
+#         legend.position=c(0.75,0.25))
 # png(paste(plot.path,
 #           "plotbothreconstruction.png", sep=""),
 #     width=1500,height=700,units="px",
@@ -818,70 +917,6 @@ plot.cumu.reconstruction.noxtitle <- plot.cumu.reconstruction +
 
 ```
 
-``` {r chiutt_descriptives}
-# Basic descriptive data on child utterances
-min <- min(childutt.data$numwords)
-max <- max(childutt.data$numwords)
-mean <- mean(childutt.data$numwords)
-median <- median(childutt.data$numwords)
-
-#---- PLOTS ----
-
-# Utterance length in words
-plot1.data <- aggregate(
-  childutt.data$numwords,
-  by = c(list(age=childutt.data$age)),
-  FUN=sum)
-colnames(plot1.data)[2] <- "total_uttlength"
-plot1.data.temp <- aggregate(
-  childutt.data$numwords,
-  by = c(list(age=childutt.data$age)),
-  FUN = function(x){NROW(x)})
-colnames(plot1.data.temp)[2] <- "total_num_utterances"
-plot1.data <- merge(
-  plot1.data,plot1.data.temp, by = c("age"))
-plot1.data$averagelength <- (plot1.data$total_uttlength/
-    plot1.data$total_num_utterances)
-plot.childuttlength <- ggplot(
-  plot1.data,
-  aes(x=age, y = averagelength)) + 
-  geom_line(size = 1.5) +
-  xlab("\nAge (years)") + 
-  ylab("Average number of words \n in child utterance\n") + 
-  ggtitle("Child utterance length ") + 
-  basic.theme +
-  theme(axis.text.x = element_text(size=22)) + 
-  theme(plot.title = element_text(size=30, face = "bold.italic",
-    hjust = 0.5, margin=margin(b = 30, unit = "pt")))
-# ggsave(paste0(
-#   plot.path, "plotchilduttlength.png"),
-#   plot = (plot.childuttlength+theme_apa()))
-
-# Percent of utterances containing repetitions x age
-# (both local and cumulative as seperate lines in graph)
-plot.childuttlength.noxtitle <- plot.childuttlength +
-  xlab("\n") +
-  ylab("Average number of words\nin child utterance\n") +
-  theme(axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18))
-plot.both.repetitions_perc_collapsed.noxtitle <- 
-  plot.both.repetitions_perc_collapsed +
-  xlab("\n") +
-  ylab("\n\nPercentage of utterances\ncontaining repetitions\n") +
-  theme(axis.text.x = element_text(size=18),
-        axis.text.y = element_text(size=18),
-        legend.position=c(0.75,0.9))
-# png(paste(plot.path,
-#   "plotbothfactors.png", sep=""),
-#   width=1500,height=500,units="px",
-#   bg = "transparent")
-# grid.newpage()
-# arrange_related_x_axes(plot.childuttlength.noxtitle,
-#                        plot.both.repetitions_perc_collapsed.noxtitle,
-#                        nrow=1, ncol = 2, as.table=TRUE,
-#                        sub="Age (years)")
-# dev.off()
-```
 
 ## Corrected reconstruction accuracy
 
@@ -893,10 +928,11 @@ As before, we created a parallel set of analyses to test the model's performance
 
 In sum, contrary to the uncorrected reconstruction accuracy analysis, these corrected reconstruction score results indicate age-invariance for the SL mechanism. In addition, the model performed significantly above chance level in both the local and cumulative sampling contexts.
 
-``` {r fig6, echo=FALSE, fig.align = "center", fig.cap="Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%'}
-knitr::include_graphics("images/plotbothreconstruction.png")
+``` {r fig6, echo=FALSE, fig.cap="Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%', fig.height=3, message=FALSE}
+corrreconstruction.bysample
 ```
-``` {r unseen-words}
+
+``` {r unseen-words, message=FALSE}
 #---- MODELS AND DESCRIPTIVE DATA ----
 
 # Extract all words used in the local input
@@ -1014,35 +1050,42 @@ model_cumu_unseenwords <- glmer(
 
 child.output.words.seen.l <- child.output.words %>%
   left_join(local.input.words) %>%
-  mutate(sample = "local") %>%
+  mutate(Sample = "Local") %>%
   rename(seen = seen_local)
 child.output.words.seen.c <- child.output.words %>%
   left_join(cumulative.input.words) %>%
-  mutate(sample = "cumulative") %>%
+  mutate(Sample = "Cumulative") %>%
   rename(seen = seen_cumulative)
 child.output.words.seen.plottable <- bind_rows(
   child.output.words.seen.l, child.output.words.seen.c) %>%
   replace_na(list(seen = 0)) %>%
-  group_by(child, age, sample) %>%
+  group_by(child, age, Sample) %>%
   summarize(prev_seen = mean(seen))
-child.output.words.seen.plottable$sample <- factor(
-  child.output.words.seen.plottable$sample,
-  levels = c("local", "cumulative"))
+child.output.words.seen.plottable$Sample <- factor(
+  child.output.words.seen.plottable$Sample,
+  levels = c("Local", "Cumulative"))
+child.output.words.seen.plottable$Child <- child.output.words.seen.plottable$child
 
 seen.over.age.by.sample <- ggplot(
-  aes(x = age, y = prev_seen, color = child),
+  aes(x = age, y = prev_seen, group = Child,
+    linetype = Child, colour = Child),
   data = child.output.words.seen.plottable) +
   geom_line() +
-  facet_grid(~ sample) +
+  facet_grid(~ Sample) +
   xlab("Age (years)") +
-  ylab("Prop. words previously seen") +
-  basic.theme
-#  guides(color = guide_legend(title = "Child"))
-
+  ylab("Proportion of words\npreviously seen") +
+  coord_cartesian(ylim=(c(0,1))) + 
+  basic.theme +
+  theme(
+    legend.key.size = unit(0.5, "cm"),
+    legend.key.height = unit(0.2, "cm"))
+ 
+ 
+ 
 ```
 
 
-``` {r fig7, echo=FALSE, fig.align = "center", fig.cap="Proportion of words in the local child utterances seen in the training data across age using local (left) and cumulative (right) sampling.", out.width = '95%'}
+``` {r fig7, echo=FALSE, fig.cap="Proportion of words in the local child utterances seen in the training data across age using local (left) and cumulative (right) sampling.", out.width = '95%', fig.height=3, message=FALSE}
 seen.over.age.by.sample
 ```
 
@@ -1051,7 +1094,7 @@ seen.over.age.by.sample
 
 **Utterances with words that were not encountered and stored as chunks during training were not included in the reconstruction task. We therefore also modeled whether child age and sampling type influenced the likelihood that a word in the child's speech had already been seen. For this analysis we compared the words used by each child at each age point to the words that _that_ child had heard during training (local or cumulative), marking each word as seen during training (1) or not (0). For each sampling type, we then modeled the likelihood that a word was previously seen given a fixed effect of child age and random effect child with random slopes of child age.**^[**prev_seen ~ age + (age|child) family = binomial(link = 'logit')**] **With local sampling, words in the children's utterances were significantly less likely to have been previously seen as children got older ($b = -0.549, SE = 0.11, p < 0.001$; [Figure 7, left panel](#fig7)). With cumulative sampling, this effect was neutralized; increasing age was associated with a small and non-significant in the likelihood of previously seen words ($b = -0.022, SE = 0.121, p = 0.857$).** By taking a longer history of linguistic input into account (i.e., by using cumulative sampling), **words that were not seen in the local sampling were indeed seen during cumulative sampling.**
 
-``` {r write-model-output}
+``` {r write-model-output, message=FALSE}
 # Write model results out for input to shiny
 models.output <- bind_rows(
   broom.mixed::tidy(model_local_uncorrected) %>%
@@ -1075,7 +1118,7 @@ Our primary research question [as raised by, e.g., @arciuli2011statistical; @rav
 
 ## Different words at different ages
 
-We also analyzed the number of utterances with previously unseen words in them, arguing that older children's increased memory capacity [@bauer2005developments; @gathercole2004structure; @wojcik2013remembering] would possibly allow them to draw upon older input more easily in producing speech. Indeed, we found an increase in the number of utterances containing previously unseen words with age in the local sample but a decrease when taking their longer linguistic history into account. The change in word usage we find here could be partly due to a change in linguistic input not captured in the transcripts. The corpus we used is relatively dense: multi-hour at-home recordings made approximately every two weeks for 2--3 years. However, this corpus still only contained a small fraction of what each child heard during the represented periods of time (i.e., 2 hours of ~200 waking hours in a fortnight). Non-recorded caregiver speech may contribute an increasing amount of lexical diversity. Consider, for example, that input from peers containing different lexical items could have increased as children became old enough to independently socialize with other children or attend daycare or preschool [@hoff2010context; @hoff1991older; @mannle1992twoyearolds], which may help to account for the increased presence of words not found in the caregiver's speech. This problem is difficult to address directly since, even with cutting-edge tools and significant supporting resources, it is still nearly impossible to collect and transcribe a child's complete language environment [@casillasURstep; @roy2009exploring]. This effect could instead be simulated in future work by feeding speech from other children or adults into the model to mimic speech from peers and other caregivers. That said, our results showed that the likelihood of previously unseen words actually decreased with age for the cumulative sample, suggesting that the "missing" words _are_ present in caregiver speech, just not always in the recently recorded input.
+We also analyzed the number of utterances with previously unseen words in them, arguing that older children's increased memory capacity [@bauer2005developments; @gathercole2004structure; @wojcik2013remembering] would possibly allow them to draw upon older input more easily in producing speech. Indeed, we found an increase in the number of utterances containing previously unseen words with age in the local sample but a decrease when taking their longer linguistic history into account. The change in word usage we find here could be partly due to a change in linguistic input not captured in the transcripts. The corpus we used is relatively dense: multi-hour at-home recordings made approximately every two weeks for 2--3 years. However, this corpus still only contained a small fraction of what each child heard during the represented periods of time (i.e., 2 hours of ~200 waking hours in a fortnight). Non-recorded caregiver speech may contribute an increasing amount of lexical diversity. Consider, for example, that input from peers containing different lexical items could have increased as children became old enough to independently socialize with other children or attend daycare or preschool [@hoff2010context; @hoff1991older; @mannle1992twoyearolds], which may help to account for the increased presence of words not found in the caregiver's speech. This problem is difficult to address directly since, even with cutting-edge tools and significant supporting resources, it is still nearly impossible to collect and transcribe a child's complete language environment [@casillas2019step; @roy2009exploring]. This effect could instead be simulated in future work by feeding speech from other children or adults into the model to mimic speech from peers and other caregivers. That said, our results showed that the likelihood of previously unseen words actually decreased with age for the cumulative sample, suggesting that the "missing" words _are_ present in caregiver speech, just not always in the recently recorded input.
 
 Additionally, an improvement in memory capacity with age provides a potential explanation for the current findings. Throughout childhood, including the first few years, SL-relevant cortical regions continue maturing [@casey2000structural; @diamond2002normal; @rodriguez2009neurophysiological; @uylings2006development] with concurrent increases in long-term memory [@bauer2005developments; @wojcik2013remembering], working memory, and speed of processing [@gathercole2004structure; @kail1991developmental]. By ages three and four, the children in the current study may have been able to much more reliably draw upon information they were exposed to in the more distant past. If so, we would expect no significant increase in the use of previously unheard words as children get older with the cumulative sampling method---consistent with what we found here ([Figure 7, right panel](#fig7)). This pattern of results indicates that children's developing memory could play an important role in the way they use environmental input statistics over age.
 
@@ -1096,7 +1139,7 @@ Our findings are not consistent with a representational shift toward abstraction
 
 As the CBL model only employs a single, simple mechanism for creating and tracking linguistic units, it is impressive that it performs at above-chance levels when accounting for children's speech productions in the first few years. If the mechanism is truly age-invariant, it should be able to handle both young children's speech and adults' speech; here we see that it handles the developing linguistic inventory of children ages 1;0 to 4;0, during which time children's utterances come much more sophisticated and much closer to adult-like form.
 
-Going beyond the scope of this paper, a next step would be to explore how the CBL could be modified to augment its performance, particularly on more complex utterances. For example, the CBL model does not include the use of semantics when dividing the caregivers' speech into chunks or when reconstructing the child utterances. However, the meaning of what both caregivers and child are trying to convey plays a fundamental role in selecting words from the lexicon and in constructing utterances---they are interacting, and not just producing speech. The same set of words, ordered in different ways, can have entirely different meanings (e.g., "the dog bites the man" vs. "the man bites the dog"). Additionally, the CBL currently works on text-only transcriptions of conversations, but speech prosody could potentially critically change how children detect chunks. Prosodic structures within an utterance highlight syntactic structures and help to distinguish between pragmatic intentions, for example, distinguishing between questions, imperatives, and statements [e.g., @bernard2012prosodic; @speer2009prosody]. Ideally, the CBL model would also be tested on a (more) complete corpus of what children hear in the first few years to further investigate the origins of the "previously unseen" words in children's utterances; though we appreciate that densely sampled and transcribed collections of audio recordings are extremely costly to create [@casillasURstep; @roy2009exploring]. 
+Going beyond the scope of this paper, a next step would be to explore how the CBL could be modified to augment its performance, particularly on more complex utterances. For example, the CBL model does not include the use of semantics when dividing the caregivers' speech into chunks or when reconstructing the child utterances. However, the meaning of what both caregivers and child are trying to convey plays a fundamental role in selecting words from the lexicon and in constructing utterances---they are interacting, and not just producing speech. The same set of words, ordered in different ways, can have entirely different meanings (e.g., "the dog bites the man" vs. "the man bites the dog"). Additionally, the CBL currently works on text-only transcriptions of conversations, but speech prosody could potentially critically change how children detect chunks. Prosodic structures within an utterance highlight syntactic structures and help to distinguish between pragmatic intentions, for example, distinguishing between questions, imperatives, and statements [e.g., @bernard2012prosodic; @speer2009prosody]. Ideally, the CBL model would also be tested on a (more) complete corpus of what children hear in the first few years to further investigate the origins of the "previously unseen" words in children's utterances; though we appreciate that densely sampled and transcribed collections of audio recordings are extremely costly to create [@casillas2019step; @roy2009exploring]. 
 
 **In principle, the "next steps" proposed above---indeed the whole idea of analyzing chunking performance across developmental time---are not limited to the CBL, or even BTP, but rather form a general call for dealing with richer data, regardless of the core underlying mechanism [@mareschal2017tracx2; @onnis2013language; @french2011tracx; @pelucchi2009learning; @perruchet2008role; @aslin1998computation; @perruchet1998parser; @saffran1996statistical; @cleeremans1993mechanisms]. In the current study, we decided to use the CBL because it had previously been successful in reconstructing children's utterances within our target age range [@mccauley2019languagelearning; @mccauley2014acquiring; @mccauley2011learning] and had not yet been tested for age-invariance. However, given the required memory and comparison (executive function) components of this model, as well as its requirement of discrete (not gradable) chunks, other approaches---particularly those inspired by maturational neurocognitive development [e.g., @mareschal2017tracx2; @perruchet1998parser; @cleeremans1993mechanisms]---would be welcome comparisons to the present findings. Notably, while the CBL here performed above chance on average, there is still room to improve in modeling what the children said based on what they heard in the recordings.**
 <!--
