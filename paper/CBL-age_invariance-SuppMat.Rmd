@@ -41,7 +41,7 @@ draft             : no
 
 documentclass     : "apa6"
 classoption       : "man"
-output            : papaja::apa6_pdf
+output            : papaja::apa6_pdf # apa6_pdf or apa6_word
 ---
 
 
@@ -188,7 +188,7 @@ apa_table(corr_reconstr_acc_cumu_MAIN.model, caption="**Full model output for th
 unseen_words_local_MAIN.model <- filter(
   main.models, model == "likelihood_unseen_words_local_input") %>%
   select(-model)
-apa_table(unseen_words_local_MAIN.model, caption="**Full model output for the analysis of number of utterances with previously unheard words using local speech input.**")
+apa_table(unseen_words_local_MAIN.model, caption="**Full model output for the analysis of likelihood that a word in the child's speech was seen during training.**")
 ```
 
 ```{r tab-unseen_words-cumu-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
@@ -200,7 +200,7 @@ apa_table(unseen_words_cumu_MAIN.model, caption="**Full model output for the ana
 
 \pagebreak
 
-# Results using original *McCauley and Christiansen (2011) reconstruction* method
+# Results using the original McCauley and Christiansen (2011) reconstruction method
 
 **While our implementation of the CBL learner is identical to McCauley and Christiansen's, o**ur implementation of the **_reconstruction task_** diverges slightly from **theirs: we discard utterances with unknown words and instead provide a second analysis focused on the number of these 'un-reconstructable' utterances across age. Our reasoning for discarding utterances with unknown words was that there is no obvious way to give them a valid default transition matrix with other existing chunks. In contrast, @mccauley2011learning built a new chunk for each unknown word when reconstructing utterances. This chunk with the unknown word was then assigned a BTP equal to zero with respect to any other chunk in the utterance it originated from. In what follows,** we present results using McCauley and Christiansen's original [@mccauley2011learning] reconstruction task method. **Because their reconstruction task attempts all utterances, we do not also** provide analyses of the number of utterances containing unknown words.
 

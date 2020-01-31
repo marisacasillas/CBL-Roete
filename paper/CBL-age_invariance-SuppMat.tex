@@ -208,16 +208,15 @@ ran\_pars & Residual & sd\_\_Observation & 0.59 & NA & NA & NA\\
 \begin{table}[tbp]
 \begin{center}
 \begin{threeparttable}
-\caption{\label{tab:tab-unseen_words-local-MAIN}**Full model output for the analysis of number of utterances with previously unheard words using local speech input.**}
+\caption{\label{tab:tab-unseen_words-local-MAIN}**Full model output for the analysis of likelihood that a word in the child's speech was seen during training.**}
 \begin{tabular}{lllllll}
 \toprule
 effect & \multicolumn{1}{c}{group} & \multicolumn{1}{c}{term} & \multicolumn{1}{c}{estimate} & \multicolumn{1}{c}{std.error} & \multicolumn{1}{c}{statistic} & \multicolumn{1}{c}{p.value}\\
 \midrule
-fixed & NA & (Intercept) & -1.99 & 0.21 & -9.48 & 0.00\\
-fixed & NA & age & 0.51 & 0.09 & 5.89 & 0.00\\
-fixed & NA & expnumwords.5k & 6,907.36 & 1.24 & 5,575.16 & 0.00\\
-ran\_pars & child & sd\_\_(Intercept) & 0.50 & NA & NA & NA\\
-ran\_pars & child & sd\_\_age & 0.21 & NA & NA & NA\\
+fixed & NA & (Intercept) & 3.13 & 0.33 & 9.64 & 0.00\\
+fixed & NA & age & -0.55 & 0.11 & -5.00 & 0.00\\
+ran\_pars & child & sd\_\_(Intercept) & 0.74 & NA & NA & NA\\
+ran\_pars & child & sd\_\_age & 0.25 & NA & NA & NA\\
 ran\_pars & child & cor\_\_(Intercept).age & -0.94 & NA & NA & NA\\
 \bottomrule
 \end{tabular}
@@ -233,12 +232,11 @@ ran\_pars & child & cor\_\_(Intercept).age & -0.94 & NA & NA & NA\\
 \toprule
 effect & \multicolumn{1}{c}{group} & \multicolumn{1}{c}{term} & \multicolumn{1}{c}{estimate} & \multicolumn{1}{c}{std.error} & \multicolumn{1}{c}{statistic} & \multicolumn{1}{c}{p.value}\\
 \midrule
-fixed & NA & (Intercept) & -1.68 & 0.21 & -8.13 & 0.00\\
-fixed & NA & age & -0.03 & 0.07 & -0.43 & 0.67\\
-fixed & NA & expnumwords.5k & -0.08 & 1.29 & -0.07 & 0.95\\
-ran\_pars & child & sd\_\_(Intercept) & 0.47 & NA & NA & NA\\
-ran\_pars & child & sd\_\_age & 0.16 & NA & NA & NA\\
-ran\_pars & child & cor\_\_(Intercept).age & -0.88 & NA & NA & NA\\
+fixed & NA & (Intercept) & 2.85 & 0.36 & 7.82 & 0.00\\
+fixed & NA & age & -0.02 & 0.12 & -0.18 & 0.86\\
+ran\_pars & child & sd\_\_(Intercept) & 0.78 & NA & NA & NA\\
+ran\_pars & child & sd\_\_age & 0.25 & NA & NA & NA\\
+ran\_pars & child & cor\_\_(Intercept).age & -0.96 & NA & NA & NA\\
 \bottomrule
 \end{tabular}
 \end{threeparttable}
@@ -247,9 +245,9 @@ ran\_pars & child & cor\_\_(Intercept).age & -0.88 & NA & NA & NA\\
 
 \pagebreak
 
-\section{\texorpdfstring{Results using original \emph{McCauley and
-Christiansen (2011) reconstruction}
-method}{Results using original McCauley and Christiansen (2011) reconstruction method}}\label{results-using-original-mccauley-and-christiansen-2011-reconstruction-method}
+\section{Results using the original McCauley and Christiansen (2011)
+reconstruction
+method}\label{results-using-the-original-mccauley-and-christiansen-2011-reconstruction-method}
 
 \textbf{While our implementation of the CBL learner is identical to
 McCauley and Christiansen's, o}ur implementation of the
