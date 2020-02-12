@@ -78,7 +78,7 @@ Paula Fikkert\textsuperscript{2}, \& Marisa Casillas\textsuperscript{1}}
 \affiliation{
 \vspace{0.5cm}
 \textsuperscript{1} Max Planck Institute for Psycholinguistics\\\textsuperscript{2} Radboud University}
-\keywords{statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children\newline\indent Word count: 7022, excluding references}
+\keywords{statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children\newline\indent Word count: **8726 (7027, excluding references and abstract)**}
 \usepackage{csquotes}
 \usepackage{upgreek}
 \captionsetup{font=singlespacing,justification=justified}
@@ -180,9 +180,9 @@ within the first year, both for linguistic (Kidd et al., 2018) and
 non-linguistic (S. P. Johnson et al., 2009) stimuli. For example, while
 11-month-olds can detect and generalize over regularities in a sequence,
 8-month-olds are only capable of detecting the regularities, and neither
-group succeeds yet at learning visual non-adjacent dependencies (S. P.
-Johnson et al. (2009); see also Bulf, Johnson, and Valenza (2011) and
-Slone and Johnson (2015)).
+group succeeds yet at learning visual non-adjacent dependencies (Johnson
+et al., (2009); see also Bulf, Johnson, \& Valenza, (2011), and Slone \&
+Johnson, (2015)).
 
 These changes in SL \textbf{ability} during infancy and early childhood
 may relate to changes in other fundamental cognitive skills. For
@@ -208,18 +208,18 @@ exemplar-based statistical evidence until it is more cognitively
 efficient for them to make a categorical abstract generalization. He
 proposes that, at that point, the learner instantiates a rule to account
 for patterns in the data. Usage-based theories of early language
-development instead propose that children first learn small concrete
-linguistic sequences from their input that are made up of specific words
-or word combinations (e.g., \enquote{dog} and \enquote{I wanna}; or
-multi-word combinations, \enquote{where's the \ldots{}}; Tomasello
-(2008)). Then, over time, children are proposed to form abstract schemas
-centered on lexical items (see also Bannard et al. (2009) and Chang et
-al. (2006)). This representational shift, from probabilistic and lexical
-to abstract and syntactic, is used to account for how children can
-eventually create utterances that they have never heard before.
-Crucially, the representational shift implies a change in the way
-children apply the original SL mechanism(s) to incoming linguistic
-information (see also Lany \& Gómez, 2008).
+development \textbf{alternately} propose that children first learn small
+concrete linguistic sequences from their input that are made up of
+specific words or word combinations (e.g., \enquote{dog} and \enquote{I
+wanna}; or multi-word combinations, \enquote{where's the \ldots{}};
+Tomasello (2008)). Then, over time, children are proposed to form
+abstract schemas centered on lexical items (see also Bannard et al.
+(2009) and Chang et al. (2006)). This representational shift, from
+probabilistic and lexical to abstract and syntactic, is used to account
+for how children can eventually create utterances that they have never
+heard before. Crucially, the representational shift implies a change in
+the way children apply the original SL mechanism(s) to incoming
+linguistic information (see also Lany \& Gómez, 2008).
 
 Change in SL \textbf{ability} following further linguistic experience is
 also predicted in models that do not assume abstraction. In chunk-based
@@ -397,7 +397,7 @@ their increased ability to use historical input.
 
 \subsection{Model}\label{model}
 
-The CBL model (McCauley \& Christiansen, 2011) is an incremental, online
+The CBL model (McCauley \& Christiansen, 2011) is an incremental
 computational model of language acquisition, that explores the
 possibility that infants and children parse their input into
 (multi-word) chunks during the process of acquiring language.
@@ -454,16 +454,17 @@ therefore the utterance would be rejected from further processing.}
 \textbf{However, in the case that the utterance \emph{can} be broken
 down into known chunks, the model then} tries to reconstruct \textbf{the
 utterance by shuffling the chunks detected and reordering them based on
-their known transitional probailities:} the model begins with the
-utterance start cue and then follows that start cue \textbf{with the
-chunk that has the highest transitional probability following it, then
-adds the next remaining chunk that has the highest transitional
-probability following the previous chunk, and again and again, until the
-set of chunks for that utterance is exhausted.} So, the set of chunks
-\enquote{look at} and \enquote{the puppy} would be ordered depending on
-which chunk had the highest BTP with respect to the utterance start cue
-(\enquote{look at}), followed by the chunk with the highest BTP with
-respect to \enquote{look at} (\enquote{the puppy}).
+their known transitional probabilities:} the model begins with the
+utterance start cue and then \textbf{finds the chunk that has the
+highest backwards transitional probability to the start cue, following
+that first chunk with the next one, which will be the remaining chunk
+with the highest backwards transitional probability to the first chunk,
+and again and again, until the set of chunks for that utterance is
+exhausted.} So, the set of chunks \enquote{look at} and \enquote{the
+puppy} would be ordered depending on \textbf{the chunk that maximizes
+the BTP of the start cue (i.e., \enquote{look at}), followed by the
+chunk that maximizes the BTP of \enquote{look at} (i.e., \enquote{the
+puppy})}.
 
 \begin{figure}
 \includegraphics[width=0.99\linewidth]{images/reconstruction_task} \caption{Example of reconstruction attempts for three child utterances. The model tries to reconstruct the first two utterances using transitional probabilities of the chunks it finds, but it cannot do so with the third utterance, which contains a word  ("poodle") that had not been previously seen during training.}\label{fig:fig2}
@@ -554,9 +555,9 @@ advantage of being able to test whether the CBL performance
 significantly exceeded the baseline chance of correct reconstruction. We
 tested this difference at the average age in our longitudinal dataset
 (2;6) by centering age on zero in the statistical model (ages 1;0--4;0
-are re-coded as -1.5--1.5) such that the default model output would
-reflect the estimated difference from chance at the middle point of our
-age range.}
+are re-coded numerically as -1.5--1.5) such that the default model
+output would reflect the estimated difference from chance at the middle
+point of our age range.}
 
 All analyses were conducted using the \texttt{lme4} package (Bates,
 Mächler, Bolker, \& Walker, 2015) and all figures were generated with
@@ -586,20 +587,21 @@ wanna}, it does not matter which of the two \enquote{I wanna} chunks is
 placed first when calculating the reconstruction accuracy of the
 utterance. Thus, utterances containing duplicate chunks are more likely
 to be reconstructed by chance alone than utterances with the same number
-of chunks with no duplicates. \textbf{Note that here we are detecting
-duplicate \emph{chunks} in the utterance rather than duplicate
+of chunks \textbf{but} no duplicates. \textbf{Note that here we are
+detecting duplicate \emph{chunks} in the utterance rather than duplicate
 \emph{words}. At this post-training stage, the model is only able to
 parse the utterance into chunks; that is the relevant unit over which
 duplication may affect reconstruction accuracy.}
 
 An utterance that is decomposed into \(N\) unique chunks can be
 reconstructed in \(N!\) different orders. Hence, the \textbf{baseline
-chance of obtaining the correct order of \(N\) unique chunks equals}
-\(1/N!\). When we take into account that chunks can be repeated within
-an utterance, chance equals \((n_1!n_2!\ldots n_k!)/N!\), where \(N\) is
-the total number of chunks in the utterance, and \(n_1,\ldots,n_k\) are
-the number of times a chunk is repeated for each of the \(k\) unique
-chunks found in the utterance (\protect\hyperlink{fig3}{Figure 3}).
+probability of obtaining the correct order of \(N\) unique chunks
+equals} \(1/N!\). When we take into account that chunks can be repeated
+within an utterance, chance \textbf{level} equals
+\((n_1!n_2!\ldots n_k!)/N!\), where \(N\) is the total number of chunks
+in the utterance, and \(n_1,\ldots,n_k\) are the number of times a chunk
+is repeated for each of the \(k\) unique chunks found in the utterance
+(\protect\hyperlink{fig3}{Figure 3}).
 
 \begin{verbatim}
 ## Warning: Removed 1 rows containing missing values (geom_point).
@@ -657,7 +659,7 @@ Our third analysis focused on \textbf{the likelihood that words used in
 the child utterances were seen during training, given child age and
 sampling type. To prepare for this analysis we marked each word used by
 each child at each age point as having been seen during training (1) or
-not (1), given local and cumulative sampling.}
+not (0), given local and cumulative sampling.}
 
 \section{Results}\label{results}
 
@@ -665,19 +667,19 @@ not (1), given local and cumulative sampling.}
 accuracy}\label{uncorrected-reconstruction-accuracy}
 
 The uncorrected score of accurate utterance reconstruction (McCauley \&
-Christiansen, 2011, 2014a) showed that model's average percentage of
-correctly reconstructed utterances across children and age points was
-similar for the locally and cumulatively sampled speech (local: mean =
-65.4\%, range across children = 59.9\%--70.3\%; cumulative: mean =
-59.9\%, range across children = 53.1\%--68.2\%). This is similar to, or
-slightly higher than, results reported by McCauley and Christiansen
-(2011) who found an average percentage of correctly reconstructed
-utterances of 59.8\% over 13 typologically different languages with a
-mean age range of 1;8--3;6 years. Additionally, McCauley and
-Christiansen (2019) reported an average reconstruction percentage of
-55.3\% for 160 single-child corpora of 29 typologically different
-languages, including a performance of 58.5\% for 43 English single-child
-corpora with a mean age range of 1;11--3;10.
+Christiansen, 2011, 2014a) showed that \textbf{the} model's average
+percentage of correctly reconstructed utterances across children and age
+points was similar for the locally and cumulatively sampled speech
+(local: mean = 65.4\%, range across children = 59.9\%--70.3\%;
+cumulative: mean = 59.9\%, range across children = 53.1\%--68.2\%). This
+is similar to, or slightly higher than, results reported by McCauley and
+Christiansen (2011) who found an average percentage of correctly
+reconstructed utterances of 59.8\% over 13 typologically different
+languages with a mean age range of 1;8--3;6 years. Additionally,
+McCauley and Christiansen (2019) reported an average reconstruction
+percentage of 55.3\% for 160 single-child corpora of 29 typologically
+different languages, including a performance of 58.5\% for 43 English
+single-child corpora with a mean age range of 1;11--3;10.
 
 In our statistical models of the uncorrected reconstruction
 accuracy\footnote{\textbf{accuracy \textasciitilde{} age +
@@ -687,7 +689,8 @@ locally sampled caregiver speech. The number of correctly reconstructed
 utterances decreased with age (\(b = -0.805, SE = 0.180, p < 0.001\));
 over time the BTP statistics present in the caregivers' speech were less
 reflected in the child's own speech (\protect\hyperlink{fig4}{Figure 4,
-left panel}).
+left panel})\textbf{; as we shall see, this decrease is related to the
+uncorrected reconstruction score}.
 
 We then tested the model's performance when it was trained with a
 cumulative sample of caregiver speech, rather than just a local sample.
@@ -700,7 +703,7 @@ utterances changes with age.
 Importantly, however, the length of the child utterances varied quite a
 lot (range = 1--44 words long; mean = 2.8, median = 2), and some of them
 contained repetitions of chunks (e.g., \enquote{I wanna, I wanna}), both
-of which influence the baseline likelihood of accurate reconstruction.
+of which influence the baseline probability of accurate reconstruction.
 Utterances from older children tended to contain more words than
 utterances from younger children (\protect\hyperlink{fig5}{Figure 5,
 left panel}). As a consequence, on average, utterances from older
@@ -709,7 +712,7 @@ chance, contributing to the decrease in the CBL's overall performance
 with age. Additionally, the percentage of child utterances that
 contained duplicate chunks decreased over time
 (\protect\hyperlink{fig5}{Figure 5, right panel}). Utterances with
-duplicate chunks had a higher baseline probability of being accurately
+duplicate chunks have a higher baseline probability of being accurately
 reconstructed by the model. So again, on average, utterances from older
 children were systematically more difficult, contributing to the
 age-related decrease in uncorrected reconstruction scores.
@@ -727,18 +730,19 @@ accuracy}\label{corrected-reconstruction-accuracy-1}
 
 Next, we used our corrected reconstruction score to assess the model's
 reconstruction accuracy while controlling for utterance length and the
-use of duplicate chunks. The score weighs whether each utterance was
-accurately reconstructed against its chance level of reconstruction,
-depending on the total number of chunks and number of duplicate chunks
-it contains. The model's average reconstruction score across children
-and age points was similar for the locally and cumulatively sampled
-speech (local: mean = 0.10, SE = 0.01; cumulative: mean = 0.06, SE =
-0.01). Note again that one aim of this analysis was to test whether the
-corrected reconstruction score was above chance---here represented by a
-score of zero---so in the statistical models we centered child age on
-zero so that the estimation would reflect the difference from zero for
-the average age in our sample (2;6).\footnote{\textbf{accuracy
-  \textasciitilde{} centered.age + (centered.age\textbar{}child).}}
+use of duplicate chunks. \textbf{As explained above, the corrected}
+score weighs whether each utterance was accurately reconstructed against
+its chance level of reconstruction, depending on the total number of
+chunks and number of duplicate chunks it contains. The model's average
+reconstruction score across children and age points was similar for the
+locally and cumulatively sampled speech (local: mean = 0.10, SE = 0.01;
+cumulative: mean = 0.06, SE = 0.01). Note again that one aim of this
+analysis was to test whether the corrected reconstruction score was
+above chance---here represented by a score of zero---so in the
+statistical models we centered child age on zero so that the estimation
+would reflect the difference from zero for the average age in our sample
+(2;6).\footnote{\textbf{accuracy \textasciitilde{} centered.age +
+  (centered.age\textbar{}child).}}
 
 Again, we first analyzed the model's performance when it was trained on
 locally sampled caregiver speech. We found a significant positive
@@ -883,8 +887,8 @@ ability to reconstruct child utterances from caregivers' speech was
 age-invariant when taking into account utterance length and chunk
 duplicates. These results do fall in line with SL theories proposing
 that the mechanisms for processing, storing, and deploying information
-stay the constant over age, even though SL behavior on the surface might
-seen to change over time (e.g., Misyak et al., 2012).
+\textbf{stay} constant over age, even though SL behavior on the surface
+might \textbf{seem} to change over time (e.g., Misyak et al., 2012).
 
 As the CBL model only employs a single, simple mechanism for creating
 and tracking linguistic units, it is impressive that it performs at
@@ -900,7 +904,7 @@ how the CBL could be modified to augment its performance, particularly
 on more complex utterances. For example, the CBL model does not include
 the use of semantics when dividing the caregivers' speech into chunks or
 when reconstructing the child utterances. However, the meaning of what
-both caregivers and child are trying to convey plays a fundamental role
+both caregiver and child are trying to convey plays a fundamental role
 in selecting words from the lexicon and in constructing
 utterances---they are interacting, and not just producing speech. The
 same set of words, ordered in different ways, can have entirely
