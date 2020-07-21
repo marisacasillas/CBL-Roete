@@ -26,7 +26,6 @@ authornote: |
 abstract: |
    We trained a computational model (the Chunk Based Learner; CBL) on a longitudinal corpus of child-caregiver interactions to test whether one proposed statistical learning mechanism---backward transitional probability (BTP)---is able to predict children's speech productions with stable accuracy throughout the first few years of development. We predicted that the model less accurately **reconstructs** children's speech productions as they grow older because children gradually begin to generate speech using abstracted forms rather than specific "chunks" from their speech environment. To test this idea, we trained the model on both recently encountered and cumulative speech input from a longitudinal child language corpus. We then assessed whether the model could accurately reconstruct children's speech. Controlling for utterance length and the presence of duplicate chunks, we found no evidence that the CBL becomes less accurate in its ability to reconstruct children's speech with age. Our findings suggest that BTP may be an age-invariant learning mechanism.
 
-  
 keywords          : "statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children"
 wordcount         : "**8726 (7027, excluding references and abstract)**"
 
@@ -47,7 +46,7 @@ output            : papaja::apa6_pdf # apa6_pdf or apa6_word
 
 <!--Note!!: for word output, change references where not correct; initials, ampersands, parentheses-->
 
-```{r setup, message=FALSE}
+```{r setup, message=FALSE, warning=FALSE}
 library("papaja")
 library(tidyverse)
 library(lme4)
@@ -59,7 +58,7 @@ library(lattice)
 library(plotrix)
 ```
 
-```{r globals-and-helpers, message=FALSE}
+```{r globals-and-helpers, message=FALSE, warning=FALSE}
 # Seed for random number generation
 set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
@@ -308,7 +307,7 @@ The corrected, length-and-repetition-controlled reconstruction score is a functi
 
 An utterance that is decomposed into $N$ unique chunks can be reconstructed in $N!$ different orders. Hence, the baseline probability of obtaining the correct order of $N$ unique chunks equals $1/N!$. When we take into account that chunks can be repeated within an utterance, chance level equals $(n_1!n_2!\ldots n_k!)/N!$, where $N$ is the total number of chunks in the utterance, and $n_1,\ldots,n_k$ are the number of times a chunk is repeated for each of the $k$ unique chunks found in the utterance ([Figure 3](#fig3)). 
 
-``` {r fig3, echo=FALSE, fig.cap="Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 chunks). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).", out.width = '95%', fig.height=3, message=FALSE}
+``` {r fig3, echo=FALSE, fig.cap="Corrected reconstruction score for correct (left; positive values) and incorrect (right; negative values) reconstructions, as a function of utterance length (2--6 chunks). In this example, either no chunks are repeated (black/solid lines) or one chunk occurs twice in the utterance (gray/dashed lines).", out.width = '95%', fig.height=3, message=FALSE, warning = FALSE}
 N <- rep(2:6, 4)
 Reconstruction <- c(
   rep("Correct reconstruction",10),
