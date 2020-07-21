@@ -21,8 +21,6 @@ affiliation:
   - id            : "2"
     institution   : "Radboud University"
 
-authornote: |
-
 abstract: |
    We trained a computational model (the Chunk Based Learner; CBL) on a longitudinal corpus of child-caregiver interactions to test whether one proposed statistical learning mechanism---backward transitional probability (BTP)---is able to predict children's speech productions with stable accuracy throughout the first few years of development. We predicted that the model less accurately **reconstructs** children's speech productions as they grow older because children gradually begin to generate speech using abstracted forms rather than specific "chunks" from their speech environment. To test this idea, we trained the model on both recently encountered and cumulative speech input from a longitudinal child language corpus. We then assessed whether the model could accurately reconstruct children's speech. Controlling for utterance length and the presence of duplicate chunks, we found no evidence that the CBL becomes less accurate in its ability to reconstruct children's speech with age. Our findings suggest that BTP may be an age-invariant learning mechanism.
 
@@ -41,7 +39,7 @@ draft             : no
 
 documentclass     : "apa6"
 classoption       : "man"
-output            : papaja::apa6_pdf # apa6_pdf or apa6_word
+output            : papaja::apa6_word # apa6_pdf or apa6_word
 ---
 
 <!--Note!!: for word output, change references where not correct; initials, ampersands, parentheses-->
