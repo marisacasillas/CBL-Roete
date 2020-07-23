@@ -54,6 +54,7 @@ library(stringr)
 library(jtools)
 library(lattice)
 library(plotrix)
+library(effects)
 ```
 
 ```{r globals-and-helpers, message=FALSE, warning=FALSE}
@@ -812,10 +813,20 @@ plot1.local.data <- merge(
   by = c("child","age"))
 plot1.local.data$averagescore <- plot1.local.data$total_score/
   plot1.local.data$total_num_utterances
+# add model-estimated age effect to plot
+age.local.corr.effect <- as.data.frame(Effect(
+  "recentered_age", model_local_corrected)) %>%
+  mutate(age = recentered_age + 2.5)
 plot.local.reconstruction <- ggplot(
   plot1.local.data,
-  aes(x=age, y = averagescore, group = child,
+  aes(x=age, y = averagescore,
     linetype = child, colour = child)) + 
+  geom_line(data = age.local.corr.effect,
+              aes(x = age, y = fit),
+            color = "gray60", lty = "solid") +
+  geom_ribbon(data = age.local.corr.effect,
+              aes(x = age, y = fit, ymin = lower, ymax = upper),
+              color = "gray60", alpha = 0.2, lty = "blank") +
   geom_line(size = 1.5) +
   coord_cartesian(ylim=(c(-0.5,0.5))) + 
   xlab("\nAge (years)") + 
@@ -848,10 +859,20 @@ plot1.cumu.data <- merge(
   by = c("child","age"))
 plot1.cumu.data$averagescore <- plot1.cumu.data$total_score/
   plot1.cumu.data$total_num_utterances
+# add model-estimated age effect to plot
+age.cumu.corr.effect <- as.data.frame(Effect(
+  "recentered_age", model_cumu_corrected)) %>%
+  mutate(age = recentered_age + 2.5)
 plot.cumu.reconstruction <- ggplot(
   plot1.cumu.data,
-  aes(x=age, y = averagescore, group = child,
+  aes(x=age, y = averagescore,
     linetype = child, colour = child)) + 
+  geom_line(data = age.cumu.corr.effect,
+              aes(x = age, y = fit),
+            color = "gray60", lty = "solid") +
+  geom_ribbon(data = age.cumu.corr.effect,
+              aes(x = age, y = fit, ymin = lower, ymax = upper),
+              color = "gray60", alpha = 0.2, lty = "blank") +
   geom_line(size = 1.5) +
   #scale_colour_manual(name = "Child:", values = groupcolours) + 
   coord_cartesian(ylim=(c(-0.5,0.5))) + 
@@ -876,11 +897,21 @@ corrreconstruction.data$Sample <- factor(corrreconstruction.data$Sample,
   levels = c("Local", "Cumulative"))
 corrreconstruction.data$Child <- corrreconstruction.data$child
 
+# Add model estimates by age to plot
+age.local.corr.effect$Sample <- "Local"
+age.cumu.corr.effect$Sample <- "Cumulative"
+age.combo.corr.effect <- bind_rows(age.local.corr.effect, age.cumu.corr.effect)
 
 corrreconstruction.bysample <- ggplot(
-  aes(x=age, y = averagescore, group = Child,
+  aes(x=age, y = averagescore,
     linetype = Child, colour = Child),
   data = corrreconstruction.data) +
+  geom_line(data = age.combo.corr.effect,
+              aes(x = age, y = fit),
+            color = "gray60", lty = "solid") +
+  geom_ribbon(data = age.combo.corr.effect,
+              aes(x = age, y = fit, ymin = lower, ymax = upper),
+              color = "gray60", alpha = 0.2, lty = "blank") +
   geom_hline(yintercept=0) +
   geom_line() +
   coord_cartesian(ylim=(c(-0.5,0.5))) + 
@@ -930,7 +961,7 @@ As before, we created a parallel set of analyses to test the model's performance
 
 In sum, contrary to the uncorrected reconstruction accuracy analysis, these corrected reconstruction score results indicate age-invariance for the SL mechanism. In addition, the model performed significantly above chance level in both the local and cumulative sampling contexts.
 
-``` {r fig6, echo=FALSE, fig.cap="Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling.", out.width = '95%', fig.height=3, message=FALSE}
+``` {r fig6, echo=FALSE, fig.cap="Corrected reconstruction scores across the age range, using local (left) and cumulative (right) sampling. By-child scores are shown in the colored lines, with the mixed-effect model estimates (fit = line and confidence interval = band by age) shown in gray.", out.width = '95%', fig.height=3, message=FALSE}
 corrreconstruction.bysample
 ```
 
