@@ -21,14 +21,6 @@ affiliation:
   - id            : "2"
     institution   : "Radboud University"
 
-authornote: |
-
-abstract: |
-
-  
-keywords          : "statistical learning, language learning, abstraction, developmental trajectory, age-invariance, CHILDES, children"
-wordcount         : 
-
 bibliography      : ["CBL-age_invariance.bib"]
 
 floatsintext      : yes
@@ -36,17 +28,15 @@ figurelist        : no
 tablelist         : no
 footnotelist      : no
 linenumbers       : yes
-mask              : yes
+mask              : no
 draft             : no
 
 documentclass     : "apa6"
 classoption       : "man"
-output            : papaja::apa6_pdf # apa6_pdf or apa6_word
+output            : papaja::apa6_word # apa6_pdf or apa6_word
 ---
-<!--NOTE!!: fix all minus signs and number alignment in the produced word doc before submission-->
-
 ```{r setup, include = FALSE}
-library("papaja")
+library(papaja)
 library(tidyverse)
 library(lme4)
 library(grid)
@@ -56,6 +46,8 @@ library(jtools)
 library(lattice)
 library(plotrix)
 ```
+
+<!--NOTE!!: fix all minus signs and number alignment in the produced word doc before submission-->
 
 ```{r globals-and-helpers}
 # Seed for random number generation
@@ -69,6 +61,9 @@ suppl.rawdata.local.path <- "data/suppl/local/"
 suppl.rawdata.cumulative.path <- "data/suppl/cumulative/"
 maintext.models <- "all_model_tables.csv"
 plot.path <- "plots/"
+
+bin.model.names <- c("Effect", "Group", "Term", "Estimate", "SE", "z", "p")
+lin.model.names <- c("Effect", "Group", "Term", "Estimate", "SE", "t")
 
 options(digits = 3)
 
@@ -97,6 +92,11 @@ basic.theme <- theme(
 ```{r prep-data}
 ## Statistical model tables from main text
 main.models <- read_csv(maintext.models)
+less.than.01 <- which(main.models$p.value < 0.01 & main.models$p.value >= 0.001)
+less.than.001 <- which(main.models$p.value < 0.001)
+main.models$p.value <- substr(as.character(main.models$p.value), 1, 4)
+main.models$p.value[less.than.01] <- "<.01"
+main.models$p.value[less.than.001] <- "<.001"
 
 # Local input
 filenames <- list.files(path = suppl.rawdata.local.path,
@@ -152,7 +152,7 @@ childutt.data$numwords <- str_count(childutt.data$utterance," ")
 ```
 # Full model output of main text analyses
 
-**Below readers will find the full statistical model output for each of the six models reported in the main text (that is, one for local input and one for cumulative input for each of the three analyses: uncorrected likelihood of accurate reconstruction, corrected reconstruction accuracy, and likelihood of unseen words).**
+Below readers will find the full statistical model output for each of the six models reported in the main text (that is, one for local input and one for cumulative input for each of the three analyses: uncorrected likelihood of accurate reconstruction, corrected reconstruction accuracy, and likelihood of unseen words).
 
 \pagebreak
 
@@ -160,55 +160,61 @@ childutt.data$numwords <- str_count(childutt.data$utterance," ")
 uncorr_reconstr_acc_local_MAIN.model <- filter(
   main.models, model == "uncorrected_accuracy_local_input") %>%
   select(-model)
-apa_table(uncorr_reconstr_acc_local_MAIN.model, caption="**Full model output for the analysis of uncorrected reconstruction accuracy using local speech input.**")
+names(uncorr_reconstr_acc_local_MAIN.model) <- bin.model.names
+apa_table(uncorr_reconstr_acc_local_MAIN.model, caption="Full model output for the analysis of uncorrected reconstruction accuracy using local speech input.")
 ```
 
 ```{r tab-uncorr_reconstr_acc-cumu-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 uncorr_reconstr_acc_cumu_MAIN.model <- filter(
   main.models, model == "uncorrected_accuracy_cumulative_input") %>%
   select(-model)
-apa_table(uncorr_reconstr_acc_cumu_MAIN.model, caption="**Full model output for the analysis of uncorrected reconstruction accuracy using cumulative speech input.**")
+names(uncorr_reconstr_acc_cumu_MAIN.model) <- bin.model.names
+apa_table(uncorr_reconstr_acc_cumu_MAIN.model, caption="Full model output for the analysis of uncorrected reconstruction accuracy using cumulative speech input.")
 ```
 
 ```{r tab-corr_reconstr_acc-local-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 corr_reconstr_acc_local_MAIN.model <- filter(
   main.models, model == "corrected_accuracy_local_input") %>%
-  select(-model)
-apa_table(corr_reconstr_acc_local_MAIN.model, caption="**Full model output for the analysis of corrected reconstruction accuracy using local speech input.**")
+  select(-model, -p.value)
+names(corr_reconstr_acc_local_MAIN.model) <- lin.model.names
+apa_table(corr_reconstr_acc_local_MAIN.model, caption="Full model output for the analysis of corrected reconstruction accuracy using local speech input.")
 ```
 
 ```{r tab-corr_reconstr_acc-cumu-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 corr_reconstr_acc_cumu_MAIN.model <- filter(
   main.models, model == "corrected_accuracy_cumulative_input") %>%
-  select(-model)
-apa_table(corr_reconstr_acc_cumu_MAIN.model, caption="**Full model output for the analysis of corrected reconstruction accuracy using cumulative speech input.**")
+  select(-model, -p.value)
+names(corr_reconstr_acc_cumu_MAIN.model) <- lin.model.names
+apa_table(corr_reconstr_acc_cumu_MAIN.model, caption="Full model output for the analysis of corrected reconstruction accuracy using cumulative speech input.")
 ```
 
 ```{r tab-unseen_words-local-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 unseen_words_local_MAIN.model <- filter(
   main.models, model == "likelihood_unseen_words_local_input") %>%
   select(-model)
-apa_table(unseen_words_local_MAIN.model, caption="**Full model output for the analysis of likelihood that a word in the child's speech was seen during training.**")
+names(unseen_words_local_MAIN.model) <- bin.model.names
+apa_table(unseen_words_local_MAIN.model, caption="Full model output for the analysis of likelihood that a word in the child's speech was seen during training.")
 ```
 
 ```{r tab-unseen_words-cumu-MAIN, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 unseen_words_cumu_MAIN.model <- filter(
   main.models, model == "likelihood_unseen_words_cumulative_input") %>%
   select(-model)
-apa_table(unseen_words_cumu_MAIN.model, caption="**Full model output for the analysis of number of utterances with previously unheard words using cumulative speech input.**")
+names(unseen_words_cumu_MAIN.model) <- bin.model.names
+apa_table(unseen_words_cumu_MAIN.model, caption="Full model output for the analysis of number of utterances with previously unheard words using cumulative speech input.")
 ```
 
 \pagebreak
 
 # Results using the original McCauley and Christiansen (2011) reconstruction method
 
-**While our implementation of the CBL learner is identical to McCauley and Christiansen's, o**ur implementation of the **_reconstruction task_** diverges slightly from **theirs: we discard utterances with unknown words and instead provide a second analysis focused on the number of these 'un-reconstructable' utterances across age. Our reasoning for discarding utterances with unknown words was that there is no obvious way to give them a valid default transition matrix with other existing chunks. In contrast, @mccauley2011learning built a new chunk for each unknown word when reconstructing utterances. This chunk with the unknown word was then assigned a BTP equal to zero with respect to any other chunk in the utterance it originated from. In what follows,** we present results using McCauley and Christiansen's [-@mccauley2011learning] original reconstruction task method. **Because their reconstruction task attempts to reconstruct all utterances, we do not also** provide analyses of the number of utterances containing unknown words.
+While our implementation of the CBL learner is identical to McCauley and Christiansen's, our implementation of the _reconstruction task_ diverges slightly from theirs: we discard utterances with unknown words and instead provide a second analysis focused on the number of these 'un-reconstructable' utterances across age. Our reasoning for discarding utterances with unknown words was that there is no obvious way to give them a valid default transition matrix with other existing chunks. In contrast, @mccauley2011learning built a new chunk for each unknown word when reconstructing utterances. This chunk with the unknown word was then assigned a BTP equal to zero with respect to any other chunk in the utterance it originated from. In what follows, we present results using McCauley and Christiansen's [-@mccauley2011learning] original reconstruction task method. Because their reconstruction task attempts to reconstruct all utterances, we do not also provide analyses of the number of utterances containing unknown words.
 
 We analyzed the effect of child age on the model's reconstruction abilities for the child utterances with a mixed-effects model, including age as a fixed effect and a by-child random intercept with random slopes of age. 
 
-First, we used the binary (1: reconstructed correctly, 0: not reconstructed correctly) measure from McCauley & Christiansen [-@mccauley2011learning; -@mccauley2014acquiring]. The model's average percentage of correctly reconstructed utterances across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 61.3 %, range across children = 51.6%--69.6%; cumulative: mean = 59.4%, range across children = 50.8%--68.4%). The number of correctly reconstructed utterances decreased with age, regardless of the sampling methods (local: $b = -0.939, SE = 0.174, p < 0.001$; cumulative: $b = -0.848, SE = 0.138, p < 0.001$; see [Figure 1](#smfig1)).
+First, we used the binary (1: reconstructed correctly, 0: not reconstructed correctly) measure from McCauley & Christiansen [-@mccauley2011learning; -@mccauley2014acquiring]. The model's average percentage of correctly reconstructed utterances across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 61.3 %, range across children = 51.6%--69.6%; cumulative: mean = 59.4%, range across children = 50.8%--68.4%). The number of correctly reconstructed utterances decreased with age, regardless of the sampling method (local: $b = -0.939, SE = 0.174, p < 0.001$; cumulative: $b = -0.848, SE = 0.138, p < 0.001$; see [Figure 1](#smfig1)).
 
-Second, we used our corrected, length-and-repetition-controlled reconstruction score. The model's average reconstruction score across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 0.12, SE = 0.01; cumulative: mean = 0.08, SE = 0.01). As in the main text, we centered age in the model so that we could investigate whether reconstruction was greater than chance level at the average age in our sample (2;6 years). Using both sampling methods, we found a significantly positive intercept (local sampling: $b = 0.130, SE = 0.016, t = 7.911$; cumulative sampling: $b = 0.0789, SE = 0.012, t = 6.426$), and the model's reconstruction score increased over age, significantly in the case of the cumulative sampling method (local sampling: $b = 0.029, SE = 0.016, t = 1.854$; cumulative sampling: $b = 0.031, SE = 0.013, t = 2.333$); see [Figure 2](#smfig2)). These results show that the model performed at above-chance levels, and indicates age-invariance with the corrected reconstruction score.
+Second, we used our corrected, length-and-repetition-controlled reconstruction score. The model's average reconstruction score across children and age points was similar for the locally and cumulatively sampled speech (local: mean = 0.12, SE = 0.01; cumulative: mean = 0.08, SE = 0.01). As in the main text, we centered age in the model so that we could investigate whether reconstruction was greater than chance level at the average age in our sample (2;6 years). Using both sampling methods, we found a significantly positive intercept (local sampling: $b = 0.130, SE = 0.016, t = 7.911$; cumulative sampling: $b = 0.0789, SE = 0.012, t = 6.426$), and the model's reconstruction score increased over age, significantly in the case of the cumulative sampling method (local sampling: $b = 0.029, SE = 0.016, t = 1.854$; cumulative sampling: $b = 0.031, SE = 0.013, t = 2.333$); see [Figure 2](#smfig2)). These results show that the model performed at above-chance levels and indicates age-invariance with the corrected reconstruction score.
 
 Importantly, these results are highly similar to those from our implementation of the CBL model in the main text, which does not attempt to reconstruct utterances with previously unseen words. These findings suggest that the CBL is not significantly impacted in its ability to reconstruct children's utterances in the first four years, regardless of the minor algorithmic differences in how new words are treated between the original and current CBL models.
 
